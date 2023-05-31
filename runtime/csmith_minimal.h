@@ -49,6 +49,8 @@ extern int printf (const char *, ...);
 
 #define FUNC_NAME(x) (safe_##x)
 
+#define uint uint64_t
+
 // FIXME
 #define assert(x)
 

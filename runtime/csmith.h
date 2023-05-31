@@ -35,6 +35,8 @@
 #include "csmith_minimal.h"
 #else
 
+#define uint uint64_t
+
 /*****************************************************************************/
 
 #include <string.h>
