@@ -2,7 +2,8 @@
 import subprocess
 import os
 
-from src import EMI_generator, generator, replacer, checker, Config
+#from src import EMI_generator, generator, replacer, checker, Config
+from src import generator, replacer, checker, Config
 
 file_count = 0
 EMI_count = 0
@@ -175,7 +176,7 @@ def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compil
 
         variant_log_file_path = os.path.join(EMI_dir, 'variant_log.txt')
         append_to_file(variant_log_file_path, '\nfile '+file_path+'\n')
-        generate_emi_variants(number_of_var, file_path, EMI_dir)
+        #generate_emi_variants(number_of_var, file_path, EMI_dir)
 
     # Step 6: remove redundant files
     pass
@@ -187,6 +188,7 @@ def append_to_file(file_path, append_str):
     f.close()
 
 
+"""
 def generate_emi_variants(number_of_var, file_path, emi_dir):
     global EMI_count
     if number_of_var > 0:
@@ -221,6 +223,7 @@ def generate_emi_variants(number_of_var, file_path, emi_dir):
             if emi.AP.dis_new <= emi.AP.dis_old - 3:
                 print(str(emi.AP.dis_new), '<=', str(emi.AP.dis_old), '- 3, break')
                 break
+"""
 
 
 def test_batch_csmith_files(current_files_dir, EMI_variant_dir=''):
@@ -288,6 +291,32 @@ def prepare_dirs(files_dir, emi=False):
         emi_dir = os.path.join(files_dir, 'emi/')
         create_directory(emi_dir)
 
+# fuzzing test on CSmith generated files,
+# DO NOT generating EMI variants
+# for WASM Evaluation
+def seed_test_AE(files_dir, emi_dir, config_file):
+    """files_dir: the seed files directory
+       emi_dir: the directory to store generated EMI variants
+       config_file: path to configure file (used in EMI mutation)
+    """
+    prepare_dirs(files_dir, emi=False)
+    prepare_dirs(emi_dir, emi=False)
+    for root, dirs, files in os.walk(files_dir):
+        files.sort()
+        for f in files:
+            if f.endswith('.c') and not f.endswith('_new.c')\
+                    and not f.endswith('_r2.c') and not f.endswith('_retdec.c')\
+                    and not f.endswith('_ida.c') and not f.endswith('_JEB3.c'):
+                if root.endswith(files_dir):
+
+                    # test all files in this folder
+                    file_path = os.path.join(root, f)
+                    current_dir = root
+
+                    get_config(config_file)
+                    test_single_file(file_path, current_dir, EMI_dir=emi_dir,
+                                     mutation_flag=0, compile_flag=1, decompile_flag=1)
+                    set_config(config_file)
 
 # fuzzing test on CSmith generated files,
 # generating EMI variants

@@ -30,6 +30,10 @@ def compile_single_file(file_path):
     if os.path.isdir(file_path):
         pass
     elif os.path.splitext(file_path)[1] == '.c':
+        print(compile_cmd +
+                                   ' -I ' + runtime_dir +
+                                   ' -o ' + os.path.splitext(file_path)[0] +
+                                   ' ' + file_path)
         status, output = \
             subprocess.getstatusoutput(compile_cmd +
                                        ' -I ' + runtime_dir +

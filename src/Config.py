@@ -6,10 +6,10 @@
 ####################################################################################
 
 # Absolute path to csmith runtime directory
-runtime_dir = '/home/homework/DecFuzzer/runtime'
-RetDec_absolute_path = '/home/homework/retdec/bin/retdec-decompiler.py'
+runtime_dir = '/home/weicheng/Documents/CS699_WASM/cs699_webassembly/DecFuzzer/runtime'
+RetDec_absolute_path = '/home/weicheng/Documents/CS699_WASM/RetDec/bin/retdec-decompiler'
 JEB3_absolute_path = '/home/fuzz/Documents/jeb-pro-3.0-beta.8/jeb_linux.sh'  #
-csmith_absolute_path = '/home/fuzz/Documents/csmith-2.3.0/src/csmith'  #
+csmith_absolute_path = '/home/weicheng/Documents/CS699_WASM/csmith-2.3.0/src/csmith'  #
 
 
 ####################################################################################
