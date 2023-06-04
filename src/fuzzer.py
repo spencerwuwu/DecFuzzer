@@ -176,7 +176,7 @@ def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compil
 
         variant_log_file_path = os.path.join(EMI_dir, 'variant_log.txt')
         append_to_file(variant_log_file_path, '\nfile '+file_path+'\n')
-        #generate_emi_variants(number_of_var, file_path, EMI_dir)
+        generate_emi_variants(number_of_var, file_path, EMI_dir)
 
     # Step 6: remove redundant files
     pass
@@ -294,7 +294,7 @@ def prepare_dirs(files_dir, emi=False):
 # fuzzing test on CSmith generated files,
 # DO NOT generating EMI variants
 # for WASM Evaluation
-def seed_test_AE(files_dir, emi_dir, config_file):
+def seed_test_WASM(files_dir, emi_dir, config_file):
     """files_dir: the seed files directory
        emi_dir: the directory to store generated EMI variants
        config_file: path to configure file (used in EMI mutation)
