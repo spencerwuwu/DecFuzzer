@@ -26,16 +26,18 @@ compile_cmd = Config.compile_cmd
 runtime_dir = Config.runtime_dir
 
 
-def compile_single_file(file_path):
+def compile_single_file(file_path, debug=""):
     if os.path.isdir(file_path):
         pass
     elif os.path.splitext(file_path)[1] == '.c':
         print(compile_cmd +
+                                   debug + 
                                    ' -I ' + runtime_dir +
                                    ' -o ' + os.path.splitext(file_path)[0] +
                                    ' ' + file_path)
         status, output = \
             subprocess.getstatusoutput(compile_cmd +
+                                       debug + 
                                        ' -I ' + runtime_dir +
                                        ' -o ' + os.path.splitext(file_path)[0] +
                                        ' ' + file_path)
@@ -215,7 +217,7 @@ def recompile_single_file(source_file='', decompiled_file='', func_name='',
         f.write(new_code)
         f.close()
 
-        status, output = compile_single_file(new_file_name)
+        status, output = compile_single_file(new_file_name, " -g ")
         if status == 0:
             # print(new_file_name + ' recompiled')
             return status, output

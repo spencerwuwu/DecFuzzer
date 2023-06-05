@@ -1,0 +1,722 @@
+./seed_all/s0r2_new.c: In function ‘func_1’:
+./seed_all/s0r2_new.c:147:15: error: invalid use of void expression
+  147 |         *NULL = 1;
+      |               ^
+
+./seed_all/s0retdec_new.c: In function ‘func_1’:
+./seed_all/s0retdec_new.c:147:15: error: invalid use of void expression
+  147 |         *NULL = 1;
+      |               ^
+
+./seed_all/s101r2_new.c: In function ‘func_1’:
+./seed_all/s101r2_new.c:58:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   58 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s101retdec_new.c: In function ‘func_1’:
+./seed_all/s101retdec_new.c:58:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   58 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s129r2_new.c: In function ‘func_1’:
+./seed_all/s129r2_new.c:186:23: error: invalid use of void expression
+  186 |                 *NULL = stack0xffffffd2 & 0x339e;
+      |                       ^
+./seed_all/s129r2_new.c:205:74: error: invalid use of void expression
+  205 |                         set_var(0x2a1e, var_2dh, 0, var_2fh, 0, var_2dh, *NULL, 0x1fe, 0x930a17c0, 0x25b9e7dc
+      |                                                                          ^
+
+./seed_all/s129retdec_new.c: In function ‘func_1’:
+./seed_all/s129retdec_new.c:186:23: error: invalid use of void expression
+  186 |                 *NULL = stack0xffffffd2 & 0x339e;
+      |                       ^
+./seed_all/s129retdec_new.c:205:74: error: invalid use of void expression
+  205 |                         set_var(0x2a1e, var_2dh, 0, var_2fh, 0, var_2dh, *NULL, 0x1fe, 0x930a17c0, 0x25b9e7dc
+      |                                                                          ^
+
+./seed_all/s131r2_new.c: In function ‘func_1’:
+./seed_all/s131r2_new.c:81:11: error: invalid use of void expression
+   81 |     *NULL = 0;
+      |           ^
+
+./seed_all/s131retdec_new.c: In function ‘func_1’:
+./seed_all/s131retdec_new.c:81:11: error: invalid use of void expression
+   81 |     *NULL = 0;
+      |           ^
+
+./seed_all/s13r2_new.c: In function ‘func_1’:
+./seed_all/s13r2_new.c:203:19: error: invalid use of void expression
+  203 |             *NULL = 1;
+      |                   ^
+./seed_all/s13r2_new.c:224:15: error: invalid use of void expression
+  224 |         *NULL = stack0xffffffcc | (var_4ch + ((0x7dc3 < var_76h) < 0x5ba7724) * -0x40 & 0xfffffffe) == var_76h;
+      |               ^
+
+./seed_all/s13retdec_new.c: In function ‘func_1’:
+./seed_all/s13retdec_new.c:203:19: error: invalid use of void expression
+  203 |             *NULL = 1;
+      |                   ^
+./seed_all/s13retdec_new.c:224:15: error: invalid use of void expression
+  224 |         *NULL = stack0xffffffcc | (var_4ch + ((0x7dc3 < var_76h) < 0x5ba7724) * -0x40 & 0xfffffffe) == var_76h;
+      |               ^
+
+./seed_all/s145r2_new.c: In function ‘func_1’:
+./seed_all/s145r2_new.c:44:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   44 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s145retdec_new.c: In function ‘func_1’:
+./seed_all/s145retdec_new.c:44:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   44 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s225r2_new.c: In function ‘func_1’:
+./seed_all/s225r2_new.c:246:15: error: invalid use of void expression
+  246 |         *NULL = var_71h <= var_78h;
+      |               ^
+./seed_all/s225r2_new.c:249:78: error: void value not ignored as it ought to be
+  249 |         if (((((var_6ah * 2 - 8U) % 0xfffffff8 ^ 0xff) <= var_78h) < -8) && (*NULL == 0)) {
+      |                                                                              ^
+./seed_all/s225r2_new.c:311:21: error: invalid type argument of unary ‘*’ (have ‘int’)
+  311 |                     *0x8 = 0;
+      |                     ^~~~
+./seed_all/s225r2_new.c:312:31: error: invalid type argument of unary ‘*’ (have ‘int’)
+  312 |                     var_56h = *0x8;
+      |                               ^~~~
+./seed_all/s225r2_new.c:389:19: error: invalid use of void expression
+  389 |             *NULL = 0xffffff06;
+      |                   ^
+./seed_all/s225r2_new.c:420:5: error: invalid type argument of unary ‘*’ (have ‘int’)
+  420 |     *0x8 = (var_50h == ((var_60h == var_90h) <= var_1eh != 1)) - 0xf7;
+      |     ^~~~
+
+./seed_all/s225retdec_new.c: In function ‘func_1’:
+./seed_all/s225retdec_new.c:246:15: error: invalid use of void expression
+  246 |         *NULL = var_71h <= var_78h;
+      |               ^
+./seed_all/s225retdec_new.c:249:78: error: void value not ignored as it ought to be
+  249 |         if (((((var_6ah * 2 - 8U) % 0xfffffff8 ^ 0xff) <= var_78h) < -8) && (*NULL == 0)) {
+      |                                                                              ^
+./seed_all/s225retdec_new.c:311:21: error: invalid type argument of unary ‘*’ (have ‘int’)
+  311 |                     *0x8 = 0;
+      |                     ^~~~
+./seed_all/s225retdec_new.c:312:31: error: invalid type argument of unary ‘*’ (have ‘int’)
+  312 |                     var_56h = *0x8;
+      |                               ^~~~
+./seed_all/s225retdec_new.c:389:19: error: invalid use of void expression
+  389 |             *NULL = 0xffffff06;
+      |                   ^
+./seed_all/s225retdec_new.c:420:5: error: invalid type argument of unary ‘*’ (have ‘int’)
+  420 |     *0x8 = (var_50h == ((var_60h == var_90h) <= var_1eh != 1)) - 0xf7;
+      |     ^~~~
+
+./seed_all/s231r2_new.c: In function ‘func_1’:
+./seed_all/s231r2_new.c:41:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   41 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s231retdec_new.c: In function ‘func_1’:
+./seed_all/s231retdec_new.c:41:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   41 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s263r2_new.c: In function ‘func_1’:
+./seed_all/s263r2_new.c:42:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   42 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s263retdec_new.c: In function ‘func_1’:
+./seed_all/s263retdec_new.c:42:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   42 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s277r2_new.c: In function ‘func_1’:
+./seed_all/s277r2_new.c:104:19: error: invalid use of void expression
+  104 |             *NULL = (var_14h != 0) + 0x69b9;
+      |                   ^
+./seed_all/s277r2_new.c:136:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+  136 |                 *0x8 = (0xfffffff7 < var_24h) >> (var_14h & 0x1f);
+      |                 ^~~~
+./seed_all/s277r2_new.c:137:36: error: invalid type argument of unary ‘*’ (have ‘int’)
+  137 |                 var_10h = 0x74ec < *0x8;
+      |                                    ^~~~
+
+./seed_all/s277retdec_new.c: In function ‘func_1’:
+./seed_all/s277retdec_new.c:104:19: error: invalid use of void expression
+  104 |             *NULL = (var_14h != 0) + 0x69b9;
+      |                   ^
+./seed_all/s277retdec_new.c:136:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+  136 |                 *0x8 = (0xfffffff7 < var_24h) >> (var_14h & 0x1f);
+      |                 ^~~~
+./seed_all/s277retdec_new.c:137:36: error: invalid type argument of unary ‘*’ (have ‘int’)
+  137 |                 var_10h = 0x74ec < *0x8;
+      |                                    ^~~~
+
+./seed_all/s280r2_new.c: In function ‘func_1’:
+./seed_all/s280r2_new.c:125:19: error: invalid use of void expression
+  125 |             *NULL = 0;
+      |                   ^
+
+./seed_all/s280retdec_new.c: In function ‘func_1’:
+./seed_all/s280retdec_new.c:125:19: error: invalid use of void expression
+  125 |             *NULL = 0;
+      |                   ^
+
+./seed_all/s300r2_new.c: In function ‘func_1’:
+./seed_all/s300r2_new.c:53:11: error: invalid use of void expression
+   53 |     *NULL = 1;
+      |           ^
+
+./seed_all/s300retdec_new.c: In function ‘func_1’:
+./seed_all/s300retdec_new.c:53:11: error: invalid use of void expression
+   53 |     *NULL = 1;
+      |           ^
+
+./seed_all/s309r2_new.c: In function ‘func_1’:
+./seed_all/s309r2_new.c:59:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   59 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s309retdec_new.c: In function ‘func_1’:
+./seed_all/s309retdec_new.c:59:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   59 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s35r2_new.c: In function ‘func_1’:
+./seed_all/s35r2_new.c:41:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   41 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s35retdec_new.c: In function ‘func_1’:
+./seed_all/s35retdec_new.c:41:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   41 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s379r2_new.c: In function ‘func_1’:
+./seed_all/s379r2_new.c:194:23: error: invalid use of void expression
+  194 |                 *NULL = 0xac;
+      |                       ^
+
+./seed_all/s379retdec_new.c: In function ‘func_1’:
+./seed_all/s379retdec_new.c:194:23: error: invalid use of void expression
+  194 |                 *NULL = 0xac;
+      |                       ^
+
+./seed_all/s424r2_new.c: In function ‘func_1’:
+./seed_all/s424r2_new.c:43:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   43 |     ushort var_12h;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s424retdec_new.c: In function ‘func_1’:
+./seed_all/s424retdec_new.c:43:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   43 |     ushort var_12h;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s42r2_new.c: In function ‘func_1’:
+./seed_all/s42r2_new.c:51:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   51 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s42retdec_new.c: In function ‘func_1’:
+./seed_all/s42retdec_new.c:51:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   51 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s471r2_new.c: In function ‘func_1’:
+./seed_all/s471r2_new.c:200:31: error: invalid use of void expression
+  200 |                         *NULL = var_44h == 0xfffb;
+      |                               ^
+
+./seed_all/s471retdec_new.c: In function ‘func_1’:
+./seed_all/s471retdec_new.c:200:31: error: invalid use of void expression
+  200 |                         *NULL = var_44h == 0xfffb;
+      |                               ^
+
+./seed_all/s488r2_new.c: In function ‘func_1’:
+./seed_all/s488r2_new.c:82:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   82 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s488retdec_new.c: In function ‘func_1’:
+./seed_all/s488retdec_new.c:82:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   82 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s493r2_new.c: In function ‘func_1’:
+./seed_all/s493r2_new.c:63:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   63 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s493retdec_new.c: In function ‘func_1’:
+./seed_all/s493retdec_new.c:63:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   63 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s500r2_new.c: In function ‘func_1’:
+./seed_all/s500r2_new.c:44:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   44 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s500retdec_new.c: In function ‘func_1’:
+./seed_all/s500retdec_new.c:44:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   44 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s52r2_new.c: In function ‘func_1’:
+./seed_all/s52r2_new.c:40:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   40 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s52retdec_new.c: In function ‘func_1’:
+./seed_all/s52retdec_new.c:40:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   40 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s562r2_new.c: In function ‘func_1’:
+./seed_all/s562r2_new.c:84:19: error: invalid use of void expression
+   84 |             *NULL = 0x960;
+      |                   ^
+
+./seed_all/s562retdec_new.c: In function ‘func_1’:
+./seed_all/s562retdec_new.c:84:19: error: invalid use of void expression
+   84 |             *NULL = 0x960;
+      |                   ^
+
+./seed_all/s568r2_new.c: In function ‘func_1’:
+./seed_all/s568r2_new.c:154:9: error: invalid type argument of unary ‘*’ (have ‘int’)
+  154 |         *0x8 = 0;
+      |         ^~~~
+./seed_all/s568r2_new.c:163:15: error: invalid use of void expression
+  163 |         *NULL = 0;
+      |               ^
+
+./seed_all/s568retdec_new.c: In function ‘func_1’:
+./seed_all/s568retdec_new.c:154:9: error: invalid type argument of unary ‘*’ (have ‘int’)
+  154 |         *0x8 = 0;
+      |         ^~~~
+./seed_all/s568retdec_new.c:163:15: error: invalid use of void expression
+  163 |         *NULL = 0;
+      |               ^
+
+./seed_all/s579r2_new.c: In function ‘func_1’:
+./seed_all/s579r2_new.c:67:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   67 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s579retdec_new.c: In function ‘func_1’:
+./seed_all/s579retdec_new.c:67:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   67 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s586r2_new.c: In function ‘func_1’:
+./seed_all/s586r2_new.c:207:27: error: invalid use of void expression
+  207 |                     *NULL = 0;
+      |                           ^
+./seed_all/s586r2_new.c:210:27: error: invalid use of void expression
+  210 |                     *NULL = 1;
+      |                           ^
+./seed_all/s586r2_new.c:212:37: error: void value not ignored as it ought to be
+  212 |                 var_30h = var_30h ^ *NULL;
+      |                                     ^
+
+./seed_all/s586retdec_new.c: In function ‘func_1’:
+./seed_all/s586retdec_new.c:207:27: error: invalid use of void expression
+  207 |                     *NULL = 0;
+      |                           ^
+./seed_all/s586retdec_new.c:210:27: error: invalid use of void expression
+  210 |                     *NULL = 1;
+      |                           ^
+./seed_all/s586retdec_new.c:212:37: error: void value not ignored as it ought to be
+  212 |                 var_30h = var_30h ^ *NULL;
+      |                                     ^
+
+./seed_all/s589r2_new.c: In function ‘func_1’:
+./seed_all/s589r2_new.c:127:19: error: invalid use of void expression
+  127 |             *NULL = var_1eh;
+      |                   ^
+./seed_all/s589r2_new.c:132:19: error: invalid use of void expression
+  132 |             *NULL = var_36h;
+      |                   ^
+./seed_all/s589r2_new.c:136:23: error: invalid use of void expression
+  136 |                 *NULL = var_36h != 0xffffffff;
+      |                       ^
+
+./seed_all/s589retdec_new.c: In function ‘func_1’:
+./seed_all/s589retdec_new.c:127:19: error: invalid use of void expression
+  127 |             *NULL = var_1eh;
+      |                   ^
+./seed_all/s589retdec_new.c:132:19: error: invalid use of void expression
+  132 |             *NULL = var_36h;
+      |                   ^
+./seed_all/s589retdec_new.c:136:23: error: invalid use of void expression
+  136 |                 *NULL = var_36h != 0xffffffff;
+      |                       ^
+
+./seed_all/s590r2_new.c: In function ‘func_1’:
+./seed_all/s590r2_new.c:160:27: error: invalid use of void expression
+  160 |                     *NULL = 1;
+      |                           ^
+
+./seed_all/s590retdec_new.c: In function ‘func_1’:
+./seed_all/s590retdec_new.c:160:27: error: invalid use of void expression
+  160 |                     *NULL = 1;
+      |                           ^
+
+./seed_all/s598r2_new.c: In function ‘func_1’:
+./seed_all/s598r2_new.c:163:27: error: invalid use of void expression
+  163 |                     *NULL = 1;
+      |                           ^
+./seed_all/s598r2_new.c:164:27: error: invalid use of void expression
+  164 |                     *NULL = var_20h == 1;
+      |                           ^
+./seed_all/s598r2_new.c:170:27: error: invalid use of void expression
+  170 |                     *NULL = (var_38h == 0) != var_32h;
+      |                           ^
+
+./seed_all/s598retdec_new.c: In function ‘func_1’:
+./seed_all/s598retdec_new.c:163:27: error: invalid use of void expression
+  163 |                     *NULL = 1;
+      |                           ^
+./seed_all/s598retdec_new.c:164:27: error: invalid use of void expression
+  164 |                     *NULL = var_20h == 1;
+      |                           ^
+./seed_all/s598retdec_new.c:170:27: error: invalid use of void expression
+  170 |                     *NULL = (var_38h == 0) != var_32h;
+      |                           ^
+
+./seed_all/s643r2_new.c: In function ‘func_1’:
+./seed_all/s643r2_new.c:72:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   72 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s643retdec_new.c: In function ‘func_1’:
+./seed_all/s643retdec_new.c:72:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   72 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s652r2_new.c: In function ‘func_1’:
+./seed_all/s652r2_new.c:169:23: error: invalid use of void expression
+  169 |                 *NULL = var_1dh;
+      |                       ^
+./seed_all/s652r2_new.c:170:21: error: void value not ignored as it ought to be
+  170 |                 if (*NULL * 0x20 == 5) {
+      |                     ^
+
+./seed_all/s652retdec_new.c: In function ‘func_1’:
+./seed_all/s652retdec_new.c:169:23: error: invalid use of void expression
+  169 |                 *NULL = var_1dh;
+      |                       ^
+./seed_all/s652retdec_new.c:170:21: error: void value not ignored as it ought to be
+  170 |                 if (*NULL * 0x20 == 5) {
+      |                     ^
+
+./seed_all/s70r2_new.c: In function ‘func_1’:
+./seed_all/s70r2_new.c:52:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   52 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s70retdec_new.c: In function ‘func_1’:
+./seed_all/s70retdec_new.c:52:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   52 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s72r2_new.c: In function ‘func_1’:
+./seed_all/s72r2_new.c:139:19: error: invalid use of void expression
+  139 |             *NULL = 1;
+      |                   ^
+
+./seed_all/s72retdec_new.c: In function ‘func_1’:
+./seed_all/s72retdec_new.c:139:19: error: invalid use of void expression
+  139 |             *NULL = 1;
+      |                   ^
+
+./seed_all/s736r2_new.c: In function ‘func_1’:
+./seed_all/s736r2_new.c:119:19: error: invalid use of void expression
+  119 |             *NULL = 0;
+      |                   ^
+
+./seed_all/s736retdec_new.c: In function ‘func_1’:
+./seed_all/s736retdec_new.c:119:19: error: invalid use of void expression
+  119 |             *NULL = 0;
+      |                   ^
+
+./seed_all/s749r2_new.c: In function ‘func_1’:
+./seed_all/s749r2_new.c:68:15: error: invalid use of void expression
+   68 |         *NULL = 1;
+      |               ^
+
+./seed_all/s749retdec_new.c: In function ‘func_1’:
+./seed_all/s749retdec_new.c:68:15: error: invalid use of void expression
+   68 |         *NULL = 1;
+      |               ^
+
+./seed_all/s775r2_new.c: In function ‘func_1’:
+./seed_all/s775r2_new.c:178:27: error: invalid use of void expression
+  178 |                     *NULL = 0x68;
+      |                           ^
+./seed_all/s775r2_new.c:201:15: error: invalid use of void expression
+  201 |         *NULL = 1;
+      |               ^
+
+./seed_all/s775retdec_new.c: In function ‘func_1’:
+./seed_all/s775retdec_new.c:178:27: error: invalid use of void expression
+  178 |                     *NULL = 0x68;
+      |                           ^
+./seed_all/s775retdec_new.c:201:15: error: invalid use of void expression
+  201 |         *NULL = 1;
+      |               ^
+
+./seed_all/s808r2_new.c: In function ‘func_1’:
+./seed_all/s808r2_new.c:46:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   46 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s808retdec_new.c: In function ‘func_1’:
+./seed_all/s808retdec_new.c:46:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   46 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s82r2_new.c: In function ‘func_1’:
+./seed_all/s82r2_new.c:45:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   45 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s82retdec_new.c: In function ‘func_1’:
+./seed_all/s82retdec_new.c:45:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   45 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s846r2_new.c: In function ‘func_1’:
+./seed_all/s846r2_new.c:40:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   40 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s846retdec_new.c: In function ‘func_1’:
+./seed_all/s846retdec_new.c:40:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   40 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s851r2_new.c: In function ‘func_1’:
+./seed_all/s851r2_new.c:46:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   46 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s851retdec_new.c: In function ‘func_1’:
+./seed_all/s851retdec_new.c:46:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   46 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s853r2_new.c: In function ‘func_1’:
+./seed_all/s853r2_new.c:45:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   45 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s853retdec_new.c: In function ‘func_1’:
+./seed_all/s853retdec_new.c:45:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   45 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s85r2_new.c: In function ‘func_1’:
+./seed_all/s85r2_new.c:44:5: error: unknown type name ‘uchar’; did you mean ‘char’?
+   44 |     uchar uVar1;
+      |     ^~~~~
+      |     char
+
+./seed_all/s85retdec_new.c: In function ‘func_1’:
+./seed_all/s85retdec_new.c:44:5: error: unknown type name ‘uchar’; did you mean ‘char’?
+   44 |     uchar uVar1;
+      |     ^~~~~
+      |     char
+
+./seed_all/s868r2_new.c: In function ‘func_1’:
+./seed_all/s868r2_new.c:49:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   49 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s868retdec_new.c: In function ‘func_1’:
+./seed_all/s868retdec_new.c:49:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   49 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s896r2_new.c: In function ‘func_1’:
+./seed_all/s896r2_new.c:84:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   84 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s896retdec_new.c: In function ‘func_1’:
+./seed_all/s896retdec_new.c:84:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   84 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s899r2_new.c: In function ‘func_1’:
+./seed_all/s899r2_new.c:84:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   84 |     ushort uVar2;
+      |     ^~~~~~
+      |     short
+./seed_all/s899r2_new.c:268:31: error: invalid use of void expression
+  268 |                         *NULL = var_8fh != 0;
+      |                               ^
+./seed_all/s899r2_new.c:280:31: error: invalid use of void expression
+  280 |                         *NULL = var_8fh | stack0xffffff64 == 0xffffffff;
+      |                               ^
+./seed_all/s899r2_new.c:285:31: error: invalid use of void expression
+  285 |                         *NULL = var_94h < 0x96;
+      |                               ^
+./seed_all/s899r2_new.c:286:35: error: void value not ignored as it ought to be
+  286 |                         var_aah = *NULL < -0x52ac5c72;
+      |                                   ^
+./seed_all/s899r2_new.c:367:31: error: invalid use of void expression
+  367 |                         *NULL = var_bch + uVar2;
+      |                               ^
+./seed_all/s899r2_new.c:371:35: error: void value not ignored as it ought to be
+  371 |                             uVar2 = *NULL;
+      |                                   ^
+./seed_all/s899r2_new.c:376:37: error: void value not ignored as it ought to be
+  376 |                             var_bch = *NULL;
+      |                                     ^
+
+./seed_all/s899retdec_new.c: In function ‘func_1’:
+./seed_all/s899retdec_new.c:84:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   84 |     ushort uVar2;
+      |     ^~~~~~
+      |     short
+./seed_all/s899retdec_new.c:268:31: error: invalid use of void expression
+  268 |                         *NULL = var_8fh != 0;
+      |                               ^
+./seed_all/s899retdec_new.c:280:31: error: invalid use of void expression
+  280 |                         *NULL = var_8fh | stack0xffffff64 == 0xffffffff;
+      |                               ^
+./seed_all/s899retdec_new.c:285:31: error: invalid use of void expression
+  285 |                         *NULL = var_94h < 0x96;
+      |                               ^
+./seed_all/s899retdec_new.c:286:35: error: void value not ignored as it ought to be
+  286 |                         var_aah = *NULL < -0x52ac5c72;
+      |                                   ^
+./seed_all/s899retdec_new.c:367:31: error: invalid use of void expression
+  367 |                         *NULL = var_bch + uVar2;
+      |                               ^
+./seed_all/s899retdec_new.c:371:35: error: void value not ignored as it ought to be
+  371 |                             uVar2 = *NULL;
+      |                                   ^
+./seed_all/s899retdec_new.c:376:37: error: void value not ignored as it ought to be
+  376 |                             var_bch = *NULL;
+      |                                     ^
+
+./seed_all/s903r2_new.c: In function ‘func_1’:
+./seed_all/s903r2_new.c:194:27: error: invalid use of void expression
+  194 |                     *NULL = var_3bh;
+      |                           ^
+./seed_all/s903r2_new.c:206:15: error: invalid use of void expression
+  206 |         *NULL = var_3bh;
+      |               ^
+./seed_all/s903r2_new.c:208:12: error: void value not ignored as it ought to be
+  208 |     return *NULL;
+      |            ^
+
+./seed_all/s903retdec_new.c: In function ‘func_1’:
+./seed_all/s903retdec_new.c:194:27: error: invalid use of void expression
+  194 |                     *NULL = var_3bh;
+      |                           ^
+./seed_all/s903retdec_new.c:206:15: error: invalid use of void expression
+  206 |         *NULL = var_3bh;
+      |               ^
+./seed_all/s903retdec_new.c:208:12: error: void value not ignored as it ought to be
+  208 |     return *NULL;
+      |            ^
+
+./seed_all/s918r2_new.c: In function ‘func_1’:
+./seed_all/s918r2_new.c:54:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   54 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s918retdec_new.c: In function ‘func_1’:
+./seed_all/s918retdec_new.c:54:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   54 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s940r2_new.c: In function ‘func_1’:
+./seed_all/s940r2_new.c:50:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   50 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+./seed_all/s940r2_new.c:70:15: error: invalid use of void expression
+   70 |         *NULL = 0;
+      |               ^
+
+./seed_all/s940retdec_new.c: In function ‘func_1’:
+./seed_all/s940retdec_new.c:50:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+   50 |     ushort extraout_var;
+      |     ^~~~~~
+      |     short
+./seed_all/s940retdec_new.c:70:15: error: invalid use of void expression
+   70 |         *NULL = 0;
+      |               ^
+
+./seed_all/s946r2_new.c: In function ‘func_1’:
+./seed_all/s946r2_new.c:113:15: error: invalid use of void expression
+  113 |         *NULL = ((var_44h & 0xffff) != 1) == 0x4981c586;
+      |               ^
+
+./seed_all/s946retdec_new.c: In function ‘func_1’:
+./seed_all/s946retdec_new.c:113:15: error: invalid use of void expression
+  113 |         *NULL = ((var_44h & 0xffff) != 1) == 0x4981c586;
+      |               ^
+
+./seed_all/s970r2_new.c: In function ‘func_1’:
+./seed_all/s970r2_new.c:159:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+  159 |     ushort var_48h;
+      |     ^~~~~~
+      |     short
+
+./seed_all/s970retdec_new.c: In function ‘func_1’:
+./seed_all/s970retdec_new.c:159:5: error: unknown type name ‘ushort’; did you mean ‘short’?
+  159 |     ushort var_48h;
+      |     ^~~~~~
+      |     short
+

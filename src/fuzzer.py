@@ -94,10 +94,10 @@ def remove_files(file_path, modified_file):
 # -----------------------------------------------------------------------------------
 
 
-def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compile_flag=1, decompile_flag=1):
+def test_single_file(file_path, current_dir, EMI_dir='', out_dir='', mutation_flag=1, compile_flag=1, decompile_flag=1):
     global file_count, EMI_count, total_real_time, total_user_time, total_sys_time
-    err_dir = os.path.join(current_dir, 'error/')
-    result_dir = os.path.join(current_dir, 'result/')
+    err_dir = os.path.join(out_dir, 'error/')
+    result_dir = os.path.join(out_dir, 'result/')
 
     # Step 1: compile
     if compile_flag != 0:
@@ -105,7 +105,9 @@ def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compil
         if status != 0:
             # copy their source code to error directory
             copy_file(file_path, err_dir)
-            return
+            with open(f'{out_dir}/err_com.log', 'a') as fd:
+                fd.write(f'{file_path}\n')
+            return Config.Result.F_COM
 
     # Step 2: decompile
     if decompile_flag != 0:
@@ -117,7 +119,9 @@ def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compil
 
         if status != 0:
             copy_file(file_path, err_dir)
-            return
+            with open(f'{out_dir}/err_decom.log', 'a') as fd:
+                fd.write(f'{file_path}\n')
+            return Config.Result.F_DECOM
 
     # Step 3: recompile
     if Config.JEB3_test:
@@ -144,13 +148,24 @@ def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compil
         f = open(error_log, 'a')
         f.write(output + '\n\n')
         f.close()
-        return
+        with open(f'{out_dir}/err_recom.log', 'a') as fd:
+            fd.write(f'{file_path}\n')
+        return Config.Result.F_RECOM
 
     # Step 4: compare
     status, output = checker.compare_two_prog(file_path[:-2],
                                               file_path[:-2] + '_new',
                                               result_dir)
+    if status != 0:
+        with open(f'{out_dir}/err_discr.log', 'a') as fd:
+            fd.write(f'{file_path}\n')
+        return Config.Result.F_DISCR
+    else:
+        with open(f'{out_dir}/succ_execute.log', 'a') as fd:
+            fd.write(f'{file_path}\n')
+        return Config.Result.SUCCEED
 
+    # Yes, actually skip here
     # Step 5(may be skipped): EMI mutation
     if status == 0 and output != b'' and mutation_flag != 0:
         # information about code length
@@ -291,16 +306,26 @@ def prepare_dirs(files_dir, emi=False):
         emi_dir = os.path.join(files_dir, 'emi/')
         create_directory(emi_dir)
 
+
+def write_full_log(log_path, ret_type, fname, stdout, stderr):
+    with open(log_path, "a") as fd:
+        fd.write("\n\n")
+        fd.write(f"=== {ret_type} in {fname}\n")
+        fd.write('stdout:\n')
+        fd.write(stdout.decode())
+        fd.write('\nstderr:\n')
+        fd.write(stderr.decode())
+
+
 # fuzzing test on CSmith generated files,
 # DO NOT generating EMI variants
 # for WASM Evaluation
-def seed_test_WASM(files_dir, emi_dir, config_file):
+def seed_test_WASM(files_dir, out_dir):
     """files_dir: the seed files directory
-       emi_dir: the directory to store generated EMI variants
-       config_file: path to configure file (used in EMI mutation)
+       out_dir: the directory to store results and logs
     """
-    prepare_dirs(files_dir, emi=False)
-    prepare_dirs(emi_dir, emi=False)
+    prepare_dirs(out_dir, emi=False)
+    results = {e.name:0 for e in Config.Result}
     for root, dirs, files in os.walk(files_dir):
         files.sort()
         for f in files:
@@ -313,10 +338,14 @@ def seed_test_WASM(files_dir, emi_dir, config_file):
                     file_path = os.path.join(root, f)
                     current_dir = root
 
-                    get_config(config_file)
-                    test_single_file(file_path, current_dir, EMI_dir=emi_dir,
+                    ret = test_single_file(file_path, current_dir, EMI_dir="",
+                                     out_dir=out_dir,
                                      mutation_flag=0, compile_flag=1, decompile_flag=1)
-                    set_config(config_file)
+                    results[ret.name] += 1
+                    # remove redundant files
+                    subprocess.getstatusoutput(f"cd {root}; rm -rf *_* *.json *.dsm *.ll {f.replace('.c', '')}")
+    return results
+
 
 # fuzzing test on CSmith generated files,
 # generating EMI variants

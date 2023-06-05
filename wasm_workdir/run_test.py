@@ -46,7 +46,7 @@ if os.path.exists("succ_execute.log"):
             if len(fname) != 0:
                 done.append(fname)
                 succeed += 1
-total = len(fname)
+total = len(done)
 
 for fname in os.listdir(f"./seed_for_wasm"):
     if fname in done:
@@ -87,7 +87,7 @@ for fname in os.listdir(f"./seed_for_wasm"):
             fd.write('\nstderr:\n')
             fd.write(stderr1.decode())
 
-            fd.write(f"+ {libname}_wasm:\n")
+            fd.write(f"\n+ {libname}_wasm:\n")
             fd.write('stdout:\n')
             fd.write(stdout2.decode())
             fd.write('\nstderr:\n')

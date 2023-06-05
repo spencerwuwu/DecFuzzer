@@ -11,6 +11,13 @@ RetDec_absolute_path = '/home/weicheng/Documents/CS699_WASM/RetDec/bin/retdec-de
 JEB3_absolute_path = '/home/fuzz/Documents/jeb-pro-3.0-beta.8/jeb_linux.sh'  #
 csmith_absolute_path = '/home/weicheng/Documents/CS699_WASM/csmith-2.3.0/src/csmith'  #
 
+from enum import Enum
+class Result(Enum):
+    SUCCEED = 1
+    F_DECOM = 2
+    F_RECOM = 3
+    F_DISCR = 4
+    F_COM = 5
 
 ####################################################################################
 #
