@@ -1,0 +1,109 @@
+
+
+=== Different in s310retdec.c
++ s310retdec:
+stdout:
+
+
+=== Different in s310retdec.c
++ s310retdec:
+stdout:
+checksum = 44FB8A3F
+
+stderr:
++ s310retdec_wasm:
+stdout:
+checksum = 4D2E3CF
+
+stderr:
+
+
+=== Different in s110r2.c
++ s110r2:
+stdout:
+checksum = F5D541A7
+
+stderr:
++ s110r2_wasm:
+stdout:
+checksum = 3F06CF28
+
+stderr:
+
+
+=== Different in s232retdec.c
++ s232retdec:
+stdout:
+checksum = 3D85E24E
+
+stderr:
++ s232retdec_wasm:
+stdout:
+checksum = 3448671F
+
+stderr:
+
+
+=== Different in s232r2.c
++ s232r2:
+stdout:
+checksum = 3D85E24E
+
+stderr:
++ s232r2_wasm:
+stdout:
+checksum = 3448671F
+
+stderr:
+
+
+=== Different in s310r2.c
++ s310r2:
+stdout:
+checksum = 44FB8A3F
+
+stderr:
++ s310r2_wasm:
+stdout:
+checksum = 4D2E3CF
+
+stderr:
+
+
+=== Different in s110retdec.c
++ s110retdec:
+stdout:
+checksum = F5D541A7
+
+stderr:
++ s110retdec_wasm:
+stdout:
+checksum = 3F06CF28
+
+stderr:
+
+
+=== Different in s326retdec.c
++ s326retdec:
+stdout:
+checksum = B6E66FAC
+
+stderr:
++ s326retdec_wasm:
+stdout:
+checksum = B92694D
+
+stderr:
+
+
+=== Different in s326r2.c
++ s326r2:
+stdout:
+checksum = B6E66FAC
+
+stderr:
++ s326r2_wasm:
+stdout:
+checksum = B92694D
+
+stderr:

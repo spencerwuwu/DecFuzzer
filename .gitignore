@@ -1,1 +1,3 @@
 */__pycache__
+./wasm_workdir/wasm_main.cpp
+./wasm_workdir/orig_main.cpp
