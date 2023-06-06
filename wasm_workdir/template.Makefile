@@ -27,11 +27,11 @@ clean:
 
 #Step 0: build native binary
 {{libname}}: seed_for_wasm/{{libname}}.c
-	$(CC) $(CFLAGS) -I$(CSMITH_LIB) seed_for_wasm/{{libname}}.c orig_main.c -o {{libname}}
+	$(CC) $(CFLAGS) -O{{opt}} -I$(CSMITH_LIB) seed_for_wasm/{{libname}}.c orig_main.c -o {{libname}}
 
 #Step 1: build our library into wasm, using clang from the wasi-sdk
 {{libname}}.wasm: seed_for_wasm/{{libname}}.c
-	emcc $(EMCC_CFLAGS) -I$(CSMITH_LIB) seed_for_wasm/{{libname}}.c -o {{libname}}.wasm
+	emcc $(EMCC_CFLAGS) -O{{opt}} -I$(CSMITH_LIB) seed_for_wasm/{{libname}}.c -o {{libname}}.wasm
 
 #Step 2: use wasm2c to convert our wasm to a C implementation of wasm we can link with our app.
 {{libname}}.wasm.c: {{libname}}.wasm

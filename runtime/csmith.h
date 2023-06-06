@@ -28,6 +28,10 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+#define uint uint64_t
+#define uchar unsigned char
+#define ushort unsigned short
+
 #ifndef RANDOM_RUNTIME_H
 #define RANDOM_RUNTIME_H
 

@@ -1,0 +1,322 @@
+
+
+=== Different in s712r2.c
++ s712r2:
+stdout:
+checksum = 9DBF7F55
+
+stderr:
+
++ s712r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s207r2.c
++ s207r2:
+stdout:
+
+stderr:
+
++ s207r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s362retdec.c
++ s362retdec:
+stdout:
+checksum = 31D6164
+
+stderr:
+
++ s362retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s750retdec.c
++ s750retdec:
+stdout:
+
+stderr:
+
++ s750retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s629r2.c
++ s629r2:
+stdout:
+
+stderr:
+
++ s629r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s629retdec.c
++ s629retdec:
+stdout:
+
+stderr:
+
++ s629retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s222retdec.c
++ s222retdec:
+stdout:
+checksum = 51528E59
+
+stderr:
+
++ s222retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s531r2.c
++ s531r2:
+stdout:
+
+stderr:
+
++ s531r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s274r2.c
++ s274r2:
+stdout:
+checksum = 53468E58
+
+stderr:
+
++ s274r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s163retdec.c
++ s163retdec:
+stdout:
+
+stderr:
+
++ s163retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s207retdec.c
++ s207retdec:
+stdout:
+
+stderr:
+
++ s207retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s163r2.c
++ s163r2:
+stdout:
+
+stderr:
+
++ s163r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s297retdec.c
++ s297retdec:
+stdout:
+checksum = 2663D3B9
+
+stderr:
+
++ s297retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s222r2.c
++ s222r2:
+stdout:
+checksum = 51528E59
+
+stderr:
+
++ s222r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s743r2.c
++ s743r2:
+stdout:
+
+stderr:
+
++ s743r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s362r2.c
++ s362r2:
+stdout:
+checksum = 31D6164
+
+stderr:
+
++ s362r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s863retdec.c
++ s863retdec:
+stdout:
+
+stderr:
+
++ s863retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s743retdec.c
++ s743retdec:
+stdout:
+
+stderr:
+
++ s743retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s863r2.c
++ s863r2:
+stdout:
+
+stderr:
+
++ s863r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s297r2.c
++ s297r2:
+stdout:
+checksum = 2663D3B9
+
+stderr:
+
++ s297r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s531retdec.c
++ s531retdec:
+stdout:
+
+stderr:
+
++ s531retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s750r2.c
++ s750r2:
+stdout:
+
+stderr:
+
++ s750r2_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s274retdec.c
++ s274retdec:
+stdout:
+checksum = 53468E58
+
+stderr:
+
++ s274retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:
+
+
+=== Different in s712retdec.c
++ s712retdec:
+stdout:
+checksum = 9DBF7F55
+
+stderr:
+
++ s712retdec_wasm:
+stdout:
+checksum = 0
+
+stderr:

@@ -6,6 +6,8 @@ from subprocess import Popen, PIPE, getstatusoutput
 
 timeout_sec = 10
 
+OPT=1
+out_dir = f'tmp_O{OPT}/'
 
 def run_single_prog(prog_path):
     global timeout_sec
@@ -19,6 +21,9 @@ def run_single_prog(prog_path):
     return stdout, stderr
 
 
+if not os.path.exists(out_dir):
+    os.mkdir(out_dir)
+
 #################################
 # main
 #################################
@@ -29,20 +34,20 @@ compile_failed = 0
 recompile_failed = 0
 total = 0
 
-# if os.path.exists("error_compile.log"):
-#     with open("error_compile.log", "r") as fd:
+# if os.path.exists(f"{out_dir}/error_compile.log"):
+#     with open(f"{out_dir}/error_compile.log", "r") as fd:
 #         for fname in fd.read().split("\n"):
 #             if len(fname) != 0:
 #                 done.append(fname)
 #                 compile_failed += 1
-# if os.path.exists("error_execute.log"):
-#     with open("error_execute.log", "r") as fd:
+# if os.path.exists(f"{out_dir}/error_execute.log"):
+#     with open(f"{out_dir}/error_execute.log", "r") as fd:
 #         for fname in fd.read().split("\n"):
 #             if len(fname) != 0:
 #                 done.append(fname)
 #                 diff += 1
-# if os.path.exists("succ_execute.log"):
-#     with open("succ_execute.log", "r") as fd:
+# if os.path.exists(f"{out_dir}/succ_execute.log"):
+#     with open(f"{out_dir}/succ_execute.log", "r") as fd:
 #         for fname in fd.read().split("\n"):
 #             if len(fname) != 0:
 #                 done.append(fname)
@@ -52,11 +57,13 @@ total = len(done)
 for fname in os.listdir(f"./seed_for_wasm"):
     if fname in done:
         continue
+    if "s531r2.c" not in fname:
+        continue
     total += 1
     libname = fname.replace(".c", "")
 
     # Generate code
-    cmd = f"./render_code.py {libname}"
+    cmd = f"./render_code.py {libname} {OPT}"
     sta, out = subprocess.getstatusoutput(cmd)
 
     # Comile
@@ -65,7 +72,7 @@ for fname in os.listdir(f"./seed_for_wasm"):
     if sta != 0:
         compile_failed += 1
         print(f"Failed compiling seed_for_wasm/{fname}")
-        with open("error_compile.log", "a") as fd:
+        with open(f"{out_dir}/error_compile.log", "a") as fd:
             fd.write(f"{fname}\n")
         # Clean up
         subprocess.getstatusoutput("make clean")
@@ -77,9 +84,9 @@ for fname in os.listdir(f"./seed_for_wasm"):
     if stdout1 != stdout2:
         diff += 1
         print(f"Exec diff seed_for_wasm/{fname}")
-        with open("error_execute.log", "a") as fd:
+        with open(f"{out_dir}/error_execute.log", "a") as fd:
             fd.write(f"{fname}\n")
-        with open("full.log", "a") as fd:
+        with open(f"{out_dir}/full.log", "a") as fd:
             fd.write("\n\n")
             fd.write(f"=== Different in {fname}\n")
             fd.write(f"+ {libname}:\n")
@@ -95,10 +102,10 @@ for fname in os.listdir(f"./seed_for_wasm"):
             fd.write(stderr2.decode())
     else:
         succeed += 1
-        with open("succ_execute.log", "a") as fd:
+        with open(f"{out_dir}/succ_execute.log", "a") as fd:
             fd.write(f"{fname}\n")
         if len(stdout1.decode()) == 0:
-            with open("benchmark_null.log", "a") as fd:
+            with open(f"{out_dir}/benchmark_null.log", "a") as fd:
                 fd.write(f"{fname}\n")
 
     done.append(fname)

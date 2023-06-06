@@ -4,6 +4,7 @@ from jinja2 import Template
 import sys
 
 libname = sys.argv[1]
+opt = sys.argv[2]
 
 with open("template.orig_main.c", "r") as fd:
     tm = Template(fd.read())
@@ -21,7 +22,7 @@ with open("wasm_main.cpp", "w") as fd:
     
 with open("template.Makefile", "r") as fd:
     tm = Template(fd.read())
-msg = tm.render(libname=libname)
+msg = tm.render(libname=libname, opt=opt)
 
 with open("Makefile", "w") as fd:
     fd.write(msg)

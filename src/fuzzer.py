@@ -320,7 +320,20 @@ def write_full_log(log_path, ret_type, fname, stdout, stderr):
 # fuzzing test on CSmith generated files,
 # DO NOT generating EMI variants
 # for WASM Evaluation
-def seed_test_WASM(files_dir, out_dir):
+def single_test_WASM(root, fname, out_dir, remove=True):
+    prepare_dirs(out_dir, emi=False)
+    results = {e.name:0 for e in Config.Result}
+    file_path = os.path.join(root, fname)
+    current_dir = root
+
+    ret = test_single_file(file_path, current_dir, EMI_dir="",
+                     out_dir=out_dir,
+                     mutation_flag=0, compile_flag=1, decompile_flag=1)
+    return results
+
+
+
+def seed_test_WASM(files_dir, out_dir, remove=True):
     """files_dir: the seed files directory
        out_dir: the directory to store results and logs
     """
@@ -343,7 +356,8 @@ def seed_test_WASM(files_dir, out_dir):
                                      mutation_flag=0, compile_flag=1, decompile_flag=1)
                     results[ret.name] += 1
                     # remove redundant files
-                    subprocess.getstatusoutput(f"cd {root}; rm -rf *_* *.json *.dsm *.ll {f.replace('.c', '')}")
+                    if remove:
+                        subprocess.getstatusoutput(f"cd {root}; rm -rf *_* *.json *.dsm *.ll {f.replace('.c', '')}")
     return results
 
 
