@@ -10,28 +10,43 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static volatile int32_t g_2 = 8;/* VOLATILE GLOBAL g_2 */
-static volatile int32_t g_3 = (-9);/* VOLATILE GLOBAL g_3 */
-static int32_t g_4 = 0xA0256915;
-static uint8_t g_8 = 247U;
-static int32_t g_16 = (-1);
-static uint32_t g_19 = 0x0DDD9CD4;
-static int32_t g_26 = 0xC4DDB84C;
-static uint32_t g_29 = 0xB243E5EC;
-static uint32_t g_32 = 0x1FAFBF26;
-static uint16_t g_40 = 0U;
-static int16_t g_80 = 1;
-static int8_t g_128 = 1;
-static int32_t g_143 = 0x9FC46A62;
-static volatile int8_t g_182 = (-2);/* VOLATILE GLOBAL g_182 */
-static int16_t g_280 = (-6);
-static volatile uint8_t g_281 = 0U;/* VOLATILE GLOBAL g_281 */
-static volatile int16_t g_294 = 0;/* VOLATILE GLOBAL g_294 */
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_4_l, uint8_t g_8_l, int32_t g_16_l, uint32_t g_19_l, int32_t g_26_l, uint32_t g_29_l, uint32_t g_32_l, uint16_t g_40_l, int16_t g_80_l, int8_t g_128_l, int32_t g_143_l, int8_t g_182_l, int16_t g_280_l, uint8_t g_281_l, int16_t g_294_l){
-    g_2 = g_2_l;g_3 = g_3_l;g_4 = g_4_l;g_8 = g_8_l;g_16 = g_16_l;g_19 = g_19_l;g_26 = g_26_l;g_29 = g_29_l;g_32 = g_32_l;g_40 = g_40_l;g_80 = g_80_l;g_128 = g_128_l;g_143 = g_143_l;g_182 = g_182_l;g_280 = g_280_l;g_281 = g_281_l;g_294 = g_294_l;
+static uint32_t set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_4_l, uint8_t g_8_l, int32_t g_16_l, uint32_t g_19_l, int32_t g_26_l, uint32_t g_29_l, uint32_t g_32_l, uint16_t g_40_l, int16_t g_80_l, int8_t g_128_l, int32_t g_143_l, int8_t g_182_l, int16_t g_280_l, uint8_t g_281_l, int16_t g_294_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+volatile int32_t g_2 = 8;/* VOLATILE GLOBAL g_2 */
+volatile int32_t g_3 = (-9);/* VOLATILE GLOBAL g_3 */
+int32_t g_4 = 0xA0256915;
+uint8_t g_8 = 247U;
+int32_t g_16 = (-1);
+uint32_t g_19 = 0x0DDD9CD4;
+int32_t g_26 = 0xC4DDB84C;
+uint32_t g_29 = 0xB243E5EC;
+uint32_t g_32 = 0x1FAFBF26;
+uint16_t g_40 = 0U;
+int16_t g_80 = 1;
+int8_t g_128 = 1;
+int32_t g_143 = 0x9FC46A62;
+volatile int8_t g_182 = (-2);/* VOLATILE GLOBAL g_182 */
+int16_t g_280 = (-6);
+volatile uint8_t g_281 = 0U;/* VOLATILE GLOBAL g_281 */
+volatile int16_t g_294 = 0;/* VOLATILE GLOBAL g_294 */
+    transparent_crc(g_2, "g_2", 0, crc32_context, crc32_tab);
+    transparent_crc(g_3, "g_3", 0, crc32_context, crc32_tab);
+    transparent_crc(g_4, "g_4", 0, crc32_context, crc32_tab);
+    transparent_crc(g_8, "g_8", 0, crc32_context, crc32_tab);
+    transparent_crc(g_16, "g_16", 0, crc32_context, crc32_tab);
+    transparent_crc(g_19, "g_19", 0, crc32_context, crc32_tab);
+    transparent_crc(g_26, "g_26", 0, crc32_context, crc32_tab);
+    transparent_crc(g_29, "g_29", 0, crc32_context, crc32_tab);
+    transparent_crc(g_32, "g_32", 0, crc32_context, crc32_tab);
+    transparent_crc(g_40, "g_40", 0, crc32_context, crc32_tab);
+    transparent_crc(g_80, "g_80", 0, crc32_context, crc32_tab);
+    transparent_crc(g_128, "g_128", 0, crc32_context, crc32_tab);
+    transparent_crc(g_143, "g_143", 0, crc32_context, crc32_tab);
+    transparent_crc(g_182, "g_182", 0, crc32_context, crc32_tab);
+    transparent_crc(g_280, "g_280", 0, crc32_context, crc32_tab);
+    transparent_crc(g_281, "g_281", 0, crc32_context, crc32_tab);
+    transparent_crc(g_294, "g_294", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -45,7 +60,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     int32_t g_2_l = 8;
     int32_t g_3_l = (-9);
@@ -105,6 +119,7 @@ lbl_114:
                     { /* block id: 28 */
                         if (l_44)
                             goto lbl_55;
+                        return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
                     }
                     l_44 |= g_29_l;
                     if (g_4_l)
@@ -134,6 +149,7 @@ lbl_114:
                 l_44 = (((g_32_l | (((int8_t)(g_29_l <= (((g_8_l = ((int32_t)((int8_t)(~((-(uint32_t)(l_59 > (((int16_t)(g_80_l , l_99) << (int16_t)9) , 0x86))) > (-1))) * (int8_t)0x1F) / (int32_t)l_11)) <= 0x76) < g_29_l)) * (int8_t)g_26_l) | 0xC5)) , l_99) , 0x41928B54);
                 if ((((l_78 = ((int32_t)((((g_8_l = (((uint32_t)((uint8_t)(l_106 = 251U) << (uint8_t)7) % (uint32_t)((int8_t)0x11 % (int8_t)(((g_26_l == ((((int16_t)((l_112 = (((l_78 > g_32_l) | l_111) <= g_40_l)) & g_8_l) << (int16_t)10) & l_58) , 0x3D)) ^ g_16_l) || l_113))) != l_51)) == l_44) , g_3_l) <= 0xC822) - (int32_t)g_40_l)) , g_26_l) != 0xE3A4))
                 { /* block id: 55 */
+                    return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
                 }
                 else
                 { /* block id: 57 */
@@ -146,6 +162,7 @@ lbl_114:
             }
             else
             { /* block id: 62 */
+                return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
             }
             if ((g_26_l |= (g_128_l != ((!l_58) == ((uint16_t)((g_16_l = 0x6D6E77E3) & 4294967295U) << (uint16_t)l_127)))))
             { /* block id: 67 */
@@ -153,6 +170,7 @@ lbl_114:
                 { /* block id: 70 */
                     int32_t l_134 = (-2);
                     l_134 = ((l_77 , g_4_l) != (g_16_l , (g_128_l , g_4_l)));
+                    return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
                 }
             }
             else
@@ -176,6 +194,7 @@ lbl_114:
             for (g_80_l = 26; (g_80_l >= 2); --g_80_l)
             { /* block id: 97 */
                 uint32_t l_152 = 1U;
+                return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
             }
         }
         else
@@ -229,6 +248,7 @@ lbl_114:
             g_143_l = (((int16_t)g_80_l * (int16_t)(((int8_t)(1U && g_80_l) - (int8_t)g_3_l) <= l_183)) , 0x1B327732);
             if ((g_8_l , (l_78 &= (65535U || l_183))))
             { /* block id: 134 */
+                return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
             }
             else
             { /* block id: 136 */
@@ -261,6 +281,7 @@ lbl_114:
                     { /* block id: 153 */
                         g_3_l = (1 > (((g_16_l &= (l_183 & (--g_40_l))) > 0x603EDA38) || (g_2_l , 0U)));
                         l_272 = (+(g_2_l , ((uint8_t)(((int16_t)g_8_l << (int16_t)10) | ((int8_t)g_3_l << (int8_t)4)) << (uint8_t)6)));
+                        return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
                     }
                     else
                     { /* block id: 159 */
@@ -288,6 +309,7 @@ lbl_114:
                 }
                 else
                 { /* block id: 172 */
+                    return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
                 }
                 l_272 |= g_281_l;
                 g_26_l = (+(l_214 >= (((uint16_t)(((int32_t)l_262 / (int32_t)(l_168 = ((int16_t)(l_272 = (((((+((uint16_t)(-(uint32_t)(l_310 = ((((l_199 ^ l_76) | 0x40C1D5FE) | g_19_l) | l_113))) * (uint16_t)l_78)) == 0xA1) <= g_16_l) == g_29_l) , g_280_l)) * (int16_t)0xE5B8))) , l_272) % (uint16_t)g_40_l) < l_311)));
@@ -297,24 +319,7 @@ lbl_114:
     }
     l_18 = ((((uint16_t)((int16_t)(l_113 | (1U != ((g_26_l != ((uint8_t)g_3_l >> (uint8_t)l_51)) == g_80_l))) >> (int16_t)13) << (uint16_t)l_51) , g_294_l) <= g_29_l);
     g_4_l ^= (l_18 = 0);
-    transparent_crc(g_2_l, "g_2", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_3_l, "g_3", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_4_l, "g_4", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_8_l, "g_8", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_16_l, "g_16", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_19_l, "g_19", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_26_l, "g_26", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_29_l, "g_29", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_32_l, "g_32", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_40_l, "g_40", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_80_l, "g_80", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_128_l, "g_128", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_143_l, "g_143", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_182_l, "g_182", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_280_l, "g_280", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_281_l, "g_281", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_294_l, "g_294", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_2_l, g_3_l, g_4_l, g_8_l, g_16_l, g_19_l, g_26_l, g_29_l, g_32_l, g_40_l, g_80_l, g_128_l, g_143_l, g_182_l, g_280_l, g_281_l, g_294_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 

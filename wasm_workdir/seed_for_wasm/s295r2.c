@@ -10,25 +10,37 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static volatile uint32_t g_2 = 9U;/* VOLATILE GLOBAL g_2 */
-static uint32_t g_4 = 0x0AA39ED0;
-static int32_t g_18 = 0xB9C309AB;
-static int16_t g_19 = 0;
-static uint8_t g_20 = 0x14;
-static uint32_t g_23 = 8U;
-static volatile int16_t g_39 = 0x323A;/* VOLATILE GLOBAL g_39 */
-static int32_t g_43 = (-1);
-static int8_t g_91 = 0x62;
-static uint8_t g_92 = 0x42;
-static uint16_t g_93 = 65535U;
-static int8_t g_112 = 0x81;
-static uint32_t g_118 = 0x63A1A89D;
-static uint8_t g_145 = 0xB3;
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(uint32_t g_2_l, uint32_t g_4_l, int32_t g_18_l, int16_t g_19_l, uint8_t g_20_l, uint32_t g_23_l, int16_t g_39_l, int32_t g_43_l, int8_t g_91_l, uint8_t g_92_l, uint16_t g_93_l, int8_t g_112_l, uint32_t g_118_l, uint8_t g_145_l){
-    g_2 = g_2_l;g_4 = g_4_l;g_18 = g_18_l;g_19 = g_19_l;g_20 = g_20_l;g_23 = g_23_l;g_39 = g_39_l;g_43 = g_43_l;g_91 = g_91_l;g_92 = g_92_l;g_93 = g_93_l;g_112 = g_112_l;g_118 = g_118_l;g_145 = g_145_l;
+static uint32_t set_var(uint32_t g_2_l, uint32_t g_4_l, int32_t g_18_l, int16_t g_19_l, uint8_t g_20_l, uint32_t g_23_l, int16_t g_39_l, int32_t g_43_l, int8_t g_91_l, uint8_t g_92_l, uint16_t g_93_l, int8_t g_112_l, uint32_t g_118_l, uint8_t g_145_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+volatile uint32_t g_2 = 9U;/* VOLATILE GLOBAL g_2 */
+uint32_t g_4 = 0x0AA39ED0;
+int32_t g_18 = 0xB9C309AB;
+int16_t g_19 = 0;
+uint8_t g_20 = 0x14;
+uint32_t g_23 = 8U;
+volatile int16_t g_39 = 0x323A;/* VOLATILE GLOBAL g_39 */
+int32_t g_43 = (-1);
+int8_t g_91 = 0x62;
+uint8_t g_92 = 0x42;
+uint16_t g_93 = 65535U;
+int8_t g_112 = 0x81;
+uint32_t g_118 = 0x63A1A89D;
+uint8_t g_145 = 0xB3;
+    transparent_crc(g_2, "g_2", 0, crc32_context, crc32_tab);
+    transparent_crc(g_4, "g_4", 0, crc32_context, crc32_tab);
+    transparent_crc(g_18, "g_18", 0, crc32_context, crc32_tab);
+    transparent_crc(g_19, "g_19", 0, crc32_context, crc32_tab);
+    transparent_crc(g_20, "g_20", 0, crc32_context, crc32_tab);
+    transparent_crc(g_23, "g_23", 0, crc32_context, crc32_tab);
+    transparent_crc(g_39, "g_39", 0, crc32_context, crc32_tab);
+    transparent_crc(g_43, "g_43", 0, crc32_context, crc32_tab);
+    transparent_crc(g_91, "g_91", 0, crc32_context, crc32_tab);
+    transparent_crc(g_92, "g_92", 0, crc32_context, crc32_tab);
+    transparent_crc(g_93, "g_93", 0, crc32_context, crc32_tab);
+    transparent_crc(g_112, "g_112", 0, crc32_context, crc32_tab);
+    transparent_crc(g_118, "g_118", 0, crc32_context, crc32_tab);
+    transparent_crc(g_145, "g_145", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -42,7 +54,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     uint32_t g_2_l = 9U;
     uint32_t g_4_l = 0x0AA39ED0;
@@ -111,23 +122,10 @@ uint32_t func_1(void)
     }
     else
     { /* block id: 48 */
+        return set_var(g_2_l, g_4_l, g_18_l, g_19_l, g_20_l, g_23_l, g_39_l, g_43_l, g_91_l, g_92_l, g_93_l, g_112_l, g_118_l, g_145_l, &crc32_context, crc32_tab);
     }
     l_64 = ((((uint16_t)((uint8_t)((int8_t)(l_144 && 0x803A303A) + (int8_t)(((uint16_t)g_4_l >> (uint16_t)11) | ((int16_t)(((((l_156 |= (((-1) || 0x3FBEB0F3) == g_145_l)) , 0) , g_93_l) >= 65529U) <= l_144) * (int16_t)g_43_l))) + (uint8_t)l_42) >> (uint16_t)l_103) , g_91_l) ^ g_92_l);
-    transparent_crc(g_2_l, "g_2", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_4_l, "g_4", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_18_l, "g_18", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_19_l, "g_19", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_20_l, "g_20", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_23_l, "g_23", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_39_l, "g_39", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_43_l, "g_43", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_91_l, "g_91", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_92_l, "g_92", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_93_l, "g_93", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_112_l, "g_112", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_118_l, "g_118", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_145_l, "g_145", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_2_l, g_4_l, g_18_l, g_19_l, g_20_l, g_23_l, g_39_l, g_43_l, g_91_l, g_92_l, g_93_l, g_112_l, g_118_l, g_145_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 

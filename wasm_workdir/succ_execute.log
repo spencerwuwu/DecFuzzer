@@ -327,6 +327,7 @@ s638r2.c
 s13r2.c
 s838r2.c
 s613r2.c
+s310retdec.c
 s654retdec.c
 s93retdec.c
 s976r2.c
@@ -725,6 +726,7 @@ s83retdec.c
 s709retdec.c
 s155r2.c
 s529retdec.c
+s110r2.c
 s800r2.c
 s985retdec.c
 s216r2.c
@@ -823,6 +825,7 @@ s248r2.c
 s22r2.c
 s17retdec.c
 s994retdec.c
+s232retdec.c
 s687retdec.c
 s481retdec.c
 s587r2.c
@@ -1298,9 +1301,11 @@ s282retdec.c
 s226r2.c
 s205r2.c
 s346r2.c
+s232r2.c
 s491retdec.c
 s826retdec.c
 s357r2.c
+s310r2.c
 s257retdec.c
 s387r2.c
 s437retdec.c
@@ -1486,6 +1491,7 @@ s711retdec.c
 s344r2.c
 s55retdec.c
 s53retdec.c
+s110retdec.c
 s842r2.c
 s476retdec.c
 s632r2.c
@@ -1653,6 +1659,7 @@ s47retdec.c
 s718retdec.c
 s401r2.c
 s349r2.c
+s326retdec.c
 s518r2.c
 s307r2.c
 s989r2.c
@@ -1673,6 +1680,7 @@ s879retdec.c
 s842retdec.c
 s537r2.c
 s463r2.c
+s326r2.c
 s710retdec.c
 s517retdec.c
 s169r2.c

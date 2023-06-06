@@ -10,13 +10,13 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static volatile int32_t g_18 = 1;/* VOLATILE GLOBAL g_18 */
-static uint32_t g_19 = 7U;
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(int32_t g_18_l, uint32_t g_19_l){
-    g_18 = g_18_l;g_19 = g_19_l;
+static uint32_t set_var(int32_t g_18_l, uint32_t g_19_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+volatile int32_t g_18 = 1;/* VOLATILE GLOBAL g_18 */
+uint32_t g_19 = 7U;
+    transparent_crc(g_18, "g_18", 0, crc32_context, crc32_tab);
+    transparent_crc(g_19, "g_19", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -30,7 +30,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     int32_t g_18_l = 1;
     uint32_t g_19_l = 7U;
@@ -39,9 +38,7 @@ uint32_t func_1(void)
     int32_t l_20 = 0;
     int32_t l_21 = 0x9EF4A042;
     g_18_l = (l_21 |= (((int16_t)1 >> (int16_t)14) && ((((int16_t)(l_20 = ((uint16_t)((int16_t)((int16_t)l_12 >> (int16_t)4) + (int16_t)(~(((((int16_t)0xF545 >> (int16_t)14) < ((uint8_t)(g_18_l >= g_19_l) << (uint8_t)g_19_l)) ^ g_19_l) && l_12))) << (uint16_t)l_12)) * (int16_t)0U) , l_12) | l_12)));
-    transparent_crc(g_18_l, "g_18", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_19_l, "g_19", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_18_l, g_19_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 

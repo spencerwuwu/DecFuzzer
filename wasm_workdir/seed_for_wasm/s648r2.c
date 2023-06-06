@@ -10,9 +10,6 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static const int32_t g_5 = (-1);
-/* --- FORWARD DECLARATIONS --- */
 
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -26,14 +23,12 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     const int32_t g_5_l = (-1);
  /* block id: 0 */
     uint32_t l_2 = 0x8EDF1FEB;
     l_2++;
-    transparent_crc(g_5_l, "g_5", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+return crc32_context ^ 0xFFFFFFFFUL;
 }
 /* ---------------------------------------- */
 

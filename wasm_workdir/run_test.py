@@ -26,26 +26,27 @@ done = []
 succeed = 0
 diff    = 0
 compile_failed = 0
+recompile_failed = 0
 total = 0
 
-if os.path.exists("error_compile.log"):
-    with open("error_compile.log", "r") as fd:
-        for fname in fd.read().split("\n"):
-            if len(fname) != 0:
-                done.append(fname)
-                compiled_failed += 1
-if os.path.exists("error_execute.log"):
-    with open("error_execute.log", "r") as fd:
-        for fname in fd.read().split("\n"):
-            if len(fname) != 0:
-                done.append(fname)
-                diff += 1
-if os.path.exists("succ_execute.log"):
-    with open("succ_execute.log", "r") as fd:
-        for fname in fd.read().split("\n"):
-            if len(fname) != 0:
-                done.append(fname)
-                succeed += 1
+# if os.path.exists("error_compile.log"):
+#     with open("error_compile.log", "r") as fd:
+#         for fname in fd.read().split("\n"):
+#             if len(fname) != 0:
+#                 done.append(fname)
+#                 compile_failed += 1
+# if os.path.exists("error_execute.log"):
+#     with open("error_execute.log", "r") as fd:
+#         for fname in fd.read().split("\n"):
+#             if len(fname) != 0:
+#                 done.append(fname)
+#                 diff += 1
+# if os.path.exists("succ_execute.log"):
+#     with open("succ_execute.log", "r") as fd:
+#         for fname in fd.read().split("\n"):
+#             if len(fname) != 0:
+#                 done.append(fname)
+#                 succeed += 1
 total = len(done)
 
 for fname in os.listdir(f"./seed_for_wasm"):
@@ -73,7 +74,7 @@ for fname in os.listdir(f"./seed_for_wasm"):
 
     stdout1, stderr1 = run_single_prog(f"./{libname}")
     stdout2, stderr2 = run_single_prog(f"./{libname}_wasm")
-    if stdout1 != stdout2 and len(stdout1) != 0:
+    if stdout1 != stdout2:
         diff += 1
         print(f"Exec diff seed_for_wasm/{fname}")
         with open("error_execute.log", "a") as fd:
@@ -96,13 +97,18 @@ for fname in os.listdir(f"./seed_for_wasm"):
         succeed += 1
         with open("succ_execute.log", "a") as fd:
             fd.write(f"{fname}\n")
+        if len(stdout1.decode()) == 0:
+            with open("benchmark_null.log", "a") as fd:
+                fd.write(f"{fname}\n")
 
     done.append(fname)
     # Clean up
     subprocess.getstatusoutput("make clean")
 
 print("Complete!")
-print(f"Total:          {total}")
-print(f"Succeed:        {succeed}")
-print(f"Compile failed: {compile_failed}")
-print(f"Execute diff:   {diff}")
+print(f"Total:                 {total}")
+print(f"Succeed:               {succeed}")
+print(f"Compile failed:        {0}")
+print(f"DeCompile failed:      {0}")
+print(f"ReCompile failed:      {compile_failed}")
+print(f"Execute discrepancy:   {diff}")

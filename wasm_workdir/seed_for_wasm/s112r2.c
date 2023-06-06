@@ -10,14 +10,15 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static int32_t g_3 = 9;
-static int32_t g_4 = 0xDE2167FA;
-static uint8_t g_5 = 0x89;
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(int32_t g_3_l, int32_t g_4_l, uint8_t g_5_l){
-    g_3 = g_3_l;g_4 = g_4_l;g_5 = g_5_l;
+static uint32_t set_var(int32_t g_3_l, int32_t g_4_l, uint8_t g_5_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+int32_t g_3 = 9;
+int32_t g_4 = 0xDE2167FA;
+uint8_t g_5 = 0x89;
+    transparent_crc(g_3, "g_3", 0, crc32_context, crc32_tab);
+    transparent_crc(g_4, "g_4", 0, crc32_context, crc32_tab);
+    transparent_crc(g_5, "g_5", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -31,7 +32,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
 int32_t g_3_l = 9;
 int32_t g_4_l = 0xDE2167FA;
@@ -40,10 +40,7 @@ uint8_t g_5_l = 0x89;
     uint32_t l_2 = 4294967291U;
     g_3_l = l_2;
     ++g_5_l;
-    transparent_crc(g_3_l, "g_3", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_4_l, "g_4", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_5_l, "g_5", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_3_l, g_4_l, g_5_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 

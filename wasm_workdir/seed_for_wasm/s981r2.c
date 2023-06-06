@@ -10,22 +10,27 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static int32_t g_4 = (-1);
-static int8_t g_11 = 0x2C;
-static uint32_t g_12 = 4294967295U;
-static uint8_t g_33 = 0x33;
-static int32_t g_35 = 0x6568C077;
-static int32_t g_54 = 0xB74084DA;
-static uint32_t g_56 = 4294967295U;
-/* --- FORWARD DECLARATIONS --- */
 
 static void packed_printf(int d)
 {
     printf("%d\n", d);
 }
-static int set_var(int32_t g_4_l, int8_t g_11_l, uint32_t g_12_l, uint8_t g_33_l, int32_t g_35_l, int32_t g_54_l, uint32_t g_56_l){
-    g_4 = g_4_l;g_11 = g_11_l;g_12 = g_12_l;g_33 = g_33_l;g_35 = g_35_l;g_54 = g_54_l;g_56 = g_56_l;
+static uint32_t set_var(int32_t g_4_l, int8_t g_11_l, uint32_t g_12_l, uint8_t g_33_l, int32_t g_35_l, int32_t g_54_l, uint32_t g_56_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+int32_t g_4 = (-1);
+int8_t g_11 = 0x2C;
+uint32_t g_12 = 4294967295U;
+uint8_t g_33 = 0x33;
+int32_t g_35 = 0x6568C077;
+int32_t g_54 = 0xB74084DA;
+uint32_t g_56 = 4294967295U;
+    transparent_crc(g_4, "g_4", 0, crc32_context, crc32_tab);
+    transparent_crc(g_11, "g_11", 0, crc32_context, crc32_tab);
+    transparent_crc(g_12, "g_12", 0, crc32_context, crc32_tab);
+    transparent_crc(g_33, "g_33", 0, crc32_context, crc32_tab);
+    transparent_crc(g_35, "g_35", 0, crc32_context, crc32_tab);
+    transparent_crc(g_54, "g_54", 0, crc32_context, crc32_tab);
+    transparent_crc(g_56, "g_56", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -39,7 +44,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     int32_t g_4_l = (-1);
     int8_t g_11_l = 0x2C;
@@ -71,19 +75,13 @@ uint32_t func_1(void)
             l_44 = (g_35_l = ((-(int8_t)((((-(int8_t)((int32_t)1 - (int32_t)(l_43 > (l_36 > (g_33_l = g_35_l))))) >= g_4_l) , l_43) ^ 1U)) ^ 0U));
         }
         g_54_l = (g_33_l > ((-(uint16_t)l_46) || ((int32_t)g_4_l + (int32_t)((int32_t)((int16_t)((--g_56_l) != ((g_4_l > l_13) & g_4_l)) >> (int16_t)8) / (int32_t)g_4_l))));
+        return set_var(g_4_l, g_11_l, g_12_l, g_33_l, g_35_l, g_54_l, g_56_l, &crc32_context, crc32_tab);
     }
     else
     { /* block id: 19 */
         int8_t l_59 = 0x05;
+        return set_var(g_4_l, g_11_l, g_12_l, g_33_l, g_35_l, g_54_l, g_56_l, &crc32_context, crc32_tab);
     }
-    transparent_crc(g_4_l, "g_4", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_11_l, "g_11", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_12_l, "g_12", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_33_l, "g_33", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_35_l, "g_35", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_54_l, "g_54", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_56_l, "g_56", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
 }
 /* ---------------------------------------- */
 

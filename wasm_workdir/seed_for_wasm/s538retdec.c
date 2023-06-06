@@ -10,22 +10,31 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static volatile uint32_t g_4 = 1U;/* VOLATILE GLOBAL g_4 */
-static int16_t g_5 = (-9);
-static volatile uint32_t g_7 = 4294967293U;/* VOLATILE GLOBAL g_7 */
-static int16_t g_15 = 1;
-static int32_t g_38 = 3;
-static int8_t g_47 = 0x6C;
-static uint32_t g_48 = 0U;
-static uint8_t g_51 = 0U;
-static uint32_t g_70 = 0x7FBC07B3;
-static uint32_t g_74 = 1U;
-static int32_t g_75 = 2;
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(uint32_t g_4_l, int16_t g_5_l, uint32_t g_7_l, int16_t g_15_l, int32_t g_38_l, int8_t g_47_l, uint32_t g_48_l, uint8_t g_51_l, uint32_t g_70_l, uint32_t g_74_l, int32_t g_75_l){
-    g_4 = g_4_l;g_5 = g_5_l;g_7 = g_7_l;g_15 = g_15_l;g_38 = g_38_l;g_47 = g_47_l;g_48 = g_48_l;g_51 = g_51_l;g_70 = g_70_l;g_74 = g_74_l;g_75 = g_75_l;
+static uint32_t set_var(uint32_t g_4_l, int16_t g_5_l, uint32_t g_7_l, int16_t g_15_l, int32_t g_38_l, int8_t g_47_l, uint32_t g_48_l, uint8_t g_51_l, uint32_t g_70_l, uint32_t g_74_l, int32_t g_75_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+volatile uint32_t g_4 = 1U;/* VOLATILE GLOBAL g_4 */
+int16_t g_5 = (-9);
+volatile uint32_t g_7 = 4294967293U;/* VOLATILE GLOBAL g_7 */
+int16_t g_15 = 1;
+int32_t g_38 = 3;
+int8_t g_47 = 0x6C;
+uint32_t g_48 = 0U;
+uint8_t g_51 = 0U;
+uint32_t g_70 = 0x7FBC07B3;
+uint32_t g_74 = 1U;
+int32_t g_75 = 2;
+    transparent_crc(g_4, "g_4", 0, crc32_context, crc32_tab);
+    transparent_crc(g_5, "g_5", 0, crc32_context, crc32_tab);
+    transparent_crc(g_7, "g_7", 0, crc32_context, crc32_tab);
+    transparent_crc(g_15, "g_15", 0, crc32_context, crc32_tab);
+    transparent_crc(g_38, "g_38", 0, crc32_context, crc32_tab);
+    transparent_crc(g_47, "g_47", 0, crc32_context, crc32_tab);
+    transparent_crc(g_48, "g_48", 0, crc32_context, crc32_tab);
+    transparent_crc(g_51, "g_51", 0, crc32_context, crc32_tab);
+    transparent_crc(g_70, "g_70", 0, crc32_context, crc32_tab);
+    transparent_crc(g_74, "g_74", 0, crc32_context, crc32_tab);
+    transparent_crc(g_75, "g_75", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -39,7 +48,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     uint32_t g_4_l = 1U;
     int16_t g_5_l = (-9);
@@ -87,18 +95,7 @@ uint32_t func_1(void)
         g_75_l = ((g_74_l = (((int16_t)((((((g_7_l == (g_48_l &= ((l_73 = ((0 >= g_5_l) || (g_51_l = (l_16 >= g_15_l)))) & 255U))) | l_16) > l_16) | l_16) , l_32) <= 0x7DC6E2FE) >> (int16_t)15) ^ g_5_l)) <= 0x13);
     }
     g_75_l = ((g_51_l = g_47_l) > ((l_81 = ((l_6 > (l_32 = (g_75_l && ((int16_t)((uint32_t)(-(int8_t)(0x47 | 0x04)) - (uint32_t)l_73) >> (int16_t)l_6)))) == g_74_l)) > g_15_l));
-    transparent_crc(g_4_l, "g_4", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_5_l, "g_5", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_7_l, "g_7", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_15_l, "g_15", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_38_l, "g_38", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_47_l, "g_47", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_48_l, "g_48", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_51_l, "g_51", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_70_l, "g_70", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_74_l, "g_74", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_75_l, "g_75", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_4_l, g_5_l, g_7_l, g_15_l, g_38_l, g_47_l, g_48_l, g_51_l, g_70_l, g_74_l, g_75_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 

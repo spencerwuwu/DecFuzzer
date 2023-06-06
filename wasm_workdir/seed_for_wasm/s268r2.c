@@ -10,13 +10,13 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static volatile int32_t g_2 = 0x97F6AF11;/* VOLATILE GLOBAL g_2 */
-static int32_t g_3 = 0;
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(int32_t g_2_l, int32_t g_3_l){
-    g_2 = g_2_l;g_3 = g_3_l;
+static uint32_t set_var(int32_t g_2_l, int32_t g_3_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+volatile int32_t g_2 = 0x97F6AF11;/* VOLATILE GLOBAL g_2 */
+int32_t g_3 = 0;
+    transparent_crc(g_2, "g_2", 0, crc32_context, crc32_tab);
+    transparent_crc(g_3, "g_3", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -30,7 +30,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     int32_t g_2_l = 0x97F6AF11;
     int32_t g_3_l = 0;
@@ -38,10 +37,9 @@ uint32_t func_1(void)
     for (g_3_l = 0; (g_3_l < (-18)); g_3_l -= 1)
     { /* block id: 3 */
         int16_t l_6 = 0x5C19;
+        return set_var(g_2_l, g_3_l, &crc32_context, crc32_tab);
     }
-    transparent_crc(g_2_l, "g_2", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_3_l, "g_3", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_2_l, g_3_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 

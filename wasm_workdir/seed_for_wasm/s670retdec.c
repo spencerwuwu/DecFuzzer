@@ -10,13 +10,13 @@
 #include "csmith_wasm.h"
 static long __undefined;
 /* --- Struct/Union Declarations --- */
-/* --- GLOBAL VARIABLES --- */
-static const volatile uint32_t g_6 = 7U;/* VOLATILE GLOBAL g_6 */
-static int32_t g_15 = 0x6C382506;
-/* --- FORWARD DECLARATIONS --- */
 
-static int set_var(int32_t g_15_l){
-    g_15 = g_15_l;
+static uint32_t set_var(int32_t g_15_l, uint32_t *crc32_context, uint32_t *crc32_tab){
+const volatile uint32_t g_6 = 7U;/* VOLATILE GLOBAL g_6 */
+int32_t g_15 = 0x6C382506;
+    transparent_crc(g_6, "g_6", 0, crc32_context, crc32_tab);
+    transparent_crc(g_15, "g_15", 0, crc32_context, crc32_tab);
+    return *crc32_context ^ 0xFFFFFFFFUL;
 }
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -30,7 +30,6 @@ uint32_t func_1(void)
          uint32_t crc32_tab[256];
          uint32_t crc32_context = 0xFFFFFFFFUL;
          crc32_gentab(crc32_tab);
-         int print_hash_value = 0;
          
     const uint32_t g_6_l = 7U;
     int32_t g_15_l = 0x6C382506;
@@ -48,9 +47,7 @@ uint32_t func_1(void)
         uint16_t l_37 = 0U;
         l_32 = ((((uint32_t)((uint16_t)((l_37 > 0x9EFEC1A2) < ((((int16_t)g_6_l << (int16_t)0) && (((uint8_t)g_15_l >> (uint8_t)3) == 0U)) >= 0x05)) / (uint16_t)0x4EC6) - (uint32_t)g_15_l) , g_15_l) , g_15_l);
     }
-    transparent_crc(g_6_l, "g_6", print_hash_value, &crc32_context, crc32_tab);
-    transparent_crc(g_15_l, "g_15", print_hash_value, &crc32_context, crc32_tab);
-    return crc32_context ^ 0xFFFFFFFFUL;
+    return set_var(g_15_l, &crc32_context, crc32_tab);
 }
 /* ---------------------------------------- */
 
