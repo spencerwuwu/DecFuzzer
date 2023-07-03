@@ -2,12 +2,9 @@ import os
 import sys
 from subprocess import Popen, PIPE, getstatusoutput
 # use IDA (on Windows) to decompile files
-time_cmd = r"C:\cygwin64\bin\time.exe -p "
-ida_path = r"C:\Users\john\Desktop\tools\ollydbg_IDAPRO\IDA_Pro_v7.0_Portable\ida.exe "
-ida_option = r" -A -OIDAPython:1;"
-ida_script_path = r".\idapy_decompile.py "
-python27_path = r"C:\Users\john\Desktop\tools\ollydbg_IDAPRO\IDA_Pro_v7.0_Portable\python27"
-target_bin_path = r"C:\Users\john\Desktop\IDA_test\tmp_test\csmith_test_5_m"
+ida_path = "/home/weicheng/idaedu-8.0/idat64"
+ida_option = "-A "
+ida_script_path = "./idapy_decompile.py "
 
 
 def get_script_path():
@@ -23,32 +20,23 @@ def get_script_path():
 def decompile(target_bin_path, generated_file_path):
     get_script_path()
 
-    cmd = time_cmd + ida_path + ida_option + ida_script_path + target_bin_path
-    # print(cmd)
-    proc = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, env={'PYTHONHOME': python27_path})
+    cmd = f'{ida_path} {ida_option} -S"{ida_script_path}" {target_bin_path}'
+    print(cmd)
+    proc = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, env={"TERM":"xterm"})
     stdout, stderr = proc.communicate()
-    # status, stdout = getstatusoutput(cmd)
-    # print(stdout)
-    # print(stderr.decode())  # Why stderr is the output? ... Whatever, it works.
-    time_out = stderr.decode()  # real, user, sys
+    if proc.returncode != 0:
+        print(stderr.decode())
+        return
+    print(stdout.decode())
     decompile_tmp_file_path = os.path.join(os.path.split(target_bin_path)[0], 'decompile_tmp.c')
     isExists = os.path.exists(decompile_tmp_file_path)
     if not isExists:
-        return -1, time_out
+        return -1
     else:
         status, output = getstatusoutput(r'copy ' + decompile_tmp_file_path+ ' '+ generated_file_path)
         status, output = getstatusoutput(r'del ' + decompile_tmp_file_path)
-        return 0, time_out
+        return 0
 
-if __name__ == '__main__':
-    # test
-    decompile(target_bin_path,'.\\test_tmp.c')
-
-    # cmd = r"C:\cygwin64\bin\time.exe -p C:\Users\john\Desktop\tools\ollydbg_IDAPRO\IDA_Pro_v7.0_Portable\ida.exe -A -OIDAPython:1;C:\Users\john\Desktop\IDA_test\tmp_test\idapy_test.py C:\Users\john\Desktop\IDA_test\tmp_test\csmith_test_5_m"
-    cmd = time_cmd + ida_path + ida_option + ida_script_path + target_bin_path
-    print(cmd)
-    proc = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, env={'PYTHONHOME':python27_path})
-    stdout, stderr = proc.communicate()
-    # status, stdout = getstatusoutput(cmd)
-    print(stdout)
-    print(stderr.decode())  # Why stderr is the output? ... Whatever, it works.
+bin_path = "/home/weicheng/Documents/CS699_WASM/DecFuzzer/practice/a.out"
+out = "/home/weicheng/Documents/CS699_WASM/DecFuzzer/practice/decompiled.c"
+decompile(bin_path, out)

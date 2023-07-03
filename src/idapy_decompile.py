@@ -26,7 +26,7 @@ def get_func_1_ea():
 def main():
 	# Wait for auto-analysis to finish before running script
 	# This is important! Functions() can get all functions ONLY AFTER auto-analysis
-	autoWait()
+	auto_wait()
 	
 	print("Hex-rays version %s has been detected" % idaapi.get_hexrays_version())
 	
@@ -36,23 +36,23 @@ def main():
 	get_func_1_ea()
 	
 	# f = idaapi.get_func(idaapi.get_screen_ea());
-	f = idaapi.get_func(func_1_ea)
-	if f is None:
-		print("Please position the cursor within a function")
-		return False
+	#f = idaapi.get_func(func_1_ea)
+	#if f is None:
+	#	print("Please position the cursor within a function")
+	#	return False
 
-	cfunc = idaapi.decompile(f)
-	if cfunc is None:
-		print("Failed to decompile!")
-		return False
+	#cfunc = idaapi.decompile(f)
+	#if cfunc is None:
+	#	print("Failed to decompile!")
+	#	return False
 
-	sv = cfunc.get_pseudocode()
-	tmp_f = open(outputfile, 'w')
-	for sline in sv:
-		print(idaapi.tag_remove(sline.line));
-		tmp_f.write(str(idaapi.tag_remove(sline.line)) + '\n')
-	tmp_f.flush()
-	tmp_f.close()
+	#sv = cfunc.get_pseudocode()
+	#tmp_f = open(outputfile, 'w')
+	#for sline in sv:
+	#	print(idaapi.tag_remove(sline.line));
+	#	tmp_f.write(str(idaapi.tag_remove(sline.line)) + '\n')
+	#tmp_f.flush()
+	#tmp_f.close()
 	return True
 	
 if main():
