@@ -1,0 +1,15 @@
+/home/weicheng/idaedu-8.0/idat64 -A  -S"/home/weicheng/Documents/CS699_WASM/DecFuzzer/src/idapy_decompile.py " /home/weicheng/Documents/CS699_WASM/DecFuzzer/practice/a.out
+
+./seed_all/s0r2.c compiled
+Decompiling ./seed_all/s0r2 ...
+./seed_all/s0r2 decompiled
+./seed_all/s0r2_new.c compilation failed
+./seed_all/s0r2_new.c compilation failed
+./seed_all/s0retdec.c compiled
+Decompiling ./seed_all/s0retdec ...
+./seed_all/s0retdec decompiled
+./seed_all/s0retdec_new.c compilation failed
+./seed_all/s0retdec_new.c compilation failed
+./seed_all/s100r2.c compiled
+Decompiling ./seed_all/s100r2 ...
+./seed_all/s100r2 decompiled
