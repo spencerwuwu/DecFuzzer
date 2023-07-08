@@ -43,36 +43,39 @@ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_12_l, int32_t g_19_l
  */
 static int32_t  func_1(void)
 {
-    uint var_44h;
+    uint var_60h;
+    uint var_5ch;
+    uint var_54h;
+    uint var_50h;
+    uint var_4ch;
+    uint var_48h;
     uint var_40h;
     uint var_3ch;
+    uint var_38h;
     uint var_34h;
     uint var_30h;
-    uint var_2ch;
     uint var_28h;
+    int32_t var_24h;
     uint var_20h;
     uint var_1ch;
     uint var_18h;
-    uint var_14h;
+    uint32_t var_14h;
     uint var_10h;
-    int32_t var_ch;
-    uint var_8h;
-    uint32_t var_4h;
     
-    var_ch = -0x2e590cde;
-    var_10h = 0xffffffff;
-    var_14h = 0xd42374b1;
-    for (var_4h = 0; -0x13 < var_4h; var_4h = var_4h - 1) {
+    var_24h = -0x2e590cde;
+    var_28h = 0xffffffff;
+    var_40h = 0xd42374b1;
+    for (var_14h = 0; -0x13 < var_14h; var_14h = var_14h - 1) {
     }
-    if ((var_4h ^ 1 | 0x9b) == 0) {
-        var_14h = 5;
+    if ((var_14h ^ 1 | 0x9b) == 0) {
+        var_40h = 5;
     }
     else {
-        var_ch = 0;
-        var_10h = 0x1b;
+        var_24h = 0;
+        var_28h = 0x1b;
     }
-    set_var(1, 0xc6 < var_ch, 0x8eb98765, 0xc6 < var_ch, 6, var_ch, var_10h);
-    return var_14h;
+    set_var(1, 0xc6 < var_24h, 0x8eb98765, 0xc6 < var_24h, 6, var_24h, var_28h);
+    return var_40h;
 }
 
 

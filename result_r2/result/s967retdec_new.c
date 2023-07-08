@@ -46,22 +46,23 @@ static int set_var(uint8_t g_6_l, uint32_t g_11_l, int8_t g_17_l, int8_t g_18_l,
  * writes: g_6 g_11 g_20 g_43
  */
 static int32_t  func_1(void)
-{    unsigned int stack0xffffffe4, unique0x00007a80;
-
-    uint var_34h;
+{
+    uint var_41h;
+    uint var_3ch;
+    uint var_35h;
     uint var_2ch;
-    uint var_28h;
-    uint var_20h;
-    int32_t var_19h;
-    uint16_t var_12h;
-    uint var_10h;
-    uint var_9h;
+    int32_t var_28h;
+    uint var_24h;
+    uint16_t var_20h;
+    uint var_1ch;
+    uint var_14h;
+    uint var_dh;
     
-    var_12h = 0xffff;
-    for (stack0xffffffe4 = -0x16; -9 < stack0xffffffe4; unique0x00007a80 = stack0xffffffe4 + 9) {
-        var_12h = (stack0xffffffe4 != 0) % 0xfa;
+    var_20h = 0xffff;
+    for (var_28h = -0x16; -9 < var_28h; var_28h = var_28h + 9) {
+        var_20h = (var_28h != 0) % 0xfa;
     }
-    set_var(0xd3, 8, 99, 0xffffffd1, 0xab8c3ad3, 0xfffa, var_12h);
+    set_var(0xd3, 8, 99, 0xffffffd1, 0xab8c3ad3, 0xfffa, var_20h);
     return 8;
 }
 

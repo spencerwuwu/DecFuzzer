@@ -43,9 +43,11 @@ static int set_var(uint32_t g_6_l, int32_t g_12_l, uint8_t g_13_l){
  */
 static int32_t  func_1(void)
 {
-    uint var_10h;
+    uint var_20h;
+    uint var_1ch;
+    uint var_14h;
+    uint var_ch;
     uint var_8h;
-    uint var_4h;
     
     set_var(0xfffffffc, 0xfffffffc, 0xfc);
     return 0xf7;

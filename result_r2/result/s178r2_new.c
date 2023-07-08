@@ -44,30 +44,33 @@ static int set_var(int8_t g_4_l, int16_t g_20_l, uint32_t g_21_l, uint16_t g_23_
  */
 static int8_t  func_1(void)
 {
+    uint var_53h;
+    uint var_48h;
+    uint var_40h;
+    uint var_3ch;
+    uint var_38h;
     uint var_34h;
     uint var_30h;
     uint var_2ch;
     uint var_28h;
-    uint var_24h;
     uint var_20h;
-    uint var_18h;
-    uint var_14h;
-    uint16_t var_eh;
-    uint32_t var_ch;
-    int16_t var_8h;
-    uint var_5h;
+    uint var_1ch;
+    uint16_t var_16h;
+    uint32_t var_14h;
+    int16_t var_10h;
+    uint var_dh;
     
-    var_8h = -9;
-    var_ch = 0x2ef703c5;
-    var_eh = 0x3b0a;
-    var_14h = 0x5db5a26c;
-    for (var_5h = '\n'; -6 < var_5h; var_5h = var_5h + -3) {
-        var_8h = (-(var_5h ^ 0x59e5) - 0x2046U < 2) - 1;
-        var_ch = 0xf922e000;
-        var_eh = var_eh + 1;
-        var_14h = 0;
+    var_10h = -9;
+    var_14h = 0x2ef703c5;
+    var_16h = 0x3b0a;
+    var_1ch = 0x5db5a26c;
+    for (var_dh = '\n'; -6 < var_dh; var_dh = var_dh + -3) {
+        var_10h = ((var_dh ^ 0x59e5U) == 0xdfba || (var_dh ^ 0x59e5U) == 0xdfb9) + -1;
+        var_14h = 0xf922e000;
+        var_16h = var_16h + 1;
+        var_1ch = 0;
     }
-    set_var(var_5h, var_8h, var_ch, var_eh, var_14h, var_ch & 0xbab1f356, var_ch & 0x56, 0x8ad385e2);
+    set_var(var_dh, var_10h, var_14h, var_16h, var_1ch, var_14h & 0xbab1f356, var_14h & 0x56, 0x8ad385e2);
     return 0xfffffff7;
 }
 

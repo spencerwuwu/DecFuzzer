@@ -57,37 +57,15 @@ static int32_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x4fe0
-int32_t g2 = -6; // 0x5020
-int32_t g3 = 0x318d5816; // 0x5024
-int32_t g4 = -3; // 0x5028
-int32_t g5 = 5; // 0x502c
-int32_t g6 = 0x64f7e8; // 0x5030
-int32_t g7 = -0x44ff9b09; // 0x5031
-int32_t g8 = 0x6bbb0064; // 0x5032
-int32_t g9 = 0x356d6bbb; // 0x5034
-int32_t g10 = 0x255f00ff; // 0x5038
-int32_t g11 = -0x3cb1daa1; // 0x503a
-int32_t g12 = 0xc34e; // 0x503c
-int32_t g13 = -0x473d85b6; // 0x5040
-int32_t g14 = 0x7adb25b5; // 0x5044
-int32_t g15 = -0x28b53038; // 0x5048
-int32_t g16 = -0x12a7324c; // 0x504c
-int32_t g17 = -10; // 0x5050
-int32_t g18 = 143; // 0x5054
-int32_t g19 = -1; // 0x5058
-int64_t g20 = 0; // 0x5060
-int32_t g21 = 0; // 0x5070
-int32_t * g22 = NULL; // 0x5080
-int32_t g23;
+int32_t g1 = 0x28bc; // 0x273b
+int32_t g2 = 0x273b; // 0x28bc
+int32_t g3;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x1420
+    // 0x1590
     set_var(-6, 0, 0, -3, 5, -24, -9, 100, -14, -1, 0x255f, -0x3cb2, -0x473d85b6, 0x7adb25b5, -0x28b53038, -0x12a7324c, 1, 0);
     return 132;
 }

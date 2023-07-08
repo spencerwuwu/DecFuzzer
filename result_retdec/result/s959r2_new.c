@@ -69,47 +69,15 @@ static uint32_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x5fe0
-int32_t g2 = 1; // 0x6020
-int32_t g3 = 0x2436a10d; // 0x6024
-char g4 = 54; // 0x6026
-int32_t g5 = 0xfdcc24; // 0x6027
-int32_t g6 = 0xfdcc; // 0x6028
-char g7 = -3; // 0x6029
-int32_t g8 = 0x6cc22523; // 0x602c
-int32_t g9 = 0x596c24e3; // 0x6030
-int16_t g10 = 0x596c; // 0x6032
-int32_t g11 = -0x5efbef71; // 0x6034
-int32_t g12 = 0x34b50062; // 0x6038
-int32_t g13 = 0x234b5; // 0x603a
-int32_t g14 = 2; // 0x603c
-int32_t g15 = 2; // 0x6040
-int32_t g16 = -0x19b83739; // 0x6044
-int32_t g17 = -10; // 0x6048
-char g18 = 81; // 0x604c
-int32_t g19 = -0x46ff4ef8; // 0x604d
-int32_t g20 = -0x46ff4f; // 0x604e
-int32_t g21 = 0xffb9; // 0x6050
-int32_t g22 = -0x39b4f7c0; // 0x6054
-int16_t g23 = 0x644c; // 0x6058
-int16_t g24 = 0x7ad9; // 0x605a
-int32_t g25 = 87; // 0x605c
-int32_t g26 = -1; // 0x6060
-char g27 = 0; // 0x6070
-int32_t g28 = 0; // 0x6080
-int32_t g29 = 0; // 0x6084
-int32_t * g30 = NULL; // 0x6090
-int16_t g31 = 0; // 0x644c
-int32_t g32;
+int16_t g1 = 0; // 0x644c
+int32_t g2;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x14e0
-    set_var(1, 1, 0, 54, 36, -52, -3, 1, 0x24e3, 0x596c, -0x5efbef71, 0, 98, 0x34b5, 2, 2, -0x19b83739, -10, 81, 8, -79, -71, -0x39b4f7c0, (int16_t)&g31, 0x7ad9, 87);
+    // 0x16b0
+    set_var(1, 1, 0, 54, 36, -52, -3, 1, 0x24e3, 0x596c, -0x5efbef71, 0, 98, 0x34b5, 2, 2, -0x19b83739, -10, 81, 8, -79, -71, -0x39b4f7c0, (int16_t)&g1, 0x7ad9, 87);
     return -52;
 }
 

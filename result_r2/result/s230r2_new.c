@@ -39,8 +39,9 @@ static int set_var(uint16_t g_2_l, int16_t g_18_l, uint16_t g_20_l){
  */
 static const int32_t  func_1(void)
 {
-    uint var_10h;
-    uint var_2h;
+    uint var_1ch;
+    uint var_14h;
+    uint var_6h;
     
     set_var(2, 0xffffc533, 0);
     return 1;

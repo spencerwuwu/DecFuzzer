@@ -42,8 +42,15 @@ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_6_l, int32_t g_7_l, u
  */
 static int32_t  func_1(void)
 {
-    // 0x804a39d
-    int32_t v1; // 0x804a39d
+// --------------------- Global Variables ---------------------
+
+int32_t g1;
+
+// ------- Dynamically Linked Functions Without Header --------
+
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+
+    // 0x13d0
     set_var(0x2799, 0, 7, 1, 8, 0x5b641b44);
     return 1;
 }

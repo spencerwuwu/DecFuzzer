@@ -9,7 +9,7 @@ from src import Config
 Config.set_decompiler("r2")
 #Config.set_decompiler("ida")
 #results = fuzzer.single_test_WASM('./practice/', 's449retdec.c', './tmp/', remove=True)
-results = fuzzer.single_test_WASM('./seed_all/', 's100r2.c', './tmp/', remove=False)
+results = fuzzer.single_test_WASM('./seed_all/', 's310r2.c', './tmp/', remove=False)
 total = sum(results.values())
 print()
 print()

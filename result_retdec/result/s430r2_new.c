@@ -64,41 +64,13 @@ static uint8_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x5fe0
-int32_t g2 = 1; // 0x6020
-int32_t g3 = 6; // 0x6024
-int32_t g4 = -0x27cd6c86; // 0x6028
-int32_t g5 = -0x347effeb; // 0x602c
-int32_t g6 = -0x99347f; // 0x602e
-int32_t g7 = 0xff66; // 0x6030
-int32_t g8 = -0x38ffff01; // 0x6031
-int32_t g9 = 0x46704bc7; // 0x6034
-int32_t g10 = 1; // 0x6038
-int32_t g11 = 86; // 0x603c
-int32_t g12 = -0x614d08e0; // 0x6040
-int32_t g13 = 5; // 0x6044
-int32_t g14 = 0xada2; // 0x6048
-int32_t g15 = -0x20fc9b; // 0x604c
-int32_t g16 = -0x7ca50da8; // 0x6050
-int32_t g17 = 1; // 0x6054
-int32_t g18 = -0x4a444511; // 0x6058
-char g19 = -1; // 0x605c
-int16_t g20 = 0x3830; // 0x605e
-int32_t g21 = 0xfd3d; // 0x6060
-int32_t g22 = 3; // 0x6064
-int32_t g23 = -7; // 0x6068
-int32_t g24 = 0x76849d5b; // 0x606c
-int32_t g25 = -1; // 0x6070
-char g26 = 0; // 0x6080
-char g27 = 0; // 0x6090
-int32_t * g28 = NULL; // 0x60a0
-int32_t g29;
+int32_t g1 = 0xffff883; // 0x28db
+int32_t g2 = -0x7a40f100; // 0x2a9c
+int32_t g3;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
     int32_t v1 = 0;
     int32_t v2 = 5;
@@ -106,15 +78,15 @@ int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void
     int16_t v4 = -0x525e;
     int32_t v5 = -0x7ca50da8;
     uint32_t v6 = v2 + (int32_t)(v2 == 0);
-    int32_t v7 = 1; // 0x1778
-    int16_t v8 = -0x347f % 2; // 0x1778
-    char v9 = 102; // 0x1778
-    int32_t v10 = 0x46704bc7; // 0x1778
-    int32_t v11 = v3; // 0x1778
-    int16_t v12 = v4; // 0x1778
-    int32_t v13 = v5; // 0x1778
+    int32_t v7 = 1; // 0x1931
+    int16_t v8 = -0x347f % 2; // 0x1931
+    char v9 = 102; // 0x1931
+    int32_t v10 = 0x46704bc7; // 0x1931
+    int32_t v11 = v3; // 0x1931
+    int16_t v12 = v4; // 0x1931
+    int32_t v13 = v5; // 0x1931
     if ((v6 & (int32_t)(v6 <= -1 - (0x1000000 * v6 / 0x400000 & 0x7fff8))) == 0) {
-        // 0x1900
+        // 0x1ab0
         v7 = v6 + 1;
         v8 = 2058;
         v9 = -87;
@@ -123,7 +95,7 @@ int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void
         v12 = v4 + 1;
         v13 = v5 - 1;
     }
-    // 0x2eec
+    // 0x31dc
     v1++;
     int32_t v14 = v13;
     int16_t v15 = v12;
@@ -133,7 +105,7 @@ int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void
     int16_t v19 = v8;
     int32_t result = v7;
     while (v1 != 6) {
-        // 0x15e1
+        // 0x17a6
         v2 = result;
         v3 = v16;
         v4 = v15;
@@ -147,7 +119,7 @@ int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void
         v12 = v4;
         v13 = v5;
         if ((v6 & (int32_t)(v6 <= -1 - (0x1000000 * v6 / 0x400000 & 0x7fff8))) == 0) {
-            // 0x1900
+            // 0x1ab0
             v7 = v6 + 1;
             v8 = 2058;
             v9 = -87;
@@ -156,7 +128,7 @@ int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void
             v12 = v4 + 1;
             v13 = v5 - 1;
         }
-        // 0x2eec
+        // 0x31dc
         v1++;
         v14 = v13;
         v15 = v12;
@@ -166,7 +138,7 @@ int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void
         v19 = v8;
         result = v7;
     }
-    // 0x2ef9
+    // 0x31e9
     set_var(6, result, -0x260b87fb, 21, 6, v19, v18, -1, v17, 1, 86, v16, 5, v15, -0x20fc9b, v14, 1, -0x4a444511, -1, 0x3830, -707, 3, -7, 0x76849d5b);
     return result;
 }

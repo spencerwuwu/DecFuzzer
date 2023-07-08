@@ -42,28 +42,31 @@ static int set_var(int32_t g_2_l, uint32_t g_28_l, uint32_t g_33_l, int32_t g_34
  */
 static uint8_t  func_1(void)
 {
+    int32_t iVar1;
     uint32_t arg_14h;
+    uint var_48h;
+    uint var_44h;
+    uint var_40h;
+    uint var_3ch;
     uint var_38h;
     uint var_34h;
     uint var_30h;
-    uint var_2ch;
-    uint var_28h;
+    uint32_t var_2ch;
+    uint var_24h;
     uint var_20h;
     uint var_1ch;
     uint var_18h;
     uint var_14h;
-    uint var_10h;
-    uint32_t var_ch;
-    uint32_t var_8h;
-    uint var_4h;
+    uint32_t var_10h;
     
-    var_ch = 0xc00eadd5;
-    for (var_8h = 0; var_8h != 0xfffffff8; var_8h = var_8h - 1) {
-        var_ch = var_ch ^ (var_8h & 0xff) >> ((1 < var_8h >> 0x1f) * -8 & 0x1fU);
+    var_2ch = 0xc00eadd5;
+    for (var_10h = 0; var_10h != 0xfffffff8; var_10h = var_10h - 1) {
+        var_2ch = (var_10h & 0xff) >> ((1 < (var_10h < 0)) * -8 & 0x1fU) ^ var_2ch;
     }
-    arg_14h = var_ch < -(0xfffffff8 < (var_ch < -7)) ^ 0xffff4693;
-    set_var(0xfffffff8, 0x2c930f87, var_ch < -7, arg_14h, 0x2c930f87 < arg_14h ^ 0xfffffff8, 0);
-    return 0xfffffff8;
+    iVar1 = 0xfffffff8 < (var_2ch < -7);
+    arg_14h = (-var_2ch != iVar1 && var_2ch <= -iVar1) ^ 0xffff4693;
+    set_var(0xfffffff8, 0x2c930f87, var_2ch < -7, arg_14h, 0x2c930f87 < arg_14h ^ 0xfffffff8, 0);
+    return 0xf8;
 }
 
 

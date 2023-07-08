@@ -52,12 +52,24 @@ static int set_var(int32_t g_6_l, uint8_t g_9_l, uint8_t g_11_l, uint8_t g_16_l,
  */
 static const uint32_t  func_1(void)
 {
-    uint16_t uVar1;
-    uint32_t uVar2;
-    int bVar3;
-    uint var_f0h;
+    int bVar1;
+    char cVar2;
+    uint16_t uVar3;
+    uint8_t uVar4;
+    uint var_173h;
+    uint var_165h;
+    uint var_15eh;
+    uint var_150h;
+    uint var_14ch;
+    uint var_13ch;
+    uint var_135h;
+    uint var_12eh;
+    uint var_120h;
+    uint var_119h;
+    uint var_10ah;
+    uint var_f8h;
+    uint var_f4h;
     uint var_ech;
-    uint var_e8h;
     uint var_e4h;
     uint var_e0h;
     uint var_dch;
@@ -66,65 +78,66 @@ static const uint32_t  func_1(void)
     uint var_d0h;
     uint var_c8h;
     uint var_c4h;
-    uint var_c0h;
     uint var_bch;
-    uint var_b8h;
     uint var_b4h;
+    uint var_b0h;
     uint var_ach;
-    uint var_a8h;
     uint var_a4h;
-    uint var_a0h;
+    uint var_9ch;
     uint var_98h;
     uint var_94h;
-    uint var_8ch;
+    uint var_90h;
     uint var_88h;
     uint var_84h;
-    uint var_7ch;
+    uint var_80h;
+    uint var_78h;
     uint var_74h;
+    uint var_70h;
     uint var_6ch;
     uint var_68h;
     uint var_64h;
     uint var_60h;
+    uint var_5ch;
     uint var_58h;
     uint var_50h;
-    uint var_4ch;
+    uint var_48h;
+    uint var_44h;
     uint var_40h;
-    uint var_3ch;
-    uint var_38h;
     uint var_34h;
+    uint var_30h;
     uint var_2ch;
-    uint var_28h;
-    uint8_t var_22h;
-    uint var_20h;
-    uint16_t var_1ah;
-    uint var_18h;
+    uint var_24h;
+    uint16_t var_1eh;
+    uint16_t var_1ch;
+    uint8_t var_16h;
     uint var_14h;
-    uint var_eh;
+    uint var_bp_10h;
     
-    var_22h = 0xf8;
-    var_1ah = 0x51dd;
-    bVar3 = 1;
-    uVar1 = var_1ah;
+    var_16h = 0xf8;
+    var_1ch = 0x51dd;
+    uVar4 = 0x37;
+    uVar3 = var_1ch;
     do {
-        var_1ah = uVar1;
-        var_22h = var_22h - 1;
-        uVar1 = var_1ah - 1;
-        uVar2 = 0 >> bVar3;
-        bVar3 = (uVar2 & 0xd6) != 0;
-        if (!bVar3) {
-            set_var(0, 0, var_22h, 0xd7, 0xffff966e, uVar1, 0, uVar2, 0xb5b2332f, 0xa5, 0, 0x1f1f586, 1, 0xa4, 
+        var_1ch = uVar3;
+        var_16h = var_16h - 1;
+        uVar3 = var_1ch - 1;
+        cVar2 = 0 >> (uVar4 & 0x1f);
+        uVar4 = (cVar2 & 0xd6U) != 0;
+        if (!uVar4) {
+            set_var(0, 0, var_16h, 0xd7, 0xffff966e, uVar3, 0, cVar2, 0xb5b2332f, 0xa5, 0, 0x1f1f586, 1, 0xa4, 
                         0xfffffff9, 0x8434);
             return 0x8434;
         }
-        var_eh = 0;
+        var_1eh = 0;
         while( 1 ) {
-            if (var_eh != 0x3a) {
-                set_var(0xd5537929, 0, var_22h, 0xd6, 0xffff966e, var_1ah, var_eh, 1, 1, 0xa4, 2, 0x1f1f586, 
-                            0xcc1ef986, 0xa4, 0xfffffff9, 0x8434);
+            if (var_1eh != 0x3a) {
+                bVar1 = -2 < (0xfe < ((var_1eh ^ 0xffffffff) < 2));
+                set_var(0xd5537929, 0, var_16h, 0xd6, 0xffff966e, var_1ch, var_1eh, bVar1, bVar1, 0xa4, 
+                            7 < bVar1 % -0x5c ^ 2, 0x1f1f586, 0xcc1ef986, 0xa4, 0xfffffff9, 0x8434);
                 return 0xd5537929;
             }
-            if (uVar1 == 0) break;
-            var_eh = 0x3b;
+            if (uVar3 == 0) break;
+            var_1eh = 0x3b;
         }
     } while( 1 );
 }

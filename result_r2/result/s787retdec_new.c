@@ -37,17 +37,19 @@ static int set_var(int32_t g_2_l){
  */
 static int8_t  func_1(void)
 {
+    char cVar1;
+    uint var_20h;
+    uint var_18h;
     uint var_10h;
-    int32_t var_ch;
+    uint var_ch;
     int32_t var_8h;
-    uint var_4h;
     
-    var_ch = 1;
+    cVar1 = '\x01';
     for (var_8h = 5; -10 < var_8h; var_8h = var_8h + -1) {
-        var_ch = var_ch + -1;
+        cVar1 = cVar1 + -1;
     }
     set_var(var_8h);
-    return var_ch;
+    return cVar1;
 }
 
 

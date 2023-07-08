@@ -41,21 +41,22 @@ static int set_var(int8_t g_2_l, uint8_t g_11_l, uint16_t g_31_l, int16_t g_34_l
  */
 static uint32_t  func_1(void)
 {
+    uint var_34h;
     uint var_2ch;
     uint var_28h;
     uint var_20h;
-    uint var_18h;
-    uint var_11h;
-    uint16_t var_8h;
-    uint var_5h;
+    uint var_1ch;
+    uint var_14h;
+    uint16_t var_ch;
+    uint var_9h;
     
-    var_8h = 3;
-    var_5h = '\x19';
-    while ((-0xd < var_5h && (var_8h = 0,  var_5h == '\0'))) {
-        var_5h = -1;
+    var_ch = 3;
+    var_9h = '\x19';
+    while ((-0xd < var_9h && (var_ch = 0,  var_9h == '\0'))) {
+        var_9h = -1;
     }
-    set_var(var_5h, 0xcc, var_8h, 1, 1 < var_8h);
-    return var_5h;
+    set_var(var_9h, 0xcc, var_ch, 1, 1 < var_ch);
+    return var_9h;
 }
 
 

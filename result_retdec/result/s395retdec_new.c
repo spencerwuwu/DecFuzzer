@@ -57,40 +57,16 @@ static const uint16_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x4fe0
-int32_t g2 = -1; // 0x5020
-int32_t g3 = -1; // 0x5024
-int32_t g4 = 0x9d62; // 0x5028
-int32_t g5 = 0x2ef5ead4; // 0x502c
-int32_t g6 = 0x162a9717; // 0x5030
-int32_t g7 = 0x453f201f; // 0x5034
-int32_t g8 = 0x765ffff; // 0x5038
-int32_t g9 = -0x72a5f89b; // 0x503a
-int32_t g10 = 0x71dc8d5a; // 0x503c
-int32_t g11 = 0x515e9ffd; // 0x5040
-char g12 = -97; // 0x5041
-int16_t g13 = 0x515e; // 0x5042
-char g14 = -9; // 0x5044
-int32_t g15 = 1; // 0x5048
-int32_t g16 = 0x5bb51090; // 0x504c
-int32_t g17 = -0x494f2b78; // 0x5050
-int32_t g18 = 255; // 0x5054
-int32_t g19 = 0x7596e128; // 0x5058
-int32_t g20 = -1; // 0x505c
-int64_t g21 = 0; // 0x5060
-int32_t * g22 = NULL; // 0x5070
-int16_t g23 = 0; // 0x515e
-int32_t g24 = 0; // 0x5286
-int32_t g25;
+int16_t g1 = 0; // 0x515e
+int32_t g2 = 0; // 0x5286
+int32_t g3;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x1e52
-    set_var(0, -1, -0x629e, 0x2ef5ead4, 0x162a9717, 0x453f201f, -2, 1893, 0x71dc8d5a, -3, -97, (int16_t)&g23, -9, 2, 0x5bb51090, -0x494f2b78, -1, 0x7596e128);
+    // 0x203d
+    set_var(0, -1, -0x629e, 0x2ef5ead4, 0x162a9717, 0x453f201f, -2, 1893, 0x71dc8d5a, -3, -97, (int16_t)&g1, -9, 2, 0x5bb51090, -0x494f2b78, -1, 0x7596e128);
     return -5;
 }
 

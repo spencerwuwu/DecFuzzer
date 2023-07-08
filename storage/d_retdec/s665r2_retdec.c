@@ -10,19 +10,23 @@
 
 // ------------------- Function Prototypes --------------------
 
-int64_t _fini(void);
-int64_t _init(void);
-int64_t _start(int64_t a1, int64_t a2, int64_t a3, int64_t a4, int64_t a5, int64_t a6);
-void crc32_8bytes(uint32_t val);
-void crc32_byte(unsigned char b);
+int32_t __x86_get_pc_thunk_bx(int32_t a1);
+int32_t __x86_get_pc_thunk_dx(int32_t a1);
+int32_t _fini(void);
+int32_t _init(void);
+int32_t _start(int32_t a1);
+void crc32_8bytes(int32_t val);
+void crc32_byte(char b);
 void crc32_gentab(void);
 int32_t func_1(void);
-int32_t function_1030(char * format, ...);
 int32_t function_1040(char * s1, char * s2);
-int64_t function_1080(void);
-int64_t function_10b0(void);
-int64_t function_10f0(void);
-int64_t function_1140(void);
+int32_t function_1050(int32_t main2, int32_t argc, char ** ubp_av, void (*init)(), void (*fini)(), void (*rtld_fini)());
+int32_t function_1060(char * format, ...);
+int32_t function_109c(int32_t a1);
+int32_t function_10b0(void);
+int32_t function_10f0(void);
+int32_t function_1140(void);
+int32_t function_1190(void);
 void platform_main_begin(void);
 void platform_main_end(int32_t crc, int32_t flag);
 int32_t set_var(int32_t g_2_l, int32_t g_20_l, char g_30_l, int32_t g_31_l, int16_t g_50_l, char g_74_l, char g_93_l, char g_117_l, char g_118_l, int16_t g_141_l, int16_t g_142_l, int32_t g_147_l, int16_t g_170_l, int32_t g_174_l, int16_t g_208_l, char g_264_l, char g_273_l, int32_t g_274_l, int32_t g_312_l, int32_t g_321_l);
@@ -30,56 +34,20 @@ void transparent_crc(int32_t val, char * vname, int32_t flag);
 
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x4fe0
-int32_t g2 = -0x2cd834c1; // 0x5020
-int32_t g3 = 1; // 0x5024
-int32_t g4 = 253; // 0x5028
-int32_t g5 = 0x25fc1c57; // 0x502c
-int16_t g6 = -0x3fee; // 0x5030
-int32_t g7 = 0x46ff7e; // 0x5032
-int32_t g8 = 0x10046ff; // 0x5033
-int32_t g9 = 0x10046; // 0x5034
-int32_t g10 = 0x10001; // 0x5036
-int32_t g11 = 1; // 0x5038
-int32_t g12 = -0x170cc800; // 0x503c
-int32_t g13 = 0xffff; // 0x5040
-int32_t g14 = 0x22336eab; // 0x5044
-int32_t g15 = -0x97c4d20; // 0x5048
-int32_t g16 = 0x1f683; // 0x504a
-char g17 = -10; // 0x504b
-int32_t g18 = 1; // 0x504c
-int32_t g19 = 0x7f5a8e2e; // 0x5050
-int32_t g20 = 6; // 0x5054
-int32_t g21 = -1; // 0x5058
-int64_t g22 = 0; // 0x5060
-int32_t g23 = 0; // 0x5070
-int32_t * g24 = NULL; // 0x5080
-int32_t g25;
+int32_t g1;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
 // ------------------------ Functions -------------------------
 
-// Address range: 0x1000 - 0x101b
-int64_t _init(void) {
-    int64_t result = 0; // 0x1012
-    if (*(int64_t *)0x4fd0 != 0) {
-        // 0x1014
-        __gmon_start__();
-        result = &g25;
-    }
-    // 0x1016
-    return result;
-}
-
-// Address range: 0x1030 - 0x1036
-int32_t function_1030(char * format, ...) {
-    // 0x1030
-    return printf(format);
+// Address range: 0x1000 - 0x1024
+int32_t _init(void) {
+    // 0x1000
+    int32_t v1; // 0x1000
+    __x86_get_pc_thunk_bx(v1);
+    return *(int32_t *)(v1 + 0x3fdb);
 }
 
 // Address range: 0x1040 - 0x1046
@@ -88,205 +56,270 @@ int32_t function_1040(char * s1, char * s2) {
     return strcmp(s1, s2);
 }
 
-// Address range: 0x1050 - 0x1076
-int64_t _start(int64_t a1, int64_t a2, int64_t a3, int64_t a4, int64_t a5, int64_t a6) {
+// Address range: 0x1050 - 0x1056
+int32_t function_1050(int32_t main2, int32_t argc, char ** ubp_av, void (*init)(), void (*fini)(), void (*rtld_fini)()) {
     // 0x1050
-    int64_t v1; // 0x1050
-    __libc_start_main(0x1150, (int32_t)a6, (char **)&v1, NULL, NULL, (void (*)())a3);
+    return __libc_start_main(main2, argc, ubp_av, init, fini, rtld_fini);
+}
+
+// Address range: 0x1060 - 0x1066
+int32_t function_1060(char * format, ...) {
+    // 0x1060
+    return printf(format);
+}
+
+// Address range: 0x1070 - 0x109c
+int32_t _start(int32_t a1) {
+    // 0x1070
+    int32_t v1; // 0x1070
+    function_109c(v1);
+    int32_t v2 = *(int32_t *)(v1 + 0x3f68); // 0x1090
+    int32_t v3; // 0x1070
+    __libc_start_main(v2, a1, (char **)&v3, NULL, NULL, (void (*)())&g1);
     __asm_hlt();
     // UNREACHABLE
 }
 
-// Address range: 0x1080 - 0x10a9
-int64_t function_1080(void) {
-    // 0x1080
-    return &g22;
+// Address range: 0x109c - 0x10a0
+int32_t function_109c(int32_t a1) {
+    // 0x109c
+    int32_t result; // 0x109c
+    return result;
+}
+
+// Address range: 0x10a0 - 0x10a4
+int32_t __x86_get_pc_thunk_bx(int32_t a1) {
+    // 0x10a0
+    int32_t result; // 0x10a0
+    return result;
 }
 
 // Address range: 0x10b0 - 0x10e9
-int64_t function_10b0(void) {
+int32_t function_10b0(void) {
     // 0x10b0
+    __x86_get_pc_thunk_dx((int32_t)&g1);
+    int32_t v1; // 0x10b0
+    return v1 + 0x3f9b;
+}
+
+// Address range: 0x10f0 - 0x1137
+int32_t function_10f0(void) {
+    // 0x10f0
+    __x86_get_pc_thunk_dx((int32_t)&g1);
     return 0;
 }
 
-// Address range: 0x10f0 - 0x1131
-int64_t function_10f0(void) {
-    // 0x10f0
-    if (*(char *)&g22 != 0) {
-        // 0x1130
-        int64_t result; // 0x10f0
-        return result;
+// Address range: 0x1140 - 0x118c
+int32_t function_1140(void) {
+    // 0x1140
+    int32_t v1; // 0x1140
+    int32_t v2 = __x86_get_pc_thunk_bx(v1); // 0x1148
+    char * v3 = (char *)(v1 + 0x3f03); // 0x1156
+    int32_t result = v2; // 0x115d
+    if (*v3 == 0) {
+        // 0x115f
+        result = function_10b0();
+        *v3 = 1;
     }
-    // 0x10fd
-    if (g1 != 0) {
-        // 0x110b
-        __cxa_finalize((int64_t *)*(int64_t *)0x5018);
-    }
-    int64_t result2 = function_1080(); // 0x1118
-    *(char *)&g22 = 1;
-    return result2;
+    // 0x1187
+    return result;
 }
 
-// Address range: 0x1140 - 0x1149
-int64_t function_1140(void) {
-    // 0x1140
-    return function_10b0();
+// Address range: 0x1190 - 0x1199
+int32_t function_1190(void) {
+    // 0x1190
+    return function_10f0();
+}
+
+// Address range: 0x1199 - 0x119d
+int32_t __x86_get_pc_thunk_dx(int32_t a1) {
+    // 0x1199
+    int32_t result; // 0x1199
+    return result;
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/seed_all/s665r2.c
-// Address range: 0x1150 - 0x1384
+// Address range: 0x11a0 - 0x14f3
 // Line range:    341 - 369
 int main(int argc, char ** argv) {
-    int32_t v1 = 0; // 0x1171
-    if (argc == 2) {
-        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x117b
-        v1 = strcmp((char *)str, "1") == 0;
+    int32_t v1 = 0; // 0x11ce
+    int32_t v2; // 0x11a0
+    if (argv == (char **)2) {
+        int32_t str = *(int32_t *)(v2 + 4); // 0x11da
+        v1 = strcmp((char *)str, (char *)(v2 + 0x1eca)) == 0;
     }
-    // 0x119b
+    // 0x11ff
     platform_main_begin();
     crc32_gentab();
     func_1();
-    transparent_crc(g2, "g_2", v1);
-    transparent_crc(g3, "g_20", v1);
-    transparent_crc((int32_t)*(char *)&g4, "g_30", v1);
-    transparent_crc(g5, "g_31", v1);
-    transparent_crc((int32_t)g6, "g_50", v1);
-    transparent_crc((int32_t)*(char *)&g7, "g_74", v1);
-    transparent_crc((int32_t)*(char *)&g8, "g_93", v1);
-    transparent_crc((int32_t)*(char *)&g9, "g_117", v1);
-    transparent_crc((int32_t)*(char *)&g23, "g_118", v1);
-    transparent_crc((int32_t)*(int16_t *)&g10, "g_141", v1);
-    transparent_crc((int32_t)*(int16_t *)&g11, "g_142", v1);
-    transparent_crc(g12, "g_147", v1);
-    transparent_crc((int32_t)*(int16_t *)&g13, "g_170", v1);
-    transparent_crc(g14, "g_174", v1);
-    transparent_crc((int32_t)*(int16_t *)&g15, "g_208", v1);
-    transparent_crc((int32_t)*(char *)&g16, "g_264", v1);
-    transparent_crc((int32_t)g17, "g_273", v1);
-    transparent_crc(g18, "g_274", v1);
-    transparent_crc(g19, "g_312", v1);
-    transparent_crc(g20, "g_321", v1);
-    platform_main_end(-1 - *(int32_t *)0x5058, v1);
-    return (int32_t)&g25 ^ (int32_t)&g25;
+    int32_t v3 = *(int32_t *)(v2 + 0x3e68); // 0x121a
+    transparent_crc(v3, (char *)(v2 + 0x1e5c), v1);
+    int32_t v4 = *(int32_t *)(v2 + 0x3e6c); // 0x123c
+    transparent_crc(v4, (char *)(v2 + 0x1e60), v1);
+    unsigned char v5 = *(char *)(v2 + 0x3e70); // 0x125e
+    transparent_crc((int32_t)v5, (char *)(v2 + 0x1e65), v1);
+    int32_t v6 = *(int32_t *)(v2 + 0x3e74); // 0x1281
+    transparent_crc(v6, (char *)(v2 + 0x1e6a), v1);
+    int16_t v7 = *(int16_t *)(v2 + 0x3e78); // 0x12a3
+    transparent_crc((int32_t)v7, (char *)(v2 + 0x1e6f), v1);
+    unsigned char v8 = *(char *)(v2 + 0x3e7a); // 0x12c9
+    transparent_crc((int32_t)v8, (char *)(v2 + 0x1e74), v1);
+    unsigned char v9 = *(char *)(v2 + 0x3e7b); // 0x12ec
+    transparent_crc((int32_t)v9, (char *)(v2 + 0x1e79), v1);
+    unsigned char v10 = *(char *)(v2 + 0x3e7c); // 0x130f
+    transparent_crc((int32_t)v10, (char *)(v2 + 0x1e7e), v1);
+    char v11 = *(char *)(v2 + 0x3ea8); // 0x1332
+    transparent_crc((int32_t)v11, (char *)(v2 + 0x1e84), v1);
+    int16_t v12 = *(int16_t *)(v2 + 0x3e7e); // 0x1355
+    transparent_crc((int32_t)v12, (char *)(v2 + 0x1e8a), v1);
+    uint16_t v13 = *(int16_t *)(v2 + 0x3e80); // 0x1378
+    transparent_crc((int32_t)v13, (char *)(v2 + 0x1e90), v1);
+    int32_t v14 = *(int32_t *)(v2 + 0x3e84); // 0x139b
+    transparent_crc(v14, (char *)(v2 + 0x1e96), v1);
+    int16_t v15 = *(int16_t *)(v2 + 0x3e88); // 0x13bd
+    transparent_crc((int32_t)v15, (char *)(v2 + 0x1e9c), v1);
+    int32_t v16 = *(int32_t *)(v2 + 0x3e8c); // 0x13e0
+    transparent_crc(v16, (char *)(v2 + 0x1ea2), v1);
+    int16_t v17 = *(int16_t *)(v2 + 0x3e90); // 0x1402
+    transparent_crc((int32_t)v17, (char *)(v2 + 0x1ea8), v1);
+    unsigned char v18 = *(char *)(v2 + 0x3e92); // 0x1425
+    transparent_crc((int32_t)v18, (char *)(v2 + 0x1eae), v1);
+    unsigned char v19 = *(char *)(v2 + 0x3e93); // 0x1448
+    transparent_crc((int32_t)v19, (char *)(v2 + 0x1eb4), v1);
+    int32_t v20 = *(int32_t *)(v2 + 0x3e94); // 0x146d
+    transparent_crc(v20, (char *)(v2 + 0x1eba), v1);
+    int32_t v21 = *(int32_t *)(v2 + 0x3e98); // 0x148f
+    transparent_crc(v21, (char *)(v2 + 0x1ec0), v1);
+    int32_t v22 = *(int32_t *)(v2 + 0x3e9c); // 0x14b1
+    transparent_crc(v22, (char *)(v2 + 0x1ec6), v1);
+    platform_main_end(-1 - *(int32_t *)(v2 + 0x3ea0), v1);
+    return 0;
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/./seed_all/stdint-intn.h
-// Address range: 0x1390 - 0x1396
+// Address range: 0x1500 - 0x1505
 // Line range:    43 - 46
 void platform_main_begin(void) {
-    // 0x1390
+    // 0x1500
     return;
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/./seed_all/stdint-uintn.h
-// Address range: 0x13a0 - 0x1435
-// Line range:    57 - 74
+// Address range: 0x1510 - 0x15b8
+// Line range:    58 - 75
 void crc32_gentab(void) {
-    for (int64_t i = 0; i < 256; i++) {
-        int32_t v1 = 8; // 0x1409
-        int32_t v2 = i; // 0x13a0
-        uint32_t v3 = v2 / 2;
-        int32_t v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
+    for (int32_t i = 0; i < 256; i++) {
+        int32_t v1 = 8; // 0x158a
+        uint32_t v2 = i / 2;
+        int32_t v3 = i % 2 == 0 ? v2 : v2 ^ -0x12477ce0;
         v1--;
-        v2 = v4;
+        int32_t v4 = v3; // 0x1551
         while (v1 != 0) {
-            // 0x13d6
-            v3 = v2 / 2;
-            v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
+            // 0x1557
+            v2 = v4 / 2;
+            v3 = v4 % 2 == 0 ? v2 : v2 ^ -0x12477ce0;
             v1--;
-            v2 = v4;
+            v4 = v3;
         }
-        // 0x1414
-        *(int32_t *)(4 * i + (int64_t)&g24) = v4;
+        // 0x1595
+        int32_t v5; // 0x1510
+        *(int32_t *)(v5 + 0x3b3d + 4 * i) = v3;
     }
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/seed_all/s665r2.c
-// Address range: 0x1440 - 0x2a78
+// Address range: 0x15c0 - 0x2cb5
 // Line range:    57 - 334
 int32_t func_1(void) {
-    // 0x2934
+    // 0x2b19
     set_var(-0x2cd834c1, 1, -3, 0x25fc1c57, -0x3fee, 126, -1, 70, 0, 1, 1, -0x170cc800, -1, 0x22336eab, -0x4d20, -125, -10, 1, 0x7f5a8e2e, -71);
     return -0x42bd3309;
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/./seed_all/stdint-uintn.h
-// Address range: 0x2a80 - 0x2ac5
-// Line range:    94 - 100
+// Address range: 0x2cc0 - 0x2d1f
+// Line range:    95 - 101
 void transparent_crc(int32_t val, char * vname, int32_t flag) {
-    // 0x2a80
-    crc32_8bytes(val);
-    if (flag != 0) {
-        // 0x2aa4
-        printf("...checksum after hashing %s : %X\n", vname, -1 - g21);
+    // 0x2cc0
+    crc32_8bytes((int32_t)vname);
+    int32_t v1; // 0x2cc0
+    if (v1 != 0) {
+        // 0x2cf4
+        printf((char *)(v1 + 940));
     }
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/./seed_all/stdint-intn.h
-// Address range: 0x2ad0 - 0x2af5
+// Address range: 0x2d20 - 0x2d54
 // Line range:    49 - 120
 void platform_main_end(int32_t crc, int32_t flag) {
-    // 0x2ad0
-    printf("checksum = %X\n", crc);
+    // 0x2d20
+    int32_t v1; // 0x2d20
+    printf((char *)(v1 + 879));
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/seed_all/s665r2.c
-// Address range: 0x2b00 - 0x2c3c
+// Address range: 0x2d60 - 0x2e72
 // Line range:    47 - 49
 int32_t set_var(int32_t g_2_l, int32_t g_20_l, char g_30_l, int32_t g_31_l, int16_t g_50_l, char g_74_l, char g_93_l, char g_117_l, char g_118_l, int16_t g_141_l, int16_t g_142_l, int32_t g_147_l, int16_t g_170_l, int32_t g_174_l, int16_t g_208_l, char g_264_l, char g_273_l, int32_t g_274_l, int32_t g_312_l, int32_t g_321_l) {
-    // 0x2b00
-    g2 = g_2_l;
-    g3 = g_20_l;
-    *(char *)&g4 = g_30_l;
-    g5 = g_31_l;
-    g6 = g_50_l;
-    *(char *)&g7 = g_74_l;
-    *(char *)&g8 = g_93_l;
-    *(char *)&g9 = g_117_l;
-    *(char *)&g23 = g_118_l;
-    *(int16_t *)&g10 = g_141_l;
-    *(int16_t *)&g11 = g_142_l;
-    g12 = g_147_l;
-    *(int16_t *)&g13 = g_170_l;
-    g14 = g_174_l;
-    *(int16_t *)&g15 = g_208_l;
-    *(char *)&g16 = g_264_l;
-    g17 = g_273_l;
-    g18 = g_274_l;
-    g19 = g_312_l;
-    g20 = g_321_l;
+    // 0x2d60
+    int32_t v1; // 0x2d60
+    *(int32_t *)(v1 + 0x22ac) = g_20_l;
+    *(int32_t *)(v1 + 0x22b0) = (int32_t)g_30_l;
+    *(char *)(v1 + 0x22b4) = (char)g_31_l;
+    *(int32_t *)(v1 + 0x22b8) = (int32_t)g_50_l;
+    *(int16_t *)(v1 + 0x22bc) = (int16_t)g_74_l;
+    *(char *)(v1 + 0x22be) = g_93_l;
+    *(char *)(v1 + 0x22bf) = g_117_l;
+    *(char *)(v1 + 0x22c0) = g_118_l;
+    *(char *)(v1 + 0x22ec) = (char)g_141_l;
+    *(int16_t *)(v1 + 0x22c2) = g_142_l;
+    *(int16_t *)(v1 + 0x22c4) = (int16_t)g_147_l;
+    *(int32_t *)(v1 + 0x22c8) = (int32_t)g_170_l;
+    *(int16_t *)(v1 + 0x22cc) = (int16_t)g_174_l;
+    *(int32_t *)(v1 + 0x22d0) = (int32_t)g_208_l;
+    *(int16_t *)(v1 + 0x22d4) = (int16_t)g_264_l;
+    *(char *)(v1 + 0x22d6) = g_273_l;
+    *(char *)(v1 + 0x22d7) = (char)g_274_l;
+    *(int32_t *)(v1 + 0x22d8) = g_312_l;
+    *(int32_t *)(v1 + 0x22dc) = g_321_l;
     return 0;
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/./seed_all/stdint-uintn.h
-// Address range: 0x2c40 - 0x2c9d
-// Line range:    85 - 91
-void crc32_8bytes(uint32_t val) {
-    // 0x2c40
-    crc32_byte((char)val);
-    crc32_byte((char)(val / 256));
-    crc32_byte((char)(val / 0x10000));
-    crc32_byte((char)(val / 0x1000000));
+// Address range: 0x2e80 - 0x2f00
+// Line range:    86 - 92
+void crc32_8bytes(int32_t val) {
+    // 0x2e80
+    int32_t v1; // 0x2e80
+    uint32_t v2 = v1;
+    crc32_byte((char)v2);
+    crc32_byte((char)(v2 / 256));
+    crc32_byte((char)(v2 / 0x10000));
+    crc32_byte((char)(v2 / 0x1000000));
 }
 
 // From module:   /home/weicheng/Documents/CS699_WASM/DecFuzzer/./seed_all/stdint-uintn.h
-// Address range: 0x2ca0 - 0x2ce0
-// Line range:    77 - 81
-void crc32_byte(unsigned char b) {
-    uint32_t v1 = g21;
-    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 % 256 ^ (int32_t)b)) + (int64_t)&g24); // 0x2cd5
-    g21 = v1 / 256 ^ v2;
+// Address range: 0x2f00 - 0x2f44
+// Line range:    78 - 82
+void crc32_byte(char b) {
+    // 0x2f00
+    int32_t v1; // 0x2f00
+    int32_t * v2 = (int32_t *)(v1 + 0x2143); // 0x2f13
+    uint32_t v3 = *v2; // 0x2f13
+    char v4; // 0x2f00
+    *v2 = v3 / 256 ^ *(int32_t *)(v1 + 0x214f + 4 * (v3 % 256 ^ (int32_t)v4));
 }
 
-// Address range: 0x2ce0 - 0x2ced
-int64_t _fini(void) {
-    // 0x2ce0
-    int64_t result; // 0x2ce0
-    return result;
+// Address range: 0x2f44 - 0x2f5c
+int32_t _fini(void) {
+    // 0x2f44
+    int32_t v1; // 0x2f44
+    return __x86_get_pc_thunk_bx(v1);
 }
 
 // --------------------- Meta-Information ---------------------
 
 // Detected compiler/packer: llvm (15.0.7)
-// Detected functions: 18
+// Detected functions: 22
 

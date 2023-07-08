@@ -84,66 +84,14 @@ static uint16_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int16_t g1 = 93; // 0x1236
-int64_t g2 = 0; // 0x8fe0
-int32_t g3 = 0x29be1d92; // 0x9020
-int32_t g4 = -4; // 0x9024
-int32_t g5 = 0x64bda99d; // 0x9028
-int32_t g6 = -0xc4286e1; // 0x902c
-int32_t g7 = 8; // 0x9030
-int32_t g8 = 0x5e0c0a10; // 0x9034
-int32_t g9 = 0x28f0; // 0x9038
-int32_t g10 = 0xf000028; // 0x9039
-int32_t g11 = 0x50fade0f; // 0x903c
-int32_t g12 = -0x43033d1f; // 0x9040
-int32_t g13 = 0xda04a8; // 0x9044
-int32_t g14 = -0x3fff25fc; // 0x9045
-int32_t g15 = -0x373fff26; // 0x9046
-int32_t g16 = -0x3740; // 0x9048
-int32_t g17 = 0x1648ffff; // 0x904a
-int32_t g18 = -0x1911e9b8; // 0x904c
-int32_t g19 = -0x9edca; // 0x9050
-int32_t g20 = 0x77d0fff6; // 0x9052
-int32_t g21 = -0x3fcf8830; // 0x9054
-int32_t g22 = 0x1c6b790a; // 0x9058
-int32_t g23 = 0xff0069; // 0x905c
-int32_t g24 = 0x100ff; // 0x905e
-int32_t g25 = 1; // 0x9060
-int32_t g26 = 4; // 0x9064
-int16_t g27 = 4; // 0x9068
-int32_t g28 = 0x49ddb1e6; // 0x906c
-int32_t g29 = 0x100f7; // 0x9070
-int16_t g30 = 1; // 0x9072
-int32_t g31 = 0x318500c9; // 0x9074
-int16_t g32 = 0x3185; // 0x9076
-int32_t g33 = 0x6476e008; // 0x9078
-int32_t g34 = 0xfc0001; // 0x907c
-int32_t g35 = 0x56c700fc; // 0x907e
-int32_t g36 = -0x7c52a939; // 0x9080
-int32_t g37 = -0x59ff865c; // 0x9084
-int32_t g38 = -10; // 0x9088
-int32_t g39 = -1; // 0x908c
-int32_t g40 = -0x344fb; // 0x9090
-int32_t g41 = 0x9bfffc; // 0x9092
-char g42 = -101; // 0x9094
-int64_t g43; // 0x9096
-int32_t g44 = -1; // 0x9098
-int64_t g45 = 0; // 0x90a0
-int32_t g46 = 0; // 0x90b0
-int32_t g47 = 0; // 0x90b4
-int16_t g48 = 0; // 0x90b6
-int32_t g49 = 0; // 0x90b8
-int32_t g50 = 0; // 0x90bc
-int32_t * g51 = NULL; // 0x90c0
-int32_t g52;
+int16_t g1 = 87; // 0x1236
+int32_t g2;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x1670
+    // 0x1940
     set_var(0x21b80082, 0, 0x64bda99d, -0xc4286e1, 8, 0x5e0c0a11, -16, 40, 0x50fade0f, -0x43033d1f, -88, 4, -38, -0x3740, -1, 0, -0x1911e9b8, 0, (int16_t)&g1, -10, -0x3fcf8830, 0x1c6b790a, 105, -1, 1, 0, 4, 4, 0x49ddb1e6, -9, 1, -55, 0x3185, 0x6476e008, 1, 0, -4, -0x7c52a939, -0x59ff865c, -10, 0, -1, -0x44fb, -4, -101, 0x565c);
     return -0x2d74;
 }

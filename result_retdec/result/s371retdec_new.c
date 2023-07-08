@@ -49,32 +49,15 @@ static const uint16_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x3fe0
-int32_t g2 = -7; // 0x4020
-int32_t g3 = -2; // 0x4024
-int32_t g4 = -1; // 0x4028
-int32_t g5 = 1; // 0x402c
-int32_t g6 = 0x127420ea; // 0x4030
-int32_t g7 = 0x62396d; // 0x4034
-int32_t g8 = 0x1cf70062; // 0x4036
-int32_t g9 = 0x30971cf7; // 0x4038
-int32_t g10 = 2; // 0x403c
-int16_t g11 = 0x48ae; // 0x4040
-int64_t g12; // 0x4042
-int32_t g13 = -1; // 0x4044
-char g14 = 0; // 0x4050
-int32_t * g15 = NULL; // 0x4060
-int16_t g16 = 0; // 0x41b4
-int32_t g17;
+int16_t g1 = 0; // 0x41b4
+int32_t g2;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x1370
-    set_var(-7, -2, ((int16_t)&g16 & 31) == 0 ? -2 : 1 >> (uint32_t)(int32_t)(uint16_t)((int16_t)&g16 & 31) ^ -1, 0, 0x127420ea, 0x396d, 98, 0x30971cf7, 0, 0x48ae, -2993);
+    // 0x1480
+    set_var(-7, -2, ((int16_t)&g1 & 31) == 0 ? -2 : 1 >> (uint32_t)(int32_t)(uint16_t)((int16_t)&g1 & 31) ^ -1, 0, 0x127420ea, 0x396d, 98, 0x30971cf7, 0, 0x48ae, -2993);
     return 3;
 }
 

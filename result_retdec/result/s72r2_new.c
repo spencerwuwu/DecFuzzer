@@ -62,69 +62,39 @@ static uint32_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x4fe0
-int32_t g2 = 8; // 0x5020
-int32_t g3 = 0xf6a92b; // 0x5024
-int32_t g4 = -0xff0a; // 0x5026
-int32_t g5 = -1; // 0x5028
-int32_t g6 = -0x225d; // 0x502c
-int32_t g7 = -0x5c1b0001; // 0x502e
-int32_t g8 = -0x56fb5c1c; // 0x5030
-int32_t g9 = -0x1a4156fc; // 0x5032
-int32_t g10 = 0xe5bea9; // 0x5033
-int32_t g11 = 0xe5be; // 0x5034
-int32_t g12 = -0x4e5a5dfc; // 0x5038
-int32_t g13 = 0x3d1a00d4; // 0x503c
-int32_t g14 = -0xc2e6; // 0x503e
-int32_t g15 = 0xffff; // 0x5040
-int32_t g16 = 2; // 0x5044
-int32_t g17 = 0x30039; // 0x5048
-int32_t g18 = 0x10003; // 0x504a
-int32_t g19 = 1; // 0x504c
-int16_t g20 = 0x2d19; // 0x5050
-int32_t g21 = -0x30890dd4; // 0x5054
-int32_t g22 = -3; // 0x5058
-int32_t g23 = -1; // 0x505c
-int64_t g24 = 0; // 0x5060
-int32_t g25 = 0; // 0x5070
-char g26 = 0; // 0x5074
-char g27 = 0; // 0x5075
-int32_t * g28 = NULL; // 0x5080
-int32_t g29;
+int32_t g1;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    int32_t v1 = 0; // 0x17be
-    char v2 = 113; // 0x1490
+    int32_t v1 = 0; // 0x195e
+    char v2 = 113; // 0x1650
     int16_t v3 = -0x225d;
-    char v4 = v2; // 0x1634
-    int16_t v5; // 0x1490
+    char v4 = v2; // 0x17e6
+    int16_t v5; // 0x1650
     for (int16_t i = 0; i < 21; i++) {
-        // 0x161d
+        // 0x17cf
         v5 = v3;
         v4--;
         v3 = v4 != 0 ? v5 : v5 & 43;
     }
-    // 0x17bb
+    // 0x195b
     v1++;
     v2 -= 21;
     while (v1 != 34) {
         v4 = v2;
         for (int16_t i = 0; i < 21; i++) {
-            // 0x161d
+            // 0x17cf
             v5 = v3;
             v4--;
             v3 = v4 != 0 ? v5 : v5 & 43;
         }
-        // 0x17bb
+        // 0x195b
         v1++;
         v2 -= 21;
     }
-    // 0x17cd
+    // 0x196d
     set_var(8, -0x56d5, -8, 0, v3, 1, -1, -0x5c1c, 4, -87, -0x1a42, -0x4e5a5dfc, -44, 0x3d1a, -1, 0, 2, 57, 0, 3, 1, 0x2d19, -0x30890dd4, -3);
     return 0;
 }

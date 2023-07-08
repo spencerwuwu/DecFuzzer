@@ -6,9 +6,8 @@
 from src import fuzzer
 from src import Config
 
-#Config.set_decompiler("r2")
 Config.set_decompiler("retdec")
-results = fuzzer.seed_test_WASM('./seed_all/', './result_retdec/')
+results = fuzzer.seed_test_WASM('./seed_all/', './result_retdec/', './storage/d_retdec')
 total = sum(results.values())
 print()
 print()

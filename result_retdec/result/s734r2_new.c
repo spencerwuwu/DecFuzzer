@@ -44,25 +44,13 @@ static uint8_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x3fe0
-int32_t g2 = 0x399841b3; // 0x4020
-int32_t g3 = 0x2c930f88; // 0x4024
-int32_t g4 = -0x2b8615c0; // 0x4028
-int32_t g5 = -8; // 0x402c
-int32_t g6 = -1; // 0x4030
-char g7 = 0; // 0x4040
-int32_t g8 = 0; // 0x4050
-int32_t g9 = 0; // 0x4054
-int32_t * g10 = NULL; // 0x4060
-int32_t g11;
+int32_t g1;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x1300
+    // 0x13d0
     set_var(-8, 0x2c930f87, 1, -0xb96e, -7, 0);
     return -8;
 }

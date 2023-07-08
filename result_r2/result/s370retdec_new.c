@@ -45,25 +45,33 @@ static int set_var(int8_t g_2_l, int8_t g_13_l, uint16_t g_52_l, uint16_t g_53_l
  */
 static uint8_t  func_1(void)
 {
-    uint32_t uVar1;
+    uint var_c6h;
+    uint var_bdh;
+    uint var_b8h;
+    uint var_b4h;
+    uint var_aeh;
+    uint var_a4h;
+    uint var_9ch;
+    uint var_98h;
+    uint var_90h;
+    uint var_89h;
     uint var_84h;
     uint var_80h;
     uint var_7ch;
-    uint var_74h;
-    uint var_70h;
+    uint var_78h;
+    uint var_71h;
     uint var_6ch;
     uint var_68h;
     uint var_64h;
+    uint var_60h;
     uint var_5ch;
     uint var_58h;
-    uint var_54h;
-    uint var_50h;
+    int32_t var_50h;
     uint var_4ch;
-    uint var_48h;
     uint var_44h;
     uint var_40h;
-    uint var_38h;
-    int32_t var_34h;
+    uint var_3ch;
+    uint var_34h;
     uint32_t var_30h;
     int32_t var_2ch;
     uint32_t var_28h;
@@ -86,16 +94,12 @@ static uint8_t  func_1(void)
     var_28h = 8;
     var_30h = 3;
     for (var_eh = 0x19; -0x1e < var_eh; var_eh = var_eh - 7) {
-        uVar1 = var_eh;
-        if (2 < uVar1 + 1) {
-            uVar1 = 0;
-        }
-        var_10h = var_eh < (var_dh | uVar1 <= var_30h) - 10;
+        var_10h = var_eh < (1 / var_eh <= var_30h | var_dh) - 10;
         if (var_eh == 0x93) {
             for (var_12h = 3; 0x31 < var_12h; var_12h = var_12h + 1) {
                 var_30h = var_12h + 1;
                 var_19h = var_12h >> 6;
-                var_18h = 1 < var_21h ^ (0x8e7d4845U - -7 / (1 / var_28h)) % var_12h;
+                var_18h = (0x8e7d4845U - -7 / (1 / var_28h)) % var_12h ^ 1 < var_21h;
             }
         }
         else {
@@ -110,7 +114,7 @@ static uint8_t  func_1(void)
                 var_28h = 0;
             }
         }
-        for (var_34h = 0; var_34h != 0x1a; var_34h = var_34h + 1) {
+        for (var_50h = 0; var_50h != 0x1a; var_50h = var_50h + 1) {
             for (var_2ch = -0x12; var_2ch < -0x19; var_2ch = var_2ch + -1) {
                 for (var_19h = 0; 0x27 < var_19h; var_19h = var_19h + 3) {
                 }
@@ -118,7 +122,7 @@ static uint8_t  func_1(void)
         }
     }
     set_var(var_dh, var_eh, var_10h, var_12h, var_18h, var_19h, var_20h, var_21h, var_28h);
-    return 0x17e6f66a;
+    return 0x6a;
 }
 
 

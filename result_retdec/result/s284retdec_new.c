@@ -49,30 +49,14 @@ static const int8_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x3fe0
-int32_t g2 = 223; // 0x4020
-int32_t g3 = -7; // 0x4024
-int32_t g4 = 1; // 0x4028
-int32_t g5 = 0x592af004; // 0x402c
-int32_t g6 = 0x5592af0; // 0x402d
-int16_t g7 = 0x592a; // 0x402e
-int32_t g8 = 0xc60005; // 0x4030
-int32_t g9 = 0x383e00c6; // 0x4032
-int32_t g10 = 0x5621383e; // 0x4034
-int32_t g11 = -1; // 0x4038
-int64_t g12 = 0; // 0x4040
-int32_t g13 = 0; // 0x4050
-int32_t g14 = 0; // 0x4054
-int32_t * g15 = NULL; // 0x4060
-int32_t g16;
+int32_t g1 = 0x42028508; // 0x220b
+int32_t g2;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x1370
+    // 0x1480
     set_var(-33, 7, 30, 1, 1, 0x592a, 8, -58, 0x5621383e, 0, 0);
     return 65;
 }

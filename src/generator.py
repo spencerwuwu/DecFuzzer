@@ -21,7 +21,6 @@ def gen_single_file(file_name):
     return status
 
 
-# compile_cmd = 'gcc -fno-stack-protector -no-pie -O0 -Wall -m32 '
 compile_cmd = Config.compile_cmd
 runtime_dir = Config.runtime_dir
 
@@ -30,11 +29,11 @@ def compile_single_file(file_path, debug=""):
     if os.path.isdir(file_path):
         pass
     elif os.path.splitext(file_path)[1] == '.c':
-        print(compile_cmd +
-                                   debug + 
-                                   ' -I ' + runtime_dir +
-                                   ' -o ' + os.path.splitext(file_path)[0] +
-                                   ' ' + file_path)
+        #print(compile_cmd +
+        #                           debug + 
+        #                           ' -I ' + runtime_dir +
+        #                           ' -o ' + os.path.splitext(file_path)[0] +
+        #                           ' ' + file_path)
         status, output = \
             subprocess.getstatusoutput(compile_cmd +
                                        debug + 

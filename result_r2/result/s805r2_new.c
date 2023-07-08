@@ -49,26 +49,43 @@ static int set_var(uint16_t g_7_l, uint32_t g_14_l, uint32_t g_28_l, uint8_t g_4
  */
 static uint8_t  func_1(void)
 {
-    uint var_90h;
+    uint var_116h;
+    uint var_110h;
+    uint var_109h;
+    uint var_feh;
+    uint var_f8h;
+    uint var_f1h;
+    uint var_e6h;
+    uint var_e0h;
+    uint var_d9h;
+    uint var_cch;
+    uint var_c4h;
+    uint var_bch;
+    uint var_b8h;
+    uint var_b1h;
+    uint var_a8h;
+    uint var_a1h;
+    uint var_91h;
     uint var_88h;
-    uint var_84h;
-    uint var_7ch;
+    uint var_83h;
+    uint var_78h;
     uint var_74h;
-    uint var_70h;
-    uint var_68h;
-    uint var_60h;
+    uint var_6ch;
+    uint var_64h;
     uint var_5ch;
+    uint var_58h;
     uint var_54h;
-    uint var_50h;
+    uint var_4ch;
     uint var_48h;
     uint var_44h;
     uint var_3ch;
     uint var_34h;
-    uint var_2eh;
-    uint var_20h;
-    uint var_1ch;
+    uint var_30h;
+    uint var_28h;
+    uint var_24h;
+    uint var_18h;
+    uint var_14h;
     uint var_10h;
-    uint var_ch;
     
     set_var(0x72c2, 0x9fa553fc, 0, 0x18, 0x10, 0xfffffffc, 0xfff6, 0x8998d42f, 0xf30bda1, 1, 3, 0xd4078237, 0x598d);
     return 0;

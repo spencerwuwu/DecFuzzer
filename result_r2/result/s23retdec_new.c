@@ -42,17 +42,22 @@ static int set_var(int8_t g_9_l, int32_t g_12_l, uint16_t g_63_l, int32_t g_64_l
  */
 static const int8_t  func_1(void)
 {
+    uint var_60h;
+    uint var_5ch;
+    uint var_54h;
+    uint var_50h;
+    uint var_4ch;
+    uint var_48h;
+    uint var_40h;
     uint var_3ch;
+    uint var_38h;
     uint var_34h;
     uint var_30h;
-    uint var_2ch;
     uint var_28h;
-    uint var_24h;
+    uint var_20h;
     uint var_1ch;
     uint var_14h;
-    uint var_10h;
-    uint var_8h;
-    uint var_1h;
+    uint var_eh;
     
     set_var(0xffffffc8, 0, 1, 0, 0x6e1851ab);
     return 0;

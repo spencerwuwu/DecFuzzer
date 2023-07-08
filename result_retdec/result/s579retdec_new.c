@@ -65,79 +65,47 @@ static uint16_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x4fe0
-int32_t g2 = 0x399841b3; // 0x5020
-int32_t g3 = 0xf2ab; // 0x5024
-int32_t g4 = 0x7d98a9a2; // 0x5028
-int32_t g5 = 3; // 0x502c
-int32_t g6 = -1; // 0x5030
-int32_t g7 = -1; // 0x5034
-int32_t g8 = 1; // 0x5038
-int32_t g9 = 0x3396ac63; // 0x503c
-int32_t g10 = 0x17e4cdb1; // 0x5040
-int32_t g11 = 6; // 0x5044
-char g12 = -127; // 0x5048
-int32_t g13 = -0x428887ec; // 0x504a
-int32_t g14 = -0x62694289; // 0x504c
-int32_t g15 = 0x8dd5; // 0x5050
-int32_t g16 = -0x6c124e57; // 0x5054
-int32_t g17 = 0xecea; // 0x5058
-int32_t g18 = -0x4db0cba7; // 0x505c
-int32_t g19 = 0x6490b889; // 0x5060
-int32_t g20 = 0x60003; // 0x5064
-int32_t g21 = 0x10006; // 0x5066
-int32_t g22 = 1; // 0x5068
-int32_t g23 = -9; // 0x506c
-int32_t g24 = -1; // 0x5070
-char g25 = 0; // 0x5080
-int32_t g26 = 0; // 0x5090
-int32_t g27 = 0; // 0x5092
-int16_t g28 = 0; // 0x5094
-char g29 = 0; // 0x5096
-int32_t * g30 = NULL; // 0x50a0
-int32_t g31;
+int32_t g1;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    int32_t v1 = 0; // 0x2407
+    int32_t v1 = 0; // 0x2653
     int32_t v2 = -1;
-    int16_t v3 = -3413; // 0x16d2
+    int16_t v3 = -3413; // 0x1891
     v3 |= (int16_t)v1 & -2;
-    int32_t v4 = 0; // 0x1795
-    int32_t v5 = -10 & (int32_t)(v3 / 2 ^ v3); // 0x1717
+    int32_t v4 = 0; // 0x194b
+    int32_t v5 = -10 & (int32_t)(v3 / 2 ^ v3); // 0x18d0
     v4++;
-    int32_t v6 = v5; // 0x16e7
+    int32_t v6 = v5; // 0x18a0
     while (v4 != 23) {
-        // 0x16ed
+        // 0x18a6
         v5 = v6 & (int32_t)(v3 / 2 ^ v3);
         v4++;
         v6 = v5;
     }
-    // 0x17b1
+    // 0x1964
     v2 -= 23;
     v1++;
     while (v1 != 16 && v5 == 0) {
-        // 0x15f9
+        // 0x17be
         v3 |= (int16_t)v1 & -2;
         v4 = 0;
         v5 = -10 & (int32_t)(v3 / 2 ^ v3);
         v4++;
         v6 = v5;
         while (v4 != 23) {
-            // 0x16ed
+            // 0x18a6
             v5 = v6 & (int32_t)(v3 / 2 ^ v3);
             v4++;
             v6 = v5;
         }
-        // 0x17b1
+        // 0x1964
         v2 -= 23;
         v1++;
     }
-    // 0x2523
+    // 0x275d
     set_var(3409, v3, 0, v5, -0x2770, 0, v2, 1, 0x3396ac63, 0, 0x17e4cdb7, 6, -127, 0x7814, 0, -0x62694289, -0x722b, 0, -0x6c124e57, -0x1316, -0x4db0cba7, 0x6490b889, 3, 6, 1, -9);
     return -1;
 }

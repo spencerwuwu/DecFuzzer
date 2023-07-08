@@ -79,59 +79,13 @@ static int32_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x7fe0
-int32_t g2 = 0xffff; // 0x8020
-int32_t g3 = -1; // 0x8024
-int32_t g4 = 255; // 0x8028
-int32_t g5 = 0x4b3f4b14; // 0x802c
-int32_t g6 = -8; // 0x8030
-int32_t g7 = -4; // 0x8034
-int32_t g8 = 0xb77cd22; // 0x8038
-int32_t g9 = 0x24f10b77; // 0x803a
-int32_t g10 = 0x2fb924f1; // 0x803c
-int32_t g11 = 1; // 0x8040
-int32_t g12 = 1; // 0x8044
-int32_t g13 = -8; // 0x8048
-int32_t g14 = 1; // 0x804c
-int16_t g15 = -1; // 0x8050
-char g16 = 42; // 0x8052
-char g17 = -1; // 0x8053
-char g18 = 1; // 0x8054
-int32_t g19 = -0x75c1eb41; // 0x8058
-int16_t g20 = -0x1db6; // 0x805c
-int32_t g21 = -0x22f95f16; // 0x8060
-int32_t g22 = -0x248f4228; // 0x8064
-int32_t g23 = 1; // 0x8068
-int32_t g24 = -0x3b5748fa; // 0x806c
-int32_t g25 = -0x10016db; // 0x8070
-char g26 = -1; // 0x8072
-int32_t g27 = 0x37bcfefe; // 0x8073
-int32_t g28 = -0x6ac84302; // 0x8074
-int16_t g29 = -0x7517; // 0x8078
-int32_t g30 = 0x232f77f; // 0x807a
-int32_t g31 = 0x608c0232; // 0x807c
-int32_t g32 = 0x5dacdae; // 0x8080
-int32_t g33 = 0x9638; // 0x8084
-int32_t g34 = -0x395b3d13; // 0x8088
-char g35 = -5; // 0x808c
-int64_t g36; // 0x808e
-int32_t g37 = -1; // 0x8090
-char g38 = 0; // 0x80a0
-int32_t g39 = 0; // 0x80b0
-int16_t g40 = 0; // 0x80b4
-int32_t g41 = 0; // 0x80b6
-int32_t g42 = 0; // 0x80b8
-int32_t g43 = 0; // 0x80bc
-int32_t * g44 = NULL; // 0x80c0
-int32_t g45;
+int32_t g1;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x54b4
+    // 0x5782
     set_var(-0x4228, 0, -1, 0x4912, -8, -4, -0x32de, 2935, 1, 0, 1, 1, -8, 1, -1, 42, -1, 1, 0, -0x1db6, 0, -0x22f95f16, -0x248f4228, 1, -0x3b5748fa, -0x16db, -1, -1, 0, 0, 0, -0x6ac84302, -0x7517, -2177, 0x608c0232, 0x5dacdae, -0x69c8, -0x395b3d13, -5, -1);
     return 65;
 }

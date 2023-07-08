@@ -75,58 +75,14 @@ static uint32_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int16_t g1 = 0; // 0x56e
-int64_t g2 = 0; // 0xafe0
-int32_t g3 = -0xffd2; // 0xb020
-int32_t g4 = 0x1ffff; // 0xb022
-int32_t g5 = 1; // 0xb024
-int32_t g6 = -1; // 0xb028
-int32_t g7 = 220; // 0xb02c
-int32_t g8 = -0x4f4d53bb; // 0xb030
-int16_t g9 = -0x7ae9; // 0xb034
-char g10 = 5; // 0xb036
-int32_t g11 = -7; // 0xb038
-int32_t g12 = 8; // 0xb03c
-int32_t g13 = -0x5cb02f22; // 0xb040
-int32_t g14 = 5; // 0xb044
-int32_t g15 = 70; // 0xb048
-int32_t g16 = 0x6a0a4b55; // 0xb04c
-int32_t g17 = 1795; // 0xb050
-char g18 = 7; // 0xb051
-int32_t g19 = -10; // 0xb054
-int32_t g20 = -0x50005; // 0xb058
-int32_t g21 = 0x3069fffa; // 0xb05a
-int32_t g22 = 0x5cd83069; // 0xb05c
-int32_t g23 = 0x1a0a5ba7; // 0xb060
-int32_t g24 = 0x8b04; // 0xb064
-int32_t g25 = 8; // 0xb068
-int32_t g26 = 0x13613; // 0xb06c
-int32_t g27 = 0x50001; // 0xb06e
-int32_t g28 = 5; // 0xb070
-int32_t g29 = -0x2799cb8c; // 0xb074
-int32_t g30 = -0xe3ffff; // 0xb078
-int32_t g31 = 0x69d4ff1c; // 0xb07a
-int16_t g32 = 0x69d4; // 0xb07c
-int32_t g33 = -0x4fa92; // 0xb07e
-int32_t g34 = -5; // 0xb080
-int32_t g35 = 1; // 0xb084
-int32_t g36 = 247; // 0xb088
-int32_t g37 = -1; // 0xb08c
-int64_t g38 = 0; // 0xb090
-int32_t g39 = 0; // 0xb0a0
-int16_t g40 = 0; // 0xb0a4
-int16_t g41 = 0; // 0xb0a6
-int32_t * g42 = NULL; // 0xb0b0
-int32_t g43;
+int32_t g1;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    // 0x15b0
-    set_var(0, 1, -1, 1, -1, -36, 0, -0x4f4d53bb, -0x7ae9, 5, 0, -7, 8, -0x5cb02f22, 5, 70, 0x6a0a4b55, 3, 7, -10, -5, -6, 0x5cd83069, 0x1a0a5ba7, -0x74fc, 8, 0x3613, 1, 5, -0x2799cb8c, 1, -228, 0x69d4, (int16_t)&g1, -5, 1, -9);
+    // 0x1810
+    set_var(0, 1, -1, 1, -1, -36, 0, -0x4f4d53bb, -0x7ae9, 5, 0, -7, 8, -0x5cb02f22, 5, 70, 0x6a0a4b55, 3, 7, -10, -5, -6, 0x5cd83069, 0x1a0a5ba7, -0x74fc, 8, 0x3613, 1, 5, -0x2799cb8c, 1, -228, 0x69d4, 1390, -5, 1, -9);
     return 0;
 }
 

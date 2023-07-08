@@ -538,6 +538,7 @@ def R2_modifier_before(txt):
     txt = txt.replace('SEXT24', '')
     txt = txt.replace('SUB41', '')
     txt = txt.replace('SBORROW4', '')
+    txt = txt.replace('__regparm3', '')
     txt = R2Modifier.delete_lines(txt, 'ZEXT')
     txt = R2Modifier.delete_lines(txt, 'SEXT')
     txt = R2Modifier.delete_lines(txt, 'SUB')

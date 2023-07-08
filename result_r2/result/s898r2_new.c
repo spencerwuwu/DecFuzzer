@@ -62,17 +62,44 @@ static uint32_t  func_1(void)
 {
     int bVar1;
     uint8_t uVar2;
-    uint16_t uVar3;
-    uint8_t uVar4;
-    uint32_t uVar5;
-    uint var_e0h;
+    char cVar3;
+    int16_t iVar4;
+    uint8_t uVar5;
+    int bVar6;
+    uint var_18dh;
+    uint var_188h;
+    uint var_180h;
+    uint var_17ch;
+    uint var_174h;
+    uint var_16dh;
+    uint var_169h;
+    uint var_163h;
+    uint var_15ah;
+    uint var_154h;
+    uint var_14ch;
+    uint var_148h;
+    uint var_140h;
+    uint var_13bh;
+    uint var_134h;
+    uint var_12eh;
+    uint var_128h;
+    uint var_120h;
+    uint var_11ch;
+    uint var_114h;
+    uint var_10dh;
+    int var_109h;
+    uint var_108h;
+    uint var_102h;
+    uint var_fch;
+    uint var_f4h;
+    uint var_f0h;
+    uint var_e8h;
     uint var_dch;
     uint var_d8h;
-    uint var_d4h;
     uint var_d0h;
-    uint var_c8h;
-    uint var_c0h;
-    uint var_bch;
+    uint var_cch;
+    uint var_c5h;
+    uint var_beh;
     uint var_b8h;
     uint var_b4h;
     uint var_b0h;
@@ -81,122 +108,126 @@ static uint32_t  func_1(void)
     uint var_a4h;
     uint var_a0h;
     uint var_9ch;
+    uint var_98h;
     uint var_94h;
     uint var_90h;
     uint var_8ch;
     uint var_88h;
-    uint var_84h;
+    uint var_80h;
     uint var_7ch;
     uint var_78h;
     uint var_74h;
     uint var_70h;
     uint var_6ch;
-    uint var_64h;
+    uint var_68h;
     uint var_60h;
-    uint var_5ch;
+    uint32_t var_5ch;
     uint var_58h;
     uint var_54h;
     uint var_50h;
-    uint var_49h;
-    uint var_44h;
-    uint32_t var_40h;
-    uint8_t var_3bh;
-    uint16_t var_3ah;
-    uint32_t var_38h;
-    int32_t var_34h;
-    uint16_t var_2eh;
-    int32_t var_2ch;
-    uint32_t var_28h;
-    int16_t var_24h;
-    uint8_t var_22h;
-    char var_21h;
-    int32_t var_20h;
-    uint32_t var_1ch;
-    uint8_t var_18h;
-    uint8_t var_17h;
-    uint16_t var_16h;
-    int32_t var_14h;
-    uint var_dh;
+    uint8_t var_4bh;
+    uint16_t var_4ah;
+    uint32_t var_48h;
+    int32_t var_44h;
+    uint16_t var_3eh;
+    uint var_3ch;
+    uint var_38h;
+    int32_t var_30h;
+    uint32_t var_2ch;
+    int16_t var_28h;
+    uint8_t var_26h;
+    char var_25h;
+    int32_t var_24h;
+    uint32_t var_20h;
+    uint8_t var_1ch;
+    uint8_t var_1bh;
+    uint16_t var_1ah;
+    int32_t var_18h;
+    uint var_11h;
     
-    var_dh = 4;
-    var_16h = 0xfffc;
-    var_17h = 0xff;
-    var_18h = 0xd0;
-    var_1ch = 0;
-    var_20h = -0x614c1cd2;
-    var_22h = 0;
-    var_24h = 0x3e41;
-    var_28h = 0x7e1c5715;
-    var_2ch = -0x7187273c;
-    var_2eh = 7;
-    var_34h = 1;
-    var_38h = 0x624cee3a;
-    var_3ah = 0xffff;
-    var_3bh = 0;
-    var_40h = 0xc2a91181;
+    var_11h = 4;
+    var_1ah = 0xfffc;
+    var_1bh = 0xff;
+    var_1ch = 0xd0;
+    var_20h = 0;
+    var_24h = -0x614c1cd2;
+    var_26h = 0;
+    var_28h = 0x3e41;
+    var_2ch = 0x7e1c5715;
+    var_30h = -0x7187273c;
+    var_3eh = 7;
+    var_44h = 1;
+    var_48h = 0x624cee3a;
+    var_4ah = 0xffff;
+    var_4bh = 0;
+    var_5ch = 0xc2a91181;
     uVar2 = 0xf8;
-code_r0x0804a5aa:
-    bVar1 = '\0' < var_dh;
-    var_14h = -0xf;
+code_r0x000016a1:
+    bVar1 = '\0' < var_11h;
+    var_18h = -0xf;
     do {
-        if (var_14h == 0x32) {
-code_r0x0804acf0:
-            for (var_21h = '\0'; -0xb < var_21h; var_21h = var_21h + -1) {
-                var_3bh = var_3bh + 1;
+        if (var_18h == 0x32) {
+code_r0x00002461:
+            for (var_25h = '\0'; -0xb < var_25h; var_25h = var_25h + -1) {
+                var_4bh = var_4bh + 1;
             }
-            set_var(var_dh, var_14h, var_16h, var_17h, var_18h, var_1ch, var_20h, var_21h, var_22h, var_24h, var_28h
-                        , var_2ch, 1, 0xffffffff, 0xa9ed742a, var_2eh, var_34h, var_38h, var_3ah, var_3bh);
-            return 0x988c8cf6;
+            set_var(var_11h, var_18h, var_1ah, var_1bh, var_1ch, var_20h, var_24h, var_25h, var_26h, var_28h, 
+                        var_2ch, var_30h, 1, 0xffffffff, 0xa9ed742a, var_3eh, var_44h, var_48h, var_4ah, var_4bh);
+            return -0x6773730a;
         }
-        uVar4 = (var_40h < var_14h << 0xe ^ 0xa2U) * var_dh ^ 0xbf;
-        uVar5 = uVar4 | 0x9ba5e0b2U | var_40h - 0x4dU & 0xbf;
-        var_40h = 0xffffffec;
-        var_16h = (uVar4 & bVar1) + var_14h & 8;
-        var_dh = var_16h;
-        if ((1 % ((var_17h == 5) + 0x14) & var_17h) >> 5 == '\0') {
-            var_16h = 0;
-            var_dh = (uVar2 | var_18h) + 0x7b;
-            if (var_dh == 0) {
-                var_17h = var_22h;
-                if (2 < uVar5 + 1) {
-                    uVar5 = 0;
-                }
-                if (uVar5 != 0) goto code_r0x0804acf0;
-                for (var_24h = -0x15; var_24h < 0x10; var_24h = var_24h + 2) {
-                    var_16h = 1;
-                    var_34h = var_22h >> 1;
-                    var_38h = var_1ch < 2;
+        cVar3 = var_5ch;
+        uVar5 = (var_5ch < var_18h * 0x4000 ^ 0xa2U) * var_11h ^ 0xbf;
+        var_5ch = 0xffffffec;
+        var_1ah = var_18h + (uVar5 & bVar1) & 8;
+        var_11h = var_1ah;
+        if ((1 % ((var_1bh == 5) + 0x14) & var_1bh) >> 5 == '\0') {
+            var_1ah = 0;
+            var_11h = (var_1ch | uVar2) + 0x7b;
+            if (var_11h == 0) {
+                var_1bh = var_26h;
+                if (1 / (cVar3 - 0x4dU & 0xbf | uVar5 | 0x9ba5e0b2U) != 0) goto code_r0x00002461;
+                for (var_28h = -0x15; var_28h < 0x10; var_28h = var_28h + 2) {
+                    var_1ah = 1;
+                    var_44h = var_26h >> 1;
+                    var_48h = var_20h < 2;
                 }
             }
             else {
-                var_1ch = var_1ch ^ var_dh + 1U;
-                if ((var_14h != 0 | var_1ch) == 8) break;
-                var_2eh = var_2eh - 1;
+                var_20h = var_11h + 1U ^ var_20h;
+                if ((var_20h | var_18h != 0) == 8) break;
+                var_3eh = var_3eh - 1;
             }
             uVar2 = 0xdb;
-            for (var_22h = 0; var_22h < 0x1f; var_22h = var_22h + 5) {
-                var_38h = var_38h | 1;
-                var_3ah = var_3ah & var_38h;
+            for (var_26h = 0; var_26h < 0x1f; var_26h = var_26h + 5) {
+                var_48h = var_48h | 1;
+                var_4ah = var_4ah & var_48h;
             }
         }
         else {
-            var_18h = var_18h | var_dh;
+            var_1ch = var_1ch | var_11h;
         }
-        var_14h = var_14h + 5;
+        var_18h = var_18h + 5;
     } while( 1 );
-    var_20h = var_20h + -1;
+    var_24h = var_24h + -1;
     uVar2 = 0x11;
-    uVar3 = var_18h;
-    if (!bVar1) {
-        set_var(var_dh, var_14h, 0, var_17h, var_18h, var_1ch, var_20h, 0, var_22h, var_24h, var_28h, var_2ch, 1, 
-                    0xffffffff, 0xa9ed742a, var_2eh, var_34h, var_38h, var_3ah, 0);
-        return 0xffffffff;
+    iVar4 = (var_1ch ^ 0x11U) + 0xbb08;
+    bVar6 = (-(var_20h | 0x988c8cf6) != var_18h) == 0xfffc;
+    var_109h = 0x6da0 < bVar6 && var_20h != 0;
+    if (var_109h <= var_1bh != bVar1) {
+        set_var(var_11h, var_18h, 0, var_1bh, var_1ch, var_20h, var_24h, bVar6, var_26h, var_28h, var_2ch, var_30h, 
+                    1, 0xffffffff, 0xa9ed742a, var_3eh, var_44h, var_48h, var_4ah, 0);
+        return -1;
     }
-    var_28h = var_18h < '\x02';
-    var_18h = 3;
-    var_2ch = -(var_22h * '\x11' >> 3 ^ 0x1e) + ((var_1ch != 0xfffffff6) < 0x5758) * -0x7f89;
-    var_24h = (uVar3 ^ 0x11) + 0xbb08;
-    goto code_r0x0804a5aa;
+    var_2ch = var_1ch < '\x02';
+    var_1ch = 3;
+    var_30h = ((bVar6 - 10U != var_20h) < 0x5758) * -0x7f89 + -(((var_26h * 0x11 ^ 0xf2) & 0xff) >> 3);
+    var_28h = iVar4;
+    if (!bVar1) {
+        set_var(var_11h, var_18h, 0, var_1bh, 3, var_20h, var_24h, bVar6, var_26h, iVar4, var_2ch, var_30h, 1, 
+                    0xffffffff, 0xa9ed742a, var_3eh, var_44h, var_48h, var_4ah, 0);
+        return var_18h;
+    }
+    goto code_r0x000016a1;
 }
 
 

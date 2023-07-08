@@ -21,7 +21,6 @@ def decompile(target_bin_path, generated_file_path):
     get_script_path()
 
     cmd = f'{ida_path} {ida_option} -S"{ida_script_path}" {target_bin_path}'
-    print(cmd)
     proc = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, env={"TERM":"xterm"})
     stdout, stderr = proc.communicate()
     if proc.returncode != 0:

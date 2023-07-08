@@ -49,82 +49,102 @@ static int set_var(int16_t g_2_l, int32_t g_4_l, uint32_t g_7_l, int8_t g_18_l, 
  */
 static int32_t  func_1(void)
 {
-    uint var_b0h;
-    uint var_a3h;
+    uint var_116h;
+    uint var_110h;
+    uint var_10ah;
+    uint var_104h;
+    uint var_100h;
+    uint var_fbh;
+    uint var_f4h;
+    uint var_eeh;
+    uint var_e8h;
+    uint var_e4h;
+    uint var_dch;
+    uint var_d6h;
+    uint var_d0h;
+    uint var_c9h;
+    uint var_c1h;
+    uint var_bch;
+    uint var_b6h;
+    uint var_ach;
+    uint var_a8h;
+    uint var_a4h;
     uint var_9ch;
     uint var_98h;
+    uint var_94h;
     uint var_90h;
-    uint var_8ch;
+    uint var_89h;
     uint var_84h;
-    uint var_7ch;
-    uint var_78h;
-    uint var_70h;
+    uint var_7dh;
+    uint var_74h;
+    uint var_6fh;
     uint var_68h;
     uint var_64h;
-    uint var_60h;
     uint var_5ch;
     uint var_58h;
     uint var_54h;
     uint var_4ch;
-    uint var_44h;
-    uint var_40h;
-    uint32_t var_3ch;
-    int32_t var_38h;
-    uint16_t var_32h;
-    uint32_t var_30h;
+    uint32_t var_44h;
+    uint32_t var_40h;
+    uint16_t var_3ah;
+    uint32_t var_38h;
+    uint var_30h;
+    uint8_t var_2ah;
+    uint8_t var_29h;
     uint var_28h;
-    uint8_t var_22h;
-    uint8_t var_21h;
-    uint var_20h;
-    int32_t var_1ch;
-    char var_15h;
-    uint32_t var_14h;
-    uint var_eh;
+    uint32_t var_24h;
+    char var_1dh;
+    uint32_t var_1ch;
+    uint var_18h;
+    uint var_12h;
     
-    var_eh = 0xd7f;
-    var_15h = '\x04';
-    var_1ch = -0x29463d2a;
-    var_21h = 0xfc;
-    var_22h = 7;
-    var_30h = 0xec94644a;
-    var_32h = 0xffff;
-    for (var_3ch = 0xffffffee; var_3ch < 0x17; var_3ch = var_3ch + 1) {
-        for (var_eh = 0x14; var_eh < 8; var_eh = var_eh + -8) {
-            var_15h = '\0';
-            var_1ch = (1 % 0 ^ 0xffff) + 0xf6;
-            var_21h = 1;
+    var_12h = 0xd7f;
+    var_1dh = '\x04';
+    var_24h = 0xd6b9c2d6;
+    var_29h = 0xfc;
+    var_2ah = 7;
+    var_38h = 0xec94644a;
+    var_3ah = 0xffff;
+    var_40h = 0;
+    for (var_44h = 0xffffffee; var_44h < 0x17; var_44h = var_44h + 1) {
+        for (var_12h = 0x14; var_12h < 8; var_12h = var_12h + -8) {
+            var_1dh = '\0';
+            var_24h = (1 % 0 ^ 0xffff) + 0xf6;
+            var_29h = 1;
         }
+        var_40h = -1 < var_40h | var_29h;
     }
-    for (var_14h = 0xfffffff8; var_14h < 0x11; var_14h = var_14h + 1) {
-        if (var_3ch != (var_14h >> 6 & 3)) {
-            var_3ch = var_3ch & var_21h;
+    for (var_1ch = 0xfffffff8; var_1ch < 0x11; var_1ch = var_1ch + 1) {
+        if ((var_1ch & 0xff) >> 6 != var_44h) {
+            var_44h = var_29h & var_44h;
         }
-        var_22h = var_3ch & var_21h;
-        if (var_22h < var_14h) {
-            if (var_21h != 0) break;
-            if ((var_32h ^ 1) / 0xc942 != 0) {
-                set_var(var_eh, 0xffffffff, var_14h, var_15h, var_1ch, 0x9d20578c, 0, var_22h, 0xffffffcc, 
-                            0xbcd962f9, 5, var_30h, var_32h ^ 1);
+        var_2ah = var_44h & var_29h;
+        if (var_2ah < var_1ch) {
+            if (var_29h != 0) break;
+            if ((var_3ah ^ 1) / 0xc942 != 0) {
+                set_var(var_12h, 0xffffffff, var_1ch, var_1dh, var_24h, 0x9d20578c, 0, var_2ah, 0xffffffcc, 
+                            0xbcd962f9, 5, var_38h, var_3ah ^ 1);
                 return 0xfffffffa;
             }
-            var_21h = 1;
-            var_32h = 1;
-            var_30h = var_30h & 0x170593e5;
+            var_29h = 1;
+            var_3ah = 1;
+            var_38h = var_38h & 0x170593e5;
         }
         else {
-            var_eh = -0x8bc;
-            if (((~var_3ch >> 0x1f) / var_1ch == -0x8bc) == 0x62dfa874) {
-                set_var(0xfffff744, 0xffffffff, var_14h, var_15h, var_1ch, 0x9d20578c, var_21h, var_1ch != 1, 
-                            0xffffffcc, 0xbcd962f9, 5, var_30h, var_32h);
+            if ((((-1 < var_44h) / var_24h != -0x8bc ^ 0xffU) & 1) == 0x62dfa874) {
+                set_var(0xfffff744, 0xffffffff, var_1ch, var_1dh, var_24h, 0x9d20578c, var_29h, 
+                            ((var_40h & 0xfffffffa | 9) < var_29h != 0xe364) != var_24h, 0xffffffcc, 0xbcd962f9, 5, 
+                            var_38h, var_3ah);
                 return 0x2a;
             }
-            for (var_38h = -3; var_38h < 5; var_38h = var_38h + 5) {
+            for (var_40h = 0xfffffffd; var_40h < 5; var_40h = var_40h + 5) {
             }
+            var_12h = -0x8bc;
         }
-        var_3ch = 0;
+        var_44h = 0;
     }
-    set_var(var_eh, 0xffffffff, var_14h, var_15h, var_1ch, 0x9d20578c, var_21h, var_22h, 0xffffffcc, 0xbcd962f9, 5, 
-                var_30h, var_32h);
+    set_var(var_12h, 0xffffffff, var_1ch, var_1dh, var_24h, 0x9d20578c, var_29h, var_2ah, 0xffffffcc, 0xbcd962f9, 5
+                , var_38h, var_3ah);
     return 0xffffffcc;
 }
 

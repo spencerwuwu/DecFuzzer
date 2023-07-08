@@ -51,41 +51,24 @@ static int8_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int64_t g1 = 0; // 0x4fe0
-int32_t g2 = -0x2e6c1faa; // 0x5020
-int32_t g3 = -0x69cadd6; // 0x5024
-int32_t g4 = 0x2365f963; // 0x5026
-int32_t g5 = 0x298b2365; // 0x5028
-int32_t g6 = 0x7283bd05; // 0x502c
-int32_t g7 = -10; // 0x5030
-int32_t g8 = 7; // 0x5034
-int32_t g9 = -1; // 0x5038
-int32_t g10 = 255; // 0x503c
-int32_t g11 = -1; // 0x5040
-int32_t g12 = -1; // 0x5044
-char g13 = 0; // 0x5050
-int32_t g14 = 0; // 0x5060
-int32_t * g15 = NULL; // 0x5070
-int16_t g16 = 0; // 0x522a
-int32_t g17;
+int16_t g1 = 0; // 0x522a
+int32_t g2;
 
 // ------- Dynamically Linked Functions Without Header --------
 
-void __cxa_finalize(int64_t * a1);
-void __gmon_start__(void);
-int32_t __libc_start_main(int64_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
 
-    char result; // 0x13a0
-    if ((int32_t)(0x10000 * (int32_t)((int64_t)(int16_t)&g16 & 0xffffffff ^ 0xf07b4bc6)) >> 16 == 1) {
-        // 0x166e
-        set_var(0x3eac25ad, (int16_t)((int64_t)(int16_t)&g16 & 0xffffffff ^ 0xf07b4bc6), -1693, 0x298b2365, 0x7283bd05, -10, 7, -1, -1, 0, -1);
+    char result; // 0x14c0
+    if ((int32_t)(0x10000 * ((int32_t)(int16_t)&g1 ^ -0xf84b43a)) >> 16 == 1) {
+        // 0x17fd
+        set_var(0x3eac25ad, (int16_t)((int32_t)(int16_t)&g1 ^ -0xf84b43a), -1693, 0x298b2365, 0x7283bd05, -10, 7, -1, -1, 0, -1);
         result = -1;
     } else {
-        // 0x15dc
-        set_var(-0x2e6c1faa, (int16_t)((int64_t)(int16_t)&g16 & 0xffffffff ^ 0xf07b4bc6), -1693, 0x298b2365, 0x7283bd05, -10, 7, -1, -1, 0, -1);
+        // 0x170c
+        set_var(-0x2e6c1faa, (int16_t)((int32_t)(int16_t)&g1 ^ -0xf84b43a), -1693, 0x298b2365, 0x7283bd05, -10, 7, -1, -1, 0, -1);
         result = 2;
     }
-    // 0x2036
+    // 0x2276
     return result;
 }
 

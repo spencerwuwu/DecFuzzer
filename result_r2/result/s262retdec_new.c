@@ -49,39 +49,57 @@ static int set_var(int16_t g_2_l, uint16_t g_19_l, int32_t g_22_l, uint32_t g_23
  */
 static int32_t  func_1(void)
 {
+    uint var_e4h;
+    uint var_dch;
+    uint var_d8h;
+    uint var_d0h;
+    uint var_cch;
+    uint var_c5h;
+    uint var_bch;
+    uint var_b8h;
+    uint var_b0h;
+    uint var_ach;
+    uint var_a4h;
+    uint var_a0h;
+    uint var_98h;
+    uint var_94h;
+    uint var_8ch;
+    uint var_84h;
+    uint var_7ch;
     uint var_78h;
+    uint var_74h;
     uint var_70h;
+    uint var_6ch;
     uint var_68h;
     uint var_64h;
     uint var_60h;
-    uint var_5ch;
     uint var_58h;
     uint var_54h;
     uint var_50h;
     uint var_48h;
     uint var_44h;
     uint var_40h;
-    uint var_3ah;
-    char var_31h;
+    char var_39h;
+    uint var_38h;
     uint var_30h;
+    uint var_2ch;
     uint var_28h;
     uint var_24h;
-    uint var_20h;
     uint var_1ch;
-    uint var_14h;
-    uint var_dh;
+    uint var_18h;
+    uint var_12h;
     
-    var_1ch = 0xbf325e6b;
-    var_20h = 0x9ad3ee77;
-    var_31h = -6;
-    while (var_31h == '\x0f') {
-        var_1ch = 0xd293d0ae;
-        var_20h = 0;
-        var_31h = '\x14';
+    var_24h = 0xbf325e6b;
+    var_28h = 0x9ad3ee77;
+    var_39h = -6;
+    while (var_39h == '\x0f') {
+        var_24h = 0xd293d0ae;
+        var_28h = 0;
+        var_39h = '\x14';
     }
-    set_var(0xffffffff, 3, 1, 1, 0xfffffc33, 0, var_1ch, var_20h, 0xc60a9759, 0x625f1a37, 0xffffffbc, 0xffffffff, 0)
+    set_var(0xffffffff, 3, 1, 1, 0xfffffc33, 0, var_24h, var_28h, 0xc60a9759, 0x625f1a37, 0xffffffbc, 0xffffffff, 0)
     ;
-    return var_20h;
+    return var_28h;
 }
 
 

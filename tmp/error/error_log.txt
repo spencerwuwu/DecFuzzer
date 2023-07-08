@@ -1,0 +1,75 @@
+In file included from ./seed_all/s100r2_new.c:13:
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:43:9: warning: 'uint' macro redefined [-Wmacro-redefined]
+#define uint uint64_t
+        ^
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:31:9: note: previous definition is here
+#define uint uint32_t
+        ^
+In file included from ./seed_all/s100r2_new.c:13:
+In file included from /home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:52:
+In file included from /home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./seed_all/s100r2_new.c:46:31: error: too few arguments to function call, expected 4, have 2
+    set_var(0xae8c, 0x3a3dbc56);
+    ~~~~~~~                   ^
+./seed_all/s100r2_new.c:31:12: note: 'set_var' declared here
+static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+           ^
+2 warnings and 1 error generated.
+
+In file included from ./seed_all/s100r2_new.c:13:
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:43:9: warning: 'uint' macro redefined [-Wmacro-redefined]
+#define uint uint64_t
+        ^
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:31:9: note: previous definition is here
+#define uint uint32_t
+        ^
+In file included from ./seed_all/s100r2_new.c:13:
+In file included from /home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:52:
+In file included from /home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./seed_all/s100r2_new.c:46:31: error: too few arguments to function call, expected 4, have 2
+    set_var(0xae8c, 0x3a3dbc56);
+    ~~~~~~~                   ^
+./seed_all/s100r2_new.c:31:12: note: 'set_var' declared here
+static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+           ^
+2 warnings and 1 error generated.
+
+In file included from ./seed_all/s310r2_new.c:13:
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:43:9: warning: 'uint' macro redefined [-Wmacro-redefined]
+#define uint uint64_t
+        ^
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:31:9: note: previous definition is here
+#define uint uint32_t
+        ^
+In file included from ./seed_all/s310r2_new.c:13:
+In file included from /home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/csmith.h:52:
+In file included from /home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Documents/CS699_WASM/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./seed_all/s310r2_new.c:69:14: error: use of undeclared identifier 'param_2'
+    uVar1 = (param_2 ^ 0xa9da) == 0x747b;
+             ^
+./seed_all/s310r2_new.c:70:13: error: use of undeclared identifier 'param_3'
+    set_var(param_3, param_2 ^ 0xa9da, uVar1, 1, 0x11a53fde, 0x6f, 0, 0xfffffff6, 0xca4);
+            ^
+./seed_all/s310r2_new.c:70:22: error: use of undeclared identifier 'param_2'
+    set_var(param_3, param_2 ^ 0xa9da, uVar1, 1, 0x11a53fde, 0x6f, 0, 0xfffffff6, 0xca4);
+                     ^
+2 warnings and 3 errors generated.
+

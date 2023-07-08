@@ -57,46 +57,76 @@ static int set_var(uint32_t g_11_l, int16_t g_46_l, uint16_t g_47_l, int8_t g_51
  * writes: g_46 g_47 g_51 g_11 g_59 g_65 g_88 g_90 g_92 g_121 g_63 g_194 g_209 g_211 g_226 g_228 g_304
  */
 static int32_t  func_1(void)
-{    unsigned int stack0xffffffdc, unique0x00007a80;
-
+{
+    uint var_1e2h;
+    uint var_1d5h;
+    uint var_1ceh;
+    uint var_1b9h;
+    uint var_1b2h;
+    uint var_19dh;
+    uint var_198h;
+    uint var_18fh;
+    uint var_181h;
+    uint var_17ch;
+    uint var_173h;
+    uint var_16ch;
+    uint var_165h;
+    uint var_15eh;
+    uint var_151h;
+    uint var_148h;
+    uint var_143h;
+    uint var_135h;
+    uint var_130h;
+    uint var_127h;
+    uint var_119h;
+    uint var_112h;
+    uint var_108h;
+    uint var_100h;
+    uint var_f8h;
+    uint var_f4h;
+    uint var_f0h;
+    uint var_ech;
+    uint var_e8h;
+    uint var_e1h;
+    uint var_dch;
+    uint var_d4h;
+    uint var_d0h;
+    uint var_c8h;
+    uint var_c4h;
+    uint var_c0h;
     uint var_b8h;
     uint var_b4h;
-    uint var_b0h;
-    uint var_ach;
-    uint var_a8h;
+    uint var_aeh;
     uint var_a4h;
     uint var_a0h;
+    uint var_99h;
+    uint var_94h;
     uint var_90h;
-    uint var_8ch;
     uint var_88h;
     uint var_80h;
-    uint var_75h;
+    uint var_7ch;
+    uint var_78h;
     uint var_70h;
-    uint var_6ah;
-    uint var_64h;
-    uint var_5ch;
+    uint var_6ch;
+    uint var_68h;
+    uint var_60h;
     uint var_58h;
-    uint var_52h;
+    int32_t var_54h;
     uint var_4ch;
     uint var_48h;
     uint var_44h;
-    uint var_40h;
     uint var_3ch;
-    uint var_38h;
     uint var_34h;
-    uint var_30h;
-    uint var_2ah;
-    int32_t var_21h;
-    uint var_18h;
+    uint var_28h;
+    uint var_20h;
     uint var_14h;
-    uint var_10h;
-    uint var_ch;
+    uint var_bp_10h;
     
-    var_40h = 1;
-    for (stack0xffffffdc = -0x11; stack0xffffffdc != 0xb; unique0x00007a80 = stack0xffffffdc + 1) {
-        var_40h = 0x77a;
+    var_34h = 1;
+    for (var_54h = -0x11; var_54h != 0xb; var_54h = var_54h + 1) {
+        var_34h = 0x77a;
     }
-    set_var(0, 0, 0x2000, 0, 0xc8d209d0, 0x19, 0xf6635492, 0x7c1, 0xff, 7, 0, var_40h, 0x59b, 1, 0x7f26b11, 0xe90a, 
+    set_var(0, 0, 0x2000, 0, 0xc8d209d0, 0x19, 0xf6635492, 0x7c1, 0xff, 7, 0, var_34h, 0x59b, 1, 0x7f26b11, 0xe90a, 
                 0xfffffff8, 0x5a);
     return 0x5a;
 }

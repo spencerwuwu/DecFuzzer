@@ -39,14 +39,14 @@ static int set_var(uint32_t g_10_l, int32_t g_11_l, uint16_t g_12_l){
  */
 static const uint32_t  func_1(void)
 {
+    uint var_30h;
+    uint var_28h;
     uint var_24h;
     uint var_20h;
-    uint var_1ch;
+    uint var_18h;
     uint var_14h;
-    uint var_10h;
     uint var_ch;
     uint var_8h;
-    uint var_2h;
     
     set_var(0xcbcef054, 8, 0x3e37);
     return 0x3e37;

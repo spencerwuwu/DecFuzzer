@@ -42,8 +42,9 @@ static int set_var(uint8_t g_9_l){
 static int8_t  func_1(void)
 {
     uint var_18h;
-    uint var_10h;
-    uint var_9h;
+    uint var_14h;
+    uint var_ch;
+    uint var_5h;
     
     set_var(0);
     return 0;

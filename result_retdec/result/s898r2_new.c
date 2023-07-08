@@ -60,194 +60,237 @@ static int set_var(int8_t g_4_l, uint32_t g_21_l, int16_t g_43_l, uint8_t g_52_l
  */
 static uint32_t  func_1(void)
 {
-    // 0x804a4d1
-    int32_t v1; // 0x804a4d1
-    char v2 = 4; // 0x804a5a3
-    int32_t v3 = 4; // 0x804a5a3
-    char v4 = -1; // 0x804a5a3
-    char v5 = -48; // 0x804a5a3
-    int32_t v6 = 0; // 0x804a5a3
-    int32_t v7 = -0x614c1cd2; // 0x804a5a3
-    char v8 = 0; // 0x804a5a3
-    int16_t v9 = 0x3e41; // 0x804a5a3
-    int32_t v10 = 21; // 0x804a5a3
-    int32_t v11 = -0x7187273c; // 0x804a5a3
-    int16_t v12 = 7; // 0x804a5a3
-    int32_t v13 = 1; // 0x804a5a3
-    int32_t v14 = 0x624cee3a; // 0x804a5a3
-    int32_t v15 = -1; // 0x804a5a3
-    char v16 = -127; // 0x804a5a3
-    char v17 = -8; // 0x804a5a3
-    int32_t result; // 0x804a4d1
-    int32_t v18; // 0x804a4d1
-    int32_t v19; // 0x804a4d1
-    int32_t v20; // 0x804a4d1
-    char v21; // 0x804a4d1
-    char v22; // 0x804a4d1
-    int32_t v23; // 0x804a4d1
-    int32_t v24; // 0x804a4d1
-    int32_t v25; // 0x804a4d1
-    char v26; // 0x804a4d1
-    int16_t v27; // 0x804a4d1
-    int16_t v28; // 0x804a4d1
-    int32_t v29; // 0x804a4d1
-    int32_t v30; // 0x804a4d1
-    int16_t v31; // 0x804a4d1
-    int32_t v32; // 0x804a4d1
-    int32_t v33; // 0x804a4d1
-    int32_t v34; // 0x804a4d1
-    int16_t v35; // 0x804a4d1
+// --------------------- Global Variables ---------------------
+
+int32_t g1;
+
+// ------- Dynamically Linked Functions Without Header --------
+
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+
+    int32_t v1 = -0x7187273c;
+    int32_t v2 = 0x7e1c5715;
+    int32_t v3 = -0x614c1cd2;
+    char v4 = -48;
+    char v5 = 4;
+    int32_t v6 = v4; // 0x1abb
+    int32_t v7 = -15; // 0x2456
+    int32_t v8 = 0x73b032f8; // 0x15c0
+    int16_t v9 = -1; // 0x2436
+    int32_t v10 = 0x624cee3a; // 0x15c0
+    int32_t v11 = 1; // 0x15c0
+    int16_t v12 = 7;
+    int16_t v13 = 0x3e41; // 0x15c0
+    char v14 = 0; // 0x15c0
+    int32_t v15 = 0;
+    char v16 = -1; // 0x15c0
+    char v17; // 0x15c0
+    int16_t v18; // 0x15c0
+    int16_t v19; // 0x15c0
+    int16_t v20; // 0x15c0
+    int16_t v21; // 0x15c0
+    int16_t v22; // 0x15c0
+    int32_t v23; // 0x15c0
+    int32_t v24; // 0x15c0
+    int32_t v25; // 0x15c0
+    int32_t v26; // 0x15c0
+    int32_t v27; // 0x15c0
+    int32_t v28; // 0x15c0
+    int16_t v29; // 0x15c0
+    int16_t v30; // 0x15c0
+    int16_t v31; // 0x15c0
+    int16_t v32; // 0x15c0
+    char v33; // 0x15c0
+    char v34; // 0x15c0
+    char v35; // 0x15c0
+    int32_t v36; // 0x15c0
+    int32_t v37; // 0x15c0
+    int32_t result; // 0x15c0
+    int32_t v38; // 0x15c0
+    int32_t v39; // 0x1ac8
+    char v40; // 0x15c0
+    int32_t v41; // 0x1b88
+    int32_t v42; // 0x242a
+    char v43; // 0x243e
     while (1) {
-        // 0x804a5aa
-        v30 = v11;
-        v29 = v10;
-        v25 = v7;
-        v22 = v5;
-        char v36 = v2;
-        int32_t v37 = -15;
-        int16_t v38 = -15; // 0x804acdf
-        char v39 = v17; // 0x804a4d1
-        char v40 = v16; // 0x804a4d1
-        int32_t v41 = v15; // 0x804a4d1
-        int32_t v42 = v14; // 0x804a4d1
-        int32_t v43 = v13;
-        int16_t v44 = v12;
-        int16_t v45 = v9;
-        char v46 = v8; // 0x804a4d1
-        int32_t v47 = v6;
-        char v48 = v4; // 0x804a4d1
-        int32_t v49 = v3; // 0x804a4d1
-        while (1) {
-            // 0x804a5ff
-            v23 = v47;
-            v8 = v46;
-            v27 = v45;
-            v12 = v44;
-            v13 = v43;
-            v14 = v42;
-            v15 = v41;
-            int16_t v50 = v38;
-            v18 = v37;
-            v2 = (v39 | v22) + 123;
-            int32_t v51; // 0x804a4d1
-            char v52; // 0x804a4d1
-            int32_t v53; // 0x804a4d1
-            int16_t v54; // 0x804a4d1
-            int16_t v55; // 0x804a4d1
-            int32_t v56; // 0x804a4d1
-            int32_t v57; // 0x804a4d1
-            if (v2 == 0) {
-                char v58 = v40;
-                if ((((0x1000000 * (int32_t)(0x4000 * v18 > (int32_t)v58) | -0x5e000000) * v49 ^ -0x73000000) >> 24 || (int32_t)(v58 + 3 & 13) || -0x645a1f4e) < 2) {
-                    // break (via goto) -> 0x804acf0
-                    goto lab_0x804acf0;
-                }
-                // 0x804ac6b
-                v51 = 1;
-                v52 = v8;
-                v53 = v23;
-                v54 = 17;
-                v55 = v12;
-                v56 = v8 >> 1;
-                v57 = 0;
-            } else {
-                // 0x804a7a2
-                v4 = v48;
-                v3 = v2;
-                v6 = v23 ^ v3 + 1;
-                if ((v6 || (int32_t)(v18 != 0)) == 8) {
-                    // break -> 0x804a874
-                    break;
-                }
-                // 0x804aaee
-                v51 = 0;
-                v52 = v4;
-                v53 = v6;
-                v54 = v27;
-                v55 = v12 - 1;
-                v56 = v13;
-                v57 = v14;
+        // 0x1826
+        v36 = v15;
+        v17 = v14;
+        v21 = v12;
+        v29 = v9;
+        v38 = v7;
+        v39 = (0x10000 * (v8 | v6) >> 16) + 0x267b;
+        v40 = v39;
+        if (v40 == 0) {
+            // 0x2246
+            v31 = 1;
+            v34 = v17;
+            v37 = v36;
+            v19 = 17;
+            v22 = v21;
+            v24 = v17 >> 1;
+            v27 = 0;
+        } else {
+            // 0x1b66
+            v33 = v16;
+            v18 = v13;
+            v23 = v11;
+            v26 = v10;
+            v41 = (0x1000000 * v39 >> 24) + 1 ^ v36;
+            if ((v41 || (int32_t)(v38 != 0)) == 8) {
+                // break -> 0x1c18
+                break;
             }
-            // 0x804ac76
-            v43 = v56;
-            v44 = v55;
-            v45 = v54;
-            v47 = v53;
-            char v59 = 0; // 0x804acd5
-            int32_t v60 = v57 | 1; // 0x804acc2
-            v59 += 5;
-            int32_t v61 = 0x10000 * (v60 & v15) >> 16;
-            int32_t v62 = v61; // 0x804acdd
-            int32_t v63 = v60; // 0x804acdd
-            while (v59 < 31) {
-                // 0x804acaf
-                v60 = v63 | 1;
-                v59 += 5;
-                v61 = 0x10000 * (v60 & v62) >> 16;
-                v62 = v61;
-                v63 = v60;
-            }
-            // 0x804acdf
-            v37 = v18 + 5;
-            v38 = v50 + 5;
-            int32_t v64 = v2;
-            v39 = -37;
-            v40 = -20;
-            v41 = v61;
-            v42 = v60;
-            v46 = 35;
-            v48 = v52;
-            v49 = v64;
-            v24 = v47;
-            v26 = 35;
-            v28 = v45;
-            v31 = v44;
-            v32 = v43;
-            v33 = v60;
-            v34 = v61;
-            v35 = v38;
-            v19 = v64;
-            v20 = v51;
-            v21 = v52;
-            if (v37 == 50) {
-                goto lab_0x804acf0_2;
-            }
+            // 0x2118
+            v31 = 0;
+            v34 = v33;
+            v37 = v41;
+            v19 = v18;
+            v22 = v21 - 1;
+            v24 = v23;
+            v27 = v26;
         }
-        int32_t v65 = v22; // 0x804a788
-        v7 = v25 - 1;
-        if (v36 < 0) {
-            // 0x804a908
-            set_var(v3, 0x10000 * v18 >> 16, 0, (int32_t)v4, v65, v6, v7, 0, (int32_t)v8, (int32_t)v27, v29, v30, 1, -1, -0x56128bd6, (int32_t)v12, v13, v14, v15 % 0x10000, 0);
-            result = -1;
+        // 0x2369
+        v25 = v24;
+        v12 = v22;
+        v20 = v19;
+        v15 = v37;
+        v35 = v34;
+        v32 = v31;
+        v43 = 0;
+        v42 = v27 | 1;
+        v9 = v29 & (int16_t)v42;
+        v43 += 5;
+        v30 = v9;
+        v28 = v42;
+        while (v43 <= 30) {
+            // 0x23de
+            v42 = v28 | 1;
+            v9 = v30 & (int16_t)v42;
+            v43 += 5;
+            v30 = v9;
+            v28 = v42;
+        }
+        // 0x2453
+        v7 = v38 + 5;
+        v8 = 0x2ff10fdb;
+        v10 = v42;
+        v11 = v25;
+        v13 = v20;
+        v14 = 35;
+        v16 = v35;
+        if (v7 == 50) {
+            // 0x24ce
+            set_var(v40, 50, v32, v35, v4, v15, v3, -11, 35, v20, v2, v1, 1, -1, -0x56128bd6, v12, v25, v42, v9, 11);
+            result = -0x6773730a;
             return result;
         }
-        int32_t v66 = 1 - v65; // 0x804a9d7
-        v5 = 3;
-        v9 = (int16_t)(v22 ^ 17) - 0x44f8;
-        v10 = v66 < 0 == (v66 & v65) < 0;
-        v11 = (int32_t)-((17 * (int16_t)v8 / 8 % 32 ^ 30)) - 0x7f89;
-        v16 = -20;
-        v17 = 17;
     }
-  lab_0x804acf0:
-    // 0x804acf0
-    v24 = v23;
-    v26 = v8;
-    v28 = v27;
-    v31 = v12;
-    v32 = v13;
-    v33 = v14;
-    v34 = v15;
-    v35 = v18;
-    v19 = 0;
-    v20 = 0;
-    v21 = v8;
-  lab_0x804acf0_2:
-    // 0x804acf0
-    set_var(v19, (int32_t)v35, v20, (int32_t)v21, (int32_t)v22, v24, v25, -11, (int32_t)v26, (int32_t)v28, v29, v30, 1, -1, -0x56128bd6, (int32_t)v31, v32, v33, v34 % 0x10000, 11);
-    result = -0x6773730a;
-  lab_0x804ae49:
-    // 0x804ae49
+    int32_t v44 = v3 - 1; // 0x1c32
+    while (v5 >= 0 == (v5 != 0)) {
+        int16_t v45 = (int16_t)(v4 ^ 17) - 0x44f8; // 0x15c0
+        int32_t v46 = (int32_t)-((17 * (int16_t)v17 / 8 % 32 ^ 30)) - 0x7f89; // 0x15c0
+        v1 = v46;
+        v2 = v4 < 1 != (v6 + 0x7fffffff & v6) < 0;
+        v3 = v44;
+        v4 = 3;
+        v5 = v40;
+        v6 = v4;
+        v7 = -15;
+        v8 = 17;
+        int16_t v47 = v29; // 0x15c0
+        v10 = v26;
+        v11 = v23;
+        int16_t v48 = v21; // 0x15c0
+        v13 = v45;
+        v14 = v17;
+        int32_t v49 = v41; // 0x15c0
+        v16 = v33;
+        while (1) {
+            // 0x1826
+            v36 = v49;
+            v17 = v14;
+            v21 = v48;
+            v29 = v47;
+            v38 = v7;
+            v39 = (0x10000 * (v8 | v6) >> 16) + 0x267b;
+            v40 = v39;
+            if (v40 == 0) {
+                // 0x2246
+                v31 = 1;
+                v34 = v17;
+                v37 = v36;
+                v19 = 17;
+                v22 = v21;
+                v24 = v17 >> 1;
+                v27 = 0;
+            } else {
+                // 0x1b66
+                v33 = v16;
+                v18 = v13;
+                v23 = v11;
+                v26 = v10;
+                v41 = (0x1000000 * v39 >> 24) + 1 ^ v36;
+                if ((v41 || (int32_t)(v38 != 0)) == 8) {
+                    // break -> 0x1c18
+                    break;
+                }
+                // 0x2118
+                v31 = 0;
+                v34 = v33;
+                v37 = v41;
+                v19 = v18;
+                v22 = v21 - 1;
+                v24 = v23;
+                v27 = v26;
+            }
+            // 0x2369
+            v25 = v24;
+            v12 = v22;
+            v20 = v19;
+            v15 = v37;
+            v35 = v34;
+            v32 = v31;
+            v43 = 0;
+            v42 = v27 | 1;
+            v9 = v29 & (int16_t)v42;
+            v43 += 5;
+            v30 = v9;
+            v28 = v42;
+            while (v43 <= 30) {
+                // 0x23de
+                v42 = v28 | 1;
+                v9 = v30 & (int16_t)v42;
+                v43 += 5;
+                v30 = v9;
+                v28 = v42;
+            }
+            // 0x2453
+            v7 = v38 + 5;
+            v8 = 0x2ff10fdb;
+            v47 = v9;
+            v10 = v42;
+            v11 = v25;
+            v48 = v12;
+            v13 = v20;
+            v14 = 35;
+            v49 = v15;
+            v16 = v35;
+            if (v7 == 50) {
+                // 0x24ce
+                set_var(v40, 50, v32, v35, v4, v15, v3, -11, 35, v20, v2, v1, 1, -1, -0x56128bd6, v12, v25, v42, v9, 11);
+                result = -0x6773730a;
+                return result;
+            }
+        }
+        // 0x1c18
+        v44 = v3 - 1;
+    }
+    // 0x1cf0
+    set_var(v40, v38, 0, v33, v4, v41, v44, 0, v17, v18, v2, v1, 1, -1, -0x56128bd6, v21, v23, v26, v29, 0);
+    result = -1;
+  lab_0x26ce:
+    // 0x26ce
     return result;
 }
 

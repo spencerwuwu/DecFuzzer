@@ -46,32 +46,33 @@ static int set_var(int32_t g_2_l, uint16_t g_22_l, uint32_t g_25_l, uint32_t g_7
  */
 static uint16_t  func_1(void)
 {
+    uint var_58h;
+    int var_52h;
+    uint var_50h;
+    uint var_4ch;
+    uint var_44h;
+    uint var_40h;
+    uint var_3ch;
+    uint var_38h;
     uint var_34h;
-    uint32_t var_30h;
-    uint var_2ah;
-    uint var_24h;
-    uint var_20h;
+    uint var_30h;
+    uint var_2ch;
+    uint var_28h;
     uint var_1ch;
     uint32_t var_18h;
-    uint var_14h;
-    uint var_10h;
-    uint var_9h;
+    uint16_t var_12h;
+    uint32_t var_10h;
     
-    var_2ah = 0;
-    var_30h = 0xb99bf0bb;
-    for (var_18h = 0; var_18h < -0x10; var_18h = var_18h - 1) {
-        var_2ah = (var_18h & 0xff) * 0xfc == 0x5b68;
-        if (((var_18h < (var_18h + (var_2ah < 0x9c96c798) <= var_18h)) < 0xffff == 0x9c96c797) && (var_18h != 0)) {
-            var_30h = 1;
-        }
-        else {
-            var_30h = 0;
-        }
-        var_30h = var_30h | var_18h & 0xb7e59501;
-        var_2ah = var_2ah + 1;
+    var_12h = 0;
+    var_18h = 0xb99bf0bb;
+    for (var_10h = 0; var_10h < -0x10; var_10h = var_10h - 1) {
+        var_12h = (var_10h & 0xff) * 0xfc == 0x5b68;
+        var_52h = (var_10h < ((var_12h < 0x9c96c798) + var_10h <= var_10h)) < 0xffff == 0x9c96c797 && var_10h != 0;
+        var_18h = var_52h | var_10h & 0xb7e59501;
+        var_12h = var_12h + 1;
     }
-    set_var(var_18h, var_2ah, var_30h, 0xfffffffe, 0xfffffffa, 0xfff7);
-    return 0xfffffffe;
+    set_var(var_10h, var_12h, var_18h, 0xfffffffe, 0xfffffffa, 0xfff7);
+    return 0xfffe;
 }
 
 

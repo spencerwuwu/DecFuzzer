@@ -56,24 +56,31 @@ static int set_var(int32_t g_9_l, uint32_t g_16_l, uint32_t g_19_l, uint8_t g_27
  */
 static uint32_t  func_1(void)
 {
-    // 0x804a457
-    int32_t v1; // 0x804a457
+// --------------------- Global Variables ---------------------
+
+int32_t g1;
+
+// ------- Dynamically Linked Functions Without Header --------
+
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+
+    // 0x1530
     while (1) {
-        // continue -> 0x804a510
+        // continue -> 0x15f5
     }
-  lab_0x804abd0:;
-    // 0x804abd0
-    int32_t v2; // 0x804a457
-    int32_t result = v2;
-    uint32_t v3; // 0x804a457
-    int32_t v4; // 0x804a457
-    int16_t v5; // 0x804a457
-    uint16_t v6; // 0x804a457
-    int16_t v7; // 0x804a457
-    int32_t v8; // 0x804a457
-    int32_t v9; // 0x804a51d
-    int32_t v10; // 0x804a526
-    set_var(-0x2ee3, v9, 0x1000000 * v10 >> 24, v3 % 256, 0x10000 * v8 >> 16, (int32_t)(v7 < 0), v4, result, -0x2686c775, 2, (int32_t)v5, 3, 5, (int32_t)v6, 0xfffa, -0x4a0e250e);
+  lab_0x225c:;
+    // 0x225c
+    int32_t v1; // 0x1530
+    int32_t result = v1;
+    int32_t v2; // 0x1530
+    int16_t v3; // 0x1530
+    char v4; // 0x1530
+    int32_t v5; // 0x1530
+    char v6; // 0x1530
+    int32_t v7; // 0x1530
+    int32_t v8; // 0x15fa
+    int32_t v9; // 0x1600
+    set_var(0x2fafd11d, v8, v9, v4, (int16_t)v7, (int32_t)(v6 < 0), v5, result, -0x2686c775, 2, v2, 3, 5, v3, -6, -0x4a0e250e);
     return result;
 }
 

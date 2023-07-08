@@ -41,26 +41,29 @@ static int set_var(int32_t g_8_l, int32_t g_17_l, uint32_t g_18_l, uint8_t g_24_
 static uint16_t  func_1(void)
 {
     uint8_t uVar1;
+    uint var_3ch;
+    uint var_34h;
+    uint var_30h;
+    uint var_29h;
     uint var_20h;
-    uint var_1ch;
+    int32_t var_1ch;
     uint var_18h;
-    uint var_14h;
+    uint8_t var_11h;
     uint var_10h;
-    int32_t var_ch;
-    uint8_t var_5h;
-    int32_t var_4h;
+    uint32_t var_ch;
+    uint var_8h;
     
-    var_5h = 0x33;
+    var_11h = 0x33;
     uVar1 = 1;
-    for (var_4h = -0xf; var_4h < 7; var_4h = var_4h + 1) {
-        var_ch = 0;
-        while ((-10 < var_ch && (var_5h = var_5h + 1,  uVar1 == 0))) {
-            var_ch = var_ch + -7;
-            uVar1 = var_5h;
+    for (var_ch = 0xfffffff1; var_ch < 7; var_ch = var_ch + 1) {
+        var_1ch = 0;
+        while ((-10 < var_1ch && (var_11h = var_11h + 1,  uVar1 == 0))) {
+            var_1ch = var_1ch + -7;
+            uVar1 = var_11h;
         }
     }
-    set_var(0x7d65121a, var_4h, 5, var_5h);
-    return var_4h;
+    set_var(0x7d65121a, var_ch, 5, var_11h);
+    return var_ch & 0xffff;
 }
 
 

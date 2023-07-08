@@ -66,64 +66,26 @@ static int set_var(uint16_t g_5_l, int8_t g_6_l, int32_t g_12_l, uint32_t g_13_l
  */
 static uint32_t  func_1(void)
 {
-    // 0x804ac8a
-    int32_t v1; // 0x804a538
-    int16_t v2 = -4; // 0x804b563
-    int32_t v3 = 22; // 0x804b3fc
-    int16_t v4 = -0x2176;
-    int16_t v5 = -0x5ad3;
-    char v6 = -4;
-    v3 = (0x10000 * v3 >> 16) + 1;
-    char v7; // 0x804a538
-    int16_t v8; // 0x804a538
-    int16_t v9; // 0x804a538
-    char v10; // 0x804a538
-    if ((v3 & (int32_t)v4) == -5) {
-        // 0x804b4f4
-        v7 = 100;
-        v8 = v4;
-        v9 = v5;
-        v10 = v6 + 1;
+// --------------------- Global Variables ---------------------
+
+int16_t g1 = 0x6362; // 0x324
+int32_t g2;
+
+// ------- Dynamically Linked Functions Without Header --------
+
+int32_t __libc_start_main(int32_t a1, int32_t a2, char ** a3, void (*a4)(), void (*a5)(), void (*a6)());
+
+    int32_t result; // 0x1690
+    if ((int32_t)((int64_t)(0x100000000 * (int64_t)(((int32_t)(uint16_t)(int16_t)&g1 & 255) >> 31) | (int64_t)(uint32_t)((int32_t)(uint16_t)(int16_t)&g1 & 255)) % 102) == 0) {
+        // 0x1924
+        set_var((int16_t)&g1, -9, 0x4320e32c, -0x5512949b, 0, 1, -6, 1, -7, -10, -0x2a55fbfc, -78, 7, -0x13d5ad3, 1, 1, -17, -4, 95, -6, -1, 0x7fcd342, 0, -1);
+        result = (int32_t)(0x10000 * (int32_t)(int16_t)&g1) >> 16;
     } else {
-        // 0x804b410
-        v7 = 4;
-        v8 = v4 | 0x7e05;
-        v9 = v5 & 0x1b8b;
-        v10 = v6;
+        // 0x2feb
+        set_var((int16_t)&g1, 0, 510, 85, 59, 7, -252, 1, -369, -10, -0x2a55fbfc, -78, -1, -0x21fffef7, -1, -0x77b7, -1, -4, 32, -6, -1, 0x7fcd342, 0, -1);
+        result = -252;
     }
-    char v11 = v10;
-    int16_t v12 = v9;
-    int16_t v13 = v8;
-    char v14 = v7;
-    v2++;
-    while (v2 != 59) {
-        // 0x804b3b4
-        v4 = v13;
-        v5 = v12;
-        v6 = v11;
-        v3 = (0x10000 * v3 >> 16) + 1;
-        if ((v3 & (int32_t)v4) == -5) {
-            // 0x804b4f4
-            v7 = v14;
-            v8 = v4;
-            v9 = v5;
-            v10 = v6 + 1;
-        } else {
-            // 0x804b410
-            v7 = 4;
-            v8 = v4 | 0x7e05;
-            v9 = v5 & 0x1b8b;
-            v10 = v6;
-        }
-        // 0x804b555
-        v11 = v10;
-        v12 = v9;
-        v13 = v8;
-        v14 = v7;
-        v2++;
-    }
-    int32_t result = v14; // 0x804b83d
-    set_var(804, 0, 510, 85, 59, 7, result, 1, (int32_t)v13, -10, -0x2a55fbfc, -78, -1, (int32_t)v12, 255, 0x8849, 255, (int32_t)v11, 32, -6, -1, 0x7fcd342, 0, -1);
+    // 0x34ca
     return result;
 }
 

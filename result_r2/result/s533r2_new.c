@@ -48,16 +48,32 @@ static int set_var(int32_t g_2_l, uint32_t g_23_l, int32_t g_34_l, int16_t g_40_
  */
 static uint32_t  func_1(void)
 {
-    uint var_80h;
-    uint var_7ch;
-    uint var_78h;
+    uint var_e0h;
+    uint var_dch;
+    uint var_d8h;
+    uint var_d2h;
+    uint var_c4h;
+    uint var_c0h;
+    uint var_b9h;
+    uint var_b4h;
+    uint var_b0h;
+    uint var_aah;
+    uint var_9fh;
+    uint var_94h;
+    uint var_90h;
+    uint var_8ch;
+    uint var_86h;
+    uint var_7dh;
     uint var_74h;
     uint var_70h;
-    uint var_68h;
+    uint var_69h;
     uint var_64h;
+    uint var_60h;
     uint var_5ch;
-    uint var_54h;
+    uint var_58h;
     uint var_50h;
+    uint var_48h;
+    uint var_44h;
     uint var_40h;
     uint var_3ch;
     uint var_38h;
@@ -65,20 +81,17 @@ static uint32_t  func_1(void)
     uint var_30h;
     uint var_2ch;
     uint var_28h;
-    uint var_24h;
-    uint var_20h;
     uint var_1ch;
-    uint var_18h;
-    uint var_14h;
-    uint32_t var_8h;
-    uint32_t var_4h;
+    uint32_t var_18h;
+    uint32_t var_14h;
+    uint var_bp_10h;
     
-    var_8h = 1;
-    for (var_4h = 0; var_4h != 0xfffffff8; var_4h = var_4h - 2) {
-        var_8h = ((1 < var_4h) << (var_4h & 0x1f)) * -0x24 ^ var_4h;
+    var_18h = 1;
+    for (var_14h = 0; var_14h != 0xfffffff8; var_14h = var_14h - 2) {
+        var_18h = var_14h ^ ((1 < var_14h) << (var_14h & 0x1f)) * -0x24;
     }
-    set_var(0, var_8h, 3, 0xffff969f, 0x84a8, 0xffffd980, 1, 7, 0xe46196c9, 0xc5dfbc4e, 0, 0xd9a11d30);
-    return var_8h;
+    set_var(0, var_18h, 3, 0xffff969f, 0x84a8, 0xffffd980, 1, 7, 0xe46196c9, 0xc5dfbc4e, 0, 0xd9a11d30);
+    return var_18h;
 }
 
 

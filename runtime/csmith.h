@@ -28,7 +28,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#define uint uint64_t
+#define uint uint32_t
+#define ulong uint64_t
 #define uchar unsigned char
 #define ushort unsigned short
 

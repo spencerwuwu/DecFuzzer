@@ -40,6 +40,11 @@ static int set_var(int8_t g_15_l, int16_t g_16_l, uint32_t g_17_l, uint16_t g_51
  */
 static int8_t  func_1(void)
 {
+    int var_46h;
+    uint var_44h;
+    uint var_40h;
+    uint var_38h;
+    uint var_34h;
     uint var_30h;
     uint var_2ch;
     uint var_24h;
@@ -58,12 +63,8 @@ static int8_t  func_1(void)
     for (var_ch = 0x1d; var_ch < 0x3d; var_ch = var_ch + 1) {
         var_8h = 1;
         var_5h = '\0';
-        if ((var_ch == 1) && ('\0' < 1U % 0 + (0xe5741310 < 1U % 0) * -0x11)) {
-            var_eh = 0;
-        }
-        else {
-            var_eh = 1;
-        }
+        var_46h = var_ch != 1 || (1U % 0 & 0xffffffff) % 0xe5741311 < '\x01';
+        var_eh = var_46h;
     }
     set_var(var_5h, var_8h, var_ch, var_eh);
     return var_ch;

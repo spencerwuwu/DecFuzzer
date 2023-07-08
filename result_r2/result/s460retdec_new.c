@@ -55,76 +55,99 @@ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_6_l, int8_t g_17_l, u
  */
 static uint8_t  func_1(void)
 {
+    uint var_13ch;
+    uint var_138h;
+    uint var_134h;
+    uint var_12dh;
+    uint var_128h;
+    uint var_124h;
+    uint var_120h;
+    uint var_11ch;
+    uint var_116h;
+    uint var_10ch;
+    uint var_108h;
+    uint var_101h;
+    uint var_fch;
+    uint var_f8h;
+    uint var_f4h;
+    uint var_ech;
+    uint var_e4h;
+    uint var_e0h;
+    uint var_dch;
+    uint var_d8h;
+    uint var_d0h;
+    uint var_cch;
+    uint var_c8h;
+    uint var_c4h;
     uint var_c0h;
-    uint var_b0h;
-    uint var_ach;
-    uint var_a6h;
-    uint var_a0h;
+    uint var_bch;
+    uint var_b8h;
+    uint var_b4h;
+    uint var_adh;
+    uint var_a8h;
+    uint var_a4h;
     uint var_9ch;
     uint var_94h;
     uint var_90h;
-    uint var_8ch;
+    uint var_88h;
     uint var_84h;
-    uint var_80h;
     uint var_7ch;
     uint var_74h;
-    int16_t var_6eh;
-    uint32_t var_6ch;
-    uint var_68h;
+    uint var_70h;
+    uint var_6ch;
     uint var_64h;
-    int32_t var_60h;
-    uint8_t var_59h;
-    uint32_t var_58h;
-    uint var_54h;
+    uint var_60h;
+    uint var_58h;
     uint var_50h;
-    uint var_4ch;
-    uint var_44h;
+    uint var_48h;
+    int16_t var_42h;
     uint var_40h;
     uint var_38h;
     int16_t var_32h;
-    int32_t var_30h;
+    uint32_t var_30h;
     uint var_2ch;
-    uint var_24h;
-    uint var_20h;
-    uint var_1ch;
-    uint var_18h;
-    uint32_t var_10h;
-    uint var_ch;
+    uint var_28h;
+    int32_t var_24h;
+    uint32_t var_20h;
+    uint8_t var_19h;
+    uint32_t var_18h;
+    int32_t var_14h;
+    uint var_10h;
     
-    var_54h = 0xfffffffe;
-    var_58h = 0xfffffff9;
-    var_59h = 0xfe;
-    var_10h = 0x271dbca;
-    var_60h = 8;
-    var_64h = 0xb856a759;
-    var_6ch = 6;
-    var_6eh = -0x643;
-    var_32h = 1;
-    for (var_30h = 0; var_30h != -0x14; var_30h = var_30h + -5) {
-        for (var_58h = 0; var_58h < -0x17; var_58h = var_58h - 1) {
-            var_59h = var_59h & var_58h;
-            var_10h = var_10h | var_58h;
-            if (0xcb >> (var_30h & 0x1f) == 0) {
-                var_59h = 0xff;
-                var_64h = 0xffffffff;
-                var_6ch = var_6ch - 1;
-                var_6eh = (var_6ch & 0xff) << (0xfc38 < var_10h != 0xed0bd2f2);
+    var_10h = 0xfffffffe;
+    var_18h = 0xfffffff9;
+    var_19h = 0xfe;
+    var_20h = 0x271dbca;
+    var_24h = 8;
+    var_28h = 0xb856a759;
+    var_30h = 6;
+    var_32h = -0x643;
+    var_42h = 1;
+    for (var_14h = 0; var_14h != -0x14; var_14h = var_14h + -5) {
+        for (var_18h = 0; var_18h < -0x17; var_18h = var_18h - 1) {
+            var_19h = var_19h & var_18h;
+            var_20h = var_18h | var_20h;
+            if (0xcb >> (var_14h & 0x1f) == 0) {
+                var_19h = 0xff;
+                var_28h = 0xffffffff;
+                var_30h = var_30h - 1;
+                var_32h = (var_30h & 0xff) << (0xfc38 < var_20h != 0xed0bd2f2);
             }
             else {
-                var_60h = var_60h + 1;
+                var_24h = var_24h + 1;
             }
         }
-        for (var_6ch = 0; var_6ch != 0x1c; var_6ch = var_6ch + 1) {
-            for (var_32h = -0xb; var_32h != -0x1a; var_32h = var_32h + -1) {
-                var_6eh = 0;
-                var_58h = 1;
+        for (var_30h = 0; var_30h != 0x1c; var_30h = var_30h + 1) {
+            for (var_42h = -0xb; var_42h != -0x1a; var_42h = var_42h + -1) {
+                var_32h = 0;
+                var_18h = 1;
             }
         }
-        var_58h = var_58h & 0x6f;
-        var_54h = 0xa17331cc;
+        var_18h = var_18h & 0x6f;
+        var_10h = 0xa17331cc;
     }
-    set_var(var_54h, 0xffffffec, var_58h, var_59h, 0xb0, var_60h, var_64h, 0x122e7dfe, var_6ch, var_6eh, 1, 0xb0, 
-                0xb0, var_32h, 1, 0x2a, ((var_6ch <= ((0x95 < var_32h) < 0x6f) ^ 0xb0) ^ 0xffff) << 9, 0xfffe, 0x95);
+    set_var(var_10h, 0xffffffec, var_18h, var_19h, 0xb0, var_24h, var_28h, 0x122e7dfe, var_30h, var_32h, 1, 0xb0, 
+                0xb0, var_42h, 1, 0x2a, ((var_30h <= ((0x95 < var_42h) < 0x6f) ^ 0xb0) ^ 0xffff) << 9, 0xfffe, 0x95);
     return 0x2a;
 }
 

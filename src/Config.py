@@ -64,7 +64,8 @@ csmith_cmd = (csmith_absolute_path + " "
               " --max-expr-complexity 5"  # " --max-expr-complexity 10" # too complicated to analyse?
               )
 
-compile_cmd = 'gcc -fno-stack-protector -no-pie -O0 -w -m32 '
+#compile_cmd = 'gcc -fno-stack-protector -no-pie -O0 -w -m32 '
+compile_cmd = 'clang -Wno- -g -Wno-error=int-conversion -O0 -fno-stack-protector -m32'
 
 
 # CFG_measurer

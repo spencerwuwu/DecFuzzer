@@ -49,10 +49,20 @@ static int set_var(uint32_t g_29_l, uint8_t g_44_l, uint8_t g_54_l, uint32_t g_5
  */
 static uint32_t  func_1(void)
 {
-    uint var_9ch;
+    uint var_ech;
+    uint var_e6h;
+    uint var_deh;
+    uint var_d8h;
+    uint var_d0h;
+    uint var_cah;
+    uint var_c3h;
+    uint var_b8h;
+    uint var_b0h;
+    uint var_a4h;
+    uint var_a0h;
+    uint var_98h;
     uint var_94h;
     uint var_8ch;
-    uint var_88h;
     uint var_84h;
     uint var_80h;
     uint var_7ch;
@@ -62,46 +72,45 @@ static uint32_t  func_1(void)
     uint var_6ch;
     uint var_64h;
     uint var_5ch;
-    uint var_4ch;
-    uint var_44h;
+    uint var_50h;
+    int32_t var_4ch;
+    uint var_48h;
     uint var_40h;
-    int32_t var_3ch;
     uint var_38h;
     uint var_34h;
-    uint var_30h;
-    uint16_t var_2ah;
-    int32_t var_24h;
-    uint var_20h;
-    int32_t var_18h;
-    uint8_t var_11h;
-    uint32_t var_10h;
-    uint var_ch;
+    uint16_t var_2eh;
+    int32_t var_28h;
+    uint var_24h;
+    int32_t var_1ch;
+    uint8_t var_15h;
+    uint32_t var_14h;
+    uint var_10h;
     
-    var_2ah = 0;
-    var_10h = 0x245c2f1e;
-    var_11h = 0xff;
-    var_18h = 1;
-    var_20h = 1;
-    var_24h = 0;
-    while (var_24h == 0x31) {
-        var_20h = 0;
-        var_24h = 0x32;
+    var_15h = 0xff;
+    var_2eh = 0;
+    var_1ch = 1;
+    var_24h = 1;
+    var_14h = 0x245c2f1e;
+    var_28h = 0;
+    while (var_28h == 0x31) {
+        var_24h = 0;
+        var_28h = 0x32;
     }
-    var_3ch = 4;
-    while (var_3ch == -0x14) {
-        var_11h = 0;
-        var_2ah = 0xfffd;
-        var_20h = 0;
-        var_18h = -0x10;
-        while (var_18h == 0x10) {
-            var_18h = 0x18;
+    var_4ch = 4;
+    while (var_4ch == -0x14) {
+        var_15h = 0;
+        var_2eh = 0xfffd;
+        var_24h = 0;
+        var_1ch = -0x10;
+        while (var_1ch == 0x10) {
+            var_1ch = 0x18;
         }
-        for (var_10h = 1; 9 < var_10h; var_10h = var_10h + 9) {
+        for (var_14h = 1; 9 < var_14h; var_14h = var_14h + 9) {
         }
-        var_3ch = -0x15;
+        var_4ch = -0x15;
     }
-    set_var(var_10h, var_11h, 1, var_18h, 0, var_20h, var_24h, 0xc, 0x60, var_2ah, 0x8cd5190a, 8);
-    return var_2ah;
+    set_var(var_14h, var_15h, 1, var_1ch, 0, var_24h, var_28h, 0xc, 0x60, var_2eh, 0x8cd5190a, 8);
+    return var_2eh;
 }
 
 
