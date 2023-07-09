@@ -22,6 +22,7 @@
 ./seed_all/s10retdec.c
 ./seed_all/s110r2.c
 ./seed_all/s110retdec.c
+./seed_all/s111r2.c
 ./seed_all/s112r2.c
 ./seed_all/s112retdec.c
 ./seed_all/s113r2.c

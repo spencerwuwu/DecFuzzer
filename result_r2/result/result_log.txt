@@ -9,13 +9,8 @@ Found discrepancy:
 ./seed_all/s109retdec     errors [b'']
 ./seed_all/s109retdec_new errors [b'']
 Found discrepancy:
-./seed_all/s111r2     outputs [b'checksum = C50A1F9E\n']
-./seed_all/s111r2_new outputs [b'checksum = E8AB28BA\n']
-./seed_all/s111r2     errors [b'']
-./seed_all/s111r2_new errors [b'']
-Found discrepancy:
 ./seed_all/s111retdec     outputs [b'checksum = C50A1F9E\n']
-./seed_all/s111retdec_new outputs [b'checksum = 13D13B2D\n']
+./seed_all/s111retdec_new outputs [b'checksum = 6516740A\n']
 ./seed_all/s111retdec     errors [b'']
 ./seed_all/s111retdec_new errors [b'']
 Found discrepancy:
@@ -730,12 +725,12 @@ Found discrepancy:
 ./seed_all/s468retdec_new errors [b'']
 Found discrepancy:
 ./seed_all/s46r2     outputs [b'checksum = 3A8CEC1B\n']
-./seed_all/s46r2_new outputs [b'checksum = 988ABA9B\n']
+./seed_all/s46r2_new outputs [b'checksum = 4A2C5D35\n']
 ./seed_all/s46r2     errors [b'']
 ./seed_all/s46r2_new errors [b'']
 Found discrepancy:
 ./seed_all/s46retdec     outputs [b'checksum = 3A8CEC1B\n']
-./seed_all/s46retdec_new outputs [b'checksum = CCA2348D\n']
+./seed_all/s46retdec_new outputs [b'checksum = 79CBD8C7\n']
 ./seed_all/s46retdec     errors [b'']
 ./seed_all/s46retdec_new errors [b'']
 Found discrepancy:
@@ -960,12 +955,12 @@ Found discrepancy:
 ./seed_all/s620retdec_new errors [b'']
 Found discrepancy:
 ./seed_all/s62r2     outputs [b'']
-./seed_all/s62r2_new outputs [b'checksum = DD174DC9\n']
+./seed_all/s62r2_new outputs [b'checksum = 3C485BD4\n']
 ./seed_all/s62r2     errors [b'']
 ./seed_all/s62r2_new errors [b'']
 Found discrepancy:
 ./seed_all/s62retdec     outputs [b'']
-./seed_all/s62retdec_new outputs [b'checksum = C39A216F\n']
+./seed_all/s62retdec_new outputs [b'checksum = 7C2576DD\n']
 ./seed_all/s62retdec     errors [b'']
 ./seed_all/s62retdec_new errors [b'']
 Found discrepancy:
@@ -980,7 +975,7 @@ Found discrepancy:
 ./seed_all/s641retdec_new errors [b'']
 Found discrepancy:
 ./seed_all/s654r2     outputs [b'']
-./seed_all/s654r2_new outputs [b'checksum = D9553AD3\n']
+./seed_all/s654r2_new outputs [b'checksum = D3CFE8EC\n']
 ./seed_all/s654r2     errors [b'']
 ./seed_all/s654r2_new errors [b'']
 Found discrepancy:
@@ -1080,12 +1075,12 @@ Found discrepancy:
 ./seed_all/s707retdec_new errors [b'']
 Found discrepancy:
 ./seed_all/s70r2     outputs [b'']
-./seed_all/s70r2_new outputs [b'checksum = 428EDA68\n']
+./seed_all/s70r2_new outputs [b'checksum = F3DAF8C2\n']
 ./seed_all/s70r2     errors [b'']
 ./seed_all/s70r2_new errors [b'']
 Found discrepancy:
 ./seed_all/s70retdec     outputs [b'']
-./seed_all/s70retdec_new outputs [b'checksum = 763FD6AC\n']
+./seed_all/s70retdec_new outputs [b'checksum = CAA25582\n']
 ./seed_all/s70retdec     errors [b'']
 ./seed_all/s70retdec_new errors [b'']
 Found discrepancy:
@@ -1265,7 +1260,7 @@ Found discrepancy:
 ./seed_all/s832r2_new errors [b'']
 Found discrepancy:
 ./seed_all/s832retdec     outputs [b'']
-./seed_all/s832retdec_new outputs [b'checksum = AE60A252\n']
+./seed_all/s832retdec_new outputs [b'checksum = 2EB387DC\n']
 ./seed_all/s832retdec     errors [b'']
 ./seed_all/s832retdec_new errors [b'']
 Found discrepancy:
@@ -1300,12 +1295,12 @@ Found discrepancy:
 ./seed_all/s845retdec_new errors [b'']
 Found discrepancy:
 ./seed_all/s849r2     outputs [b'']
-./seed_all/s849r2_new outputs [b'checksum = 60EA71B8\n']
+./seed_all/s849r2_new outputs [b'checksum = 283DBA98\n']
 ./seed_all/s849r2     errors [b'']
 ./seed_all/s849r2_new errors [b'']
 Found discrepancy:
 ./seed_all/s849retdec     outputs [b'']
-./seed_all/s849retdec_new outputs [b'checksum = 1BB268D\n']
+./seed_all/s849retdec_new outputs [b'checksum = 462A5BFE\n']
 ./seed_all/s849retdec     errors [b'']
 ./seed_all/s849retdec_new errors [b'']
 Found discrepancy:

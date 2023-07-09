@@ -155,7 +155,8 @@ def test_single_file(file_path, storage_dir, EMI_dir='', out_dir='', mutation_fl
         return Config.Result.F_RECOM
     else:
         # Save the compilable file to storage
-        copy_file(decompiled_file_name, storage_dir)
+        new_filename = file_path[:-2] + '_new.c'
+        copy_file(new_filename, storage_dir)
 
     # Step 4: compare
     status, output = checker.compare_two_prog(file_path[:-2],
@@ -357,34 +358,6 @@ def seed_test_WASM(files_dir, out_dir, storage_dir, remove=True):
                     current_dir = root
 
                     ret = test_single_file(file_path, storage_dir, EMI_dir="",
-                                     out_dir=out_dir,
-                                     mutation_flag=0, compile_flag=1, decompile_flag=1)
-                    results[ret.name] += 1
-                    # remove redundant files
-                    if remove:
-                        subprocess.getstatusoutput(f"cd {root}; rm -rf *_* *.json *.dsm *.ll {f.replace('.c', '')}")
-    return results
-
-
-def seed_save_c(files_dir, out_dir, remove=True):
-    """files_dir: the seed files directory
-       out_dir: the directory to store results and logs
-    """
-    prepare_dirs(out_dir, emi=False)
-    results = {e.name:0 for e in Config.Result}
-    for root, dirs, files in os.walk(files_dir):
-        files.sort()
-        for f in files:
-            if f.endswith('.c') and not f.endswith('_new.c')\
-                    and not f.endswith('_r2.c') and not f.endswith('_retdec.c')\
-                    and not f.endswith('_ida.c') and not f.endswith('_JEB3.c'):
-                if root.endswith(files_dir):
-
-                    # test all files in this folder
-                    file_path = os.path.join(root, f)
-                    current_dir = root
-
-                    ret = test_single_file(file_path, current_dir, EMI_dir="",
                                      out_dir=out_dir,
                                      mutation_flag=0, compile_flag=1, decompile_flag=1)
                     results[ret.name] += 1
