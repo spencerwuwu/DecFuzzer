@@ -2,13 +2,19 @@
 ./seed_all/s0r2.c compiled
 Decompiling ./seed_all/s0r2 ...
 ./seed_all/s0r2 decompiled
-./seed_all/s0r2_new.c compilation failed
-./seed_all/s0r2_new.c compilation failed
+./seed_all/s0r2_new.c compiled
+Checking ./seed_all/s0r2 & ./seed_all/s0r2_new
+Found discrepancy:
+./seed_all/s0r2     outputs [b'checksum = F0D4ABEC\n']
+./seed_all/s0r2_new outputs [b'checksum = 2B2AF7E1\n']
 ./seed_all/s0retdec.c compiled
 Decompiling ./seed_all/s0retdec ...
 ./seed_all/s0retdec decompiled
-./seed_all/s0retdec_new.c compilation failed
-./seed_all/s0retdec_new.c compilation failed
+./seed_all/s0retdec_new.c compiled
+Checking ./seed_all/s0retdec & ./seed_all/s0retdec_new
+Found discrepancy:
+./seed_all/s0retdec     outputs [b'checksum = F0D4ABEC\n']
+./seed_all/s0retdec_new outputs [b'checksum = 4EA0D888\n']
 ./seed_all/s100r2.c compiled
 Decompiling ./seed_all/s100r2 ...
 ./seed_all/s100r2 decompiled
@@ -188,7 +194,7 @@ Decompiling ./seed_all/s111r2 ...
 Checking ./seed_all/s111r2 & ./seed_all/s111r2_new
 Found discrepancy:
 ./seed_all/s111r2     outputs [b'checksum = C50A1F9E\n']
-./seed_all/s111r2_new outputs [b'checksum = 5B57260F\n']
+./seed_all/s111r2_new outputs [b'checksum = B44DA2D2\n']
 ./seed_all/s111retdec.c compiled
 Decompiling ./seed_all/s111retdec ...
 ./seed_all/s111retdec decompiled
@@ -196,7 +202,7 @@ Decompiling ./seed_all/s111retdec ...
 Checking ./seed_all/s111retdec & ./seed_all/s111retdec_new
 Found discrepancy:
 ./seed_all/s111retdec     outputs [b'checksum = C50A1F9E\n']
-./seed_all/s111retdec_new outputs [b'checksum = A85DA995\n']
+./seed_all/s111retdec_new outputs [b'checksum = 60023F47\n']
 ./seed_all/s112r2.c compiled
 Decompiling ./seed_all/s112r2 ...
 ./seed_all/s112r2 decompiled
@@ -446,7 +452,7 @@ Decompiling ./seed_all/s128r2 ...
 Checking ./seed_all/s128r2 & ./seed_all/s128r2_new
 Found discrepancy:
 ./seed_all/s128r2     outputs [b'checksum = E79906AE\n']
-./seed_all/s128r2_new outputs [b'checksum = 1170C0CF\n']
+./seed_all/s128r2_new outputs [b'checksum = 7688D329\n']
 ./seed_all/s128retdec.c compiled
 Decompiling ./seed_all/s128retdec ...
 ./seed_all/s128retdec decompiled
@@ -454,7 +460,7 @@ Decompiling ./seed_all/s128retdec ...
 Checking ./seed_all/s128retdec & ./seed_all/s128retdec_new
 Found discrepancy:
 ./seed_all/s128retdec     outputs [b'checksum = E79906AE\n']
-./seed_all/s128retdec_new outputs [b'checksum = 24AA8299\n']
+./seed_all/s128retdec_new outputs [b'checksum = 183144C5\n']
 ./seed_all/s129r2.c compiled
 Decompiling ./seed_all/s129r2 ...
 ./seed_all/s129r2 decompiled
@@ -1082,13 +1088,19 @@ Checking ./seed_all/s167retdec & ./seed_all/s167retdec_new
 ./seed_all/s168r2.c compiled
 Decompiling ./seed_all/s168r2 ...
 ./seed_all/s168r2 decompiled
-./seed_all/s168r2_new.c compilation failed
-./seed_all/s168r2_new.c compilation failed
+./seed_all/s168r2_new.c compiled
+Checking ./seed_all/s168r2 & ./seed_all/s168r2_new
+Found discrepancy:
+./seed_all/s168r2     outputs [b'']
+./seed_all/s168r2_new outputs [b'checksum = C3374FAF\n']
 ./seed_all/s168retdec.c compiled
 Decompiling ./seed_all/s168retdec ...
 ./seed_all/s168retdec decompiled
-./seed_all/s168retdec_new.c compilation failed
-./seed_all/s168retdec_new.c compilation failed
+./seed_all/s168retdec_new.c compiled
+Checking ./seed_all/s168retdec & ./seed_all/s168retdec_new
+Found discrepancy:
+./seed_all/s168retdec     outputs [b'']
+./seed_all/s168retdec_new outputs [b'checksum = C3374FAF\n']
 ./seed_all/s169r2.c compiled
 Decompiling ./seed_all/s169r2 ...
 ./seed_all/s169r2 decompiled
@@ -1168,7 +1180,7 @@ Decompiling ./seed_all/s173r2 ...
 Checking ./seed_all/s173r2 & ./seed_all/s173r2_new
 Found discrepancy:
 ./seed_all/s173r2     outputs [b'checksum = 1180BE45\n']
-./seed_all/s173r2_new outputs [b'checksum = A7A84943\n']
+./seed_all/s173r2_new outputs [b'checksum = 402E3619\n']
 ./seed_all/s173retdec.c compiled
 Decompiling ./seed_all/s173retdec ...
 ./seed_all/s173retdec decompiled
@@ -1176,7 +1188,7 @@ Decompiling ./seed_all/s173retdec ...
 Checking ./seed_all/s173retdec & ./seed_all/s173retdec_new
 Found discrepancy:
 ./seed_all/s173retdec     outputs [b'checksum = 1180BE45\n']
-./seed_all/s173retdec_new outputs [b'checksum = 81644117\n']
+./seed_all/s173retdec_new outputs [b'checksum = B2A06FF0\n']
 ./seed_all/s174r2.c compiled
 Decompiling ./seed_all/s174r2 ...
 ./seed_all/s174r2 decompiled
@@ -1428,7 +1440,7 @@ Decompiling ./seed_all/s18r2 ...
 Checking ./seed_all/s18r2 & ./seed_all/s18r2_new
 Found discrepancy:
 ./seed_all/s18r2     outputs [b'checksum = 57F764E3\n']
-./seed_all/s18r2_new outputs [b'checksum = 884C9247\n']
+./seed_all/s18r2_new outputs [b'checksum = 600F6938\n']
 ./seed_all/s18retdec.c compiled
 Decompiling ./seed_all/s18retdec ...
 ./seed_all/s18retdec decompiled
@@ -1436,7 +1448,7 @@ Decompiling ./seed_all/s18retdec ...
 Checking ./seed_all/s18retdec & ./seed_all/s18retdec_new
 Found discrepancy:
 ./seed_all/s18retdec     outputs [b'checksum = 57F764E3\n']
-./seed_all/s18retdec_new outputs [b'checksum = BB2B5FD2\n']
+./seed_all/s18retdec_new outputs [b'checksum = D5EFD418\n']
 ./seed_all/s190r2.c compiled
 Decompiling ./seed_all/s190r2 ...
 ./seed_all/s190r2 decompiled
@@ -1500,7 +1512,7 @@ Decompiling ./seed_all/s194r2 ...
 Checking ./seed_all/s194r2 & ./seed_all/s194r2_new
 Found discrepancy:
 ./seed_all/s194r2     outputs [b'checksum = 3D6D3A44\n']
-./seed_all/s194r2_new outputs [b'checksum = A7E06338\n']
+./seed_all/s194r2_new outputs [b'checksum = CF298CE5\n']
 ./seed_all/s194retdec.c compiled
 Decompiling ./seed_all/s194retdec ...
 ./seed_all/s194retdec decompiled
@@ -1508,7 +1520,7 @@ Decompiling ./seed_all/s194retdec ...
 Checking ./seed_all/s194retdec & ./seed_all/s194retdec_new
 Found discrepancy:
 ./seed_all/s194retdec     outputs [b'checksum = 3D6D3A44\n']
-./seed_all/s194retdec_new outputs [b'checksum = 1E0B9F78\n']
+./seed_all/s194retdec_new outputs [b'checksum = A44F2E8E\n']
 ./seed_all/s195r2.c compiled
 Decompiling ./seed_all/s195r2 ...
 ./seed_all/s195r2 decompiled
@@ -1572,7 +1584,7 @@ Decompiling ./seed_all/s199r2 ...
 Checking ./seed_all/s199r2 & ./seed_all/s199r2_new
 Found discrepancy:
 ./seed_all/s199r2     outputs [b'checksum = 835E7A80\n']
-./seed_all/s199r2_new outputs [b'checksum = 46B4FC25\n']
+./seed_all/s199r2_new outputs [b'checksum = EBF1A249\n']
 ./seed_all/s199retdec.c compiled
 Decompiling ./seed_all/s199retdec ...
 ./seed_all/s199retdec decompiled
@@ -1580,7 +1592,7 @@ Decompiling ./seed_all/s199retdec ...
 Checking ./seed_all/s199retdec & ./seed_all/s199retdec_new
 Found discrepancy:
 ./seed_all/s199retdec     outputs [b'checksum = 835E7A80\n']
-./seed_all/s199retdec_new outputs [b'checksum = B92D6D59\n']
+./seed_all/s199retdec_new outputs [b'checksum = 1DDB9C7F\n']
 ./seed_all/s19r2.c compiled
 Decompiling ./seed_all/s19r2 ...
 ./seed_all/s19r2 decompiled
@@ -1830,13 +1842,19 @@ Checking ./seed_all/s213retdec & ./seed_all/s213retdec_new
 ./seed_all/s214r2.c compiled
 Decompiling ./seed_all/s214r2 ...
 ./seed_all/s214r2 decompiled
-./seed_all/s214r2_new.c compilation failed
-./seed_all/s214r2_new.c compilation failed
+./seed_all/s214r2_new.c compiled
+Checking ./seed_all/s214r2 & ./seed_all/s214r2_new
+Found discrepancy:
+./seed_all/s214r2     outputs [b'checksum = EE846D5C\n']
+./seed_all/s214r2_new outputs [b'checksum = D5D06DEF\n']
 ./seed_all/s214retdec.c compiled
 Decompiling ./seed_all/s214retdec ...
 ./seed_all/s214retdec decompiled
-./seed_all/s214retdec_new.c compilation failed
-./seed_all/s214retdec_new.c compilation failed
+./seed_all/s214retdec_new.c compiled
+Checking ./seed_all/s214retdec & ./seed_all/s214retdec_new
+Found discrepancy:
+./seed_all/s214retdec     outputs [b'checksum = EE846D5C\n']
+./seed_all/s214retdec_new outputs [b'checksum = 85EC84A8\n']
 ./seed_all/s215r2.c compiled
 Decompiling ./seed_all/s215r2 ...
 ./seed_all/s215r2 decompiled
@@ -1886,7 +1904,7 @@ Decompiling ./seed_all/s218r2 ...
 Checking ./seed_all/s218r2 & ./seed_all/s218r2_new
 Found discrepancy:
 ./seed_all/s218r2     outputs [b'checksum = C703F02B\n']
-./seed_all/s218r2_new outputs [b'checksum = 535B34E8\n']
+./seed_all/s218r2_new outputs [b'checksum = 66D7AECB\n']
 ./seed_all/s218retdec.c compiled
 Decompiling ./seed_all/s218retdec ...
 ./seed_all/s218retdec decompiled
@@ -1894,7 +1912,7 @@ Decompiling ./seed_all/s218retdec ...
 Checking ./seed_all/s218retdec & ./seed_all/s218retdec_new
 Found discrepancy:
 ./seed_all/s218retdec     outputs [b'checksum = C703F02B\n']
-./seed_all/s218retdec_new outputs [b'checksum = A828EB39\n']
+./seed_all/s218retdec_new outputs [b'checksum = 6D9A8429\n']
 ./seed_all/s219r2.c compiled
 Decompiling ./seed_all/s219r2 ...
 ./seed_all/s219r2 decompiled
@@ -2004,7 +2022,7 @@ Decompiling ./seed_all/s225r2 ...
 Checking ./seed_all/s225r2 & ./seed_all/s225r2_new
 Found discrepancy:
 ./seed_all/s225r2     outputs [b'checksum = 459DE0BF\n']
-./seed_all/s225r2_new outputs [b'checksum = ABD4696F\n']
+./seed_all/s225r2_new outputs [b'checksum = D7B9DA54\n']
 ./seed_all/s225retdec.c compiled
 Decompiling ./seed_all/s225retdec ...
 ./seed_all/s225retdec decompiled
@@ -2012,7 +2030,7 @@ Decompiling ./seed_all/s225retdec ...
 Checking ./seed_all/s225retdec & ./seed_all/s225retdec_new
 Found discrepancy:
 ./seed_all/s225retdec     outputs [b'checksum = 459DE0BF\n']
-./seed_all/s225retdec_new outputs [b'checksum = 73F9F480\n']
+./seed_all/s225retdec_new outputs [b'checksum = 4A3F4590\n']
 ./seed_all/s226r2.c compiled
 Decompiling ./seed_all/s226r2 ...
 ./seed_all/s226r2 decompiled
@@ -2436,7 +2454,7 @@ Decompiling ./seed_all/s252r2 ...
 Checking ./seed_all/s252r2 & ./seed_all/s252r2_new
 Found discrepancy:
 ./seed_all/s252r2     outputs [b'checksum = 2FE19CDB\n']
-./seed_all/s252r2_new outputs [b'checksum = 7CFE269E\n']
+./seed_all/s252r2_new outputs [b'checksum = 703812C8\n']
 ./seed_all/s252retdec.c compiled
 Decompiling ./seed_all/s252retdec ...
 ./seed_all/s252retdec decompiled
@@ -2444,7 +2462,7 @@ Decompiling ./seed_all/s252retdec ...
 Checking ./seed_all/s252retdec & ./seed_all/s252retdec_new
 Found discrepancy:
 ./seed_all/s252retdec     outputs [b'checksum = 2FE19CDB\n']
-./seed_all/s252retdec_new outputs [b'checksum = C93E47F4\n']
+./seed_all/s252retdec_new outputs [b'checksum = 30005BF5\n']
 ./seed_all/s253r2.c compiled
 Decompiling ./seed_all/s253r2 ...
 ./seed_all/s253r2 decompiled
@@ -2566,7 +2584,7 @@ Decompiling ./seed_all/s260r2 ...
 Checking ./seed_all/s260r2 & ./seed_all/s260r2_new
 Found discrepancy:
 ./seed_all/s260r2     outputs [b'checksum = 37A4BA4E\n']
-./seed_all/s260r2_new outputs [b'checksum = 53335FC7\n']
+./seed_all/s260r2_new outputs [b'checksum = 38D3DE7C\n']
 ./seed_all/s260retdec.c compiled
 Decompiling ./seed_all/s260retdec ...
 ./seed_all/s260retdec decompiled
@@ -2574,7 +2592,7 @@ Decompiling ./seed_all/s260retdec ...
 Checking ./seed_all/s260retdec & ./seed_all/s260retdec_new
 Found discrepancy:
 ./seed_all/s260retdec     outputs [b'checksum = 37A4BA4E\n']
-./seed_all/s260retdec_new outputs [b'checksum = B33D66F8\n']
+./seed_all/s260retdec_new outputs [b'checksum = 21E94A4\n']
 ./seed_all/s261r2.c compiled
 Decompiling ./seed_all/s261r2 ...
 ./seed_all/s261r2 decompiled
@@ -2712,7 +2730,7 @@ Decompiling ./seed_all/s26r2 ...
 Checking ./seed_all/s26r2 & ./seed_all/s26r2_new
 Found discrepancy:
 ./seed_all/s26r2     outputs [b'checksum = 1C440BA8\n']
-./seed_all/s26r2_new outputs [b'checksum = 62F651FC\n']
+./seed_all/s26r2_new outputs [b'checksum = 7C33C9F4\n']
 ./seed_all/s26retdec.c compiled
 Decompiling ./seed_all/s26retdec ...
 ./seed_all/s26retdec decompiled
@@ -2720,7 +2738,7 @@ Decompiling ./seed_all/s26retdec ...
 Checking ./seed_all/s26retdec & ./seed_all/s26retdec_new
 Found discrepancy:
 ./seed_all/s26retdec     outputs [b'checksum = 1C440BA8\n']
-./seed_all/s26retdec_new outputs [b'checksum = 372043BB\n']
+./seed_all/s26retdec_new outputs [b'checksum = BA42687E\n']
 ./seed_all/s270r2.c compiled
 Decompiling ./seed_all/s270r2 ...
 ./seed_all/s270r2 decompiled
@@ -2786,7 +2804,7 @@ Decompiling ./seed_all/s274r2 ...
 Checking ./seed_all/s274r2 & ./seed_all/s274r2_new
 Found discrepancy:
 ./seed_all/s274r2     outputs [b'checksum = 53E19E15\n']
-./seed_all/s274r2_new outputs [b'checksum = 285E1481\n']
+./seed_all/s274r2_new outputs [b'checksum = 7B0F4E45\n']
 ./seed_all/s274retdec.c compiled
 Decompiling ./seed_all/s274retdec ...
 ./seed_all/s274retdec decompiled
@@ -2794,7 +2812,7 @@ Decompiling ./seed_all/s274retdec ...
 Checking ./seed_all/s274retdec & ./seed_all/s274retdec_new
 Found discrepancy:
 ./seed_all/s274retdec     outputs [b'checksum = 53E19E15\n']
-./seed_all/s274retdec_new outputs [b'checksum = 736F790D\n']
+./seed_all/s274retdec_new outputs [b'checksum = 2A4FA7C6\n']
 ./seed_all/s275r2.c compiled
 Decompiling ./seed_all/s275r2 ...
 ./seed_all/s275r2 decompiled
@@ -2860,7 +2878,7 @@ Decompiling ./seed_all/s279r2 ...
 Checking ./seed_all/s279r2 & ./seed_all/s279r2_new
 Found discrepancy:
 ./seed_all/s279r2     outputs [b'checksum = 639F9CC6\n']
-./seed_all/s279r2_new outputs [b'checksum = A9B55155\n']
+./seed_all/s279r2_new outputs [b'checksum = 5DA93191\n']
 ./seed_all/s279retdec.c compiled
 Decompiling ./seed_all/s279retdec ...
 ./seed_all/s279retdec decompiled
@@ -2868,7 +2886,7 @@ Decompiling ./seed_all/s279retdec ...
 Checking ./seed_all/s279retdec & ./seed_all/s279retdec_new
 Found discrepancy:
 ./seed_all/s279retdec     outputs [b'checksum = 639F9CC6\n']
-./seed_all/s279retdec_new outputs [b'checksum = 468F86AB\n']
+./seed_all/s279retdec_new outputs [b'checksum = 1153CCE9\n']
 ./seed_all/s27r2.c compiled
 Decompiling ./seed_all/s27r2 ...
 ./seed_all/s27r2 decompiled
@@ -3032,7 +3050,7 @@ Decompiling ./seed_all/s28r2 ...
 Checking ./seed_all/s28r2 & ./seed_all/s28r2_new
 Found discrepancy:
 ./seed_all/s28r2     outputs [b'checksum = 4442E1D4\n']
-./seed_all/s28r2_new outputs [b'checksum = 20FFB344\n']
+./seed_all/s28r2_new outputs [b'checksum = CA798A74\n']
 ./seed_all/s28retdec.c compiled
 Decompiling ./seed_all/s28retdec ...
 ./seed_all/s28retdec decompiled
@@ -3040,7 +3058,7 @@ Decompiling ./seed_all/s28retdec ...
 Checking ./seed_all/s28retdec & ./seed_all/s28retdec_new
 Found discrepancy:
 ./seed_all/s28retdec     outputs [b'checksum = 4442E1D4\n']
-./seed_all/s28retdec_new outputs [b'checksum = 57E6B0A8\n']
+./seed_all/s28retdec_new outputs [b'checksum = DB022A28\n']
 ./seed_all/s290r2.c compiled
 Decompiling ./seed_all/s290r2 ...
 ./seed_all/s290r2 decompiled
@@ -3118,7 +3136,7 @@ Decompiling ./seed_all/s295r2 ...
 Checking ./seed_all/s295r2 & ./seed_all/s295r2_new
 Found discrepancy:
 ./seed_all/s295r2     outputs [b'checksum = 937170CC\n']
-./seed_all/s295r2_new outputs [b'checksum = 111993F1\n']
+./seed_all/s295r2_new outputs [b'checksum = 7FCA41C8\n']
 ./seed_all/s295retdec.c compiled
 Decompiling ./seed_all/s295retdec ...
 ./seed_all/s295retdec decompiled
@@ -3126,7 +3144,7 @@ Decompiling ./seed_all/s295retdec ...
 Checking ./seed_all/s295retdec & ./seed_all/s295retdec_new
 Found discrepancy:
 ./seed_all/s295retdec     outputs [b'checksum = 937170CC\n']
-./seed_all/s295retdec_new outputs [b'checksum = 13AE0899\n']
+./seed_all/s295retdec_new outputs [b'checksum = B1A2CEC0\n']
 ./seed_all/s296r2.c compiled
 Decompiling ./seed_all/s296r2 ...
 ./seed_all/s296r2 decompiled
@@ -3134,7 +3152,7 @@ Decompiling ./seed_all/s296r2 ...
 Checking ./seed_all/s296r2 & ./seed_all/s296r2_new
 Found discrepancy:
 ./seed_all/s296r2     outputs [b'checksum = 78B5D2E6\n']
-./seed_all/s296r2_new outputs [b'checksum = FB4E331C\n']
+./seed_all/s296r2_new outputs [b'checksum = 9A2CBA8D\n']
 ./seed_all/s296retdec.c compiled
 Decompiling ./seed_all/s296retdec ...
 ./seed_all/s296retdec decompiled
@@ -3142,7 +3160,7 @@ Decompiling ./seed_all/s296retdec ...
 Checking ./seed_all/s296retdec & ./seed_all/s296retdec_new
 Found discrepancy:
 ./seed_all/s296retdec     outputs [b'checksum = 78B5D2E6\n']
-./seed_all/s296retdec_new outputs [b'checksum = 37726CCC\n']
+./seed_all/s296retdec_new outputs [b'checksum = A6C42885\n']
 ./seed_all/s297r2.c compiled
 Decompiling ./seed_all/s297r2 ...
 ./seed_all/s297r2 decompiled
@@ -3234,7 +3252,7 @@ Decompiling ./seed_all/s301r2 ...
 Checking ./seed_all/s301r2 & ./seed_all/s301r2_new
 Found discrepancy:
 ./seed_all/s301r2     outputs [b'checksum = 8429264F\n']
-./seed_all/s301r2_new outputs [b'checksum = A0D066BC\n']
+./seed_all/s301r2_new outputs [b'checksum = 59537559\n']
 ./seed_all/s301retdec.c compiled
 Decompiling ./seed_all/s301retdec ...
 ./seed_all/s301retdec decompiled
@@ -3242,17 +3260,23 @@ Decompiling ./seed_all/s301retdec ...
 Checking ./seed_all/s301retdec & ./seed_all/s301retdec_new
 Found discrepancy:
 ./seed_all/s301retdec     outputs [b'checksum = 8429264F\n']
-./seed_all/s301retdec_new outputs [b'checksum = B7F406C4\n']
+./seed_all/s301retdec_new outputs [b'checksum = 8A750D4A\n']
 ./seed_all/s302r2.c compiled
 Decompiling ./seed_all/s302r2 ...
 ./seed_all/s302r2 decompiled
-./seed_all/s302r2_new.c compilation failed
-./seed_all/s302r2_new.c compilation failed
+./seed_all/s302r2_new.c compiled
+Checking ./seed_all/s302r2 & ./seed_all/s302r2_new
+Found discrepancy:
+./seed_all/s302r2     outputs [b'']
+./seed_all/s302r2_new outputs [b'checksum = 80ACAB5B\n']
 ./seed_all/s302retdec.c compiled
 Decompiling ./seed_all/s302retdec ...
 ./seed_all/s302retdec decompiled
-./seed_all/s302retdec_new.c compilation failed
-./seed_all/s302retdec_new.c compilation failed
+./seed_all/s302retdec_new.c compiled
+Checking ./seed_all/s302retdec & ./seed_all/s302retdec_new
+Found discrepancy:
+./seed_all/s302retdec     outputs [b'']
+./seed_all/s302retdec_new outputs [b'checksum = 80ACAB5B\n']
 ./seed_all/s303r2.c compiled
 Decompiling ./seed_all/s303r2 ...
 ./seed_all/s303r2 decompiled
@@ -3392,7 +3416,7 @@ Decompiling ./seed_all/s311r2 ...
 Checking ./seed_all/s311r2 & ./seed_all/s311r2_new
 Found discrepancy:
 ./seed_all/s311r2     outputs [b'checksum = DAACEE16\n']
-./seed_all/s311r2_new outputs [b'checksum = BB3122E9\n']
+./seed_all/s311r2_new outputs [b'checksum = C204F5E2\n']
 ./seed_all/s311retdec.c compiled
 Decompiling ./seed_all/s311retdec ...
 ./seed_all/s311retdec decompiled
@@ -3400,7 +3424,7 @@ Decompiling ./seed_all/s311retdec ...
 Checking ./seed_all/s311retdec & ./seed_all/s311retdec_new
 Found discrepancy:
 ./seed_all/s311retdec     outputs [b'checksum = DAACEE16\n']
-./seed_all/s311retdec_new outputs [b'checksum = 356FD2F7\n']
+./seed_all/s311retdec_new outputs [b'checksum = 5A381746\n']
 ./seed_all/s312r2.c compiled
 Decompiling ./seed_all/s312r2 ...
 ./seed_all/s312r2 decompiled
@@ -3494,7 +3518,7 @@ Decompiling ./seed_all/s318r2 ...
 Checking ./seed_all/s318r2 & ./seed_all/s318r2_new
 Found discrepancy:
 ./seed_all/s318r2     outputs [b'checksum = 41971F56\n']
-./seed_all/s318r2_new outputs [b'checksum = E65D2F9\n']
+./seed_all/s318r2_new outputs [b'checksum = 655D860D\n']
 ./seed_all/s318retdec.c compiled
 Decompiling ./seed_all/s318retdec ...
 ./seed_all/s318retdec decompiled
@@ -3502,7 +3526,7 @@ Decompiling ./seed_all/s318retdec ...
 Checking ./seed_all/s318retdec & ./seed_all/s318retdec_new
 Found discrepancy:
 ./seed_all/s318retdec     outputs [b'checksum = 41971F56\n']
-./seed_all/s318retdec_new outputs [b'checksum = 534A434A\n']
+./seed_all/s318retdec_new outputs [b'checksum = F202D9D4\n']
 ./seed_all/s319r2.c compiled
 Decompiling ./seed_all/s319r2 ...
 ./seed_all/s319r2 decompiled
@@ -3846,7 +3870,7 @@ Decompiling ./seed_all/s33r2 ...
 Checking ./seed_all/s33r2 & ./seed_all/s33r2_new
 Found discrepancy:
 ./seed_all/s33r2     outputs [b'']
-./seed_all/s33r2_new outputs [b'checksum = 102CCAD2\n']
+./seed_all/s33r2_new outputs [b'checksum = 786278DB\n']
 ./seed_all/s33retdec.c compiled
 Decompiling ./seed_all/s33retdec ...
 ./seed_all/s33retdec decompiled
@@ -3854,7 +3878,7 @@ Decompiling ./seed_all/s33retdec ...
 Checking ./seed_all/s33retdec & ./seed_all/s33retdec_new
 Found discrepancy:
 ./seed_all/s33retdec     outputs [b'']
-./seed_all/s33retdec_new outputs [b'checksum = EB0FD036\n']
+./seed_all/s33retdec_new outputs [b'checksum = B74FA01\n']
 ./seed_all/s340r2.c compiled
 Decompiling ./seed_all/s340r2 ...
 ./seed_all/s340r2 decompiled
@@ -3876,7 +3900,7 @@ Decompiling ./seed_all/s341r2 ...
 Checking ./seed_all/s341r2 & ./seed_all/s341r2_new
 Found discrepancy:
 ./seed_all/s341r2     outputs [b'checksum = 3D59964F\n']
-./seed_all/s341r2_new outputs [b'checksum = E2D6DA9\n']
+./seed_all/s341r2_new outputs [b'checksum = 7ADA5C40\n']
 ./seed_all/s341retdec.c compiled
 Decompiling ./seed_all/s341retdec ...
 ./seed_all/s341retdec decompiled
@@ -3884,7 +3908,7 @@ Decompiling ./seed_all/s341retdec ...
 Checking ./seed_all/s341retdec & ./seed_all/s341retdec_new
 Found discrepancy:
 ./seed_all/s341retdec     outputs [b'checksum = 3D59964F\n']
-./seed_all/s341retdec_new outputs [b'checksum = CABC80B1\n']
+./seed_all/s341retdec_new outputs [b'checksum = 9F8BC17D\n']
 ./seed_all/s342r2.c compiled
 Decompiling ./seed_all/s342r2 ...
 ./seed_all/s342r2 decompiled
@@ -4262,7 +4286,7 @@ Decompiling ./seed_all/s366r2 ...
 Checking ./seed_all/s366r2 & ./seed_all/s366r2_new
 Found discrepancy:
 ./seed_all/s366r2     outputs [b'checksum = C3BEE5A0\n']
-./seed_all/s366r2_new outputs [b'checksum = 7D919AFB\n']
+./seed_all/s366r2_new outputs [b'checksum = A8BAA41B\n']
 ./seed_all/s366retdec.c compiled
 Decompiling ./seed_all/s366retdec ...
 ./seed_all/s366retdec decompiled
@@ -4270,7 +4294,7 @@ Decompiling ./seed_all/s366retdec ...
 Checking ./seed_all/s366retdec & ./seed_all/s366retdec_new
 Found discrepancy:
 ./seed_all/s366retdec     outputs [b'checksum = C3BEE5A0\n']
-./seed_all/s366retdec_new outputs [b'checksum = AB9F92E2\n']
+./seed_all/s366retdec_new outputs [b'checksum = 22FEBC2B\n']
 ./seed_all/s367r2.c compiled
 Decompiling ./seed_all/s367r2 ...
 ./seed_all/s367r2 decompiled
@@ -4292,7 +4316,7 @@ Decompiling ./seed_all/s368r2 ...
 Checking ./seed_all/s368r2 & ./seed_all/s368r2_new
 Found discrepancy:
 ./seed_all/s368r2     outputs [b'checksum = 5E902C47\n']
-./seed_all/s368r2_new outputs [b'checksum = 66F14E8B\n']
+./seed_all/s368r2_new outputs [b'checksum = 79A5D2D\n']
 ./seed_all/s368retdec.c compiled
 Decompiling ./seed_all/s368retdec ...
 ./seed_all/s368retdec decompiled
@@ -4300,7 +4324,7 @@ Decompiling ./seed_all/s368retdec ...
 Checking ./seed_all/s368retdec & ./seed_all/s368retdec_new
 Found discrepancy:
 ./seed_all/s368retdec     outputs [b'checksum = 5E902C47\n']
-./seed_all/s368retdec_new outputs [b'checksum = 16E21418\n']
+./seed_all/s368retdec_new outputs [b'checksum = E8501EA5\n']
 ./seed_all/s369r2.c compiled
 Decompiling ./seed_all/s369r2 ...
 ./seed_all/s369r2 decompiled
@@ -4318,13 +4342,19 @@ Checking ./seed_all/s369retdec & ./seed_all/s369retdec_new
 ./seed_all/s36r2.c compiled
 Decompiling ./seed_all/s36r2 ...
 ./seed_all/s36r2 decompiled
-./seed_all/s36r2_new.c compilation failed
-./seed_all/s36r2_new.c compilation failed
+./seed_all/s36r2_new.c compiled
+Checking ./seed_all/s36r2 & ./seed_all/s36r2_new
+Found discrepancy:
+./seed_all/s36r2     outputs [b'']
+./seed_all/s36r2_new outputs [b'checksum = 45296EEE\n']
 ./seed_all/s36retdec.c compiled
 Decompiling ./seed_all/s36retdec ...
 ./seed_all/s36retdec decompiled
-./seed_all/s36retdec_new.c compilation failed
-./seed_all/s36retdec_new.c compilation failed
+./seed_all/s36retdec_new.c compiled
+Checking ./seed_all/s36retdec & ./seed_all/s36retdec_new
+Found discrepancy:
+./seed_all/s36retdec     outputs [b'']
+./seed_all/s36retdec_new outputs [b'checksum = 45296EEE\n']
 ./seed_all/s370r2.c compiled
 Decompiling ./seed_all/s370r2 ...
 ./seed_all/s370r2 decompiled
@@ -4332,7 +4362,7 @@ Decompiling ./seed_all/s370r2 ...
 Checking ./seed_all/s370r2 & ./seed_all/s370r2_new
 Found discrepancy:
 ./seed_all/s370r2     outputs [b'checksum = 3252B7E8\n']
-./seed_all/s370r2_new outputs [b'checksum = 26FC32AF\n']
+./seed_all/s370r2_new outputs [b'checksum = 93920BC8\n']
 ./seed_all/s370retdec.c compiled
 Decompiling ./seed_all/s370retdec ...
 ./seed_all/s370retdec decompiled
@@ -4340,7 +4370,7 @@ Decompiling ./seed_all/s370retdec ...
 Checking ./seed_all/s370retdec & ./seed_all/s370retdec_new
 Found discrepancy:
 ./seed_all/s370retdec     outputs [b'checksum = 3252B7E8\n']
-./seed_all/s370retdec_new outputs [b'checksum = C8BB504C\n']
+./seed_all/s370retdec_new outputs [b'checksum = B6A2A93D\n']
 ./seed_all/s371r2.c compiled
 Decompiling ./seed_all/s371r2 ...
 ./seed_all/s371r2 decompiled
@@ -4364,7 +4394,7 @@ Decompiling ./seed_all/s372r2 ...
 Checking ./seed_all/s372r2 & ./seed_all/s372r2_new
 Found discrepancy:
 ./seed_all/s372r2     outputs [b'checksum = A774721F\n']
-./seed_all/s372r2_new outputs [b'checksum = 26CFAE91\n']
+./seed_all/s372r2_new outputs [b'checksum = E4F5BCB\n']
 ./seed_all/s372retdec.c compiled
 Decompiling ./seed_all/s372retdec ...
 ./seed_all/s372retdec decompiled
@@ -4372,7 +4402,7 @@ Decompiling ./seed_all/s372retdec ...
 Checking ./seed_all/s372retdec & ./seed_all/s372retdec_new
 Found discrepancy:
 ./seed_all/s372retdec     outputs [b'checksum = A774721F\n']
-./seed_all/s372retdec_new outputs [b'checksum = AF5B0337\n']
+./seed_all/s372retdec_new outputs [b'checksum = C27669FD\n']
 ./seed_all/s373r2.c compiled
 Decompiling ./seed_all/s373r2 ...
 ./seed_all/s373r2 decompiled
@@ -4520,7 +4550,7 @@ Decompiling ./seed_all/s382r2 ...
 Checking ./seed_all/s382r2 & ./seed_all/s382r2_new
 Found discrepancy:
 ./seed_all/s382r2     outputs [b'checksum = FC97E149\n']
-./seed_all/s382r2_new outputs [b'checksum = C091FE79\n']
+./seed_all/s382r2_new outputs [b'checksum = 101C8CDA\n']
 ./seed_all/s382retdec.c compiled
 Decompiling ./seed_all/s382retdec ...
 ./seed_all/s382retdec decompiled
@@ -4528,7 +4558,7 @@ Decompiling ./seed_all/s382retdec ...
 Checking ./seed_all/s382retdec & ./seed_all/s382retdec_new
 Found discrepancy:
 ./seed_all/s382retdec     outputs [b'checksum = FC97E149\n']
-./seed_all/s382retdec_new outputs [b'checksum = B655184F\n']
+./seed_all/s382retdec_new outputs [b'checksum = 909454E4\n']
 ./seed_all/s383r2.c compiled
 Decompiling ./seed_all/s383r2 ...
 ./seed_all/s383r2 decompiled
@@ -4634,7 +4664,7 @@ Decompiling ./seed_all/s38r2 ...
 Checking ./seed_all/s38r2 & ./seed_all/s38r2_new
 Found discrepancy:
 ./seed_all/s38r2     outputs [b'']
-./seed_all/s38r2_new outputs [b'checksum = F3B84E1F\n']
+./seed_all/s38r2_new outputs [b'checksum = 9A25E33\n']
 ./seed_all/s38retdec.c compiled
 Decompiling ./seed_all/s38retdec ...
 ./seed_all/s38retdec decompiled
@@ -4642,7 +4672,7 @@ Decompiling ./seed_all/s38retdec ...
 Checking ./seed_all/s38retdec & ./seed_all/s38retdec_new
 Found discrepancy:
 ./seed_all/s38retdec     outputs [b'']
-./seed_all/s38retdec_new outputs [b'checksum = DDCE621\n']
+./seed_all/s38retdec_new outputs [b'checksum = ABAFAD04\n']
 ./seed_all/s390r2.c compiled
 Decompiling ./seed_all/s390r2 ...
 ./seed_all/s390r2 decompiled
@@ -4664,7 +4694,7 @@ Decompiling ./seed_all/s391r2 ...
 Checking ./seed_all/s391r2 & ./seed_all/s391r2_new
 Found discrepancy:
 ./seed_all/s391r2     outputs [b'checksum = FD79434F\n']
-./seed_all/s391r2_new outputs [b'checksum = CFAD49FD\n']
+./seed_all/s391r2_new outputs [b'checksum = A720C659\n']
 ./seed_all/s391retdec.c compiled
 Decompiling ./seed_all/s391retdec ...
 ./seed_all/s391retdec decompiled
@@ -4672,7 +4702,7 @@ Decompiling ./seed_all/s391retdec ...
 Checking ./seed_all/s391retdec & ./seed_all/s391retdec_new
 Found discrepancy:
 ./seed_all/s391retdec     outputs [b'checksum = FD79434F\n']
-./seed_all/s391retdec_new outputs [b'checksum = 9DD001D8\n']
+./seed_all/s391retdec_new outputs [b'checksum = E86D1B7C\n']
 ./seed_all/s392r2.c compiled
 Decompiling ./seed_all/s392r2 ...
 ./seed_all/s392r2 decompiled
@@ -4722,7 +4752,7 @@ Decompiling ./seed_all/s395r2 ...
 Checking ./seed_all/s395r2 & ./seed_all/s395r2_new
 Found discrepancy:
 ./seed_all/s395r2     outputs [b'checksum = F9506B68\n']
-./seed_all/s395r2_new outputs [b'checksum = B135A8C4\n']
+./seed_all/s395r2_new outputs [b'checksum = 5CCD43D8\n']
 ./seed_all/s395retdec.c compiled
 Decompiling ./seed_all/s395retdec ...
 ./seed_all/s395retdec decompiled
@@ -4730,7 +4760,7 @@ Decompiling ./seed_all/s395retdec ...
 Checking ./seed_all/s395retdec & ./seed_all/s395retdec_new
 Found discrepancy:
 ./seed_all/s395retdec     outputs [b'checksum = F9506B68\n']
-./seed_all/s395retdec_new outputs [b'checksum = 237FDB72\n']
+./seed_all/s395retdec_new outputs [b'checksum = F56FAC2C\n']
 ./seed_all/s396r2.c compiled
 Decompiling ./seed_all/s396r2 ...
 ./seed_all/s396r2 decompiled
@@ -4738,7 +4768,7 @@ Decompiling ./seed_all/s396r2 ...
 Checking ./seed_all/s396r2 & ./seed_all/s396r2_new
 Found discrepancy:
 ./seed_all/s396r2     outputs [b'checksum = 605B8616\n']
-./seed_all/s396r2_new outputs [b'checksum = 8D03C345\n']
+./seed_all/s396r2_new outputs [b'checksum = AE1A8C60\n']
 ./seed_all/s396retdec.c compiled
 Decompiling ./seed_all/s396retdec ...
 ./seed_all/s396retdec decompiled
@@ -4746,7 +4776,7 @@ Decompiling ./seed_all/s396retdec ...
 Checking ./seed_all/s396retdec & ./seed_all/s396retdec_new
 Found discrepancy:
 ./seed_all/s396retdec     outputs [b'checksum = 605B8616\n']
-./seed_all/s396retdec_new outputs [b'checksum = 482DDE80\n']
+./seed_all/s396retdec_new outputs [b'checksum = 76D0E259\n']
 ./seed_all/s397r2.c compiled
 Decompiling ./seed_all/s397r2 ...
 ./seed_all/s397r2 decompiled
@@ -4838,7 +4868,7 @@ Decompiling ./seed_all/s401r2 ...
 Checking ./seed_all/s401r2 & ./seed_all/s401r2_new
 Found discrepancy:
 ./seed_all/s401r2     outputs [b'checksum = DCE44B08\n']
-./seed_all/s401r2_new outputs [b'checksum = 115C8E62\n']
+./seed_all/s401r2_new outputs [b'checksum = 5C2F0FC9\n']
 ./seed_all/s401retdec.c compiled
 Decompiling ./seed_all/s401retdec ...
 ./seed_all/s401retdec decompiled
@@ -4846,7 +4876,7 @@ Decompiling ./seed_all/s401retdec ...
 Checking ./seed_all/s401retdec & ./seed_all/s401retdec_new
 Found discrepancy:
 ./seed_all/s401retdec     outputs [b'checksum = DCE44B08\n']
-./seed_all/s401retdec_new outputs [b'checksum = E5DE92B9\n']
+./seed_all/s401retdec_new outputs [b'checksum = 4BE651DE\n']
 ./seed_all/s402r2.c compiled
 Decompiling ./seed_all/s402r2 ...
 ./seed_all/s402r2 decompiled
@@ -5040,7 +5070,7 @@ Decompiling ./seed_all/s414r2 ...
 Checking ./seed_all/s414r2 & ./seed_all/s414r2_new
 Found discrepancy:
 ./seed_all/s414r2     outputs [b'checksum = 4A35D135\n']
-./seed_all/s414r2_new outputs [b'checksum = 757B004\n']
+./seed_all/s414r2_new outputs [b'checksum = BD048339\n']
 ./seed_all/s414retdec.c compiled
 Decompiling ./seed_all/s414retdec ...
 ./seed_all/s414retdec decompiled
@@ -5048,7 +5078,7 @@ Decompiling ./seed_all/s414retdec ...
 Checking ./seed_all/s414retdec & ./seed_all/s414retdec_new
 Found discrepancy:
 ./seed_all/s414retdec     outputs [b'checksum = 4A35D135\n']
-./seed_all/s414retdec_new outputs [b'checksum = 8C46247E\n']
+./seed_all/s414retdec_new outputs [b'checksum = 2C16A3FD\n']
 ./seed_all/s415r2.c compiled
 Decompiling ./seed_all/s415r2 ...
 ./seed_all/s415r2 decompiled
@@ -5228,7 +5258,7 @@ Decompiling ./seed_all/s426r2 ...
 Checking ./seed_all/s426r2 & ./seed_all/s426r2_new
 Found discrepancy:
 ./seed_all/s426r2     outputs [b'checksum = F624ED6B\n']
-./seed_all/s426r2_new outputs [b'checksum = 79F64FF1\n']
+./seed_all/s426r2_new outputs [b'checksum = 3FC50F51\n']
 ./seed_all/s426retdec.c compiled
 Decompiling ./seed_all/s426retdec ...
 ./seed_all/s426retdec decompiled
@@ -5236,7 +5266,7 @@ Decompiling ./seed_all/s426retdec ...
 Checking ./seed_all/s426retdec & ./seed_all/s426retdec_new
 Found discrepancy:
 ./seed_all/s426retdec     outputs [b'checksum = F624ED6B\n']
-./seed_all/s426retdec_new outputs [b'checksum = 939176A4\n']
+./seed_all/s426retdec_new outputs [b'checksum = D49F3539\n']
 ./seed_all/s427r2.c compiled
 Decompiling ./seed_all/s427r2 ...
 ./seed_all/s427r2 decompiled
@@ -5548,7 +5578,7 @@ Decompiling ./seed_all/s446r2 ...
 Checking ./seed_all/s446r2 & ./seed_all/s446r2_new
 Found discrepancy:
 ./seed_all/s446r2     outputs [b'checksum = 31453451\n']
-./seed_all/s446r2_new outputs [b'checksum = 837F7EC\n']
+./seed_all/s446r2_new outputs [b'checksum = 8A364519\n']
 ./seed_all/s446retdec.c compiled
 Decompiling ./seed_all/s446retdec ...
 ./seed_all/s446retdec decompiled
@@ -5556,7 +5586,7 @@ Decompiling ./seed_all/s446retdec ...
 Checking ./seed_all/s446retdec & ./seed_all/s446retdec_new
 Found discrepancy:
 ./seed_all/s446retdec     outputs [b'checksum = 31453451\n']
-./seed_all/s446retdec_new outputs [b'checksum = A3769C1F\n']
+./seed_all/s446retdec_new outputs [b'checksum = 929B9D0B\n']
 ./seed_all/s447r2.c compiled
 Decompiling ./seed_all/s447r2 ...
 ./seed_all/s447r2 decompiled
@@ -5774,13 +5804,17 @@ Checking ./seed_all/s45retdec & ./seed_all/s45retdec_new
 ./seed_all/s460r2.c compiled
 Decompiling ./seed_all/s460r2 ...
 ./seed_all/s460r2 decompiled
-./seed_all/s460r2_new.c compilation failed
-./seed_all/s460r2_new.c compilation failed
+./seed_all/s460r2_new.c compiled
+Checking ./seed_all/s460r2 & ./seed_all/s460r2_new
+./seed_all/s460r2     outputs [b'checksum = 683AB441\n']
+./seed_all/s460r2_new outputs [b'checksum = 683AB441\n']
 ./seed_all/s460retdec.c compiled
 Decompiling ./seed_all/s460retdec ...
 ./seed_all/s460retdec decompiled
-./seed_all/s460retdec_new.c compilation failed
-./seed_all/s460retdec_new.c compilation failed
+./seed_all/s460retdec_new.c compiled
+Checking ./seed_all/s460retdec & ./seed_all/s460retdec_new
+./seed_all/s460retdec     outputs [b'checksum = 683AB441\n']
+./seed_all/s460retdec_new outputs [b'checksum = 683AB441\n']
 ./seed_all/s461r2.c compiled
 Decompiling ./seed_all/s461r2 ...
 ./seed_all/s461r2 decompiled
@@ -5932,7 +5966,7 @@ Decompiling ./seed_all/s470r2 ...
 Checking ./seed_all/s470r2 & ./seed_all/s470r2_new
 Found discrepancy:
 ./seed_all/s470r2     outputs [b'checksum = FF5D5EFF\n']
-./seed_all/s470r2_new outputs [b'checksum = CB90882E\n']
+./seed_all/s470r2_new outputs [b'checksum = 82013200\n']
 ./seed_all/s470retdec.c compiled
 Decompiling ./seed_all/s470retdec ...
 ./seed_all/s470retdec decompiled
@@ -5940,7 +5974,7 @@ Decompiling ./seed_all/s470retdec ...
 Checking ./seed_all/s470retdec & ./seed_all/s470retdec_new
 Found discrepancy:
 ./seed_all/s470retdec     outputs [b'checksum = FF5D5EFF\n']
-./seed_all/s470retdec_new outputs [b'checksum = 20D9303E\n']
+./seed_all/s470retdec_new outputs [b'checksum = 8A2AFD90\n']
 ./seed_all/s471r2.c compiled
 Decompiling ./seed_all/s471r2 ...
 ./seed_all/s471r2 decompiled
@@ -6164,7 +6198,7 @@ Decompiling ./seed_all/s485r2 ...
 Checking ./seed_all/s485r2 & ./seed_all/s485r2_new
 Found discrepancy:
 ./seed_all/s485r2     outputs [b'checksum = A1798171\n']
-./seed_all/s485r2_new outputs [b'checksum = 424E318E\n']
+./seed_all/s485r2_new outputs [b'checksum = 25FBA8B4\n']
 ./seed_all/s485retdec.c compiled
 Decompiling ./seed_all/s485retdec ...
 ./seed_all/s485retdec decompiled
@@ -6172,7 +6206,7 @@ Decompiling ./seed_all/s485retdec ...
 Checking ./seed_all/s485retdec & ./seed_all/s485retdec_new
 Found discrepancy:
 ./seed_all/s485retdec     outputs [b'checksum = A1798171\n']
-./seed_all/s485retdec_new outputs [b'checksum = DB3D6B0B\n']
+./seed_all/s485retdec_new outputs [b'checksum = 2EFD48ED\n']
 ./seed_all/s486r2.c compiled
 Decompiling ./seed_all/s486r2 ...
 ./seed_all/s486r2 decompiled
@@ -6986,7 +7020,7 @@ Decompiling ./seed_all/s537r2 ...
 Checking ./seed_all/s537r2 & ./seed_all/s537r2_new
 Found discrepancy:
 ./seed_all/s537r2     outputs [b'checksum = CB22261F\n']
-./seed_all/s537r2_new outputs [b'checksum = 4F1825EE\n']
+./seed_all/s537r2_new outputs [b'checksum = B823B38D\n']
 ./seed_all/s537retdec.c compiled
 Decompiling ./seed_all/s537retdec ...
 ./seed_all/s537retdec decompiled
@@ -6994,7 +7028,7 @@ Decompiling ./seed_all/s537retdec ...
 Checking ./seed_all/s537retdec & ./seed_all/s537retdec_new
 Found discrepancy:
 ./seed_all/s537retdec     outputs [b'checksum = CB22261F\n']
-./seed_all/s537retdec_new outputs [b'checksum = BF27B6B3\n']
+./seed_all/s537retdec_new outputs [b'checksum = C0948C02\n']
 ./seed_all/s538r2.c compiled
 Decompiling ./seed_all/s538r2 ...
 ./seed_all/s538r2 decompiled
@@ -7096,13 +7130,19 @@ Checking ./seed_all/s543retdec & ./seed_all/s543retdec_new
 ./seed_all/s544r2.c compiled
 Decompiling ./seed_all/s544r2 ...
 ./seed_all/s544r2 decompiled
-./seed_all/s544r2_new.c compilation failed
-./seed_all/s544r2_new.c compilation failed
+./seed_all/s544r2_new.c compiled
+Checking ./seed_all/s544r2 & ./seed_all/s544r2_new
+Found discrepancy:
+./seed_all/s544r2     outputs [b'checksum = 3AA64123\n']
+./seed_all/s544r2_new outputs [b'checksum = EA09B92E\n']
 ./seed_all/s544retdec.c compiled
 Decompiling ./seed_all/s544retdec ...
 ./seed_all/s544retdec decompiled
-./seed_all/s544retdec_new.c compilation failed
-./seed_all/s544retdec_new.c compilation failed
+./seed_all/s544retdec_new.c compiled
+Checking ./seed_all/s544retdec & ./seed_all/s544retdec_new
+Found discrepancy:
+./seed_all/s544retdec     outputs [b'checksum = 3AA64123\n']
+./seed_all/s544retdec_new outputs [b'checksum = F0F94801\n']
 ./seed_all/s545r2.c compiled
 Decompiling ./seed_all/s545r2 ...
 ./seed_all/s545r2 decompiled
@@ -7166,7 +7206,7 @@ Decompiling ./seed_all/s549r2 ...
 Checking ./seed_all/s549r2 & ./seed_all/s549r2_new
 Found discrepancy:
 ./seed_all/s549r2     outputs [b'checksum = 9BB1802A\n']
-./seed_all/s549r2_new outputs [b'checksum = BF4C5FCF\n']
+./seed_all/s549r2_new outputs [b'checksum = 43486B5B\n']
 ./seed_all/s549retdec.c compiled
 Decompiling ./seed_all/s549retdec ...
 ./seed_all/s549retdec decompiled
@@ -7174,7 +7214,7 @@ Decompiling ./seed_all/s549retdec ...
 Checking ./seed_all/s549retdec & ./seed_all/s549retdec_new
 Found discrepancy:
 ./seed_all/s549retdec     outputs [b'checksum = 9BB1802A\n']
-./seed_all/s549retdec_new outputs [b'checksum = D56DA12A\n']
+./seed_all/s549retdec_new outputs [b'checksum = E3890627\n']
 ./seed_all/s54r2.c compiled
 Decompiling ./seed_all/s54r2 ...
 ./seed_all/s54r2 decompiled
@@ -7182,7 +7222,7 @@ Decompiling ./seed_all/s54r2 ...
 Checking ./seed_all/s54r2 & ./seed_all/s54r2_new
 Found discrepancy:
 ./seed_all/s54r2     outputs [b'checksum = CFC7BEC4\n']
-./seed_all/s54r2_new outputs [b'checksum = 2948DAC1\n']
+./seed_all/s54r2_new outputs [b'checksum = EBC68FD5\n']
 ./seed_all/s54retdec.c compiled
 Decompiling ./seed_all/s54retdec ...
 ./seed_all/s54retdec decompiled
@@ -7190,7 +7230,7 @@ Decompiling ./seed_all/s54retdec ...
 Checking ./seed_all/s54retdec & ./seed_all/s54retdec_new
 Found discrepancy:
 ./seed_all/s54retdec     outputs [b'checksum = CFC7BEC4\n']
-./seed_all/s54retdec_new outputs [b'checksum = F3A0BDD0\n']
+./seed_all/s54retdec_new outputs [b'checksum = 2BDDB7F\n']
 ./seed_all/s550r2.c compiled
 Decompiling ./seed_all/s550r2 ...
 ./seed_all/s550r2 decompiled
@@ -7198,7 +7238,7 @@ Decompiling ./seed_all/s550r2 ...
 Checking ./seed_all/s550r2 & ./seed_all/s550r2_new
 Found discrepancy:
 ./seed_all/s550r2     outputs [b'checksum = EF89CF69\n']
-./seed_all/s550r2_new outputs [b'checksum = 6B77FECC\n']
+./seed_all/s550r2_new outputs [b'checksum = A768292B\n']
 ./seed_all/s550retdec.c compiled
 Decompiling ./seed_all/s550retdec ...
 ./seed_all/s550retdec decompiled
@@ -7206,7 +7246,7 @@ Decompiling ./seed_all/s550retdec ...
 Checking ./seed_all/s550retdec & ./seed_all/s550retdec_new
 Found discrepancy:
 ./seed_all/s550retdec     outputs [b'checksum = EF89CF69\n']
-./seed_all/s550retdec_new outputs [b'checksum = 987042FE\n']
+./seed_all/s550retdec_new outputs [b'checksum = 197B4443\n']
 ./seed_all/s551r2.c compiled
 Decompiling ./seed_all/s551r2 ...
 ./seed_all/s551r2 decompiled
@@ -7490,7 +7530,7 @@ Decompiling ./seed_all/s569r2 ...
 Checking ./seed_all/s569r2 & ./seed_all/s569r2_new
 Found discrepancy:
 ./seed_all/s569r2     outputs [b'checksum = D20F8770\n']
-./seed_all/s569r2_new outputs [b'checksum = B8A0F526\n']
+./seed_all/s569r2_new outputs [b'checksum = 55829065\n']
 ./seed_all/s569retdec.c compiled
 Decompiling ./seed_all/s569retdec ...
 ./seed_all/s569retdec decompiled
@@ -7498,7 +7538,7 @@ Decompiling ./seed_all/s569retdec ...
 Checking ./seed_all/s569retdec & ./seed_all/s569retdec_new
 Found discrepancy:
 ./seed_all/s569retdec     outputs [b'checksum = D20F8770\n']
-./seed_all/s569retdec_new outputs [b'checksum = 5CD52D4C\n']
+./seed_all/s569retdec_new outputs [b'checksum = CE995724\n']
 ./seed_all/s56r2.c compiled
 Decompiling ./seed_all/s56r2 ...
 ./seed_all/s56r2 decompiled
@@ -7604,7 +7644,7 @@ Decompiling ./seed_all/s576r2 ...
 Checking ./seed_all/s576r2 & ./seed_all/s576r2_new
 Found discrepancy:
 ./seed_all/s576r2     outputs [b'checksum = D747F0E6\n']
-./seed_all/s576r2_new outputs [b'checksum = 3B8FBDBE\n']
+./seed_all/s576r2_new outputs [b'checksum = 9DC33F8\n']
 ./seed_all/s576retdec.c compiled
 Decompiling ./seed_all/s576retdec ...
 ./seed_all/s576retdec decompiled
@@ -7612,7 +7652,7 @@ Decompiling ./seed_all/s576retdec ...
 Checking ./seed_all/s576retdec & ./seed_all/s576retdec_new
 Found discrepancy:
 ./seed_all/s576retdec     outputs [b'checksum = D747F0E6\n']
-./seed_all/s576retdec_new outputs [b'checksum = DA0A0FC7\n']
+./seed_all/s576retdec_new outputs [b'checksum = 409EB96C\n']
 ./seed_all/s577r2.c compiled
 Decompiling ./seed_all/s577r2 ...
 ./seed_all/s577r2 decompiled
@@ -7708,7 +7748,7 @@ Decompiling ./seed_all/s582r2 ...
 Checking ./seed_all/s582r2 & ./seed_all/s582r2_new
 Found discrepancy:
 ./seed_all/s582r2     outputs [b'checksum = 3B268A58\n']
-./seed_all/s582r2_new outputs [b'checksum = 6B825D47\n']
+./seed_all/s582r2_new outputs [b'checksum = 57E8452A\n']
 ./seed_all/s582retdec.c compiled
 Decompiling ./seed_all/s582retdec ...
 ./seed_all/s582retdec decompiled
@@ -7716,7 +7756,7 @@ Decompiling ./seed_all/s582retdec ...
 Checking ./seed_all/s582retdec & ./seed_all/s582retdec_new
 Found discrepancy:
 ./seed_all/s582retdec     outputs [b'checksum = 3B268A58\n']
-./seed_all/s582retdec_new outputs [b'checksum = B8B81CF5\n']
+./seed_all/s582retdec_new outputs [b'checksum = 89037177\n']
 ./seed_all/s583r2.c compiled
 Decompiling ./seed_all/s583r2 ...
 ./seed_all/s583r2 decompiled
@@ -7794,13 +7834,19 @@ Found discrepancy:
 ./seed_all/s588r2.c compiled
 Decompiling ./seed_all/s588r2 ...
 ./seed_all/s588r2 decompiled
-./seed_all/s588r2_new.c compilation failed
-./seed_all/s588r2_new.c compilation failed
+./seed_all/s588r2_new.c compiled
+Checking ./seed_all/s588r2 & ./seed_all/s588r2_new
+Found discrepancy:
+./seed_all/s588r2     outputs [b'checksum = E67E3131\n']
+./seed_all/s588r2_new outputs [b'checksum = FD1F6DFB\n']
 ./seed_all/s588retdec.c compiled
 Decompiling ./seed_all/s588retdec ...
 ./seed_all/s588retdec decompiled
-./seed_all/s588retdec_new.c compilation failed
-./seed_all/s588retdec_new.c compilation failed
+./seed_all/s588retdec_new.c compiled
+Checking ./seed_all/s588retdec & ./seed_all/s588retdec_new
+Found discrepancy:
+./seed_all/s588retdec     outputs [b'checksum = E67E3131\n']
+./seed_all/s588retdec_new outputs [b'checksum = 5D3CEC41\n']
 ./seed_all/s589r2.c compiled
 Decompiling ./seed_all/s589r2 ...
 ./seed_all/s589r2 decompiled
@@ -8452,7 +8498,7 @@ Decompiling ./seed_all/s629r2 ...
 Checking ./seed_all/s629r2 & ./seed_all/s629r2_new
 Found discrepancy:
 ./seed_all/s629r2     outputs [b'checksum = F64AAF80\n']
-./seed_all/s629r2_new outputs [b'checksum = 90B77E85\n']
+./seed_all/s629r2_new outputs [b'checksum = 719434EA\n']
 ./seed_all/s629retdec.c compiled
 Decompiling ./seed_all/s629retdec ...
 ./seed_all/s629retdec decompiled
@@ -8460,7 +8506,7 @@ Decompiling ./seed_all/s629retdec ...
 Checking ./seed_all/s629retdec & ./seed_all/s629retdec_new
 Found discrepancy:
 ./seed_all/s629retdec     outputs [b'checksum = F64AAF80\n']
-./seed_all/s629retdec_new outputs [b'checksum = D1DA7181\n']
+./seed_all/s629retdec_new outputs [b'checksum = EA4EBBEF\n']
 ./seed_all/s62r2.c compiled
 Decompiling ./seed_all/s62r2 ...
 ./seed_all/s62r2 decompiled
@@ -8526,7 +8572,7 @@ Decompiling ./seed_all/s633r2 ...
 Checking ./seed_all/s633r2 & ./seed_all/s633r2_new
 Found discrepancy:
 ./seed_all/s633r2     outputs [b'checksum = B3CC9961\n']
-./seed_all/s633r2_new outputs [b'checksum = CC0B7B8\n']
+./seed_all/s633r2_new outputs [b'checksum = E68BC618\n']
 ./seed_all/s633retdec.c compiled
 Decompiling ./seed_all/s633retdec ...
 ./seed_all/s633retdec decompiled
@@ -8534,7 +8580,7 @@ Decompiling ./seed_all/s633retdec ...
 Checking ./seed_all/s633retdec & ./seed_all/s633retdec_new
 Found discrepancy:
 ./seed_all/s633retdec     outputs [b'checksum = B3CC9961\n']
-./seed_all/s633retdec_new outputs [b'checksum = D7E771FF\n']
+./seed_all/s633retdec_new outputs [b'checksum = 4D4DEBE1\n']
 ./seed_all/s634r2.c compiled
 Decompiling ./seed_all/s634r2 ...
 ./seed_all/s634r2 decompiled
@@ -8682,7 +8728,7 @@ Decompiling ./seed_all/s643r2 ...
 Checking ./seed_all/s643r2 & ./seed_all/s643r2_new
 Found discrepancy:
 ./seed_all/s643r2     outputs [b'checksum = E00E09DF\n']
-./seed_all/s643r2_new outputs [b'checksum = 82DFBCBB\n']
+./seed_all/s643r2_new outputs [b'checksum = B539514D\n']
 ./seed_all/s643retdec.c compiled
 Decompiling ./seed_all/s643retdec ...
 ./seed_all/s643retdec decompiled
@@ -8690,7 +8736,7 @@ Decompiling ./seed_all/s643retdec ...
 Checking ./seed_all/s643retdec & ./seed_all/s643retdec_new
 Found discrepancy:
 ./seed_all/s643retdec     outputs [b'checksum = E00E09DF\n']
-./seed_all/s643retdec_new outputs [b'checksum = 29A9F438\n']
+./seed_all/s643retdec_new outputs [b'checksum = AE5821DB\n']
 ./seed_all/s644r2.c compiled
 Decompiling ./seed_all/s644r2 ...
 ./seed_all/s644r2 decompiled
@@ -9390,7 +9436,7 @@ Decompiling ./seed_all/s689r2 ...
 Checking ./seed_all/s689r2 & ./seed_all/s689r2_new
 Found discrepancy:
 ./seed_all/s689r2     outputs [b'checksum = 112C0392\n']
-./seed_all/s689r2_new outputs [b'checksum = 65A21AD2\n']
+./seed_all/s689r2_new outputs [b'checksum = 5FD0003B\n']
 ./seed_all/s689retdec.c compiled
 Decompiling ./seed_all/s689retdec ...
 ./seed_all/s689retdec decompiled
@@ -9398,7 +9444,7 @@ Decompiling ./seed_all/s689retdec ...
 Checking ./seed_all/s689retdec & ./seed_all/s689retdec_new
 Found discrepancy:
 ./seed_all/s689retdec     outputs [b'checksum = 112C0392\n']
-./seed_all/s689retdec_new outputs [b'checksum = DDC8AE8E\n']
+./seed_all/s689retdec_new outputs [b'checksum = 116E8ECF\n']
 ./seed_all/s68r2.c compiled
 Decompiling ./seed_all/s68r2 ...
 ./seed_all/s68r2 decompiled
@@ -9406,7 +9452,7 @@ Decompiling ./seed_all/s68r2 ...
 Checking ./seed_all/s68r2 & ./seed_all/s68r2_new
 Found discrepancy:
 ./seed_all/s68r2     outputs [b'checksum = EB9D0E7C\n']
-./seed_all/s68r2_new outputs [b'checksum = 16F12F32\n']
+./seed_all/s68r2_new outputs [b'checksum = 4667ADD8\n']
 ./seed_all/s68retdec.c compiled
 Decompiling ./seed_all/s68retdec ...
 ./seed_all/s68retdec decompiled
@@ -9414,7 +9460,7 @@ Decompiling ./seed_all/s68retdec ...
 Checking ./seed_all/s68retdec & ./seed_all/s68retdec_new
 Found discrepancy:
 ./seed_all/s68retdec     outputs [b'checksum = EB9D0E7C\n']
-./seed_all/s68retdec_new outputs [b'checksum = C526ED2E\n']
+./seed_all/s68retdec_new outputs [b'checksum = BB468B9\n']
 ./seed_all/s690r2.c compiled
 Decompiling ./seed_all/s690r2 ...
 ./seed_all/s690r2 decompiled
@@ -9506,13 +9552,17 @@ Checking ./seed_all/s695retdec & ./seed_all/s695retdec_new
 ./seed_all/s696r2.c compiled
 Decompiling ./seed_all/s696r2 ...
 ./seed_all/s696r2 decompiled
-./seed_all/s696r2_new.c compilation failed
-./seed_all/s696r2_new.c compilation failed
+./seed_all/s696r2_new.c compiled
+Checking ./seed_all/s696r2 & ./seed_all/s696r2_new
+./seed_all/s696r2     outputs [b'checksum = 3B2A1BC9\n']
+./seed_all/s696r2_new outputs [b'checksum = 3B2A1BC9\n']
 ./seed_all/s696retdec.c compiled
 Decompiling ./seed_all/s696retdec ...
 ./seed_all/s696retdec decompiled
-./seed_all/s696retdec_new.c compilation failed
-./seed_all/s696retdec_new.c compilation failed
+./seed_all/s696retdec_new.c compiled
+Checking ./seed_all/s696retdec & ./seed_all/s696retdec_new
+./seed_all/s696retdec     outputs [b'checksum = 3B2A1BC9\n']
+./seed_all/s696retdec_new outputs [b'checksum = 3B2A1BC9\n']
 ./seed_all/s697r2.c compiled
 Decompiling ./seed_all/s697r2 ...
 ./seed_all/s697r2 decompiled
@@ -10158,7 +10208,7 @@ Decompiling ./seed_all/s736r2 ...
 Checking ./seed_all/s736r2 & ./seed_all/s736r2_new
 Found discrepancy:
 ./seed_all/s736r2     outputs [b'checksum = DFC10942\n']
-./seed_all/s736r2_new outputs [b'checksum = E49467C7\n']
+./seed_all/s736r2_new outputs [b'checksum = 5CC791C1\n']
 ./seed_all/s736retdec.c compiled
 Decompiling ./seed_all/s736retdec ...
 ./seed_all/s736retdec decompiled
@@ -10166,7 +10216,7 @@ Decompiling ./seed_all/s736retdec ...
 Checking ./seed_all/s736retdec & ./seed_all/s736retdec_new
 Found discrepancy:
 ./seed_all/s736retdec     outputs [b'checksum = DFC10942\n']
-./seed_all/s736retdec_new outputs [b'checksum = 63C3DFF7\n']
+./seed_all/s736retdec_new outputs [b'checksum = 84F78066\n']
 ./seed_all/s737r2.c compiled
 Decompiling ./seed_all/s737r2 ...
 ./seed_all/s737r2 decompiled
@@ -10334,7 +10384,7 @@ Decompiling ./seed_all/s747r2 ...
 Checking ./seed_all/s747r2 & ./seed_all/s747r2_new
 Found discrepancy:
 ./seed_all/s747r2     outputs [b'']
-./seed_all/s747r2_new outputs [b'checksum = CA6EC6E\n']
+./seed_all/s747r2_new outputs [b'checksum = FEA6069\n']
 ./seed_all/s747retdec.c compiled
 Decompiling ./seed_all/s747retdec ...
 ./seed_all/s747retdec decompiled
@@ -10342,7 +10392,7 @@ Decompiling ./seed_all/s747retdec ...
 Checking ./seed_all/s747retdec & ./seed_all/s747retdec_new
 Found discrepancy:
 ./seed_all/s747retdec     outputs [b'']
-./seed_all/s747retdec_new outputs [b'checksum = 94924E4A\n']
+./seed_all/s747retdec_new outputs [b'checksum = 2813AD64\n']
 ./seed_all/s748r2.c compiled
 Decompiling ./seed_all/s748r2 ...
 ./seed_all/s748r2 decompiled
@@ -10748,7 +10798,7 @@ Decompiling ./seed_all/s773r2 ...
 Checking ./seed_all/s773r2 & ./seed_all/s773r2_new
 Found discrepancy:
 ./seed_all/s773r2     outputs [b'checksum = CB169AB9\n']
-./seed_all/s773r2_new outputs [b'checksum = 5D6FFE47\n']
+./seed_all/s773r2_new outputs [b'checksum = BE2DB7C1\n']
 ./seed_all/s773retdec.c compiled
 Decompiling ./seed_all/s773retdec ...
 ./seed_all/s773retdec decompiled
@@ -10756,7 +10806,7 @@ Decompiling ./seed_all/s773retdec ...
 Checking ./seed_all/s773retdec & ./seed_all/s773retdec_new
 Found discrepancy:
 ./seed_all/s773retdec     outputs [b'checksum = CB169AB9\n']
-./seed_all/s773retdec_new outputs [b'checksum = 506B2534\n']
+./seed_all/s773retdec_new outputs [b'checksum = 8D5158E8\n']
 ./seed_all/s774r2.c compiled
 Decompiling ./seed_all/s774r2 ...
 ./seed_all/s774r2 decompiled
@@ -11236,7 +11286,7 @@ Decompiling ./seed_all/s803r2 ...
 Checking ./seed_all/s803r2 & ./seed_all/s803r2_new
 Found discrepancy:
 ./seed_all/s803r2     outputs [b'checksum = 74BB17E0\n']
-./seed_all/s803r2_new outputs [b'checksum = 4B0481F7\n']
+./seed_all/s803r2_new outputs [b'checksum = 5CD9CA10\n']
 ./seed_all/s803retdec.c compiled
 Decompiling ./seed_all/s803retdec ...
 ./seed_all/s803retdec decompiled
@@ -11244,7 +11294,7 @@ Decompiling ./seed_all/s803retdec ...
 Checking ./seed_all/s803retdec & ./seed_all/s803retdec_new
 Found discrepancy:
 ./seed_all/s803retdec     outputs [b'checksum = 74BB17E0\n']
-./seed_all/s803retdec_new outputs [b'checksum = CDCBD33B\n']
+./seed_all/s803retdec_new outputs [b'checksum = 28F4DAA9\n']
 ./seed_all/s804r2.c compiled
 Decompiling ./seed_all/s804r2 ...
 ./seed_all/s804r2 decompiled
@@ -11534,7 +11584,7 @@ Decompiling ./seed_all/s822r2 ...
 Checking ./seed_all/s822r2 & ./seed_all/s822r2_new
 Found discrepancy:
 ./seed_all/s822r2     outputs [b'checksum = 253D39CE\n']
-./seed_all/s822r2_new outputs [b'checksum = 4C79B995\n']
+./seed_all/s822r2_new outputs [b'checksum = E1B347DE\n']
 ./seed_all/s822retdec.c compiled
 Decompiling ./seed_all/s822retdec ...
 ./seed_all/s822retdec decompiled
@@ -11542,7 +11592,7 @@ Decompiling ./seed_all/s822retdec ...
 Checking ./seed_all/s822retdec & ./seed_all/s822retdec_new
 Found discrepancy:
 ./seed_all/s822retdec     outputs [b'checksum = 253D39CE\n']
-./seed_all/s822retdec_new outputs [b'checksum = 1D51E3A7\n']
+./seed_all/s822retdec_new outputs [b'checksum = 5E50C1AD\n']
 ./seed_all/s823r2.c compiled
 Decompiling ./seed_all/s823r2 ...
 ./seed_all/s823r2 decompiled
@@ -11692,7 +11742,7 @@ Decompiling ./seed_all/s832r2 ...
 Checking ./seed_all/s832r2 & ./seed_all/s832r2_new
 Found discrepancy:
 ./seed_all/s832r2     outputs [b'']
-./seed_all/s832r2_new outputs [b'checksum = 97CB5635\n']
+./seed_all/s832r2_new outputs [b'checksum = 1971AD0D\n']
 ./seed_all/s832retdec.c compiled
 Decompiling ./seed_all/s832retdec ...
 ./seed_all/s832retdec decompiled
@@ -11700,7 +11750,7 @@ Decompiling ./seed_all/s832retdec ...
 Checking ./seed_all/s832retdec & ./seed_all/s832retdec_new
 Found discrepancy:
 ./seed_all/s832retdec     outputs [b'']
-./seed_all/s832retdec_new outputs [b'checksum = E4258290\n']
+./seed_all/s832retdec_new outputs [b'checksum = 4E2870EB\n']
 ./seed_all/s833r2.c compiled
 Decompiling ./seed_all/s833r2 ...
 ./seed_all/s833r2 decompiled
@@ -11836,7 +11886,7 @@ Decompiling ./seed_all/s841r2 ...
 Checking ./seed_all/s841r2 & ./seed_all/s841r2_new
 Found discrepancy:
 ./seed_all/s841r2     outputs [b'checksum = DE6116DA\n']
-./seed_all/s841r2_new outputs [b'checksum = F07856DE\n']
+./seed_all/s841r2_new outputs [b'checksum = C73AEBF9\n']
 ./seed_all/s841retdec.c compiled
 Decompiling ./seed_all/s841retdec ...
 ./seed_all/s841retdec decompiled
@@ -11844,7 +11894,7 @@ Decompiling ./seed_all/s841retdec ...
 Checking ./seed_all/s841retdec & ./seed_all/s841retdec_new
 Found discrepancy:
 ./seed_all/s841retdec     outputs [b'checksum = DE6116DA\n']
-./seed_all/s841retdec_new outputs [b'checksum = 558E8A96\n']
+./seed_all/s841retdec_new outputs [b'checksum = 4D0EA224\n']
 ./seed_all/s842r2.c compiled
 Decompiling ./seed_all/s842r2 ...
 ./seed_all/s842r2 decompiled
@@ -12042,7 +12092,7 @@ Decompiling ./seed_all/s854r2 ...
 Checking ./seed_all/s854r2 & ./seed_all/s854r2_new
 Found discrepancy:
 ./seed_all/s854r2     outputs [b'checksum = 4FFAEFAD\n']
-./seed_all/s854r2_new outputs [b'checksum = 16C1C61\n']
+./seed_all/s854r2_new outputs [b'checksum = AD1D8C96\n']
 ./seed_all/s854retdec.c compiled
 Decompiling ./seed_all/s854retdec ...
 ./seed_all/s854retdec decompiled
@@ -12050,7 +12100,7 @@ Decompiling ./seed_all/s854retdec ...
 Checking ./seed_all/s854retdec & ./seed_all/s854retdec_new
 Found discrepancy:
 ./seed_all/s854retdec     outputs [b'checksum = 4FFAEFAD\n']
-./seed_all/s854retdec_new outputs [b'checksum = 9C75CEF8\n']
+./seed_all/s854retdec_new outputs [b'checksum = 87F6FA07\n']
 ./seed_all/s855r2.c compiled
 Decompiling ./seed_all/s855r2 ...
 ./seed_all/s855r2 decompiled
@@ -12628,13 +12678,18 @@ Checking ./seed_all/s890retdec & ./seed_all/s890retdec_new
 ./seed_all/s891r2.c compiled
 Decompiling ./seed_all/s891r2 ...
 ./seed_all/s891r2 decompiled
-./seed_all/s891r2_new.c compilation failed
-./seed_all/s891r2_new.c compilation failed
+./seed_all/s891r2_new.c compiled
+Checking ./seed_all/s891r2 & ./seed_all/s891r2_new
+./seed_all/s891r2     outputs [b'checksum = 89A75124\n']
+./seed_all/s891r2_new outputs [b'checksum = 89A75124\n']
 ./seed_all/s891retdec.c compiled
 Decompiling ./seed_all/s891retdec ...
 ./seed_all/s891retdec decompiled
-./seed_all/s891retdec_new.c compilation failed
-./seed_all/s891retdec_new.c compilation failed
+./seed_all/s891retdec_new.c compiled
+Checking ./seed_all/s891retdec & ./seed_all/s891retdec_new
+Found discrepancy:
+./seed_all/s891retdec     outputs [b'checksum = 89A75124\n']
+./seed_all/s891retdec_new outputs [b'checksum = 7C08E701\n']
 ./seed_all/s892r2.c compiled
 Decompiling ./seed_all/s892r2 ...
 ./seed_all/s892r2 decompiled
@@ -12822,7 +12877,7 @@ Decompiling ./seed_all/s902r2 ...
 Checking ./seed_all/s902r2 & ./seed_all/s902r2_new
 Found discrepancy:
 ./seed_all/s902r2     outputs [b'checksum = 62964E1B\n']
-./seed_all/s902r2_new outputs [b'checksum = 1BE5D059\n']
+./seed_all/s902r2_new outputs [b'checksum = 6532CDF1\n']
 ./seed_all/s902retdec.c compiled
 Decompiling ./seed_all/s902retdec ...
 ./seed_all/s902retdec decompiled
@@ -12830,7 +12885,7 @@ Decompiling ./seed_all/s902retdec ...
 Checking ./seed_all/s902retdec & ./seed_all/s902retdec_new
 Found discrepancy:
 ./seed_all/s902retdec     outputs [b'checksum = 62964E1B\n']
-./seed_all/s902retdec_new outputs [b'checksum = 1FA37F68\n']
+./seed_all/s902retdec_new outputs [b'checksum = 763E6F8A\n']
 ./seed_all/s903r2.c compiled
 Decompiling ./seed_all/s903r2 ...
 ./seed_all/s903r2 decompiled
@@ -12882,7 +12937,7 @@ Decompiling ./seed_all/s906r2 ...
 Checking ./seed_all/s906r2 & ./seed_all/s906r2_new
 Found discrepancy:
 ./seed_all/s906r2     outputs [b'checksum = D3BD81E5\n']
-./seed_all/s906r2_new outputs [b'checksum = D9C0ED81\n']
+./seed_all/s906r2_new outputs [b'checksum = E5F2C4CD\n']
 ./seed_all/s906retdec.c compiled
 Decompiling ./seed_all/s906retdec ...
 ./seed_all/s906retdec decompiled
@@ -12890,7 +12945,7 @@ Decompiling ./seed_all/s906retdec ...
 Checking ./seed_all/s906retdec & ./seed_all/s906retdec_new
 Found discrepancy:
 ./seed_all/s906retdec     outputs [b'checksum = D3BD81E5\n']
-./seed_all/s906retdec_new outputs [b'checksum = E2084BC\n']
+./seed_all/s906retdec_new outputs [b'checksum = 839903\n']
 ./seed_all/s907r2.c compiled
 Decompiling ./seed_all/s907r2 ...
 ./seed_all/s907r2 decompiled
@@ -13040,7 +13095,7 @@ Decompiling ./seed_all/s916r2 ...
 Checking ./seed_all/s916r2 & ./seed_all/s916r2_new
 Found discrepancy:
 ./seed_all/s916r2     outputs [b'checksum = 81D51181\n']
-./seed_all/s916r2_new outputs [b'checksum = A1F5C086\n']
+./seed_all/s916r2_new outputs [b'checksum = 4A23EA9B\n']
 ./seed_all/s916retdec.c compiled
 Decompiling ./seed_all/s916retdec ...
 ./seed_all/s916retdec decompiled
@@ -13048,7 +13103,7 @@ Decompiling ./seed_all/s916retdec ...
 Checking ./seed_all/s916retdec & ./seed_all/s916retdec_new
 Found discrepancy:
 ./seed_all/s916retdec     outputs [b'checksum = 81D51181\n']
-./seed_all/s916retdec_new outputs [b'checksum = AAE541BE\n']
+./seed_all/s916retdec_new outputs [b'checksum = A496F9FC\n']
 ./seed_all/s917r2.c compiled
 Decompiling ./seed_all/s917r2 ...
 ./seed_all/s917r2 decompiled
@@ -13350,7 +13405,7 @@ Decompiling ./seed_all/s935r2 ...
 Checking ./seed_all/s935r2 & ./seed_all/s935r2_new
 Found discrepancy:
 ./seed_all/s935r2     outputs [b'checksum = 1BD9732C\n']
-./seed_all/s935r2_new outputs [b'checksum = DB6162DB\n']
+./seed_all/s935r2_new outputs [b'checksum = CEFA0E5E\n']
 ./seed_all/s935retdec.c compiled
 Decompiling ./seed_all/s935retdec ...
 ./seed_all/s935retdec decompiled
@@ -13358,7 +13413,7 @@ Decompiling ./seed_all/s935retdec ...
 Checking ./seed_all/s935retdec & ./seed_all/s935retdec_new
 Found discrepancy:
 ./seed_all/s935retdec     outputs [b'checksum = 1BD9732C\n']
-./seed_all/s935retdec_new outputs [b'checksum = B3020CC9\n']
+./seed_all/s935retdec_new outputs [b'checksum = 7050C7F4\n']
 ./seed_all/s936r2.c compiled
 Decompiling ./seed_all/s936r2 ...
 ./seed_all/s936r2 decompiled
@@ -13560,13 +13615,19 @@ Checking ./seed_all/s948retdec & ./seed_all/s948retdec_new
 ./seed_all/s949r2.c compiled
 Decompiling ./seed_all/s949r2 ...
 ./seed_all/s949r2 decompiled
-./seed_all/s949r2_new.c compilation failed
-./seed_all/s949r2_new.c compilation failed
+./seed_all/s949r2_new.c compiled
+Checking ./seed_all/s949r2 & ./seed_all/s949r2_new
+Found discrepancy:
+./seed_all/s949r2     outputs [b'checksum = 21EE2867\n']
+./seed_all/s949r2_new outputs [b'checksum = 4766D29A\n']
 ./seed_all/s949retdec.c compiled
 Decompiling ./seed_all/s949retdec ...
 ./seed_all/s949retdec decompiled
-./seed_all/s949retdec_new.c compilation failed
-./seed_all/s949retdec_new.c compilation failed
+./seed_all/s949retdec_new.c compiled
+Checking ./seed_all/s949retdec & ./seed_all/s949retdec_new
+Found discrepancy:
+./seed_all/s949retdec     outputs [b'checksum = 21EE2867\n']
+./seed_all/s949retdec_new outputs [b'checksum = 76B39816\n']
 ./seed_all/s94r2.c compiled
 Decompiling ./seed_all/s94r2 ...
 ./seed_all/s94r2 decompiled
@@ -13716,7 +13777,7 @@ Decompiling ./seed_all/s959r2 ...
 Checking ./seed_all/s959r2 & ./seed_all/s959r2_new
 Found discrepancy:
 ./seed_all/s959r2     outputs [b'checksum = 3CD0091\n']
-./seed_all/s959r2_new outputs [b'checksum = 6AF2F11B\n']
+./seed_all/s959r2_new outputs [b'checksum = F334A384\n']
 ./seed_all/s959retdec.c compiled
 Decompiling ./seed_all/s959retdec ...
 ./seed_all/s959retdec decompiled
@@ -13724,7 +13785,7 @@ Decompiling ./seed_all/s959retdec ...
 Checking ./seed_all/s959retdec & ./seed_all/s959retdec_new
 Found discrepancy:
 ./seed_all/s959retdec     outputs [b'checksum = 3CD0091\n']
-./seed_all/s959retdec_new outputs [b'checksum = E8D2AF43\n']
+./seed_all/s959retdec_new outputs [b'checksum = 53D0C2E1\n']
 ./seed_all/s95r2.c compiled
 Decompiling ./seed_all/s95r2 ...
 ./seed_all/s95r2 decompiled
@@ -13822,7 +13883,7 @@ Decompiling ./seed_all/s965r2 ...
 Checking ./seed_all/s965r2 & ./seed_all/s965r2_new
 Found discrepancy:
 ./seed_all/s965r2     outputs [b'checksum = AFD41753\n']
-./seed_all/s965r2_new outputs [b'checksum = B526FD12\n']
+./seed_all/s965r2_new outputs [b'checksum = 59351755\n']
 ./seed_all/s965retdec.c compiled
 Decompiling ./seed_all/s965retdec ...
 ./seed_all/s965retdec decompiled
@@ -13830,7 +13891,7 @@ Decompiling ./seed_all/s965retdec ...
 Checking ./seed_all/s965retdec & ./seed_all/s965retdec_new
 Found discrepancy:
 ./seed_all/s965retdec     outputs [b'checksum = AFD41753\n']
-./seed_all/s965retdec_new outputs [b'checksum = 89599DB2\n']
+./seed_all/s965retdec_new outputs [b'checksum = 994A2C46\n']
 ./seed_all/s966r2.c compiled
 Decompiling ./seed_all/s966r2 ...
 ./seed_all/s966r2 decompiled
@@ -14112,7 +14173,7 @@ Decompiling ./seed_all/s983r2 ...
 Checking ./seed_all/s983r2 & ./seed_all/s983r2_new
 Found discrepancy:
 ./seed_all/s983r2     outputs [b'checksum = 93895968\n']
-./seed_all/s983r2_new outputs [b'checksum = 2A632E90\n']
+./seed_all/s983r2_new outputs [b'checksum = A725099A\n']
 ./seed_all/s983retdec.c compiled
 Decompiling ./seed_all/s983retdec ...
 ./seed_all/s983retdec decompiled
@@ -14120,7 +14181,7 @@ Decompiling ./seed_all/s983retdec ...
 Checking ./seed_all/s983retdec & ./seed_all/s983retdec_new
 Found discrepancy:
 ./seed_all/s983retdec     outputs [b'checksum = 93895968\n']
-./seed_all/s983retdec_new outputs [b'checksum = 56060E64\n']
+./seed_all/s983retdec_new outputs [b'checksum = 7B1BF660\n']
 ./seed_all/s984r2.c compiled
 Decompiling ./seed_all/s984r2 ...
 ./seed_all/s984r2 decompiled
@@ -14393,8 +14454,8 @@ Checking ./seed_all/s9retdec & ./seed_all/s9retdec_new
 
 Complete!
 Total:                 2000
-Succeed:               1544
+Succeed:               1549
 Compile failed:        0
 DeCompile failed:      0
-ReCompile failed:      22
-Execute discrepancy:   434
+ReCompile failed:      0
+Execute discrepancy:   451

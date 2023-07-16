@@ -596,6 +596,8 @@
 ./seed_all/s459retdec.c
 ./seed_all/s45r2.c
 ./seed_all/s45retdec.c
+./seed_all/s460r2.c
+./seed_all/s460retdec.c
 ./seed_all/s461r2.c
 ./seed_all/s461retdec.c
 ./seed_all/s462r2.c
@@ -1022,6 +1024,8 @@
 ./seed_all/s693retdec.c
 ./seed_all/s695r2.c
 ./seed_all/s695retdec.c
+./seed_all/s696r2.c
+./seed_all/s696retdec.c
 ./seed_all/s697r2.c
 ./seed_all/s697retdec.c
 ./seed_all/s698r2.c
@@ -1366,6 +1370,7 @@
 ./seed_all/s88retdec.c
 ./seed_all/s890r2.c
 ./seed_all/s890retdec.c
+./seed_all/s891r2.c
 ./seed_all/s895r2.c
 ./seed_all/s895retdec.c
 ./seed_all/s897r2.c

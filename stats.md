@@ -2,11 +2,11 @@ retdec-clang
 ```
 Complete!
 Total:                 2000
-Succeed:               1544
+Succeed:               1549
 Compile failed:        0
 DeCompile failed:      0
-ReCompile failed:      22
-Execute discrepancy:   434
+ReCompile failed:      0
+Execute discrepancy:   451
 ```
 
 r2-clang

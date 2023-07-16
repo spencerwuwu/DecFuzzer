@@ -69,7 +69,7 @@ static int32_t  func_1(void)
 {
 // --------------------- Global Variables ---------------------
 
-int16_t g1 = -0x734c; // 0x1e1
+int16_t g1 = 0x2a2d; // 0x1e1
 int32_t g2;
 
 // ------- Dynamically Linked Functions Without Header --------

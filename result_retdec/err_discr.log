@@ -1,3 +1,5 @@
+./seed_all/s0r2.c
+./seed_all/s0retdec.c
 ./seed_all/s101r2.c
 ./seed_all/s101retdec.c
 ./seed_all/s109r2.c
@@ -32,6 +34,8 @@
 ./seed_all/s165retdec.c
 ./seed_all/s166r2.c
 ./seed_all/s166retdec.c
+./seed_all/s168r2.c
+./seed_all/s168retdec.c
 ./seed_all/s172r2.c
 ./seed_all/s172retdec.c
 ./seed_all/s173r2.c
@@ -56,6 +60,8 @@
 ./seed_all/s210retdec.c
 ./seed_all/s211r2.c
 ./seed_all/s211retdec.c
+./seed_all/s214r2.c
+./seed_all/s214retdec.c
 ./seed_all/s218r2.c
 ./seed_all/s218retdec.c
 ./seed_all/s21r2.c
@@ -104,6 +110,8 @@
 ./seed_all/s296retdec.c
 ./seed_all/s301r2.c
 ./seed_all/s301retdec.c
+./seed_all/s302r2.c
+./seed_all/s302retdec.c
 ./seed_all/s303r2.c
 ./seed_all/s303retdec.c
 ./seed_all/s309r2.c
@@ -144,6 +152,8 @@
 ./seed_all/s366retdec.c
 ./seed_all/s368r2.c
 ./seed_all/s368retdec.c
+./seed_all/s36r2.c
+./seed_all/s36retdec.c
 ./seed_all/s370r2.c
 ./seed_all/s370retdec.c
 ./seed_all/s371r2.c
@@ -214,6 +224,8 @@
 ./seed_all/s519retdec.c
 ./seed_all/s537r2.c
 ./seed_all/s537retdec.c
+./seed_all/s544r2.c
+./seed_all/s544retdec.c
 ./seed_all/s549r2.c
 ./seed_all/s549retdec.c
 ./seed_all/s54r2.c
@@ -244,6 +256,8 @@
 ./seed_all/s584retdec.c
 ./seed_all/s587r2.c
 ./seed_all/s587retdec.c
+./seed_all/s588r2.c
+./seed_all/s588retdec.c
 ./seed_all/s589r2.c
 ./seed_all/s589retdec.c
 ./seed_all/s590r2.c
@@ -368,6 +382,7 @@
 ./seed_all/s887retdec.c
 ./seed_all/s889r2.c
 ./seed_all/s889retdec.c
+./seed_all/s891retdec.c
 ./seed_all/s892r2.c
 ./seed_all/s892retdec.c
 ./seed_all/s893r2.c
@@ -408,6 +423,8 @@
 ./seed_all/s935retdec.c
 ./seed_all/s940r2.c
 ./seed_all/s940retdec.c
+./seed_all/s949r2.c
+./seed_all/s949retdec.c
 ./seed_all/s958r2.c
 ./seed_all/s958retdec.c
 ./seed_all/s959r2.c
