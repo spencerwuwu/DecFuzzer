@@ -2,3 +2,5 @@
 ./wasm_workdir/wasm_main.cpp
 ./wasm_workdir/orig_main.cpp
 asts/
+tmp/
+practice
