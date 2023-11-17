@@ -82,14 +82,18 @@ We note that *IDA Pro* and *JEB3* are commercial tools, and we decide to not pro
 To install Radare2:
 
     git clone https://github.com/radareorg/radare2
+    git checkout 8ef97b3918d632cf4447bb8e3c62eba015561f4e
     cd radare2 ; sys/install.sh ; cd ..
 
-We use commit 06ab29b93cb0168a8ec1cb39f860c6b990678838 when writing this README.
+We use commit 8ef97b3918d632cf4447bb8e3c62eba015561f4e when writing this README.
+
+Replace or patch the `~/.local/share/radare2/r2pm/git/radare2-pm`
+`https://github.com/spencerwuwu/radare2-pm`
 
 To further install the Ghidra decompiler plugin (named r2ghidra):
 
     r2pm update
-    r2pm -i r2ghidra-dec
+    r2pm -i r2ghidra
 
 Then we need to install r2pipe to use our decompiler script *R2_decompile.py*:
 
