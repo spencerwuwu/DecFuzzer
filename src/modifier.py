@@ -466,6 +466,114 @@ class IDAModifier:
 
         return txt
 
+class WasmDecompileModifier:
+    @staticmethod
+    def replace_func1(txt=''):
+        new_lines = ""
+        for line in txt.splitlines():
+            if "function func_1" in line:
+                new_line = "int32_t func_1() {\n"
+            else:
+                new_line = line + "\n"
+            new_lines += new_line
+        return new_lines
+
+
+
+    @staticmethod
+    def modify_variable_and_colons(txt=''):
+
+        def _handle_statement(line, assign_pointer=False, is_lhs=False):
+            tokens = line.split()
+            new_tokens = []
+            var_flag = False
+            for token in tokens:
+                if token == "var":
+                    var_flag = True
+                    continue
+                if var_flag:
+                    var_flag = False
+                    if ":" in token:
+                        name, ctype = token.split(":")
+                        if ctype == "int":
+                            ctype = "int64_t"
+                        if assign_pointer:
+                            ctype += "*"
+                        new_tokens.append(f"{ctype} {name}")
+                    else:
+                        new_tokens.append(f"double {token}")
+                else:
+                    if ":" in token:
+                        name, ctype = token.split(":")
+                        if ctype == "int":
+                            ctype = "int64_t"
+                        if is_lhs:
+                            new_tokens.append(f"{name}")
+                        else:
+                            new_tokens.append(f"({ctype}){name}")
+                    else:
+                        new_tokens.append(token)
+            return " ".join(new_tokens)
+
+        def _handle_declare(txt, pointer_names):
+            def _is_pointer(pointer_names, rhs):
+                for token in rhs.split():
+                    if token in pointer_names:
+                        return True
+                return False
+            if " = " in txt:
+                lhs, rhs = txt.split(" = ")
+                assign_pointer = _is_pointer(pointer_names, rhs)
+                new_lhs = _handle_statement(lhs, assign_pointer=assign_pointer)
+                if assign_pointer:
+                    new_ptr = new_lhs.split()[-1].strip()
+                    pointer_names.append(new_ptr)
+                new_rhs = _handle_statement(rhs)
+                return f"{new_lhs} = {new_rhs}"
+            else:
+                return _handle_statement(txt)
+
+        new_lines = []
+        pointers_names = ["stack_pointer"]
+        for line in txt.splitlines():
+            line = line.strip()
+            if line.endswith(":"):
+                new_lines.append(line)
+            else:
+                has_end = False
+                if line.endswith(";"):
+                    has_end = True
+                    line = line[:-1]
+
+                new_line = ""
+                if "var " in line:
+                    new_line = _handle_declare(line, pointers_names)
+                else:
+                    if " = " in line:
+                        lhs, rhs = line.split(" = ")
+                        new_lhs = _handle_statement(lhs, is_lhs=True)
+                        new_rhs = _handle_statement(rhs)
+                        new_line = f"{new_lhs} = {new_rhs}"
+                    else:
+                        new_line = _handle_statement(line)
+                if has_end:
+                    new_line += ";"
+                new_lines.append(new_line)
+
+        return "\n".join(new_lines)
+            
+    @staticmethod
+    def setup_stack(txt=""):
+        starting, content = txt.split("{", 1)
+        declaration = """
+        int64_t stack[100000];
+        for (int i = 0; i < 100000; i++) { stack[i] = 0; }
+        int64_t *stack_pointer = stack + 100000;
+        """
+        return starting + "{" + declaration + content
+
+
+
 
 class R2Modifier:
     @staticmethod
@@ -558,10 +666,28 @@ def R2_modifier_before(txt):
     return txt
 
 
+def WasmDecompile_modifier_before(txt):
+    txt = WasmDecompileModifier.replace_func1(txt)
+    return txt
+
+
+def WasmDecompile_modifier_after(main_fun):
+    # temporarily nothing
+    main_fun = WasmDecompileModifier.modify_variable_and_colons(main_fun)
+
+    new_file_name = 'mid.c'
+    f = open(new_file_name, 'w')
+    f.write(main_fun)
+    f.close()
+    main_fun = WasmDecompileModifier.setup_stack(main_fun)
+    main_fun = re.sub(r"loop\s\w+\s\{$", "while (1) {", main_fun, flags=re.MULTILINE)
+    main_fun = main_fun.replace("continue ", "//continue ");
+    return main_fun
+
+
 def R2_modifier_after(main_fun):
     # temporarily nothing
     return main_fun
-
 
 # used in EMI_generator: gen_a_new_variant
 def check_for_printf(txt):

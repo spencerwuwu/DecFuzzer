@@ -3,7 +3,8 @@ import subprocess
 import os
 import re
 
-from src import IDA_decompile, replacer, Config
+#from src import IDA_decompile, replacer, Config
+from src import replacer, Config
 
 file_num = 0
 
@@ -29,17 +30,34 @@ def compile_single_file(file_path, debug=""):
     if os.path.isdir(file_path):
         pass
     elif os.path.splitext(file_path)[1] == '.c':
-        #print(compile_cmd +
-        #                           debug + 
-        #                           ' -I ' + runtime_dir +
-        #                           ' -o ' + os.path.splitext(file_path)[0] +
-        #                           ' ' + file_path)
+        print(compile_cmd +
+                                   debug + 
+                                   ' -I ' + runtime_dir +
+                                   ' -o ' + os.path.splitext(file_path)[0] +
+                                   ' ' + file_path)
         status, output = \
             subprocess.getstatusoutput(compile_cmd +
                                        debug + 
                                        ' -I ' + runtime_dir +
                                        ' -o ' + os.path.splitext(file_path)[0] +
                                        ' ' + file_path)
+        if status != 0:
+            #print(output)
+            print(file_path + ' compilation failed')
+            return status, output
+        else:
+            print(file_path + ' compiled')
+            return 0, ''
+
+
+def compile_single_wasm(file_path, debug=""):
+    if os.path.isdir(file_path):
+        pass
+    elif os.path.splitext(file_path)[1] == '.c':
+        emcc_compile_cmd = Config.emcc_compile_cmd
+        cmd = emcc_compile_cmd + ' -o ' + os.path.splitext(file_path)[0] + ' ' + file_path
+        print(cmd)
+        status, output = subprocess.getstatusoutput(cmd)
         if status != 0:
             #print(output)
             print(file_path + ' compilation failed')
@@ -79,6 +97,8 @@ def decompile_single_file(file_path, generated_file_path=''):
             generated_file_path = file_path + Config.IDA_suffix  # '_ida.c'
         elif Config.R2_test:
             generated_file_path = file_path + Config.Radare2_suffix  # '_r2.c'
+        elif Config.WasmDecompile_test:
+            generated_file_path = file_path + Config.WasmDecompile_suffix  # '_wasm-decompile.c'
     fname, extname = os.path.splitext(file_path)
     if os.path.isdir(file_path):
         pass
@@ -99,6 +119,13 @@ def decompile_single_file(file_path, generated_file_path=''):
         elif Config.R2_test:
             status, output = subprocess.getstatusoutput(time_cmd + Config.Radare2_decompile_cmd +
                                                         fname + ' ' + generated_file_path)
+        elif Config.WasmDecompile_test:
+            status, output = \
+                subprocess.getstatusoutput(time_cmd + Config.WasmDecompile_decompile_cmd +
+                                       fname + ' -o ' +
+                                       generated_file_path)
+        else:
+            status, output = -1, 'error config'
 
         # It seems JEB3 returns 0 even
         # when it failed to generate decompiled code file
@@ -113,17 +140,17 @@ def decompile_single_file(file_path, generated_file_path=''):
             real_time = 0
             user_time = 0
             sys_time = 0
-            output_list = output.strip('\n').split('\n')
-            output_list = output_list[-3:]
-            if output_list[0].find('real') != -1:
-                time_str = output_list[0].split(' ')[1].strip(' s\n')
-                real_time = float(time_str)
-            if output_list[1].find('user') != -1:
-                time_str = output_list[1].split(' ')[1].strip(' s\n')
-                user_time = float(time_str)
-            if output_list[2].find('sys') != -1:
-                time_str = output_list[2].split(' ')[1].strip(' s\n')
-                sys_time = float(time_str)
+            #output_list = output.strip('\n').split('\n')
+            #output_list = output_list[-3:]
+            #if output_list[0].find('real') != -1:
+            #    time_str = output_list[0].split(' ')[1].strip(' s\n')
+            #    real_time = float(time_str)
+            #if output_list[1].find('user') != -1:
+            #    time_str = output_list[1].split(' ')[1].strip(' s\n')
+            #    user_time = float(time_str)
+            #if output_list[2].find('sys') != -1:
+            #    time_str = output_list[2].split(' ')[1].strip(' s\n')
+            #    sys_time = float(time_str)
             #print('real time:', real_time)
             #print('user time:', user_time)
             #print('sys time:', sys_time)

@@ -53,7 +53,7 @@ def find_function_def(txt):
 def find_fun_with_name(txt, fun_name):
     reg_exp = (fun_type_reg +
                fun_name +
-               r"\((" + par_dec_reg + '|' + void_par_reg + ")*\)\s*{"
+               r"\((" + par_dec_reg + '|' + void_par_reg + r")*\)\s*{"
                )
     pattern = re.compile(reg_exp)
     match = pattern.search(txt)
@@ -62,6 +62,9 @@ def find_fun_with_name(txt, fun_name):
         print(match.group(0))
         print('from %d to %d' % (match.start(), match.end()))
         print('function name: %s' % fun_name)
+    if match is None:
+        print('find_fun_with_name failed with reg exp: %s' % reg_exp)
+        exit(1)
     return match
 
 
@@ -100,13 +103,18 @@ def find_fun_pos_with_name(txt='', func_name=''):
 def replace_function(source_code, decompiled_code, func_name, keep_func_decl_unchange = 0):
     # Step A: pre-process
     if Config.JEB3_test:
-        decompiled_code = modifier.JEB3_modifier_before(decompiled_code)
-    elif Config.RetDec_test:
-        decompiled_code = modifier.RetDec_modifier_before(decompiled_code)
-    elif Config.IDA_test:
-        decompiled_code = modifier.IDA_modifier_before(decompiled_code)
+    #    decompiled_code = modifier.JEB3_modifier_before(decompiled_code)
+    #elif Config.RetDec_test:
+    #    decompiled_code = modifier.RetDec_modifier_before(decompiled_code)
+    #elif Config.IDA_test:
+    #    decompiled_code = modifier.IDA_modifier_before(decompiled_code)
+        pass
     elif Config.R2_test:
         decompiled_code = modifier.R2_modifier_before(decompiled_code)
+    elif Config.WasmDecompile_test:
+        decompiled_code = modifier.WasmDecompile_modifier_before(decompiled_code)
+    else:
+        decompiled_code = ""
 
     # Step B: get decompiled func_1 code
     m1 = find_fun_with_name(source_code, func_name)
@@ -132,6 +140,8 @@ def replace_function(source_code, decompiled_code, func_name, keep_func_decl_unc
         main_fun = modifier.IDA_modifier_after(main_fun)
     elif Config.R2_test:
         main_fun = modifier.R2_modifier_after(main_fun)
+    elif Config.WasmDecompile_test:
+        main_fun = modifier.WasmDecompile_modifier_after(main_fun)
 
     # Step D: replace
     if keep_func_decl_unchange == 0:

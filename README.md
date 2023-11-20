@@ -77,6 +77,10 @@ As reported in the paper, four decompilers are tested as follows:
 
 We note that *IDA Pro* and *JEB3* are commercial tools, and we decide to not provide them in this artifact evaluation phase. Instead, we provide instructions to setup the other two free decompilers *RetDec* and *Radare2* with *Ghidra* plugin. We assure that two commercial decompilers are tested in exactly the same way.
 
+#### 3.3.0. System dependencies
+
+    pacman -Syu lib32-glibc gcc-libs lib32-gcc-libs
+
 #### 3.3.1. Radare2 and r2ghidra 
 
 To install Radare2:
