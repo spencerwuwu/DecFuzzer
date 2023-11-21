@@ -1,0 +1,383 @@
+In file included from ./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:14:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/csmith.h:54:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Wasm/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:49:4: error: call to undeclared function 'c'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+   ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:49:7: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+      ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:49:11: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:49:43: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+                                          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:50:17: error: use of undeclared identifier 'c'
+stack_pointer = c;
+                ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:52:1: error: use of undeclared identifier 'c'
+c.d = d;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:54:1: error: use of undeclared identifier 'c'
+c.c = e;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:56:1: error: use of undeclared identifier 'c'
+c.b = f;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:58:1: error: use of undeclared identifier 'c'
+c.a = g;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:59:13: error: use of undeclared identifier 'c'
+int64_t h = c.c;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:65:13: error: use of undeclared identifier 'c'
+int64_t n = c.c;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:70:13: error: use of undeclared identifier 'c'
+int64_t s = c.c;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:75:1: error: use of undeclared identifier 'c'
+c.b = w;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:76:13: error: use of undeclared identifier 'c'
+int64_t x = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:77:13: error: use of undeclared identifier 'c'
+int64_t y = c.c;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:78:13: error: use of undeclared identifier 'c'
+int64_t z = c.b;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:82:14: error: use of undeclared identifier 'c'
+int64_t ca = c + ba;
+             ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/607_new.c:83:15: warning: incompatible integer to pointer conversion assigning to 'int64_t *' (aka 'long long *') from 'int64_t' (aka 'long long'); take the address with & [-Wint-conversion]
+stack_pointer = ca;
+              ^ ~~
+                &
+2 warnings and 17 errors generated.
+
+In file included from ./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:14:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/csmith.h:54:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Wasm/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:50:4: error: call to undeclared function 'c'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+   ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:50:7: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+      ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:50:11: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:50:43: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+                                          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:51:17: error: use of undeclared identifier 'c'
+stack_pointer = c;
+                ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:53:1: error: use of undeclared identifier 'c'
+c.d = d;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:55:1: error: use of undeclared identifier 'c'
+c.c = e;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:57:1: error: use of undeclared identifier 'c'
+c.b = f;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:59:1: error: use of undeclared identifier 'c'
+c.a = g;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:61:1: error: use of undeclared identifier 'c'
+c.a = h;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:63:13: error: use of undeclared identifier 'c'
+int64_t i = c.a;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:71:13: error: use of undeclared identifier 'c'
+int64_t p = c.b;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:74:1: error: use of undeclared identifier 'c'
+c.b = r;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:75:13: error: use of undeclared identifier 'c'
+int64_t s = c.a;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:78:1: error: use of undeclared identifier 'c'
+c.a = u;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:83:13: error: use of undeclared identifier 'c'
+int64_t v = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:84:13: error: use of undeclared identifier 'c'
+int64_t w = c.c;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:85:13: error: use of undeclared identifier 'c'
+int64_t x = c.b;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/739_new.c:86:13: error: use of undeclared identifier 'c'
+int64_t y = c.a;
+            ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+
+In file included from ./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:14:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/csmith.h:54:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Wasm/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:48:4: error: call to undeclared function 'c'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+   ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:48:7: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+      ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:48:11: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:48:43: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+                                          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:49:17: error: use of undeclared identifier 'c'
+stack_pointer = c;
+                ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:51:1: error: use of undeclared identifier 'c'
+c.d = d;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:53:1: error: use of undeclared identifier 'c'
+c.c = e;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:55:1: error: use of undeclared identifier 'c'
+c.b = f;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:57:1: error: use of undeclared identifier 'c'
+c.a = g;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:58:13: error: use of undeclared identifier 'c'
+int64_t h = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:59:13: error: use of undeclared identifier 'c'
+int64_t i = c.a;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:61:1: error: use of undeclared identifier 'c'
+c.a = j;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:62:13: error: use of undeclared identifier 'c'
+int64_t k = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:63:13: error: use of undeclared identifier 'c'
+int64_t l = c.b;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:69:13: error: use of undeclared identifier 'c'
+int64_t r = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:81:14: error: use of undeclared identifier 'c'
+int64_t da = c.d;
+             ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:96:14: error: use of undeclared identifier 'c'
+int64_t pa = c.d;
+             ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:102:1: error: use of undeclared identifier 'c'
+c.c = ua;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/742_new.c:103:14: error: use of undeclared identifier 'c'
+int64_t va = c.d;
+             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+
+In file included from ./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:14:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/csmith.h:54:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Wasm/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:49:4: error: call to undeclared function 'c'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+   ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:49:7: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+      ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:49:11: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:49:43: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+                                          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:50:17: error: use of undeclared identifier 'c'
+stack_pointer = c;
+                ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:52:1: error: use of undeclared identifier 'c'
+c.d = d;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:54:1: error: use of undeclared identifier 'c'
+c.c = e;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:56:1: error: use of undeclared identifier 'c'
+c.b = f;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:58:1: error: use of undeclared identifier 'c'
+c.a = g;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:59:13: error: use of undeclared identifier 'c'
+int64_t h = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:71:1: error: use of undeclared identifier 'c'
+c.b = s;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:72:1: error: use of undeclared identifier 'c'
+c.a = s;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:73:13: error: use of undeclared identifier 'c'
+int64_t t = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:74:13: error: use of undeclared identifier 'c'
+int64_t u = c.b;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:78:13: error: use of undeclared identifier 'c'
+int64_t x = c + w;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/825_new.c:79:15: warning: incompatible integer to pointer conversion assigning to 'int64_t *' (aka 'long long *') from 'int64_t' (aka 'long long'); take the address with & [-Wint-conversion]
+stack_pointer = x;
+              ^ ~
+                &
+2 warnings and 15 errors generated.
+
+In file included from ./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:14:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/csmith.h:54:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Wasm/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:256:19: error: use of undeclared label 'B_'
+if (eqz(md)) goto B_;
+                  ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:446:1: warning: expression result unused [-Wunused-value]
+gh;
+^~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:711:4: warning: expression result unused [-Wunused-value]
+ur >> tr;
+~~ ^  ~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:732:1: warning: expression result unused [-Wunused-value]
+zr;
+^~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:811:4: warning: expression result unused [-Wunused-value]
+wu >> vu;
+~~ ^  ~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:827:1: warning: expression result unused [-Wunused-value]
+gv;
+^~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:920:1: warning: expression result unused [-Wunused-value]
+dx;
+^~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:1273:5: warning: expression result unused [-Wunused-value]
+jha * kha;
+~~~ ^ ~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:2111:1: warning: expression result unused [-Wunused-value]
+zfb;
+^~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:2352:1: warning: expression result unused [-Wunused-value]
+wnb;
+^~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:2365:1: warning: expression result unused [-Wunused-value]
+hob;
+^~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:2501:1: warning: expression result unused [-Wunused-value]
+tsb;
+^~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/854_new.c:2631:1: warning: expression result unused [-Wunused-value]
+xwb;
+^~~
+13 warnings and 1 error generated.
+
+In file included from ./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:14:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/csmith.h:54:
+In file included from /home/weicheng/Wasm/DecFuzzer/runtime/random_inc.h:100:
+/home/weicheng/Wasm/DecFuzzer/runtime/safe_math.h:1199:36: warning: implicit conversion from 'int' to 'float' changes value from 2147483647 to 2147483648 [-Wimplicit-const-int-float-conversion]
+    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+                                ~~ ^~~~~~~~~
+/usr/include/stdint.h:123:22: note: expanded from macro 'INT32_MAX'
+# define INT32_MAX              (2147483647)
+                                 ^~~~~~~~~~
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:49:4: error: call to undeclared function 'c'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+   ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:49:7: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+      ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:49:11: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:49:43: error: expected expression
+{* c (int,)a (int,)b (int,)c (int64_t)d } = a - b;
+                                          ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:50:17: error: use of undeclared identifier 'c'
+stack_pointer = c;
+                ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:52:1: error: use of undeclared identifier 'c'
+c.d = d;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:54:1: error: use of undeclared identifier 'c'
+c.c = e;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:56:1: error: use of undeclared identifier 'c'
+c.b = f;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:58:1: error: use of undeclared identifier 'c'
+c.a = g;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:60:1: error: use of undeclared identifier 'c'
+c.d = h;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:62:13: error: use of undeclared identifier 'c'
+int64_t i = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:70:13: error: use of undeclared identifier 'c'
+int64_t p = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:71:13: error: use of undeclared identifier 'c'
+int64_t q = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:72:13: error: use of undeclared identifier 'c'
+int64_t r = c.d;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:73:13: error: use of undeclared identifier 'c'
+int64_t s = c.c;
+            ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:86:14: error: use of undeclared identifier 'c'
+int64_t fa = c.d;
+             ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:90:14: error: use of undeclared identifier 'c'
+int64_t ja = c.d;
+             ^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:109:1: error: use of undeclared identifier 'c'
+c.b = bb;
+^
+./wasm-decomp_workdir/seed_for_wasm-decomp/991_new.c:110:14: error: use of undeclared identifier 'c'
+int64_t cb = c.d;
+             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+

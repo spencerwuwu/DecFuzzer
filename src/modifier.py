@@ -478,6 +478,46 @@ class WasmDecompileModifier:
             new_lines += new_line
         return new_lines
 
+    @staticmethod
+    def rewrite_if(txt=""):
+        new_lines = []
+        for line in txt.splitlines():
+            if "if" not in line:
+                new_lines.append(line)
+            else:
+                if "if (" in line:
+                    s_line = line.replace("if (", "")
+                    new_line = "if (" + re.sub(r"if(\W)", r"_if\1", s_line, flags=re.MULTILINE)
+                    new_lines.append(new_line)
+                else:
+                    new_line = re.sub(r"if(\W)", r"_if\1", line, flags=re.MULTILINE)
+                    new_lines.append(new_line)
+        return "\n".join(new_lines)
+
+    @staticmethod
+    def rewrite_i32_extend(txt=""):
+        new_lines = []
+        for line in txt.splitlines():
+            if "i32_extend" in line:
+                if "=" in line:
+                    lhs, rhs = line.split(" = ")
+                    rhs = re.sub(r"i32_extend[\d]+_s\((.*)\)", r"\1", rhs)
+                    new_lines.append(f"{lhs} = {rhs}")
+                else:
+                    new_lines.append("//" + line)
+            else:
+                new_lines.append(line)
+        return "\n".join(new_lines)
+
+    @staticmethod
+    def remove_br_table(txt=""):
+        new_lines = []
+        for line in txt.splitlines():
+            if line.startswith("br_table"):
+                new_lines.append("// " + line)
+            else:
+                new_lines.append(line)
+        return "\n".join(new_lines)
 
 
     @staticmethod
@@ -495,10 +535,13 @@ class WasmDecompileModifier:
                     var_flag = False
                     if ":" in token:
                         name, ctype = token.split(":")
-                        if ctype == "int":
-                            ctype = "int64_t"
-                        if assign_pointer:
-                            ctype += "*"
+                        if "_ptr" in ctype:
+                            ctype = "int64_t *"
+                        else:
+                            if ctype == "int":
+                                ctype = "int64_t"
+                            if assign_pointer:
+                                ctype += "*"
                         new_tokens.append(f"{ctype} {name}")
                     else:
                         new_tokens.append(f"double {token}")
@@ -571,7 +614,6 @@ class WasmDecompileModifier:
         int64_t *stack_pointer = stack + 100000;
         """
         return starting + "{" + declaration + content
-
 
 
 
@@ -674,14 +716,17 @@ def WasmDecompile_modifier_before(txt):
 def WasmDecompile_modifier_after(main_fun):
     # temporarily nothing
     main_fun = WasmDecompileModifier.modify_variable_and_colons(main_fun)
-
-    new_file_name = 'mid.c'
-    f = open(new_file_name, 'w')
-    f.write(main_fun)
-    f.close()
     main_fun = WasmDecompileModifier.setup_stack(main_fun)
     main_fun = re.sub(r"loop\s\w+\s\{$", "while (1) {", main_fun, flags=re.MULTILINE)
     main_fun = main_fun.replace("continue ", "//continue ");
+    main_fun = re.sub(r"label\s(\w+:)", r"\1;", main_fun, flags=re.MULTILINE)
+    main_fun = main_fun.replace("unreachable;", "//unreachable;");
+    main_fun = re.sub(r"do(\W)", r"_do\1", main_fun, flags=re.MULTILINE)
+    main_fun = WasmDecompileModifier.rewrite_if(main_fun)
+    main_fun = WasmDecompileModifier.rewrite_i32_extend(main_fun)
+    main_fun = WasmDecompileModifier.remove_br_table(main_fun)
+    # check all semicolon wrapped
+    main_fun = re.sub(r"(.*)\w$", r"\1;", main_fun, flags=re.MULTILINE)
     return main_fun
 
 
@@ -708,59 +753,3 @@ def check_for_printf(txt):
     new_txt = txt[:pos] + print_func + txt[pos:]
     return new_txt
 
-
-if __name__ == '__main__':
-    '''
-    source_code = read_file('./tmp/test.mut24.source.c')
-    decompiled_code = read_file('./tmp/test.mut24.JEB3.c')
-    decompiled_code = JEB3_modifier(decompiled_code)
-
-    m1 = find_fun_with_name(source_code, 'main')
-    print(source_code[m1.end()-1])
-    if source_code[m1.end()-1]=='{':
-        end_pos1 = find_function_body(source_code, m1.end())
-    m2 = find_fun_with_name(decompiled_code, 'main')
-    if decompiled_code[m2.end()-1] == '{':
-        end_pos2 = find_function_body(decompiled_code, m2.end())
-
-    main_fun = decompiled_code[m2.start():end_pos2]
-    # main_fun = JEB3_modifier(main_fun)
-    main_fun = modify_std_fun_call(main_fun)
-
-    new_file = source_code[0:m1.start()] + main_fun + source_code[end_pos1:]
-    f = open('./tmp/new.c', 'w')
-    f.write(new_file)
-    f.close()
-    '''
-
-    '''
-    test_str = 'testloc_loc_80484C1loc_80484C1:'
-    test_str = modify_loc_label(test_str)
-    print(test_str)
-    '''
-
-    '''
-    f = open('./tmp/src_code/result/csmith_test_1058.c')
-    if f:
-        txt = f.read()
-    f.close()
-    src_modifier = SourceFileModifier(txt, debug_mode=1)
-    src_modifier.get_modified_code()
-    print(src_modifier.modified_txt)
-    # f = open('./tmp/src_code/csmith_test_m.c', 'w')
-    # if f:
-    #     f.write(src_modifier.modified_txt)
-    # f.close()
-    '''
-
-    '''
-    f = open('./tmp/src_code/csmith_test_5_m_new.c')
-    txt = f.read()
-    f.close()
-    txt = modify_unsigned_ijk(txt)
-    print(txt)
-    '''
-    test_str = open('/home/fuzz/Documents/Fuzzer_3_17/tmp_ida_test/csmith_files_for_ida/238_ida.c').read()
-    test_str = IDA_modifier_before(test_str)
-    m1 = find_fun_with_name(test_str, 'func_1')
-    print(m1.group())

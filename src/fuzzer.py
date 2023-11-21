@@ -94,14 +94,17 @@ def remove_files(file_path, modified_file):
 # -----------------------------------------------------------------------------------
 
 
-def test_single_file(file_path, storage_dir, EMI_dir='', out_dir='', mutation_flag=1, compile_flag=1, decompile_flag=1):
+def test_single_file(file_path, storage_dir, EMI_dir='', out_dir='', mutation_flag=1, compile_flag=1, decompile_flag=1, is_wasm=False):
     global file_count, EMI_count, total_real_time, total_user_time, total_sys_time
     err_dir = os.path.join(out_dir, 'error/')
     result_dir = os.path.join(out_dir, 'result/')
 
     # Step 1: compile
     if compile_flag != 0:
-        status, output = generator.compile_single_file(file_path)
+        if not is_wasm:
+            status, output = generator.compile_single_file(file_path)
+        else:
+            status, output = generator.compile_single_wasm(file_path)
         if status != 0:
             # copy their source code to error directory
             copy_file(file_path, err_dir)
@@ -132,6 +135,8 @@ def test_single_file(file_path, storage_dir, EMI_dir='', out_dir='', mutation_fl
         decompiled_file_name = file_path[:-2] + Config.IDA_suffix  # '_ida.c'
     elif Config.R2_test:
         decompiled_file_name = file_path[:-2] + Config.Radare2_suffix  # '_r2.c'
+    elif Config.WasmDecompile_test:
+        decompiled_file_name = file_path[:-2] + Config.WasmDecompile_suffix
     else:
         return Config.Result.F_RECOM
 
@@ -159,6 +164,9 @@ def test_single_file(file_path, storage_dir, EMI_dir='', out_dir='', mutation_fl
         copy_file(new_filename, storage_dir)
 
     # Step 4: compare
+    if is_wasm:
+        # Recompile the file with clang so that we can execute it
+        status, output = generator.compile_single_file(file_path)
     status, output = checker.compare_two_prog(file_path[:-2],
                                               file_path[:-2] + '_new',
                                               result_dir)
@@ -339,7 +347,7 @@ def single_test_WASM(root, fname, out_dir, remove=True):
 
 
 
-def seed_test_WASM(files_dir, out_dir, storage_dir, remove=True):
+def seed_test_WASM(files_dir, out_dir, storage_dir, remove=True, is_wasm=False):
     """files_dir: the seed files directory
        out_dir: the directory to store results and logs
     """
@@ -350,7 +358,8 @@ def seed_test_WASM(files_dir, out_dir, storage_dir, remove=True):
         for f in files:
             if f.endswith('.c') and not f.endswith('_new.c')\
                     and not f.endswith('_r2.c') and not f.endswith('_retdec.c')\
-                    and not f.endswith('_ida.c') and not f.endswith('_JEB3.c'):
+                    and not f.endswith('_ida.c') and not f.endswith('_JEB3.c') \
+                    and not f.endswith('_wasm-decompile.c'):
                 if root.endswith(files_dir):
 
                     # test all files in this folder
@@ -359,7 +368,7 @@ def seed_test_WASM(files_dir, out_dir, storage_dir, remove=True):
 
                     ret = test_single_file(file_path, storage_dir, EMI_dir="",
                                      out_dir=out_dir,
-                                     mutation_flag=0, compile_flag=1, decompile_flag=1)
+                                     mutation_flag=0, compile_flag=1, decompile_flag=1, is_wasm=is_wasm)
                     results[ret.name] += 1
                     # remove redundant files
                     if remove:

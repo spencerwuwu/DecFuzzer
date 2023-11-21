@@ -30,11 +30,11 @@ def compile_single_file(file_path, debug=""):
     if os.path.isdir(file_path):
         pass
     elif os.path.splitext(file_path)[1] == '.c':
-        print(compile_cmd +
-                                   debug + 
-                                   ' -I ' + runtime_dir +
-                                   ' -o ' + os.path.splitext(file_path)[0] +
-                                   ' ' + file_path)
+        #print(compile_cmd +
+        #                           debug + 
+        #                           ' -I ' + runtime_dir +
+        #                           ' -o ' + os.path.splitext(file_path)[0] +
+        #                           ' ' + file_path)
         status, output = \
             subprocess.getstatusoutput(compile_cmd +
                                        debug + 
@@ -56,7 +56,7 @@ def compile_single_wasm(file_path, debug=""):
     elif os.path.splitext(file_path)[1] == '.c':
         emcc_compile_cmd = Config.emcc_compile_cmd
         cmd = emcc_compile_cmd + ' -o ' + os.path.splitext(file_path)[0] + ' ' + file_path
-        print(cmd)
+        #print(cmd)
         status, output = subprocess.getstatusoutput(cmd)
         if status != 0:
             #print(output)

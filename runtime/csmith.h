@@ -32,6 +32,8 @@
 #define ulong uint64_t
 #define uchar unsigned char
 #define ushort unsigned short
+#define byte char
+#define ubyte unsigned char
 
 #ifndef RANDOM_RUNTIME_H
 #define RANDOM_RUNTIME_H

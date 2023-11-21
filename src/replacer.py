@@ -148,6 +148,9 @@ def replace_function(source_code, decompiled_code, func_name, keep_func_decl_unc
         new_code = source_code[0:m1.start()] + main_fun + source_code[end_pos1:]
     else:
         new_code = source_code[0:m1.end()-1] + main_fun + source_code[end_pos1:]
+
+    if Config.WasmDecompile_test:
+        new_code = "#define eqz(x) ((x) == 0)\n" + new_code
     return new_code
 
 

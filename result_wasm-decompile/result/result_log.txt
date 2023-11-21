@@ -1,0 +1,1725 @@
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/0     outputs [b'checksum = F0D4ABEC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/0_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/0     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/0_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/1     outputs [b'checksum = BE23DF8B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/1_new outputs [b'checksum = CA85BE2A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/1     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/1_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/101     outputs [b'checksum = 906CD94C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/101_new outputs [b'checksum = 4C1D2842\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/101     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/101_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/102     outputs [b'checksum = E1AE1D0D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/102_new outputs [b'checksum = B4C19898\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/102     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/102_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/106     outputs [b'checksum = DF62731A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/106_new outputs [b'checksum = A321BA36\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/106     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/106_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/109     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/109_new outputs [b'checksum = 73FC0BDF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/109     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/109_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/110     outputs [b'checksum = F5D541A7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/110_new outputs [b'checksum = 8FA5E4BC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/110     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/110_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/117     outputs [b'checksum = 3F981429\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/117_new outputs [b'checksum = F33214B7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/117     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/117_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/118     outputs [b'checksum = B55AB4FC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/118_new outputs [b'checksum = C14CD307\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/118     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/118_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/12     outputs [b'checksum = 854D7533\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/12_new outputs [b'checksum = 2719C732\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/12     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/12_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/120     outputs [b'checksum = C42B678\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/120_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/120     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/120_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/122     outputs [b'checksum = C8A16CC1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/122_new outputs [b'checksum = 177E9B4C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/122     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/122_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/125     outputs [b'checksum = B507CE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/125_new outputs [b'checksum = B80960AB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/125     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/125_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/132     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/132_new outputs [b'checksum = 32103CD1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/132     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/132_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/135     outputs [b'checksum = C865A1DC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/135_new outputs [b'checksum = D8F28C9C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/135     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/135_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/140     outputs [b'checksum = C7233A61\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/140_new outputs [b'checksum = B737B807\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/140     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/140_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/144     outputs [b'checksum = C67B741\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/144_new outputs [b'checksum = F222DBE3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/144     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/144_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/145     outputs [b'checksum = F0C38461\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/145_new outputs [b'checksum = 3FD08185\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/145     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/145_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/146     outputs [b'checksum = 7733FF14\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/146_new outputs [b'checksum = 878E2F55\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/146     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/146_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/148     outputs [b'checksum = D385B8BF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/148_new outputs [b'checksum = F8D1EFC8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/148     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/148_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/149     outputs [b'checksum = 81703095\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/149_new outputs [b'checksum = 7BD5C66F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/149     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/149_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/150     outputs [b'checksum = 2973D15B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/150_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/150     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/150_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/152     outputs [b'checksum = E81EB2B6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/152_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/152     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/152_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/154     outputs [b'checksum = CD0B4970\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/154_new outputs [b'checksum = 1B4338D5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/154     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/154_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/158     outputs [b'checksum = 724A0B9D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/158_new outputs [b'checksum = 5CEA67DD\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/158     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/158_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/168     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/168_new outputs [b'checksum = 6B271525\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/168     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/168_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/171     outputs [b'checksum = 2F3D5597\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/171_new outputs [b'checksum = F68B3DAF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/171     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/171_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/174     outputs [b'checksum = BCBD9788\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/174_new outputs [b'checksum = 12D50619\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/174     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/174_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/18     outputs [b'checksum = 57F764E3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/18_new outputs [b'checksum = 9732BC91\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/18     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/18_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/181     outputs [b'checksum = 372765E2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/181_new outputs [b'checksum = D4BD0B89\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/181     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/181_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/186     outputs [b'checksum = 934DB4E7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/186_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/186     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/186_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/187     outputs [b'checksum = 8D35C331\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/187_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/187     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/187_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/190     outputs [b'checksum = 7D6970D0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/190_new outputs [b'checksum = 1EA95F64\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/190     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/190_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/195     outputs [b'checksum = 15E97BAC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/195_new outputs [b'checksum = 20F631B6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/195     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/195_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/198     outputs [b'checksum = 44C94F42\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/198_new outputs [b'checksum = BCE37485\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/198     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/198_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/207     outputs [b'checksum = E7B9BF75\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/207_new outputs [b'checksum = 85412D2E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/207     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/207_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/213     outputs [b'checksum = 7A440157\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/213_new outputs [b'checksum = 4E0868AC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/213     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/213_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/214     outputs [b'checksum = EE846D5C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/214_new outputs [b'checksum = BEEDC06F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/214     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/214_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/217     outputs [b'checksum = 5ED6B3C8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/217_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/217     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/217_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/220     outputs [b'checksum = 48E8285F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/220_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/220     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/220_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/225     outputs [b'checksum = 459DE0BF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/225_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/225     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/225_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/230     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/230_new outputs [b'checksum = F22CD6F3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/230     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/230_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/232     outputs [b'checksum = 3D85E24E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/232_new outputs [b'checksum = 3448671F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/232     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/232_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/236     outputs [b'checksum = 273959D3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/236_new outputs [b'checksum = 4BEA05F2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/236     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/236_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/237     outputs [b'checksum = 45D754C7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/237_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/237     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/237_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/240     outputs [b'checksum = 9B405B1A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/240_new outputs [b'checksum = D30FF415\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/240     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/240_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/251     outputs [b'checksum = 3BFC9D09\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/251_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/251     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/251_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/252     outputs [b'checksum = 2FE19CDB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/252_new outputs [b'checksum = A0D4B14E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/252     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/252_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/257     outputs [b'checksum = 4830AB76\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/257_new outputs [b'checksum = 4985566B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/257     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/257_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/264     outputs [b'checksum = 36A29AFA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/264_new outputs [b'checksum = 1DF9B0D8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/264     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/264_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/270     outputs [b'checksum = 872E7288\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/270_new outputs [b'checksum = 3F9215ED\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/270     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/270_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/274     outputs [b'checksum = 53E19E15\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/274_new outputs [b'checksum = 50CEFE94\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/274     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/274_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/280     outputs [b'checksum = A0021B31\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/280_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/280     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/280_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/281     outputs [b'checksum = FD6D73D7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/281_new outputs [b'checksum = 90BD0BA9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/281     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/281_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/283     outputs [b'checksum = 150464F2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/283_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/283     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/283_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/288     outputs [b'checksum = ECE1149C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/288_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/288     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/288_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/292     outputs [b'checksum = 6084C3BB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/292_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/292     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/292_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/293     outputs [b'checksum = E58EB76C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/293_new outputs [b'checksum = C12BE198\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/293     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/293_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/295     outputs [b'checksum = 937170CC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/295_new outputs [b'checksum = 12D257B4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/295     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/295_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/296     outputs [b'checksum = 78B5D2E6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/296_new outputs [b'checksum = F8171EFD\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/296     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/296_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/297     outputs [b'checksum = FD939D7C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/297_new outputs [b'checksum = B7765867\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/297     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/297_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/299     outputs [b'checksum = 1FA348AD\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/299_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/299     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/299_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/30     outputs [b'checksum = 95254EA0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/30_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/30     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/30_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/300     outputs [b'checksum = BD0DE751\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/300_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/300     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/300_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/301     outputs [b'checksum = 8429264F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/301_new outputs [b'checksum = 980EBE5A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/301     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/301_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/303     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/303_new outputs [b'checksum = A9D40D85\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/303     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/303_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/307     outputs [b'checksum = D99047AE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/307_new outputs [b'checksum = 76CE57D1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/307     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/307_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/308     outputs [b'checksum = DEC7443A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/308_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/308     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/308_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/310     outputs [b'checksum = 44FB8A3F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/310_new outputs [b'checksum = 8BAF79F9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/310     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/310_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/316     outputs [b'checksum = 556AA88A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/316_new outputs [b'checksum = F4242351\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/316     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/316_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/318     outputs [b'checksum = 41971F56\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/318_new outputs [b'checksum = 5FF125FA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/318     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/318_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/32     outputs [b'checksum = 84776595\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/32_new outputs [b'checksum = EF6229DA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/32     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/32_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/321     outputs [b'checksum = 4AFCFDBE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/321_new outputs [b'checksum = 1C32525F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/321     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/321_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/324     outputs [b'checksum = 9FAC4340\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/324_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/324     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/324_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/326     outputs [b'checksum = B6E66FAC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/326_new outputs [b'checksum = C28D61F2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/326     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/326_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/329     outputs [b'checksum = 2485F12F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/329_new outputs [b'checksum = 59607211\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/329     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/329_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/330     outputs [b'checksum = DA60FB60\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/330_new outputs [b'checksum = 4505C27\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/330     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/330_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/332     outputs [b'checksum = 712E9EE3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/332_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/332     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/332_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/333     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/333_new outputs [b'checksum = 6AAD7D63\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/333     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/333_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/336     outputs [b'checksum = BA204946\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/336_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/336     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/336_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/342     outputs [b'checksum = 70A2D035\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/342_new outputs [b'checksum = 93F6EBD5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/342     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/342_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/343     outputs [b'checksum = 65D33A65\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/343_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/343     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/343_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/344     outputs [b'checksum = F38C7791\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/344_new outputs [b'checksum = 5DE4E600\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/344     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/344_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/35     outputs [b'checksum = 4B7CCD1B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/35_new outputs [b'checksum = E1750590\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/35     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/35_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/350     outputs [b'checksum = 59FE7743\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/350_new outputs [b'checksum = DACDD90\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/350     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/350_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/353     outputs [b'checksum = 6FD0D8A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/353_new outputs [b'checksum = 6432B98\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/353     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/353_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/354     outputs [b'checksum = 3AFF8BB0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/354_new outputs [b'checksum = 18C55A7B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/354     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/354_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/357     outputs [b'checksum = 420E7C09\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/357_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/357     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/357_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/358     outputs [b'checksum = 9D9F467E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/358_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/358     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/358_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/361     outputs [b'checksum = BB99B845\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/361_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/361     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/361_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/362     outputs [b'checksum = E5F62D14\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/362_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/362     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/362_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/363     outputs [b'checksum = CB020AED\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/363_new outputs [b'checksum = 70EA2E47\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/363     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/363_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/365     outputs [b'checksum = 7EFB7B2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/365_new outputs [b'checksum = 4109972D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/365     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/365_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/366     outputs [b'checksum = C3BEE5A0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/366_new outputs [b'checksum = 1FB055DF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/366     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/366_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/368     outputs [b'checksum = 5E902C47\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/368_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/368     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/368_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/37     outputs [b'checksum = DEBE5CA6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/37_new outputs [b'checksum = 9AACE016\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/37     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/37_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/370     outputs [b'checksum = 3252B7E8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/370_new outputs [b'checksum = 33E74AF5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/370     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/370_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/372     outputs [b'checksum = A774721F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/372_new outputs [b'checksum = BCA13E9C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/372     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/372_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/374     outputs [b'checksum = E4AF23BB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/374_new outputs [b'checksum = 4AC3E0D6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/374     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/374_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/378     outputs [b'checksum = 42698F69\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/378_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/378     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/378_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/38     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/38_new outputs [b'checksum = CA18250F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/38     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/38_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/380     outputs [b'checksum = 4E71D3F0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/380_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/380     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/380_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/381     outputs [b'checksum = 83E203D0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/381_new outputs [b'checksum = 8F3AC314\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/381     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/381_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/383     outputs [b'checksum = C675F1F0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/383_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/383     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/383_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/384     outputs [b'checksum = BC2B672C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/384_new outputs [b'checksum = 4AB0CC5B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/384     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/384_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/385     outputs [b'checksum = 8F2FECB1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/385_new outputs [b'checksum = 80C18709\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/385     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/385_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/390     outputs [b'checksum = 81E2CF73\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/390_new outputs [b'checksum = 3FC4DD8C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/390     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/390_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/391     outputs [b'checksum = FD79434F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/391_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/391     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/391_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/393     outputs [b'checksum = 26FC9B51\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/393_new outputs [b'checksum = E273671C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/393     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/393_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/395     outputs [b'checksum = F9506B68\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/395_new outputs [b'checksum = 73456218\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/395     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/395_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/398     outputs [b'checksum = B72D1017\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/398_new outputs [b'checksum = 203BED0D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/398     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/398_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/400     outputs [b'checksum = B447A174\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/400_new outputs [b'checksum = 806E804D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/400     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/400_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/401     outputs [b'checksum = DCE44B08\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/401_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/401     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/401_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/403     outputs [b'checksum = BB95310F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/403_new outputs [b'checksum = E8D6EE4D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/403     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/403_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/404     outputs [b'checksum = 21700CE8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/404_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/404     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/404_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/407     outputs [b'checksum = BB064015\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/407_new outputs [b'checksum = 81E3C138\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/407     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/407_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/412     outputs [b'checksum = F534AE3D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/412_new outputs [b'checksum = D28CE60D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/412     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/412_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/413     outputs [b'checksum = D892717D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/413_new outputs [b'checksum = 65F926B4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/413     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/413_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/415     outputs [b'checksum = DC4AC165\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/415_new outputs [b'checksum = 3302F697\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/415     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/415_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/416     outputs [b'checksum = 5E759E81\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/416_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/416     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/416_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/417     outputs [b'checksum = 251494A9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/417_new outputs [b'checksum = D929BEE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/417     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/417_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/420     outputs [b'checksum = E5EF2D64\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/420_new outputs [b'checksum = FB89AA6A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/420     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/420_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/421     outputs [b'checksum = D31D30DC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/421_new outputs [b'checksum = D709BC45\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/421     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/421_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/422     outputs [b'checksum = AB759F98\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/422_new outputs [b'checksum = AF1B97C6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/422     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/422_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/424     outputs [b'checksum = C6F9E354\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/424_new outputs [b'checksum = FE1387FB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/424     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/424_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/428     outputs [b'checksum = 8FC8E6CD\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/428_new outputs [b'checksum = E6041AC0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/428     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/428_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/429     outputs [b'checksum = 735F391A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/429_new outputs [b'checksum = 9D1A719\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/429     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/429_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/430     outputs [b'checksum = DA38088F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/430_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/430     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/430_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/431     outputs [b'checksum = D2013A6E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/431_new outputs [b'checksum = 49A47601\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/431     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/431_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/439     outputs [b'checksum = 1B61EA74\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/439_new outputs [b'checksum = 9B31F5F4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/439     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/439_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/442     outputs [b'checksum = EA23ACFB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/442_new outputs [b'checksum = BD443FB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/442     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/442_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/444     outputs [b'checksum = 61AB2FA7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/444_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/444     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/444_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/445     outputs [b'checksum = 42A40C0F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/445_new outputs [b'checksum = 6935930B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/445     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/445_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/446     outputs [b'checksum = 31453451\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/446_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/446     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/446_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/449     outputs [b'checksum = A69B8550\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/449_new outputs [b'checksum = 6B41BD7D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/449     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/449_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/451     outputs [b'checksum = 7EF969B1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/451_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/451     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/451_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/455     outputs [b'checksum = 5D1C2D5F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/455_new outputs [b'checksum = 4933F72B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/455     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/455_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/456     outputs [b'checksum = A73337A6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/456_new outputs [b'checksum = DABB3559\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/456     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/456_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/458     outputs [b'checksum = 89F5CEE8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/458_new outputs [b'checksum = E10D7DBE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/458     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/458_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/460     outputs [b'checksum = 683AB441\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/460_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/460     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/460_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/464     outputs [b'checksum = 6FD7B34E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/464_new outputs [b'checksum = 34CDE21A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/464     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/464_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/466     outputs [b'checksum = D768FB5C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/466_new outputs [b'checksum = CF08DC43\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/466     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/466_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/471     outputs [b'checksum = 10D3F8A9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/471_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/471     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/471_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/472     outputs [b'checksum = DF2018EE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/472_new outputs [b'checksum = B6ECE4E3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/472     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/472_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/473     outputs [b'checksum = D027CB0A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/473_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/473     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/473_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/475     outputs [b'checksum = 6FA05D1D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/475_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/475     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/475_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/478     outputs [b'checksum = FF760F28\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/478_new outputs [b'checksum = FDBE3797\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/478     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/478_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/479     outputs [b'checksum = C0F948DE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/479_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/479     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/479_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/480     outputs [b'checksum = 695D4459\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/480_new outputs [b'checksum = 8BA5E12\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/480     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/480_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/482     outputs [b'checksum = 51203E50\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/482_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/482     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/482_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/484     outputs [b'checksum = 58564838\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/484_new outputs [b'checksum = 98FFF8C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/484     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/484_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/487     outputs [b'checksum = 9AA30B8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/487_new outputs [b'checksum = 5EA2F5D6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/487     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/487_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/488     outputs [b'checksum = 457C1E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/488_new outputs [b'checksum = 8708D820\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/488     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/488_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/490     outputs [b'checksum = 913B6005\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/490_new outputs [b'checksum = F9BB331E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/490     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/490_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/494     outputs [b'checksum = 8CC8E49D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/494_new outputs [b'checksum = 92E699A8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/494     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/494_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/497     outputs [b'checksum = 385F2AE7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/497_new outputs [b'checksum = C8EDFAF8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/497     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/497_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/498     outputs [b'checksum = B12DD45C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/498_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/498     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/498_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/501     outputs [b'checksum = AB4D2B0F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/501_new outputs [b'checksum = 197E63FA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/501     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/501_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/502     outputs [b'checksum = 998D1F4F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/502_new outputs [b'checksum = 7D58D40\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/502     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/502_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/503     outputs [b'checksum = 92C7151\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/503_new outputs [b'checksum = DBFB6295\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/503     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/503_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/506     outputs [b'checksum = 3DDC6436\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/506_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/506     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/506_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/508     outputs [b'checksum = F12248CC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/508_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/508     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/508_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/510     outputs [b'checksum = 19E5F490\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/510_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/510     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/510_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/511     outputs [b'checksum = 743115A9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/511_new outputs [b'checksum = 42BBD9EA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/511     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/511_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/512     outputs [b'checksum = 23EFC00\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/512_new outputs [b'checksum = A73745C0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/512     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/512_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/520     outputs [b'checksum = FC73C303\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/520_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/520     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/520_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/526     outputs [b'checksum = D2D522A0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/526_new outputs [b'checksum = 4251A645\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/526     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/526_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/527     outputs [b'checksum = 81A327B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/527_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/527     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/527_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/528     outputs [b'checksum = D29CBBD3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/528_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/528     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/528_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/532     outputs [b'checksum = 1D6978B8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/532_new outputs [b'checksum = 458B14F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/532     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/532_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/533     outputs [b'checksum = 2372222C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/533_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/533     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/533_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/535     outputs [b'checksum = 5161A6B1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/535_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/535     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/535_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/538     outputs [b'checksum = 3E16A5AA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/538_new outputs [b'checksum = 10B6C9EA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/538     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/538_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/542     outputs [b'checksum = 4B7EC252\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/542_new outputs [b'checksum = F3C2A537\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/542     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/542_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/545     outputs [b'checksum = 17E9DF5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/545_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/545     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/545_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/547     outputs [b'checksum = 2231183A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/547_new outputs [b'checksum = 28F41123\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/547     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/547_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/548     outputs [b'checksum = 71E931B1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/548_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/548     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/548_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/550     outputs [b'checksum = EF89CF69\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/550_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/550     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/550_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/551     outputs [b'checksum = 4FFB9EE6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/551_new outputs [b'checksum = 3C428539\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/551     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/551_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/554     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/554_new outputs [b'checksum = C7770D9C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/554     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/554_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/557     outputs [b'checksum = 72578463\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/557_new outputs [b'checksum = 8535E630\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/557     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/557_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/558     outputs [b'checksum = 97BF0FED\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/558_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/558     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/558_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/560     outputs [b'checksum = 88D06E1F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/560_new outputs [b'checksum = E468139\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/560     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/560_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/561     outputs [b'checksum = 8BCF756D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/561_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/561     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/561_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/562     outputs [b'checksum = A3BA1934\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/562_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/562     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/562_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/565     outputs [b'checksum = FD303DF2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/565_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/565     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/565_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/566     outputs [b'checksum = 5D102C31\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/566_new outputs [b'checksum = F46E2E9F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/566     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/566_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/568     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/568_new outputs [b'checksum = D84DA264\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/568     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/568_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/570     outputs [b'checksum = A4454C65\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/570_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/570     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/570_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/573     outputs [b'checksum = D0402FB2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/573_new outputs [b'checksum = 3E44CEE3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/573     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/573_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/579     outputs [b'checksum = B8B903DA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/579_new outputs [b'checksum = EDCE8697\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/579     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/579_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/58     outputs [b'checksum = 141D706A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/58_new outputs [b'checksum = C8D55B5F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/58     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/58_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/586     outputs [b'checksum = 684D312F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/586_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/586     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/586_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/587     outputs [b'checksum = A22E9977\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/587_new outputs [b'checksum = 767AC022\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/587     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/587_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/596     outputs [b'checksum = 5CE97795\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/596_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/596     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/596_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/597     outputs [b'checksum = 30AB02ED\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/597_new outputs [b'checksum = D6165B55\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/597     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/597_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/599     outputs [b'checksum = 5EA4D03B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/599_new outputs [b'checksum = 2354DD46\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/599     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/599_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/600     outputs [b'checksum = 99D3D7A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/600_new outputs [b'checksum = 5C6E8DF4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/600     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/600_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/602     outputs [b'checksum = 1AB58BAB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/602_new outputs [b'checksum = 57AFBC41\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/602     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/602_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/605     outputs [b'checksum = 7FF68051\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/605_new outputs [b'checksum = B78267A6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/605     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/605_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/608     outputs [b'checksum = BC7AE43C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/608_new outputs [b'checksum = ECDF20E1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/608     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/608_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/611     outputs [b'checksum = E5E49FB0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/611_new outputs [b'checksum = CD6290F7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/611     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/611_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/615     outputs [b'checksum = 8E5AA274\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/615_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/615     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/615_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/624     outputs [b'checksum = 5E7F2D94\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/624_new outputs [b'checksum = 772D5F07\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/624     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/624_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/625     outputs [b'checksum = FEF1B418\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/625_new outputs [b'checksum = D5DEF033\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/625     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/625_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/628     outputs [b'checksum = 2C911A20\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/628_new outputs [b'checksum = 84551B25\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/628     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/628_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/629     outputs [b'checksum = F64AAF80\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/629_new outputs [b'checksum = 78081EBE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/629     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/629_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/631     outputs [b'checksum = B572C650\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/631_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/631     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/631_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/633     outputs [b'checksum = B3CC9961\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/633_new outputs [b'checksum = 8C02C77A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/633     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/633_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/636     outputs [b'checksum = B2BB946\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/636_new outputs [b'checksum = 555A6CB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/636     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/636_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/637     outputs [b'checksum = 9DB15E8E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/637_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/637     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/637_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/639     outputs [b'checksum = 83A869DE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/639_new outputs [b'checksum = 8D876722\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/639     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/639_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/640     outputs [b'checksum = E96AF7CC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/640_new outputs [b'checksum = BB8B5079\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/640     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/640_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/641     outputs [b'checksum = ACCDD789\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/641_new outputs [b'checksum = DBE33087\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/641     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/641_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/643     outputs [b'checksum = E00E09DF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/643_new outputs [b'checksum = 55D8F782\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/643     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/643_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/644     outputs [b'checksum = DE3A8C12\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/644_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/644     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/644_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/646     outputs [b'checksum = B3CF14EE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/646_new outputs [b'checksum = 79808F9A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/646     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/646_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/65     outputs [b'checksum = 9318E843\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/65_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/65     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/65_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/652     outputs [b'checksum = 8EFAC984\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/652_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/652     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/652_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/655     outputs [b'checksum = 2F19D56F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/655_new outputs [b'checksum = 9F947140\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/655     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/655_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/656     outputs [b'checksum = D952722\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/656_new outputs [b'checksum = 974807B4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/656     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/656_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/662     outputs [b'checksum = 2F8F6321\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/662_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/662     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/662_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/665     outputs [b'checksum = 7F117797\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/665_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/665     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/665_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/666     outputs [b'checksum = A56CA076\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/666_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/666     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/666_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/669     outputs [b'checksum = DBBB8589\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/669_new outputs [b'checksum = 73CFB596\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/669     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/669_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/67     outputs [b'checksum = BE2503C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/67_new outputs [b'checksum = FAA80963\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/67     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/67_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/672     outputs [b'checksum = 1EA2E93B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/672_new outputs [b'checksum = C4130B6D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/672     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/672_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/673     outputs [b'checksum = 8BE6E7B7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/673_new outputs [b'checksum = ADA47BD0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/673     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/673_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/674     outputs [b'checksum = 43070EF2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/674_new outputs [b'checksum = 31D56A68\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/674     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/674_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/675     outputs [b'checksum = 6C8DD1F9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/675_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/675     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/675_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/676     outputs [b'checksum = 922ABB58\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/676_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/676     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/676_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/681     outputs [b'checksum = 20F6997C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/681_new outputs [b'checksum = CC82B71\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/681     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/681_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/687     outputs [b'checksum = AFD46E82\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/687_new outputs [b'checksum = 7191EBA5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/687     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/687_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/689     outputs [b'checksum = 112C0392\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/689_new outputs [b'checksum = BA180220\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/689     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/689_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/690     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/690_new outputs [b'checksum = 2B593AB0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/690     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/690_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/696     outputs [b'checksum = 3B2A1BC9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/696_new outputs [b'checksum = 618A8ED6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/696     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/696_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/698     outputs [b'checksum = 81C38AD1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/698_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/698     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/698_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/699     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/699_new outputs [b'checksum = AD2C06E0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/699     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/699_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/7     outputs [b'checksum = 895BC17A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/7_new outputs [b'checksum = DCB2279E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/7     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/7_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/701     outputs [b'checksum = 4A79428B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/701_new outputs [b'checksum = 3165688\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/701     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/701_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/71     outputs [b'checksum = 1C47A4CC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/71_new outputs [b'checksum = 865715BE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/71     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/71_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/710     outputs [b'checksum = 77608292\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/710_new outputs [b'checksum = AC13A53\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/710     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/710_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/711     outputs [b'checksum = 5DB4A387\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/711_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/711     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/711_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/712     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/712_new outputs [b'checksum = BFB7B92\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/712     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/712_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/714     outputs [b'checksum = 6BAD1935\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/714_new outputs [b'checksum = 46C0DC2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/714     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/714_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/717     outputs [b'checksum = 7AB1E3A9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/717_new outputs [b'checksum = 5D1C2D5F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/717     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/717_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/722     outputs [b'checksum = A8B28CEB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/722_new outputs [b'checksum = 84C13E6E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/722     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/722_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/726     outputs [b'checksum = 62D88F1D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/726_new outputs [b'checksum = 3BD718B2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/726     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/726_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/729     outputs [b'checksum = D15EA4ED\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/729_new outputs [b'checksum = 4AFBE882\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/729     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/729_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/736     outputs [b'checksum = DFC10942\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/736_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/736     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/736_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/738     outputs [b'checksum = 1A722511\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/738_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/738     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/738_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/741     outputs [b'checksum = 6B6708C5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/741_new outputs [b'checksum = B1EC2199\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/741     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/741_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/746     outputs [b'checksum = 997F0858\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/746_new outputs [b'checksum = B8B65159\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/746     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/746_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/748     outputs [b'checksum = 8D4AA1F6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/748_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/748     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/748_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/751     outputs [b'checksum = 81670CD9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/751_new outputs [b'checksum = BCBCC3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/751     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/751_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/753     outputs [b'checksum = E6F8B3E7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/753_new outputs [b'checksum = E9EE94C8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/753     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/753_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/754     outputs [b'checksum = B4B49248\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/754_new outputs [b'checksum = 66A31886\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/754     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/754_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/76     outputs [b'checksum = C9F1AF7C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/76_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/76     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/76_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/760     outputs [b'checksum = 7E8366C2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/760_new outputs [b'checksum = BA120950\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/760     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/760_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/761     outputs [b'checksum = BA8C1097\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/761_new outputs [b'checksum = C5E4BC66\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/761     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/761_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/762     outputs [b'checksum = 2B72CA25\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/762_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/762     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/762_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/767     outputs [b'checksum = ED5EF17F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/767_new outputs [b'checksum = A9C8ACE1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/767     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/767_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/769     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/769_new outputs [b'checksum = 2FE33438\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/769     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/769_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/774     outputs [b'checksum = 681FC20D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/774_new outputs [b'checksum = 4099CD4A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/774     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/774_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/775     outputs [b'checksum = AB93B06F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/775_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/775     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/775_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/778     outputs [b'checksum = 5EF60EB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/778_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/778     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/778_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/78     outputs [b'checksum = 47AA519\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/78_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/78     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/78_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/788     outputs [b'checksum = 71C88D76\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/788_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/788     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/788_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/799     outputs [b'checksum = D1849571\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/799_new outputs [b'checksum = 8D659672\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/799     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/799_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/80     outputs [b'checksum = 8DD38032\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/80_new outputs [b'checksum = B0626CEE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/80     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/80_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/803     outputs [b'checksum = 74BB17E0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/803_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/803     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/803_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/808     outputs [b'checksum = 3D375B8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/808_new outputs [b'checksum = 148FE9C3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/808     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/808_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/809     outputs [b'checksum = AF10C38C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/809_new outputs [b'checksum = 82E1FBDD\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/809     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/809_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/81     outputs [b'checksum = 5748E8D7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/81_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/81     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/81_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/810     outputs [b'checksum = C0AD1C10\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/810_new outputs [b'checksum = B47ACD81\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/810     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/810_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/812     outputs [b'checksum = DF7A0FA1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/812_new outputs [b'checksum = 7C28D59D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/812     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/812_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/814     outputs [b'checksum = 195EE8C3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/814_new outputs [b'checksum = EBD1F09C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/814     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/814_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/818     outputs [b'checksum = C4E32A75\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/818_new outputs [b'checksum = 986D32AF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/818     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/818_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/823     outputs [b'checksum = 15BA8393\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/823_new outputs [b'checksum = 974E66FB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/823     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/823_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/834     outputs [b'checksum = 51E7231D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/834_new outputs [b'checksum = C80ADE98\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/834     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/834_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/838     outputs [b'checksum = 6B969969\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/838_new outputs [b'checksum = A73C99F7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/838     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/838_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/839     outputs [b'checksum = 83AF8CCE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/839_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/839     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/839_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/844     outputs [b'checksum = 26B74330\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/844_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/844     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/844_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/853     outputs [b'checksum = 5F592320\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/853_new outputs [b'checksum = 3C9BB0B4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/853     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/853_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/858     outputs [b'checksum = F1B97FB0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/858_new outputs [b'checksum = 19D1FBC3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/858     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/858_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/863     outputs [b'checksum = 11D2A8F7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/863_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/863     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/863_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/864     outputs [b'checksum = 9803A298\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/864_new outputs [b'checksum = 7C99F0DC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/864     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/864_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/865     outputs [b'checksum = E5028B1F\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/865_new outputs [b'checksum = F1D75573\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/865     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/865_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/866     outputs [b'checksum = D2998E37\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/866_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/866     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/866_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/867     outputs [b'checksum = 88ECE9E1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/867_new outputs [b'checksum = BF925F2D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/867     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/867_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/868     outputs [b'checksum = A261BB80\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/868_new outputs [b'checksum = 36E47205\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/868     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/868_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/869     outputs [b'checksum = 1C6E4B51\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/869_new outputs [b'checksum = 2C053C0E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/869     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/869_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/873     outputs [b'checksum = EB89E25B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/873_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/873     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/873_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/874     outputs [b'checksum = 49CF89DF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/874_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/874     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/874_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/878     outputs [b'checksum = 891ACFB5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/878_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/878     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/878_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/880     outputs [b'checksum = E965CFE3\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/880_new outputs [b'checksum = D3AE9B2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/880     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/880_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/882     outputs [b'checksum = 1A6882A4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/882_new outputs [b'checksum = E9CDAC0E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/882     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/882_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/883     outputs [b'checksum = E03963F2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/883_new outputs [b'checksum = C55BB51\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/883     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/883_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/892     outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/892_new outputs [b'checksum = 2BCBA6E8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/892     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/892_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/9     outputs [b'checksum = 2BF3A78E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/9_new outputs [b'checksum = 20E64CCD\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/9     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/9_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/900     outputs [b'checksum = BEEB3F3B\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/900_new outputs [b'checksum = 46D37EC9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/900     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/900_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/903     outputs [b'checksum = B383F4C7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/903_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/903     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/903_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/905     outputs [b'checksum = 29E6987E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/905_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/905     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/905_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/906     outputs [b'checksum = D3BD81E5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/906_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/906     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/906_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/909     outputs [b'checksum = 10401C22\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/909_new outputs [b'checksum = 69663D97\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/909     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/909_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/911     outputs [b'checksum = 37FC8F48\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/911_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/911     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/911_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/912     outputs [b'checksum = 17447690\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/912_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/912     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/912_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/913     outputs [b'checksum = 52030E9A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/913_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/913     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/913_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/915     outputs [b'checksum = 47511A73\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/915_new outputs [b'checksum = B32782FE\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/915     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/915_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/916     outputs [b'checksum = 81D51181\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/916_new outputs [b'checksum = FDD0FB00\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/916     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/916_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/917     outputs [b'checksum = 4271A1F5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/917_new outputs [b'checksum = 210BD646\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/917     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/917_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/918     outputs [b'checksum = 620647F8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/918_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/918     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/918_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/919     outputs [b'checksum = 80D909A8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/919_new outputs [b'checksum = 7DCAB158\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/919     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/919_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/921     outputs [b'checksum = FB8FD2E4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/921_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/921     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/921_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/923     outputs [b'checksum = B9923D0D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/923_new outputs [b'checksum = 438AF346\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/923     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/923_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/927     outputs [b'checksum = 1C9F8264\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/927_new outputs [b'checksum = 5ACA35A8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/927     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/927_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/929     outputs [b'checksum = 58BB40F8\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/929_new outputs [b'checksum = 6877F56D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/929     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/929_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/93     outputs [b'checksum = 6522DF69\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/93_new outputs [b'checksum = 2144DF1C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/93     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/93_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/930     outputs [b'checksum = 288F0CFA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/930_new outputs [b'checksum = C91F34F2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/930     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/930_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/932     outputs [b'checksum = EF82F290\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/932_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/932     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/932_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/933     outputs [b'checksum = 9B4DB795\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/933_new outputs [b'checksum = 26EE13F0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/933     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/933_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/934     outputs [b'checksum = E9F2A513\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/934_new outputs [b'checksum = 2558A58D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/934     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/934_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/935     outputs [b'checksum = 1BD9732C\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/935_new outputs [b'checksum = 9625DDA5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/935     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/935_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/936     outputs [b'checksum = 5E7A8920\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/936_new outputs [b'checksum = 96A094FF\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/936     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/936_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/937     outputs [b'checksum = 98134D36\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/937_new outputs [b'checksum = 81128475\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/937     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/937_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/94     outputs [b'checksum = 2770A7DB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/94_new outputs [b'checksum = A0B4236D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/94     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/94_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/943     outputs [b'checksum = 743C302A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/943_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/943     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/943_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/946     outputs [b'checksum = 6C66901D\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/946_new outputs [b'checksum = 4A0BBDB2\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/946     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/946_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/949     outputs [b'checksum = 21EE2867\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/949_new outputs [b'checksum = 7854A7F0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/949     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/949_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/952     outputs [b'checksum = B693433E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/952_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/952     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/952_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/953     outputs [b'checksum = 628C0C75\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/953_new outputs [b'checksum = 99F8FCD9\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/953     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/953_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/954     outputs [b'checksum = 5D12E3BB\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/954_new outputs [b'checksum = F32116CA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/954     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/954_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/959     outputs [b'checksum = 3CD0091\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/959_new outputs [b'checksum = 9A2ED278\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/959     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/959_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/962     outputs [b'checksum = 46723A00\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/962_new outputs [b'checksum = E60B9B79\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/962     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/962_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/963     outputs [b'checksum = 40EEB2C5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/963_new outputs [b'checksum = 3FFFF233\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/963     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/963_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/964     outputs [b'checksum = AA0F3AA\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/964_new outputs [b'checksum = 95345BE5\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/964     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/964_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/966     outputs [b'checksum = 3D100CC7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/966_new outputs [b'checksum = CA716925\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/966     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/966_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/970     outputs [b'checksum = E22E20AC\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/970_new outputs [b'checksum = 3D94C7C6\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/970     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/970_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/974     outputs [b'checksum = 4CAD18D0\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/974_new outputs [b'checksum = E11FE7C4\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/974     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/974_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/978     outputs [b'checksum = C1A9D147\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/978_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/978     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/978_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/98     outputs [b'checksum = 4743989A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/98_new outputs [b'checksum = C369A10A\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/98     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/98_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/981     outputs [b'checksum = C228A926\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/981_new outputs [b'checksum = 6C4038B7\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/981     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/981_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/983     outputs [b'checksum = 93895968\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/983_new outputs [b'checksum = 9D099012\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/983     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/983_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/984     outputs [b'checksum = D5C48BA1\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/984_new outputs [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/984     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/984_new errors [b'']
+Found discrepancy:
+./wasm-decomp_workdir/seed_for_wasm-decomp/992     outputs [b'checksum = FF15C66\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/992_new outputs [b'checksum = 25EB48E\n']
+./wasm-decomp_workdir/seed_for_wasm-decomp/992     errors [b'']
+./wasm-decomp_workdir/seed_for_wasm-decomp/992_new errors [b'']
