@@ -479,6 +479,31 @@ class WasmDecompileModifier:
         return new_lines
 
     @staticmethod
+    def remove_data(txt=''):
+        new_txt = ""
+        keep_saving = True
+        for line in txt.splitlines():
+            if "data data(offset: memory_base" in line:
+                keep_saving = False
+            if not keep_saving:
+                if ";" in line:
+                    keep_saving = True
+                continue
+            new_txt += line + "\n"
+        return new_txt
+
+    @staticmethod
+    def replace_functions(txt=''):
+        new_lines = ""
+        for line in txt.splitlines():
+            if "function func_1" in line:
+                new_line = "int32_t func_1() {\n"
+            else:
+                new_line = line + "\n"
+            new_lines += new_line
+        return new_lines
+
+    @staticmethod
     def rewrite_if(txt=""):
         new_lines = []
         for line in txt.splitlines():
@@ -576,6 +601,27 @@ class WasmDecompileModifier:
             else:
                 return _handle_statement(txt)
 
+        def _handle_function_arg(txt):
+            arg_name, arg_type = txt.split(":")
+            return f"{arg_type} {arg_name}"
+
+        def _handle_function_line(txt):
+            arguments = txt.split("(")[1].split(")")[0]
+            rewrite_args = []
+            for arg in arguments.split(", "):
+                if not arg:
+                    continue
+                rewrite_args.append(_handle_function_arg(arg))
+            if re.match(r"function\s+[a-zA-Z0-9_]+\(.*\)\s+{", txt):
+                start = txt.split("(")[0]
+                content = start.replace("function ", "void ")
+                return f"{content}({', '.join(rewrite_args)}) {{"
+            else:
+                start = txt.split("(")[0]
+                func_type = txt.split(")")[1].split()[0].split(":")[1]
+                content = start.replace("function ", f"{func_type} ")
+                return f"{content}({', '.join(rewrite_args)}) {{"
+
         new_lines = []
         pointers_names = ["stack_pointer"]
         for line in txt.splitlines():
@@ -589,7 +635,9 @@ class WasmDecompileModifier:
                     line = line[:-1]
 
                 new_line = ""
-                if "var " in line:
+                if "function" in line:
+                    new_line = _handle_function_line(line)
+                elif "var " in line:
                     new_line = _handle_declare(line, pointers_names)
                 else:
                     if " = " in line:
@@ -597,6 +645,9 @@ class WasmDecompileModifier:
                         new_lhs = _handle_statement(lhs, is_lhs=True)
                         new_rhs = _handle_statement(rhs)
                         new_line = f"{new_lhs} = {new_rhs}"
+                    #elif "extern " in line:
+                    #    state = _handle_function_arg(line.split("extern ")[1])
+                    #    new_line = f"extern {state}"
                     else:
                         new_line = _handle_statement(line)
                 if has_end:
@@ -710,6 +761,29 @@ def R2_modifier_before(txt):
 
 def WasmDecompile_modifier_before(txt):
     txt = WasmDecompileModifier.replace_func1(txt)
+    return txt
+
+def WasmDecompile_modifier_all(txt):
+    txt = txt.replace("import memory env_memory;", "")
+    txt = re.sub(r"^import\s+function.*;", "", txt, flags=re.MULTILINE)
+    txt = txt.replace("global ", "var ")
+    txt = txt.replace("import ", "extern ")
+    txt = txt.replace("export ", "")
+    txt = WasmDecompileModifier.remove_data(txt)
+
+    txt = WasmDecompileModifier.modify_variable_and_colons(txt)
+    txt = re.sub(r"loop\s\w+\s\{$", "while (1) {", txt, flags=re.MULTILINE)
+    txt = txt.replace("continue ", "//continue ");
+    txt = re.sub(r"label\s(\w+:)", r"\1;", txt, flags=re.MULTILINE)
+    txt = txt.replace("unreachable;", "//unreachable;")
+    txt = re.sub(r"do(\W)", r"_do\1", txt, flags=re.MULTILINE)
+    txt = WasmDecompileModifier.rewrite_if(txt)
+    txt = WasmDecompileModifier.rewrite_i32_extend(txt)
+    txt = WasmDecompileModifier.remove_br_table(txt)
+    # check all semicolon wrapped
+    txt = re.sub(r"(.*)\w$", r"\1;", txt, flags=re.MULTILINE)
+    return txt
+    txt = WasmDecompileModifier.setup_stack(txt)
     return txt
 
 
