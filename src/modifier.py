@@ -486,7 +486,7 @@ class WasmDecompileModifier:
             if "data data(offset: memory_base" in line:
                 keep_saving = False
             if not keep_saving:
-                if ";" in line:
+                if line.endswith(";"):
                     keep_saving = True
                 continue
             new_txt += line + "\n"
@@ -524,8 +524,8 @@ class WasmDecompileModifier:
         new_lines = []
         for line in txt.splitlines():
             if "i32_extend" in line:
-                if "=" in line:
-                    lhs, rhs = line.split(" = ")
+                if " = " in line:
+                    lhs, rhs = line.split(" = ", 1)
                     rhs = re.sub(r"i32_extend[\d]+_s\((.*)\)", r"\1", rhs)
                     new_lines.append(f"{lhs} = {rhs}")
                 else:
@@ -544,9 +544,19 @@ class WasmDecompileModifier:
                 new_lines.append(line)
         return "\n".join(new_lines)
 
+    @staticmethod
+    def export_new_structs(new_structs):
+        code = ""
+        for struct, elements in new_structs.items():
+            code += f"typedef struct {struct} {{" + "\n"
+            code += "\n".join([f"    {ele};" for ele in elements]) + "\n"
+            code += f"}} {struct};" + "\n"
+        return code
 
     @staticmethod
     def modify_variable_and_colons(txt=''):
+        new_struct_idx = 0
+        new_structs = {}
 
         def _handle_statement(line, assign_pointer=False, is_lhs=False):
             tokens = line.split()
@@ -572,6 +582,9 @@ class WasmDecompileModifier:
                         new_tokens.append(f"double {token}")
                 else:
                     if ":" in token:
+                        if token.count(":") > 1:
+                            new_tokens.append(re.sub(r":[a-zA-Z0-9_]+", "", token))
+                            continue
                         name, ctype = token.split(":")
                         if ctype == "int":
                             ctype = "int64_t"
@@ -590,7 +603,7 @@ class WasmDecompileModifier:
                         return True
                 return False
             if " = " in txt:
-                lhs, rhs = txt.split(" = ")
+                lhs, rhs = txt.split(" = ", 1)
                 assign_pointer = _is_pointer(pointer_names, rhs)
                 new_lhs = _handle_statement(lhs, assign_pointer=assign_pointer)
                 if assign_pointer:
@@ -601,26 +614,62 @@ class WasmDecompileModifier:
             else:
                 return _handle_statement(txt)
 
-        def _handle_function_arg(txt):
-            arg_name, arg_type = txt.split(":")
-            return f"{arg_type} {arg_name}"
+        def _split_args(arguments):
+            args = []
+            arg = ""
+            bracket_level = 0
+            for c in arguments:
+                if c == ",":
+                    if bracket_level != 0:
+                        arg += c
+                    elif arg:
+                        args.append(arg)
+                        arg = ""
+                else:
+                    if not arg and c == " ":
+                        continue
+                    arg += c
+                    if c == "{":
+                        bracket_level += 1
+                    elif c == "}":
+                        bracket_level -= 1
+                        if bracket_level == 0:
+                            args.append(arg)
+                            arg = ""
+            if arg:
+                args.append(arg)
+            return args
 
-        def _handle_function_line(txt):
+        def _handle_function_arg(txt, new_struct_idx):
+            if "{" not in txt:
+                arg_name, arg_type = txt.split(":", 1)
+                return f"{arg_type.strip()} {arg_name.strip()}", new_struct_idx
+            arg_name, arg_struct = txt.split(":", 1)
+            new_struct_idx += 1
+            type_name = f"struct_{new_struct_idx}"
+            struct_statements = arg_struct.strip()[1:-1]
+            struct_elements = []
+            for ele in _split_args(struct_statements):
+                new_ele, new_struct_idx = _handle_function_arg(ele, new_struct_idx)
+                struct_elements.append(new_ele)
+            new_structs[type_name] = struct_elements
+            return f"{type_name.strip()} {arg_name.strip()}", new_struct_idx
+
+        def _handle_function_line(txt, new_struct_idx):
             arguments = txt.split("(")[1].split(")")[0]
             rewrite_args = []
-            for arg in arguments.split(", "):
-                if not arg:
-                    continue
-                rewrite_args.append(_handle_function_arg(arg))
+            for arg in _split_args(arguments):
+                new_arg, new_struct_idx = _handle_function_arg(arg, new_struct_idx)
+                rewrite_args.append(new_arg)
             if re.match(r"function\s+[a-zA-Z0-9_]+\(.*\)\s+{", txt):
                 start = txt.split("(")[0]
                 content = start.replace("function ", "void ")
-                return f"{content}({', '.join(rewrite_args)}) {{"
+                return f"{content}({', '.join(rewrite_args)}) {{", new_struct_idx
             else:
                 start = txt.split("(")[0]
                 func_type = txt.split(")")[1].split()[0].split(":")[1]
                 content = start.replace("function ", f"{func_type} ")
-                return f"{content}({', '.join(rewrite_args)}) {{"
+                return f"{content}({', '.join(rewrite_args)}) {{", new_struct_idx
 
         new_lines = []
         pointers_names = ["stack_pointer"]
@@ -636,12 +685,12 @@ class WasmDecompileModifier:
 
                 new_line = ""
                 if "function" in line:
-                    new_line = _handle_function_line(line)
+                    new_line, new_struct_idx = _handle_function_line(line, new_struct_idx)
                 elif "var " in line:
                     new_line = _handle_declare(line, pointers_names)
                 else:
                     if " = " in line:
-                        lhs, rhs = line.split(" = ")
+                        lhs, rhs = line.split(" = ", 1)
                         new_lhs = _handle_statement(lhs, is_lhs=True)
                         new_rhs = _handle_statement(rhs)
                         new_line = f"{new_lhs} = {new_rhs}"
@@ -654,7 +703,7 @@ class WasmDecompileModifier:
                     new_line += ";"
                 new_lines.append(new_line)
 
-        return "\n".join(new_lines)
+        return "\n".join(new_lines), new_structs
             
     @staticmethod
     def setup_stack(txt=""):
@@ -771,7 +820,7 @@ def WasmDecompile_modifier_all(txt):
     txt = txt.replace("export ", "")
     txt = WasmDecompileModifier.remove_data(txt)
 
-    txt = WasmDecompileModifier.modify_variable_and_colons(txt)
+    txt, new_structs = WasmDecompileModifier.modify_variable_and_colons(txt)
     txt = re.sub(r"loop\s\w+\s\{$", "while (1) {", txt, flags=re.MULTILINE)
     txt = txt.replace("continue ", "//continue ");
     txt = re.sub(r"label\s(\w+:)", r"\1;", txt, flags=re.MULTILINE)
@@ -782,6 +831,7 @@ def WasmDecompile_modifier_all(txt):
     txt = WasmDecompileModifier.remove_br_table(txt)
     # check all semicolon wrapped
     txt = re.sub(r"(.*)\w$", r"\1;", txt, flags=re.MULTILINE)
+    txt = WasmDecompileModifier.export_new_structs(new_structs) + txt
     return txt
     txt = WasmDecompileModifier.setup_stack(txt)
     return txt
