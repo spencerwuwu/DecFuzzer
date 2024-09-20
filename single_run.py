@@ -17,7 +17,6 @@ generator.recompile_single_file(file_path,
                                 func_name=Config.replaced_func_name,  # func_1
                                 keep_func_decl_unchanged=1,
                                 try_second_time=1)
-exit(0)
 #Config.set_decompiler("retdec")
 Config.set_decompiler("wasm-decompile")
 file_path = "practice/607.c"
@@ -29,18 +28,3 @@ generator.recompile_single_file(file_path,
                                 func_name=Config.replaced_func_name,  # func_1
                                 keep_func_decl_unchanged=1,
                                 try_second_time=1)
-exit(0)
-#Config.set_decompiler("ida")
-#results = fuzzer.single_test_WASM('./practice/', 's449retdec.c', './tmp/', remove=True)
-#results = fuzzer.single_test_WASM('./result_retdec/error/', 's0r2.c', './tmp/', remove=True)
-results = fuzzer.seed_test_WASM('./result_retdec/error/', './tmp/', './tmp')
-total = sum(results.values())
-print()
-print()
-print("Complete!")
-print(f"Total:                 {total}")
-print(f"Succeed:               {results['SUCCEED']}")
-print(f"Compile failed:        {results['F_COM']}")
-print(f"DeCompile failed:      {results['F_DECOM']}")
-print(f"ReCompile failed:      {results['F_RECOM']}")
-print(f"Execute discrepancy:   {results['F_DISCR']}")
